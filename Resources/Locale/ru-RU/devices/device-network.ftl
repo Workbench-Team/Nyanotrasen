@@ -16,6 +16,7 @@ device-frequency-prototype-name-surveillance-camera-command = Камеры (Ко
 device-frequency-prototype-name-surveillance-camera-service = Камеры (Сервис)
 device-frequency-prototype-name-surveillance-camera-medical = Камеры (Мед)
 device-frequency-prototype-name-surveillance-camera-general = Камеры (Общие)
+device-frequency-prototype-name-surveillance-camera-silicon = Built-In Silicon Cameras
 device-frequency-prototype-name-surveillance-camera-entertainment = Камеры (Развлечения)
 device-address-prefix-sensor = Сенс-
 device-address-prefix-fire-alarm = Пож-
@@ -23,7 +24,6 @@ device-address-prefix-fire-alarm = Пож-
 device-address-prefix-console = Конс-
 device-address-prefix-air-alarm = Возд-
 device-address-examine-message = Адрес устройства: { $address }.
-
 #Device net ID names
 device-net-id-private = Частная
 device-net-id-wired = Проводная

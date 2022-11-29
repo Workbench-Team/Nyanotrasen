@@ -1,0 +1,12 @@
+ent-LockerMystagogueFilled = mystagogue's locker
+    .suffix = Filled
+    .desc = { ent-LockerResearchDirector.desc }
+ent-LockerEpistemicsFilled = acolyte's locker
+    .suffix = Filled
+    .desc = { ent-LockerScientist.desc }
+ent-LockerForensicMantisFilled = forensic mantis' cabinet
+    .suffix = Filled
+    .desc = { ent-LockerDetective.desc }
+ent-VendingMachineForensics = Forensics Wardrobe
+    .desc = A fez dispenser.
+    .suffix = { "" }

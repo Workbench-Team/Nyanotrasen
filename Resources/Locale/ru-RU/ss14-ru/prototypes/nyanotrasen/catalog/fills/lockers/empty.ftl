@@ -1,0 +1,9 @@
+ent-LockerMystagogue = mystagogue's locker
+    .suffix = Empty
+    .desc = { ent-LockerResearchDirector.desc }
+ent-LockerEpistemics = acolyte's locker
+    .suffix = Empty
+    .desc = { ent-LockerScientist.desc }
+ent-LockerForensicMantis = forensic mantis' cabinet
+    .suffix = Empty
+    .desc = { ent-LockerDetective.desc }

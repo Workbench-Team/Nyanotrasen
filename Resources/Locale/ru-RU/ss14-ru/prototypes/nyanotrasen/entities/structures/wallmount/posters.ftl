@@ -1,0 +1,9 @@
+ent-PosterLegitDejaVu = Deja Vu Area
+    .desc = This is your first time here. If this station feels familiar, immediately alert a NanoTrasen employee.
+    .suffix = { "" }
+ent-PosterLegitDontPanic = Don't Panic
+    .desc = If there was ever something so soothing enough to keep me from panicking, it was a green blob floating through space with a pair of hands, a shiny red tongue, and big round teeth.
+    .suffix = { "" }
+ent-PosterContrabandSaucerNumberOne = Saucer #1!
+    .desc = Out of every station in the NyanoTrasen jurisdiction, Saucer was rated #1 out of 5! Congratulations!
+    .suffix = { "" }

@@ -40,8 +40,18 @@ job-name-ertmedic = медик ОБР
 job-name-ertjanitor = уборщик ОБР
 job-name-boxer = боксёр
 job-name-zookeeper = зоотехник
+#Nyano
+job-name-mystagogue = mystagogue
+job-name-mantis = forensic mantis
+job-name-epistemologist = acolyte
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = атмосферный техник
+job-name-mail-carrier = mail carrier
+job-name-cataloguer = cataloguer
+job-name-cyborg = cyborg
+job-name-medical-cyborg = medical cyborg
+job-name-salvage-technician = salvage technician
+job-name-gladiator = gladiator
 JobBartender = бармен
 JobBotanist = ботаник
 JobCaptain = капитан
@@ -83,6 +93,5 @@ JobTechnicalAssistant = атмосферный техник
 JobWarden = смотритель
 JobBoxer = боксёр
 JobZookeeper = зоотехник
-
 job-name-iaa = агент внутренних дел
 JobIAA = агент внутренних дел

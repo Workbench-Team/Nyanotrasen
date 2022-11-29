@@ -42,6 +42,7 @@ holiday-name-writers-day = Дня писателя
 holiday-name-bastille-day = Дня взятия Бастилии
 holiday-name-friendship-day = Дня дружбы
 holiday-name-beer-day = Дня пива
+holiday-name-cirno-day = Cirno Day
 holiday-name-talk-like-a-pirate-day = Дня «Говори как пират»
 holiday-name-programmers-day = Дня программиста
 holiday-name-bisexual-pride-day = Дня празднования бисексуальности

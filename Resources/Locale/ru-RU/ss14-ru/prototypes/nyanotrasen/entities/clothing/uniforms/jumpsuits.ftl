@@ -1,0 +1,9 @@
+ent-ClothingUniformMailCarrier = mail carrier's uniform
+    .desc = Enemy of dogs everywhere.
+    .suffix = { "" }
+ent-ClothingUniformSkirtMailCarrier = mail carrier's jumpskirt
+    .desc = Enemy of dogs everywhere.
+    .suffix = { "" }
+ent-ClothingUniformJumpsuitMystagogue = mystagogue's turtleneck
+    .desc = It's a turtleneck worn by those with the holy aura to achieve the role of Mystagogue. You can practically feel the psychic energies radiating from this thing, not to mention the actual radiation.
+    .suffix = { "" }

@@ -10,6 +10,7 @@ artifact-effect-hint-consumption = Потребление энергии
 artifact-effect-hint-release = Высвобождение энергии
 artifact-effect-hint-biochemical = Биохимическое воздействие
 artifact-effect-hint-destruction = Полномасштабные разрушения
+artifact-effect-hint-psionic = Noöspheric disturbance
 artifact-effect-hint-gun = Маленький ускоритель частиц
 artifact-effect-hint-multitool = Конгломерат устройств
 artifact-effect-hint-storage = Внутренняя камера

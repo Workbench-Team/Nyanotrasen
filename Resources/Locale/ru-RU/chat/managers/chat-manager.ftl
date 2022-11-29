@@ -13,7 +13,7 @@ chat-manager-max-message-length-exceeded-message = Ваше сообщение �
 chat-manager-no-headset-on-message = У вас нет гарнитуры!
 chat-manager-no-such-channel = Нет такого канала!
 chat-manager-whisper-headset-on-message = Вы не можете шептать в радио!
-chat-manager-server-wrap-message = СЕРВЕР: {$message}
+chat-manager-server-wrap-message = СЕРВЕР: { $message }
 chat-manager-sender-announcement-wrap-message =
     Объявление { $sender }:
     { $message }
@@ -30,3 +30,6 @@ chat-manager-send-admin-announcement-wrap-message = { $adminChannelName }: { $me
 chat-manager-send-hook-ooc-wrap-message = OOC: (D){ $senderName }: { $message }
 chat-manager-dead-channel-name = МЁРТВЫЕ
 chat-manager-admin-channel-name = АДМИН
+chat-manager-send-telepathic-chat-wrap-message = { $telepathicChannelName }: { $message }
+chat-manager-send-telepathic-chat-wrap-message-admin = { $source } (Ψ): { $message }
+chat-manager-telepathic-channel-name = TELEPATHIC

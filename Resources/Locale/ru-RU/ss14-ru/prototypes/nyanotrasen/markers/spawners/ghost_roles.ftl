@@ -1,0 +1,9 @@
+ent-SpawnPointGhostIfrit = ghost role spawn point
+    .suffix = Ifrit
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnPointGhostFugitive = ghost role spawn point
+    .suffix = DONTMAP, fugitive
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnPointLocationFugitive = possible spawn location
+    .suffix = Fugitive
+    .desc = { ent-MarkerBase.desc }
