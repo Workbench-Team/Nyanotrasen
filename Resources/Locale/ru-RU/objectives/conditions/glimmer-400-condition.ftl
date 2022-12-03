@@ -1,2 +1,2 @@
-objective-condition-raise-glimmer-title = Ensure glimmer reaches { $target }Ψ.
-objective-condition-raise-glimmer-description = We need you to pump the noösphere surrounding the station to at least { $target }Ψ and keep it that way.
+objective-condition-raise-glimmer-title = Убедитесь, что мерцание достигает { $target }Ψ.
+objective-condition-raise-glimmer-description = Нам нужно, чтобы вы накачали ноосферу, окружающую станцию, по крайней мере, до { $target}Ψ и удержать её.

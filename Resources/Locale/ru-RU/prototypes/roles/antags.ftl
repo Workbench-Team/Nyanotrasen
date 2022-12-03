@@ -12,5 +12,5 @@ roles-antag-nuclear-operative-commander-name = Командир ядерных �
 roles-antag-nuclear-operative-commander-objective = Приведите свой отряд к уничтожению станции.
 roles-antag-nuclear-operative-name = Ядерный оперативник
 roles-antag-nuclear-operative-objective = Найдите ядерный диск и взорвите станцию.
-roles-antag-fugitive-name = Fugitive
-roles-antag-fugitive-description = Survive. Escape.
+roles-antag-fugitive-name = Беглец
+roles-antag-fugitive-description = Выжить. Сбежать.

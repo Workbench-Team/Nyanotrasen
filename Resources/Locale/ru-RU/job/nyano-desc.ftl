@@ -1,7 +1,7 @@
-job-desc-mystagogue = (Requires Whitelist) Lead the station's research and manage psionics.
-job-desc-mantis = (Requires Whitelist) Solve mysteries from petty thefts to the nature of the universe.
-job-desc-epistemologist = Research the nature of truth. Also laser guns. Smoke ambrosia to achieve transcendance.
-job-desc-cataloguer = Sit in the library. Attempt to run an RPG session for the crew. Get bored and help the epistemologists kill themselves when no one shows up.
-job-desc-mail-carrier = Deliver mail. Avoid dogs.
-job-desc-cyborg = (Requires Whitelist) Read your laws. Read your laws. Read your laws.
-job-desc-salvage-technician = (Requries Whitelist) Take apart space wrecks for engineering materials. Die in space and never be found.
+job-desc-mystagogue = (Требуется Белый список) Возглавьте исследования станции и управляйте псионикой.
+job-desc-mantis = (Требуется Белый список) Разгадывайте загадки от мелких краж до природы вселенной.
+job-desc-epistemologist = Исследуйте истину природы. Также лазерные пушки. Курите амброзию, чтобы достичь трансцендентности.
+job-desc-cataloguer = Сидите в библиотеке. Попытайтесь запустить сеанс RPG для экипажа. Заскучать и помочь эпистемологам убить себя, когда никто не появляется.
+job-desc-mail-carrier = Доставляйте почту. Избегайте собак.
+job-desc-cyborg = (Требуется Белый список) Читай свои законы. Читай свои законы. Читай свои законы.
+job-desc-salvage-technician = (Требуется Белый список) Разбирайте космические обломки на инженерные материалы. Умрите в космосе так, чтобы вас никогда не нашли.

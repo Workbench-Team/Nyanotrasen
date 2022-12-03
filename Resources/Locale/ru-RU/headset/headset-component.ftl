@@ -14,4 +14,4 @@ chat-radio-security = Безопасность
 chat-radio-service = Сервис
 chat-radio-supply = Поставки
 chat-radio-syndicate = Синдикат
-chat-radio-binary = Binary
+chat-radio-binary = Бинарный

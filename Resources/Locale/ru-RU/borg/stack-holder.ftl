@@ -1,2 +1,2 @@
-stack-holder-empty = It's empty.
-stack-holder = It's holding { $number } { $item }.
+stack-holder-empty = Оно пустое
+stack-holder = Оно удерживает { $number } { $item }.

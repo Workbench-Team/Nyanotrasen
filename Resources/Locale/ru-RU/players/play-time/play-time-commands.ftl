@@ -1,7 +1,7 @@
 parse-minutes-fail = Не удалось спарсить '{ $minutes }' как минуты
 parse-session-fail = Не найдена сессия для '{ $username }'
-parse-username-fail = Could not parse guid for '{ $username }'
-playtime-netuserid-not-found = Unable to find '{ $username }' netuserid
+parse-username-fail = Не удалось спарсить GUID '{ $username }'
+playtime-netuserid-not-found = Не найден '{ $username }' netuserid
 
 ## Role Timer Commands
 
@@ -52,5 +52,5 @@ cmd-playtime_flush-help =
     Если пользователь передан, то только этот пользователь будет обработан.
 cmd-playtime_flush-error-args = Ожидается ноль или один аргумент
 cmd-playtime_flush-arg-user = [user name]
-cmd-playtime_getoffline-desc = Get overall playtime from the username of an offline player.
-cmd-playtime_getoffline-failure = Failed to get overall playtime for { $username }.
+cmd-playtime_getoffline-desc = Получить общее время игры по имени пользователя оффлайн-игрока.
+cmd-playtime_getoffline-failure = Не удалось получить общее время игры для { $username }.

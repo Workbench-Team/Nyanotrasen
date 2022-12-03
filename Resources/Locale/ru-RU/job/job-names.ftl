@@ -41,17 +41,17 @@ job-name-ertjanitor = уборщик ОБР
 job-name-boxer = боксёр
 job-name-zookeeper = зоотехник
 #Nyano
-job-name-mystagogue = mystagogue
-job-name-mantis = forensic mantis
-job-name-epistemologist = acolyte
+job-name-mystagogue = мистагог
+job-name-mantis = криминалист
+job-name-epistemologist = псаломщик
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = атмосферный техник
-job-name-mail-carrier = mail carrier
-job-name-cataloguer = cataloguer
-job-name-cyborg = cyborg
-job-name-medical-cyborg = medical cyborg
-job-name-salvage-technician = salvage technician
-job-name-gladiator = gladiator
+job-name-mail-carrier = почтальон
+job-name-cataloguer = каталогизатор
+job-name-cyborg = киборг
+job-name-medical-cyborg = медик киборг
+job-name-salvage-technician = утилизационный техник
+job-name-gladiator = гладиатор
 JobBartender = бармен
 JobBotanist = ботаник
 JobCaptain = капитан

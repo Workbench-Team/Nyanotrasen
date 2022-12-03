@@ -180,4 +180,4 @@ flavor-complex-medicine = как лекарство
 flavor-complex-carpet = как горсть шерсти
 flavor-complex-bee = невероятно
 flavor-complex-sax = как джаз
-flavor-complex-enthralling = enthralling
+flavor-complex-enthralling = захватывающе
