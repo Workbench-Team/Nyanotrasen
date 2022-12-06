@@ -1,5 +1,5 @@
 station-event-fugitive-hunt-announcement = Мы получили наводку от GALPOL. Пожалуйста, проверьте коммуникационную консоль на наличие конфиденциального сообщения.
-fugitive-spawn = {CAPITALIZE(THE($name)) } падает с потолка!
+fugitive-spawn = { CAPITALIZE(THE($name)) } падает с потолка!
 fugi-report-ent-name = ОТЧЁТ О БЕГЛЕЦЕ: { $name }
 fugi-report-title = РАЗЫСКИВАЕТСЯ: { $name }
 fugitive-report-first-line = Сбежавший беглец { $name } был замечен в секторе. Беглец может быть безбилетными пассажиром на какой-нибудь станции.

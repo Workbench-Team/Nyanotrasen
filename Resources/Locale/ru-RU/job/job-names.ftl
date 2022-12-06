@@ -42,8 +42,8 @@ job-name-boxer = боксёр
 job-name-zookeeper = зоотехник
 #Nyano
 job-name-mystagogue = мистагог
-job-name-mantis = криминалист
-job-name-epistemologist = псаломщик
+job-name-mantis = предсказатель
+job-name-epistemologist = аколит
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = атмосферный техник
 job-name-mail-carrier = почтальон
