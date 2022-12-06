@@ -5,5 +5,5 @@ altar-popup = { $user } начинает приносить в жертву { $t
 altar-failure-reason-self = Вы не можете принести в жертву самого себя
 altar-failure-reason-user = Вы не обучены псионике или духовному делу!
 altar-failure-reason-user-humanoid = Вы не гуманоид!
-altar-failure-reason-target = { CAPITALIZE(THE($target)) } { CONJUGATE-BE($target) } не псионик!
-altar-failure-reason-target-humanoid = { CAPITALIZE(THE($target)) } { CONJUGATE-BE($target) } не гуманоид!
+altar-failure-reason-target = { CAPITALIZE(THE($target)) } не псионик!
+altar-failure-reason-target-humanoid = { CAPITALIZE(THE($target)) } не гуманоид!
