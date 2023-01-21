@@ -1,4 +1,4 @@
-state-laws-button = Законы штата
+state-laws-button = Гласить законы
 law-window-title = Законы
 silicon-laws-label = Ваши законы:
 command-lslaws-description = Список законов энтити.
