@@ -31,9 +31,10 @@
         shader: unshaded
   - type: ItemCooldown
   - type: MeleeWeapon
+    attackRate: 1.1
     damage:
       types:
-        Blunt: 10
+        Blunt: 5.5
   - type: ItemStatus
   - type: RefillableSolution
     solution: Welder
@@ -51,8 +52,8 @@
   - type: Welder
     litMeleeDamageBonus:
       types: # When lit, negate standard melee damage and replace with heat
-        Heat: 10
-        Blunt: -10
+        Heat: 7
+        Blunt: -5.5
   - type: PointLight
     netsync: false
     enabled: false
@@ -60,8 +61,10 @@
     color: orange
   - type: Appearance
   - type: RequiresEyeProtection
-  - type: StaticPrice
+  - type: DynamicPrice
     price: 40
+  - type: IgnitionSource
+    temperature: 700
 
 - type: entity
   name: industrial welding tool

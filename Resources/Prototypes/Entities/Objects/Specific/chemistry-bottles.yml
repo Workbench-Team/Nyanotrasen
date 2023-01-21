@@ -21,6 +21,7 @@
     solutions:
       drink: # This solution name and target volume is hard-coded in ChemMasterComponent
         maxVol: 30
+        canMix: true
   - type: RefillableSolution
     solution: drink
   - type: DrainableSolution
@@ -42,7 +43,7 @@
     solution: drink
   - type: TrashOnEmpty
     solution: drink
-  - type: StaticPrice
+  - type: DynamicPrice
     price: 0
 
 - type: entity

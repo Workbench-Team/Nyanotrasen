@@ -5,8 +5,8 @@
   components:
   - type: Item
     size: 5
-  - type: StaticPrice
-    price: 20
+  - type: DynamicPrice
+    price: 2
   - type: Clickable
   - type: InteractionOutline
   - type: MovedByPressure
@@ -16,6 +16,8 @@
         Blunt: 5
     soundHit:
       path: /Audio/Effects/hit_kick.ogg
+  - type: MeleeStaminaCost
+    swing: 3.5
   - type: CollisionWake
   - type: TileFrictionModifier
     modifier: 0.5

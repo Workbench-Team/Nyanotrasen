@@ -1,15 +1,17 @@
 - type: job
   id: AtmosphericTechnician
   name: job-name-atmostech
+  description: job-description-atmostech
   playTimeTracker: JobAtmosphericTechnician
   requirements:
     - !type:DepartmentTimeRequirement
       department: Engineering
-      time: 3600
+      time: 14400
   startingGear: AtmosphericTechnicianGear
   icon: "AtmosphericTechnician"
   supervisors: job-supervisors-ce
   canBeAntag: false
+  whitelistRequired: true
   antagAdvantage: 5 # Fire axe, air alarms
   access:
   - Maintenance

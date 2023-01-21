@@ -36,6 +36,7 @@
       groups:
         Burn: 10
   - type: MobState
+  - type: MobThresholds
     thresholds:
       0: Alive
       120: Dead
@@ -83,6 +84,8 @@
     attributes:
       proper: true
   - type: MovementIgnoreGravity
+  - type: Blindable
+    blindResistance: 10
 
 - type: entity
   parent: WelderExperimental

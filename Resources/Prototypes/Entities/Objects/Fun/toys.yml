@@ -221,6 +221,10 @@
   - type: MeleeWeapon
     soundHit:
       path: /Audio/Effects/bite.ogg
+  # for fish labeler crafting
+  - type: Tag
+    tags:
+    - PlushieCarp
 
 - type: entity
   parent: BasePlushie
@@ -266,6 +270,9 @@
   - type: MeleeWeapon
     soundHit:
       path: /Audio/Items/Toys/mousesqueek.ogg
+  - type: Faction
+    factions:
+    - RatPassive
 
 - type: entity
   parent: BasePlushie
@@ -281,6 +288,12 @@
     sprite: Objects/Fun/ducky.rsi
     slots:
     - HEAD
+  - type: MeleeWeapon
+    attackRate: 1.5
+    range: 1.3
+    damage:
+      types:
+        Blunt: 0.1
   - type: EmitSoundOnUse
     sound:
       path: /Audio/Items/Toys/quack.ogg
@@ -788,5 +801,5 @@
     available:
       - enum.DamageStateVisualLayers.Base:
           base: Sixteen
-  - type: StaticPrice
+  - type: DynamicPrice
     price: 3

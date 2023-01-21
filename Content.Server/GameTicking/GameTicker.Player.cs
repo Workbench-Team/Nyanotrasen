@@ -1,4 +1,6 @@
+using Content.Server.Database;
 using Content.Server.Players;
+using Content.Server.Players.PlayTimeTracking;
 using Content.Shared.GameTicking;
 using Content.Shared.GameWindow;
 using Content.Shared.Preferences;
@@ -14,13 +16,15 @@ namespace Content.Server.GameTicking
     public sealed partial class GameTicker
     {
         [Dependency] private readonly IPlayerManager _playerManager = default!;
+        [Dependency] private readonly PlayTimeTrackingManager _playTimeTrackingManager = default!;
+        [Dependency] private readonly IServerDbManager _dbManager = default!;
 
         private void InitializePlayer()
         {
             _playerManager.PlayerStatusChanged += PlayerStatusChanged;
         }
 
-        private void PlayerStatusChanged(object? sender, SessionStatusEventArgs args)
+        private async void PlayerStatusChanged(object? sender, SessionStatusEventArgs args)
         {
             var session = args.Session;
 
@@ -34,11 +38,19 @@ namespace Content.Server.GameTicking
                     if (session.Data.ContentDataUncast == null)
                         session.Data.ContentDataUncast = new PlayerData(session.UserId, args.Session.Name);
 
+                    CacheWhitelist(session);
+
                     // Make the player actually join the game.
                     // timer time must be > tick length
                     Timer.Spawn(0, args.Session.JoinGame);
 
-                    _chatManager.SendAdminAnnouncement(Loc.GetString("player-join-message", ("name", args.Session.Name)));
+                    var record = await _dbManager.GetPlayerRecordByUserId(args.Session.UserId);
+                    var firstConnection = record != null &&
+                                          Math.Abs((record.FirstSeenTime - record.LastSeenTime).TotalMinutes) < 1;
+
+                    _chatManager.SendAdminAnnouncement(firstConnection
+                        ? Loc.GetString("player-first-join-message", ("name", args.Session.Name))
+                        : Loc.GetString("player-join-message", ("name", args.Session.Name)));
 
                     if (LobbyEnabled && _roundStartCountdownHasNotStartedYetDueToNoPlayers)
                     {
@@ -99,6 +111,12 @@ namespace Content.Server.GameTicking
             {
                 await _userDb.WaitLoadComplete(session);
                 SpawnPlayer(session, EntityUid.Invalid);
+            }
+
+            async void CacheWhitelist(IPlayerSession whiteSession)
+            {
+                whiteSession.ContentData()!.Whitelisted = await _db.GetWhitelistStatusAsync(whiteSession.UserId);
+                _playTimeTrackingManager.SendWhitelist(session);
             }
 
             async void AddPlayerToDb(Guid id)

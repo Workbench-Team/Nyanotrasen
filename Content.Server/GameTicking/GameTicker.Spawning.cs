@@ -97,7 +97,7 @@ namespace Content.Server.GameTicking
             RaiseLocalEvent(new RulePlayerJobsAssignedEvent(assignedJobs.Keys.Select(x => _playerManager.GetSessionByUserId(x)).ToArray(), profiles, force));
         }
 
-        private async void SpawnPlayer(IPlayerSession player, EntityUid station, string? jobId = null, bool lateJoin = true)
+        private void SpawnPlayer(IPlayerSession player, EntityUid station, string? jobId = null, bool lateJoin = true)
         {
             var character = GetPlayerProfile(player);
 
@@ -105,13 +105,13 @@ namespace Content.Server.GameTicking
             if (jobBans == null || jobId != null && jobBans.Contains(jobId))
                 return;
 
-            if (jobId != null && !await _playTimeTrackings.IsAllowed(player, jobId))
+            if (jobId != null && !_playTimeTrackings.IsAllowed(player, jobId))
                 return;
 
             SpawnPlayer(player, character, station, jobId, lateJoin);
         }
 
-        private async void SpawnPlayer(IPlayerSession player, HumanoidCharacterProfile character, EntityUid station, string? jobId = null, bool lateJoin = true)
+        private void SpawnPlayer(IPlayerSession player, HumanoidCharacterProfile character, EntityUid station, string? jobId = null, bool lateJoin = true)
         {
             // Can't spawn players with a dummy ticker!
             if (DummyTicker)
@@ -153,7 +153,7 @@ namespace Content.Server.GameTicking
             var jobBans = _roleBanManager.GetJobBans(player.UserId);
             if(jobBans != null) restrictedRoles.UnionWith(jobBans);
 
-            if (jobId != null && !await _playTimeTrackings.IsAllowed(player, jobId))
+            if (jobId != null && !_playTimeTrackings.IsAllowed(player, jobId))
                 return;
 
             // Pick best job best on prefs.
@@ -189,8 +189,10 @@ namespace Content.Server.GameTicking
 
             _playTimeTrackings.PlayerRolesChanged(player);
 
+            if (jobPrototype.AlwaysUseSpawner)
+                lateJoin = false;
 
-            var mobMaybe = _stationSpawning.SpawnPlayerCharacterOnStation(station, job, character);
+            var mobMaybe = _stationSpawning.SpawnPlayerCharacterOnStation(station, job, character, lateJoin: lateJoin);
             DebugTools.AssertNotNull(mobMaybe);
             var mob = mobMaybe!.Value;
 
@@ -319,13 +321,13 @@ namespace Content.Server.GameTicking
             {
                 foreach (var grid in _mapManager.GetAllGrids())
                 {
-                    if (!metaQuery.TryGetComponent(grid.GridEntityId, out var meta) ||
+                    if (!metaQuery.TryGetComponent(grid.Owner, out var meta) ||
                         meta.EntityPaused)
                     {
                         continue;
                     }
 
-                    _possiblePositions.Add(new EntityCoordinates(grid.GridEntityId, Vector2.Zero));
+                    _possiblePositions.Add(new EntityCoordinates(grid.Owner, Vector2.Zero));
                 }
             }
 
@@ -339,9 +341,9 @@ namespace Content.Server.GameTicking
 
                 if (_mapManager.TryFindGridAt(toMap, out var foundGrid))
                 {
-                    var gridXform = Transform(foundGrid.GridEntityId);
+                    var gridXform = Transform(foundGrid.Owner);
 
-                    return new EntityCoordinates(foundGrid.GridEntityId,
+                    return new EntityCoordinates(foundGrid.Owner,
                         gridXform.InvWorldMatrix.Transform(toMap.Position));
                 }
 

@@ -15,7 +15,7 @@
     containers:
       bodypart: !type:Container
         ents: []
-  - type: StaticPrice
+  - type: DynamicPrice
     price: 50
 
 # For primates mainly
@@ -37,6 +37,7 @@
   components:
   - type: BodyPart
     partType: Leg
+  - type: MovementSpeedModifier
 
 - type: entity
   id: FeetAnimal

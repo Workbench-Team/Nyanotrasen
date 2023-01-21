@@ -1,9 +1,9 @@
-using Content.Shared.MobState.Components;
+using Content.Shared.Mobs.Components;
 using Content.Shared.Abilities.Psionics;
 using Content.Shared.Psionics.Glimmer;
 using Content.Shared.Inventory;
 using Content.Shared.Damage;
-using Content.Server.MobState;
+using Content.Shared.Mobs.Systems;
 using Content.Server.Popups;
 using Content.Server.Atmos.Components;
 using Content.Server.Atmos.EntitySystems;
@@ -55,11 +55,11 @@ public sealed class NoosphericFry : GlimmerEventSystem
             {
                 QueueDel(pair.worn.Owner);
                 Spawn("Ash", Transform(pair.wearer).Coordinates);
-                _popupSystem.PopupEntity(Loc.GetString("psionic-burns-up", ("item", pair.worn.Owner)), pair.wearer, Filter.Pvs(pair.worn.Owner), Shared.Popups.PopupType.MediumCaution);
+                _popupSystem.PopupEntity(Loc.GetString("psionic-burns-up", ("item", pair.worn.Owner)), pair.wearer, Filter.Pvs(pair.worn.Owner), true, Shared.Popups.PopupType.MediumCaution);
                 _audioSystem.Play("/Audio/Effects/lightburn.ogg", Filter.Pvs(pair.worn.Owner), pair.worn.Owner, true);
             } else
             {
-                _popupSystem.PopupEntity(Loc.GetString("psionic-burn-resist", ("item", pair.worn.Owner)), pair.wearer, Filter.Pvs(pair.worn.Owner), Shared.Popups.PopupType.SmallCaution);
+                _popupSystem.PopupEntity(Loc.GetString("psionic-burn-resist", ("item", pair.worn.Owner)), pair.wearer, Filter.Pvs(pair.worn.Owner), true, Shared.Popups.PopupType.SmallCaution);
                 _audioSystem.Play("/Audio/Effects/lightburn.ogg", Filter.Pvs(pair.worn.Owner), pair.worn.Owner, true);
             }
 

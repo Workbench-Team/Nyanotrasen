@@ -8,7 +8,8 @@
     - type: Sprite
       layers:
         - state: red
-        - texture: Objects/Misc/stock_parts.rsi/matter_bin.png
+        - sprite: Objects/Misc/stock_parts.rsi
+          state: matter_bin
     - type: RandomSpawner
       prototypes:
         - CapacitorStockPart
@@ -24,7 +25,7 @@
         - NanoManipulatorStockPart
         - HighPowerMicroLaserStockPart
         - AdvancedMatterBinStockPart
-      rareChance: 0.15
+      rareChance: 0.25
 
 - type: entity
   name: Salvage Parts Spawner
@@ -35,7 +36,8 @@
     - type: Sprite
       layers:
         - state: red
-        - texture: Objects/Misc/stock_parts.rsi/advanced_matter_bin.png
+        - sprite: Objects/Misc/stock_parts.rsi
+          state: advanced_matter_bin
     - type: RandomSpawner
       prototypes:
         - SuperCapacitorStockPart
@@ -53,7 +55,7 @@
         - FemtoManipulatorStockPart
         - QuadUltraMicroLaserStockPart
         - BluespaceMatterBinStockPart
-      rareChance: 0.15
+      rareChance: 0.25
 
 - type: entity
   name: Salvage Parts Spawner
@@ -64,7 +66,8 @@
     - type: Sprite
       layers:
         - state: red
-        - texture: Objects/Misc/stock_parts.rsi/subspace_ansible.png
+        - sprite: Objects/Misc/stock_parts.rsi
+          state: subspace_ansible
     - type: RandomSpawner
       prototypes:
         - AnsibleSubspaceStockPart

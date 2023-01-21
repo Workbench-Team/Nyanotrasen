@@ -18,7 +18,6 @@
       - id: CigPackGreen
         prob: 0.50
       - id: RubberStampQm
-      - id: ClothingHeadsetAltCargo
 
 - type: entity
   id: LockerCaptainFilled
@@ -65,7 +64,7 @@
       - id: ClothingHeadHatHopcap
       - id: HoPIDCard
         prob: 0.9
-      - id: ClothingHeadsetCommand
+      - id: ClothingHeadsetAltCommand
       - id: BoxPDA
       - id: BoxID
       - id: BoxHeadset
@@ -80,7 +79,6 @@
       - id: DoorRemoteService
       - id: ClothingNeckGoldmedal
       - id: RubberStampHop
-      - id: Telebaton
 
 - type: entity
   id: LockerChiefEngineerFilled
@@ -114,12 +112,13 @@
     contents:
       - id: MedkitFilled
       - id: ClothingHandsGlovesNitrile
-      #- name: ClothingEyesHudMedical #Removed until working properly
+      - id: ClothingEyesHudMedical
       - id: ClothingHeadsetAltMedical
       - id: ClothingCloakCmo
       - id: ClothingBackpackDuffelSurgeryFilled
       - id: ClothingOuterCoatLabCmo
       - id: ClothingMaskSterile
+      - id: ClothingHeadHatBeretCmo
       - id: ClothingOuterHardsuitMedical
       - id: Hypospray
       - id: HandheldCrewMonitor
@@ -138,6 +137,7 @@
       - id: ClothingNeckCloakRd
       - id: ClothingHeadsetMedicalScience
       - id: ClothingOuterHardsuitRd
+      - id: HandTeleporter
       - id: PlushieSlime
         prob: 0.1
       - id: DoorRemoteResearch
@@ -168,8 +168,6 @@
         prob: 0.1
       - id: ClothingOuterHardsuitSecurityRed
       - id: ClothingMaskGasSecurity
-      - id: ClothingShoeSlippersDuck
-        prob: 0.2
       - id: DrinkVacuumFlask
         prob: 0.8
       - id: ClothingBeltSecurityFilled
@@ -178,11 +176,10 @@
       - id: ClothingShoesBootsJack
       - id: CigarGoldCase
         prob: 0.50
-      - id: PlushieSharkPink
-        prob: 0.1
       - id: DoorRemoteSecurity
       - id: ClothingUniformJumpskirtHosFormal
       - id: ClothingUniformJumpsuitHosFormal
       - id: RubberStampHos
       - id: JetpackSecurityFilled
       - id: HyperlinkBookSpaceLaw
+      - id: PonderingOrbTelepathicHOS

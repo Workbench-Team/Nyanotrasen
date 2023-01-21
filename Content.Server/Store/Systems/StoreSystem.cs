@@ -8,6 +8,7 @@ using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using System.Linq;
 using Content.Server.UserInterface;
+using Content.Shared.Stacks;
 
 namespace Content.Server.Store.Systems;
 
@@ -64,7 +65,7 @@ public sealed partial class StoreSystem : EntitySystem
         if (args.Handled)
         {
             var msg = Loc.GetString("store-currency-inserted", ("used", args.Used), ("target", args.Target));
-            _popup.PopupEntity(msg, args.Target.Value, Filter.Pvs(args.Target.Value));
+            _popup.PopupEntity(msg, args.Target.Value);
             QueueDel(args.Used);
         }
     }
@@ -153,3 +154,12 @@ public sealed partial class StoreSystem : EntitySystem
             _ui.SetUiState(ui, new StoreInitializeState(preset.StoreName));
     }
 }
+
+/// <summary>
+/// Raised on an item when it is purchased.
+/// An item may need to set it upself up for its purchaser.
+/// For example, to make sure it isn't hostile to them or
+/// to make sure it fits their apperance.
+/// </summary>
+[ByRefEvent]
+public readonly record struct ItemPurchasedEvent(EntityUid Purchaser);

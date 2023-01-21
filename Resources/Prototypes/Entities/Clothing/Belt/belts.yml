@@ -19,11 +19,12 @@
         - Screwdriver
         - Flashlight
         - Wrench
-#        - GeigerCounter
+        - GeigerCounter
         - Flare
         - CableCoil
         - CigPack
         - Radio
+        - HolofanProjector
       components:
         - AirlockPainter
         - SignalLinker
@@ -31,6 +32,7 @@
         - RCDAmmo
         - Welder
         - PowerCell
+        - Geiger
   - type: ItemMapper
     mapLayers:
       cutters_red:
@@ -59,6 +61,13 @@
           - SignalLinker
     sprite: Clothing/Belt/belt_overlay.rsi
   - type: Appearance
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 1
+        Heat: 1
+  - type: StaminaDamageOnHit
+    damage: 9
 
 - type: entity
   parent: ClothingBeltStorageBase
@@ -80,13 +89,14 @@
         - Screwdriver
         - Flashlight
         - Wrench
-#        - GeigerCounter
+        - GeigerCounter
         - Flare
         - CableCoil
         - Powerdrill
         - JawsOfLife
         - CigPack
         - Radio
+        - HolofanProjector
       components:
         - AirlockPainter
         - SignalLinker
@@ -96,6 +106,7 @@
         - Flash
         - Handcuff
         - PowerCell
+        - Geiger
   - type: ItemMapper
     mapLayers:
       drill:
@@ -188,6 +199,8 @@
         - Flashlight
         - CigPack
         - TrashBag
+        - WetFloorSign
+        - HolosignProjector
       components:
         - LightReplacer
   - type: ItemMapper
@@ -280,7 +293,6 @@
   - type: Storage
     whitelist:
       tags:
-        - BotanyHoe
         # - PlantAnalyzer
         - PlantSampleTaker
         - BotanyShovel

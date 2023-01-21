@@ -8,9 +8,18 @@
     sprite: Objects/Weapons/Melee/baseball_bat.rsi
     state: icon
   - type: MeleeWeapon
+    bluntStaminaDamageFactor: 2.0
+    range: 1.6
     damage:
       types:
-        Blunt: 14
+        Blunt: 7.5
+  - type: StaminaDamageOnHit
+    damage: 8
+  - type: Wieldable
+  - type: IncreaseDamageOnWield
+    damage:
+      types:
+        Blunt: 4
   - type: Item
     size: 15
   - type: Clothing

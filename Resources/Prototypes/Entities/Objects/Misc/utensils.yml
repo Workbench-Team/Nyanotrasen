@@ -3,6 +3,8 @@
   id: UtensilBase
   abstract: true
   components:
+  - type: DynamicPrice
+    price: 3
   - type: Sprite
     sprite: Objects/Misc/utensils.rsi
   - type: Item
@@ -40,6 +42,8 @@
   name: plastic fork
   description: An eating utensil, perfect for stabbing.
   components:
+  - type: DynamicPrice
+    price: 0.75
   - type: Sprite
     state: plastic_fork
   - type: Item
@@ -48,7 +52,9 @@
     - Fork
     breakChance: 0.20
   - type: Tag
-    tags: [ Plastic ]
+    tags:
+      - Plastic
+      - Trash
 
 - type: entity
   parent: UtensilBase
@@ -78,9 +84,12 @@
   name: plastic spoon
   description: There is no spoon.
   components:
+  - type: DynamicPrice
+    price: 0.75
   - type: Tag
     tags:
     - Plastic
+    - Trash
   - type: Sprite
     state: plastic_spoon
   - type: Item
@@ -96,9 +105,12 @@
   name: plastic knife
   description: That's not a knife. This is a knife.
   components:
+  - type: DynamicPrice
+    price: 0.75
   - type: Tag
     tags:
     - Plastic
+    - Trash
   - type: Sprite
     state: plastic_knife
   - type: Item

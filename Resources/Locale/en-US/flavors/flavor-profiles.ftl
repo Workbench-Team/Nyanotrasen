@@ -8,6 +8,7 @@ flavor-profile-unknown = Tastes indescribable.
 # will go in front so you don't get this like "Tastes like tomatoes, sweet and spicy",
 # instead, you get "Tastes sweet, spicy and like tomatoes".
 
+flavor-base-acidic = acidic
 flavor-base-savory = savory
 flavor-base-sweet = sweet
 flavor-base-salty = salty
@@ -38,6 +39,7 @@ flavor-base-creamy = creamy
 flavor-base-fizzy = fizzy
 flavor-base-shocking = shocking
 flavor-base-cheap = cheap
+flavor-base-piquant = piquant
 
 # lmao
 flavor-base-terrible = terrible
@@ -112,7 +114,7 @@ flavor-complex-sus-jerky = like sus
 flavor-complex-boritos = like gaming
 flavor-complex-nachos = like nachos
 flavor-complex-donk = like cheap pizza
-flavor-complex-copypasta = like a reptitive joke
+flavor-complex-copypasta = like a repetitive joke
 flavor-complex-memory-leek = like a fork bomb
 flavor-complex-gunpowder = like gunpowder
 flavor-complex-validhunting = like validhunting

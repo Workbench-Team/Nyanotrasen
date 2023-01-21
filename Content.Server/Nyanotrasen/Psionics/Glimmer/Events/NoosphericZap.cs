@@ -1,7 +1,7 @@
-using Content.Shared.MobState.Components;
+using Content.Shared.Mobs.Components;
 using Content.Shared.Abilities.Psionics;
 using Content.Shared.StatusEffect;
-using Content.Server.MobState;
+using Content.Shared.Mobs.Systems;
 using Content.Server.Stunnable;
 using Content.Server.Popups;
 using Robust.Shared.Player;
@@ -35,17 +35,17 @@ public sealed class NoosphericZap : GlimmerEventSystem
             _statusEffectsSystem.TryAddStatusEffect(psion.Owner, "Stutter", TimeSpan.FromSeconds(10), false, "StutteringAccent");
 
             if (HasComp<PsionicComponent>(psion.Owner))
-                _popupSystem.PopupEntity(Loc.GetString("noospheric-zap-seize"), psion.Owner, Filter.Entities(psion.Owner), Shared.Popups.PopupType.LargeCaution);
+                _popupSystem.PopupEntity(Loc.GetString("noospheric-zap-seize"), psion.Owner, psion.Owner, Shared.Popups.PopupType.LargeCaution);
             else
             {
                 if (psion.Rerolled)
                 {
                     psion.Rerolled = false;
-                    _popupSystem.PopupEntity(Loc.GetString("noospheric-zap-seize-potential-regained"), psion.Owner, Filter.Entities(psion.Owner), Shared.Popups.PopupType.LargeCaution);
+                    _popupSystem.PopupEntity(Loc.GetString("noospheric-zap-seize-potential-regained"), psion.Owner, psion.Owner, Shared.Popups.PopupType.LargeCaution);
                 } else
                 {
                     _psionicsSystem.RollPsionics(psion.Owner, psion, multiplier: 0.25f);
-                    _popupSystem.PopupEntity(Loc.GetString("noospheric-zap-seize"), psion.Owner, Filter.Entities(psion.Owner), Shared.Popups.PopupType.LargeCaution);
+                    _popupSystem.PopupEntity(Loc.GetString("noospheric-zap-seize"), psion.Owner, psion.Owner, Shared.Popups.PopupType.LargeCaution);
                 }
             }
         }

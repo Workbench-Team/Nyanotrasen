@@ -1,7 +1,7 @@
 - type: job
   id: ForensicMantis
   name: job-name-mantis
-  description: job-desc-mantis
+  description: job-description-mantis
   playTimeTracker: JobForensicMantis
   requirements:
     - !type:OverallPlaytimeRequirement
@@ -17,6 +17,7 @@
   supervisors: "the mystagogue"
   antagAdvantage: 4
   canBeAntag: false
+  whitelistRequired: true
   access:
   - Research
   - Brig

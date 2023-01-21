@@ -1,6 +1,6 @@
 - type: entity
   name: bible
-  description: New Interstellar Version 2340
+  description: New Interstellar Version 285
   parent: BaseStorageItem
   id: Bible
   components:
@@ -22,6 +22,10 @@
     bibleUserOnly: true
   - type: Summonable
     specialItem: SpawnPointGhostRemilia
+  - type: ReactionMixer
+    mixMessage: "bible-mixing-success"
+    reactionTypes:
+    - Holy
   - type: ItemCooldown
   - type: Sprite
     netsync: false

@@ -29,9 +29,9 @@
   - type: RevolverAmmoProvider
     whitelist:
       tags:
-        - CartridgeMagnumHC
-        - SpeedLoaderMagnumHC
-    proto: CartridgeMagnumHC
+        - CartridgeMagnum
+        - SpeedLoaderMagnum
+    proto: CartridgeMagnum
     capacity: 7
     chambers: [ True, True, True, True, True, True, True ]
     ammoSlots: [ null, null, null, null, null, null, null ]
@@ -39,7 +39,7 @@
       path: /Audio/Weapons/Guns/MagOut/revolver_magout.ogg
     soundInsert:
       path: /Audio/Weapons/Guns/MagIn/revolver_magin.ogg
-  - type: StaticPrice
+  - type: DynamicPrice
     price: 500
 
 - type: entity

@@ -53,7 +53,6 @@ namespace Content.Client.Preferences.UI
         private readonly IEntityManager _entMan;
         private readonly IConfigurationManager _configurationManager;
         private readonly MarkingManager _markingManager;
-
         private LineEdit _ageEdit => CAgeEdit;
         private LineEdit _nameEdit => CNameEdit;
         private LineEdit _flavorTextEdit = null!;
@@ -404,7 +403,7 @@ namespace Content.Client.Preferences.UI
 
                     category.AddChild(new PanelContainer
                     {
-                        PanelOverride = new StyleBoxFlat {BackgroundColor = Color.FromHex("#464966")},
+                        PanelOverride = new StyleBoxFlat {BackgroundColor = Color.FromHex("#464946")},
                         Children =
                         {
                             new Label
@@ -470,29 +469,49 @@ namespace Content.Client.Preferences.UI
 
             _antagPreferences = new List<AntagPreferenceSelector>();
 
-            foreach (var antag in prototypeManager.EnumeratePrototypes<AntagPrototype>().OrderBy(a => a.Name))
+            if (playTime.IsWhitelisted() || !_configurationManager.GetCVar(CCVars.WhitelistEnabled))
             {
-                if (!antag.SetPreference)
+                foreach (var antag in prototypeManager.EnumeratePrototypes<AntagPrototype>().OrderBy(a => Loc.GetString(a.Name)))
                 {
-                    continue;
+                    if (!antag.SetPreference)
+                    {
+                        continue;
+                    }
+
+                    var selector = new AntagPreferenceSelector(antag);
+                    _antagList.AddChild(selector);
+                    _antagPreferences.Add(selector);
+
+                    selector.PreferenceChanged += preference =>
+                    {
+                        Profile = Profile?.WithAntagPreference(antag.ID, preference);
+                        IsDirty = true;
+                    };
                 }
+            }
+            else
+            {
+                _antagList.Margin = new Thickness (0, 0, 0, 10);
+                var whitelistLabel = new Label();
+                whitelistLabel.Text = Loc.GetString("roles-antag-not-whitelisted");
+                _antagList.AddChild(whitelistLabel);
 
-                var selector = new AntagPreferenceSelector(antag);
-                _antagList.AddChild(selector);
-                _antagPreferences.Add(selector);
+                var whitelistButton = new Button();
+                whitelistButton.Text = Loc.GetString("ui-escape-discord");
+                _antagList.AddChild(whitelistButton);
 
-                selector.PreferenceChanged += preference =>
+                var uri = IoCManager.Resolve<IUriOpener>();
+
+                whitelistButton.OnPressed += _ =>
                 {
-                    Profile = Profile?.WithAntagPreference(antag.ID, preference);
-                    IsDirty = true;
+                    uri.OpenUri(_configurationManager.GetCVar(CCVars.InfoLinksDiscord));
                 };
             }
-
             #endregion Antags
 
             #region Traits
 
-            var traits = prototypeManager.EnumeratePrototypes<TraitPrototype>().OrderBy(t => t.Name).ToList();
+            var traits = prototypeManager.EnumeratePrototypes<TraitPrototype>().OrderBy(t => Loc.GetString(t.Name)).ToList();
             _traitPreferences = new List<TraitPreferenceSelector>();
             _tabContainer.SetTabTitle(3, Loc.GetString("humanoid-profile-editor-traits-tab"));
 
@@ -1238,12 +1257,12 @@ namespace Content.Client.Preferences.UI
             {
                 Antag = antag;
 
-                _checkBox = new CheckBox {Text = $"{antag.Name}"};
+                _checkBox = new CheckBox {Text = Loc.GetString(antag.Name)};
                 _checkBox.OnToggled += OnCheckBoxToggled;
 
                 if (antag.Description != null)
                 {
-                    _checkBox.ToolTip = antag.Description;
+                    _checkBox.ToolTip = Loc.GetString(antag.Description);
                     _checkBox.TooltipDelay = 0.2f;
                 }
 
@@ -1280,12 +1299,12 @@ namespace Content.Client.Preferences.UI
             {
                 Trait = trait;
 
-                _checkBox = new CheckBox {Text = $"{trait.Name}"};
+                _checkBox = new CheckBox {Text = Loc.GetString(trait.Name)};
                 _checkBox.OnToggled += OnCheckBoxToggled;
 
-                if (trait.Description != null)
+                if (trait.Description is { } desc)
                 {
-                    _checkBox.ToolTip = trait.Description;
+                    _checkBox.ToolTip = Loc.GetString(desc);
                     _checkBox.TooltipDelay = 0.2f;
                 }
 

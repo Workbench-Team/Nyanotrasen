@@ -111,6 +111,22 @@
       owner: job-name-mystagogue
 
 - type: objective
+  id: HandTeleporterStealObjective
+  issuer: syndicate
+  difficultyOverride: 2.75
+  requirements:
+  - !type:TraitorRequirement {}
+  - !type:IncompatibleConditionsRequirement
+    conditions:
+    - DieCondition
+  - !type:NotRoleRequirement
+    roleId: ResearchDirector
+  conditions:
+  - !type:StealCondition
+    prototype: HandTeleporter
+    owner: job-name-rd
+
+- type: objective
   id: NukeDiskStealObjective
   issuer: syndicate
   requirements:
@@ -228,6 +244,21 @@
     - !type:StealCondition
       prototype: AntiPsychicKnife
       owner: job-name-mantis
+
+- type: objective
+  id: PonderingOrbTelepathicHOSStealObjective
+  issuer: syndicate
+  requirements:
+    - !type:TraitorRequirement {}
+    - !type:IncompatibleConditionsRequirement
+      conditions:
+        - DieCondition
+    - !type:NotRoleRequirement
+      roleId: HeadOfSecurity
+  conditions:
+    - !type:StealCondition
+      prototype: PonderingOrbTelepathicHOS
+      owner: job-name-hos
 
 - type: objective
   id: EscapeShuttleObjective

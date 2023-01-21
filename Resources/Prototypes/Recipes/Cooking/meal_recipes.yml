@@ -145,16 +145,6 @@
     FoodMeatCorgi: 1
 
 - type: microwaveMealRecipe
-  id: RecipeFiletMigrawr
-  name: filet migrawr recipe
-  result: FoodMealBearsteak
-  time: 10
-  solids:
-    FoodMeatBear: 1
-  reagents:
-    Beer: 15
-
-- type: microwaveMealRecipe
   id: RecipeSuperBiteBurger
   name: super bite burger recipe
   result: FoodBurgerSuper
@@ -550,60 +540,6 @@
     FoodFlyAmanita: 3
 
 #Other
-- type: microwaveMealRecipe
-  id: RecipeMeatSteak
-  name: meat steak recipe
-  result: FoodMeatCooked
-  time: 10
-  reagents:
-    TableSalt: 1
-  solids:
-    FoodMeat: 1
-    FoodPlateSmall: 1
-
-- type: microwaveMealRecipe
-  id: RecipeMeatPenguin
-  name: pengin filet recipe
-  result: FoodMeatPenguinCooked
-  time: 10
-  reagents:
-    TableSalt: 1
-  solids:
-    FoodMeatPenguin: 1
-    FoodPlateSmall: 1
-
-- type: microwaveMealRecipe
-  id: RecipeMeatChicken
-  name: cooked chicken recipe
-  result: FoodMeatChickenCooked
-  time: 10
-  reagents:
-    TableSalt: 1
-  solids:
-    FoodMeatChicken: 1
-    FoodPlateSmall: 1
-
-- type: microwaveMealRecipe
-  id: RecipeMeatDuck
-  name: cooked duck recipe
-  result: FoodMeatDuckCooked
-  time: 10
-  reagents:
-    TableSalt: 1
-  solids:
-    FoodMeatDuck: 1
-    FoodPlateSmall: 1
-
-- type: microwaveMealRecipe
-  id: RecipeMeatLizard
-  name: lizard steak recipe
-  result: FoodMeatLizardCooked
-  time: 10
-  reagents:
-    TableSalt: 1
-  solids:
-    FoodMeatLizard: 1
-    FoodPlateSmall: 1
 
 - type: microwaveMealRecipe
   id: RecipeCubanCarp
@@ -615,6 +551,16 @@
     FoodCheeseSlice: 2
     FoodChili: 1
     FoodMeatFish: 2
+
+- type: microwaveMealRecipe
+  id: RecipeFishChips
+  name: fish and chips recipe
+  result: FoodMealFishChips
+  time: 15
+  solids:
+    FoodDough: 1
+    FoodPotato: 1
+    FoodMeatFish: 1
 
 - type: microwaveMealRecipe
   id: RecipeSashimi
@@ -1197,4 +1143,4 @@
   time: 15
   solids:
     FoodMeatLizard: 1
-    FoodKebabSkewer: 1
+    FoodKebabSkewer: 1   

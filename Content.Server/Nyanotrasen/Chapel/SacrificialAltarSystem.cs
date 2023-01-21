@@ -8,18 +8,17 @@ using Content.Shared.Random.Helpers;
 using Content.Shared.Buckle.Components;
 using Content.Shared.Administration.Logs;
 using Content.Shared.Database;
-using Content.Server.Buckle.Components;
+using Content.Shared.Humanoid;
 using Content.Server.Bible.Components;
 using Content.Server.Stunnable;
 using Content.Server.DoAfter;
-using Content.Server.Humanoid;
 using Content.Server.Players;
 using Content.Server.Popups;
 using Content.Server.Soul;
 using Content.Server.Body.Systems;
+using Content.Server.Cloning;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
-using Robust.Shared.Player;
 using Robust.Server.GameObjects;
 using Robust.Shared.Timing;
 
@@ -88,9 +87,13 @@ namespace Content.Server.Chapel
             if (!TryComp<SacrificialAltarComponent>(args.Altar, out var altarComp))
                 return;
 
+            // note: we checked this twice in case they could have gone SSD in the doafter time.
+            if (!TryComp<ActorComponent>(args.Target, out var actor))
+                return;
+
             altarComp.CancelToken = null;
 
-            _adminLogger.Add(LogType.Action, LogImpact.Extreme, $"{ToPrettyString(args.User):player} sacrified {ToPrettyString(args.Target):target} on {ToPrettyString(args.Altar):altar}");
+            _adminLogger.Add(LogType.Action, LogImpact.Extreme, $"{ToPrettyString(args.User):player} sacrificed {ToPrettyString(args.Target):target} on {ToPrettyString(args.Altar):altar}");
 
             if (!_prototypeManager.TryIndex<WeightedRandomPrototype>(altarComp.RewardPool, out var pool))
                 return;
@@ -110,9 +113,6 @@ namespace Content.Server.Chapel
 
             int reduction = _robustRandom.Next(altarComp.GlimmerReductionMin, altarComp.GlimmerReductionMax);
             _glimmerSystem.Glimmer -= reduction;
-
-            if (!TryComp<ActorComponent>(args.Target, out var actor))
-                return;
 
             if (actor.PlayerSession.ContentData()?.Mind != null)
             {
@@ -155,33 +155,39 @@ namespace Content.Server.Chapel
             // can't sacrifice yourself
             if (agent == patient)
             {
-                _popups.PopupEntity(Loc.GetString("altar-failure-reason-self"), altar, Filter.Entities(agent), Shared.Popups.PopupType.SmallCaution);
+                _popups.PopupEntity(Loc.GetString("altar-failure-reason-self"), altar, agent, Shared.Popups.PopupType.SmallCaution);
                 return;
             }
 
             // you need psionic OR bible user
             if (!HasComp<PsionicComponent>(agent) && !HasComp<BibleUserComponent>(agent))
             {
-                _popups.PopupEntity(Loc.GetString("altar-failure-reason-user"), altar, Filter.Entities(agent), Shared.Popups.PopupType.SmallCaution);
+                _popups.PopupEntity(Loc.GetString("altar-failure-reason-user"), altar, agent, Shared.Popups.PopupType.SmallCaution);
                 return;
             }
 
             // and no golems or familiars or whatever should be sacrificing
             if (!HasComp<HumanoidComponent>(agent))
             {
-                _popups.PopupEntity(Loc.GetString("altar-failure-reason-user-humanoid"), altar, Filter.Entities(agent), Shared.Popups.PopupType.SmallCaution);
+                _popups.PopupEntity(Loc.GetString("altar-failure-reason-user-humanoid"), altar, agent, Shared.Popups.PopupType.SmallCaution);
                 return;
             }
 
             if (!HasComp<PsionicComponent>(patient))
             {
-                _popups.PopupEntity(Loc.GetString("altar-failure-reason-target", ("target", patient)), altar, Filter.Entities(agent), Shared.Popups.PopupType.SmallCaution);
+                _popups.PopupEntity(Loc.GetString("altar-failure-reason-target", ("target", patient)), altar, agent, Shared.Popups.PopupType.SmallCaution);
                 return;
             }
 
-            if (!HasComp<HumanoidComponent>(patient))
+            if (!HasComp<HumanoidComponent>(patient) && !HasComp<MetempsychosisKarmaComponent>(patient))
             {
-                _popups.PopupEntity(Loc.GetString("altar-failure-reason-target-humanoid", ("target", patient)), altar, Filter.Entities(agent), Shared.Popups.PopupType.SmallCaution);
+                _popups.PopupEntity(Loc.GetString("altar-failure-reason-target-humanoid", ("target", patient)), altar, agent, Shared.Popups.PopupType.SmallCaution);
+                return;
+            }
+
+            if (!HasComp<ActorComponent>(patient))
+            {
+                _popups.PopupEntity(Loc.GetString("altar-failure-reason-target-ssd", ("target", patient)), altar, agent, Shared.Popups.PopupType.SmallCaution);
                 return;
             }
 
@@ -194,7 +200,7 @@ namespace Content.Server.Chapel
                 }
             }
 
-            _popups.PopupEntity(Loc.GetString("altar-popup", ("user", agent), ("target", patient)), altar, Filter.Pvs(altar), Shared.Popups.PopupType.LargeCaution);
+            _popups.PopupEntity(Loc.GetString("altar-popup", ("user", agent), ("target", patient)), altar, Shared.Popups.PopupType.LargeCaution);
 
             component.SacrificeStingStream = _audioSystem.PlayPvs(component.SacrificeSoundPath, altar);
             component.CancelToken = new CancellationTokenSource();

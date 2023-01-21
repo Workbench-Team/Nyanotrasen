@@ -7,7 +7,6 @@
       - id: MobBee
         amount: 8
 
-
 - type: entity
   id: CrateNPCButterflies
   parent: CrateLivestock
@@ -16,7 +15,6 @@
     contents:
       - id: MobButterfly
         amount: 5
-
 
 - type: entity
   id: CrateNPCCat
@@ -27,7 +25,6 @@
       - id: MobCat
         amount: 1
 
-
 - type: entity
   id: CrateNPCChicken
   parent: CrateLivestock
@@ -36,7 +33,6 @@
     contents:
       - id: MobChicken
         amount: 4
-
 
 - type: entity
   id: CrateNPCDuck
@@ -51,6 +47,14 @@
       - id: MobDuckBrown
         amount: 2
 
+- type: entity
+  id: CrateNPCPibble
+  parent: CrateLivestock
+  components:
+  - type: StorageFill
+    contents:
+      - id: MobPibble
+        amount: 1
 
 - type: entity
   id: CrateNPCCorgi
@@ -70,7 +74,6 @@
       - id: MobCow
         amount: 1
 
-
 - type: entity
   id: CrateNPCGoat
   parent: CrateLivestock
@@ -79,7 +82,6 @@
     contents:
       - id: MobGoat
         amount: 1
-
 
 - type: entity
   id: CrateNPCGoose
@@ -90,7 +92,6 @@
       - id: MobGoose
         amount: 2
 
-
 - type: entity
   id: CrateNPCGorilla
   parent: CrateLivestock
@@ -99,7 +100,6 @@
     contents:
       - id: MobGorilla
         amount: 1
-
 
 - type: entity
   id: CrateNPCMonkeyCube
@@ -128,7 +128,6 @@
       - id: MobParrot
         amount: 3
 
-
 - type: entity
   id: CrateNPCPenguin
   parent: CrateLivestock
@@ -138,6 +137,14 @@
       - id: MobPenguin
         amount: 2
 
+- type: entity
+  id: CrateNPCPig
+  parent: CrateLivestock
+  components:
+  - type: StorageFill
+    contents:
+      - id: MobPig
+        amount: 1
 
 - type: entity
   id: CrateNPCSnake
@@ -147,3 +154,21 @@
     contents:
       - id: MobSnake
         amount: 3
+
+- type: entity
+  id: CrateNPCHamster
+  parent: CrateRodentCage
+  suffix: Filled
+  components:
+    - type: StorageFill
+      contents:
+        - id: MobHamster
+
+- type: entity
+  id: CrateNPCHamlet
+  parent: CrateRodentCage
+  suffix: Hamlet
+  components:
+    - type: StorageFill
+      contents:
+        - id: MobHamsterHamlet

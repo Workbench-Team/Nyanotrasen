@@ -1,10 +1,10 @@
-﻿using System.Linq;
+using System.Linq;
 using Content.Server.Construction;
+using Content.Server.MachineLinking.Components;
 using Content.Server.MachineLinking.Events;
 using Content.Server.Paper;
 using Content.Server.Power.Components;
-using Content.Server.Research;
-using Content.Server.Research.Components;
+using Content.Server.Research.Systems;
 using Content.Server.UserInterface;
 using Content.Server.Xenoarchaeology.Equipment.Components;
 using Content.Server.Xenoarchaeology.XenoArtifacts;
@@ -20,7 +20,6 @@ using Robust.Server.GameObjects;
 using Robust.Server.Player;
 using Robust.Shared.Audio;
 using Robust.Shared.Physics.Events;
-using Robust.Shared.Player;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
 
@@ -34,11 +33,13 @@ public sealed class ArtifactAnalyzerSystem : EntitySystem
 {
     [Dependency] private readonly IGameTiming _timing = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
+    [Dependency] private readonly SharedAmbientSoundSystem _ambienntSound = default!;
     [Dependency] private readonly SharedPopupSystem _popup = default!;
     [Dependency] private readonly UserInterfaceSystem _ui = default!;
     [Dependency] private readonly ArtifactSystem _artifact = default!;
     [Dependency] private readonly PaperSystem _paper = default!;
     [Dependency] private readonly SharedGlimmerSystem _glimmerSystem = default!;
+    [Dependency] private readonly ResearchSystem _research = default!;
 
     /// <inheritdoc/>
     public override void Initialize()
@@ -55,6 +56,7 @@ public sealed class ArtifactAnalyzerSystem : EntitySystem
         SubscribeLocalEvent<ArtifactAnalyzerComponent, StartCollideEvent>(OnCollide);
         SubscribeLocalEvent<ArtifactAnalyzerComponent, EndCollideEvent>(OnEndCollide);
 
+        SubscribeLocalEvent<ArtifactAnalyzerComponent, MapInitEvent>(OnMapInit);
         SubscribeLocalEvent<AnalysisConsoleComponent, NewLinkEvent>(OnNewLink);
         SubscribeLocalEvent<AnalysisConsoleComponent, PortDisconnectedEvent>(OnPortDisconnected);
 
@@ -145,6 +147,21 @@ public sealed class ArtifactAnalyzerSystem : EntitySystem
         }
     }
 
+    private void OnMapInit(EntityUid uid, ArtifactAnalyzerComponent component, MapInitEvent args)
+    {
+        if (!TryComp<SignalReceiverComponent>(uid, out var receiver))
+            return;
+
+        foreach (var port in receiver.Inputs.Values.SelectMany(ports => ports))
+        {
+            if (!TryComp<AnalysisConsoleComponent>(port.Uid, out var analysis))
+                continue;
+            component.Console = port.Uid;
+            analysis.AnalyzerEntity = uid;
+            return;
+        }
+    }
+
     private void OnNewLink(EntityUid uid, AnalysisConsoleComponent component, NewLinkEvent args)
     {
         if (!TryComp<ArtifactAnalyzerComponent>(args.Receiver, out var analyzer))
@@ -170,7 +187,7 @@ public sealed class ArtifactAnalyzerSystem : EntitySystem
 
     private void UpdateUserInterface(EntityUid uid, AnalysisConsoleComponent? component = null)
     {
-        if (!Resolve(uid, ref component))
+        if (!Resolve(uid, ref component, false))
             return;
 
         EntityUid? artifact = null;
@@ -257,7 +274,7 @@ public sealed class ArtifactAnalyzerSystem : EntitySystem
         if (msg == null)
             return;
 
-        _popup.PopupEntity(Loc.GetString("analysis-console-print-popup"), uid, Filter.Pvs(uid));
+        _popup.PopupEntity(Loc.GetString("analysis-console-print-popup"), uid);
         _paper.SetContent(report, msg.ToMarkup());
         UpdateUserInterface(uid, component);
     }
@@ -317,7 +334,10 @@ public sealed class ArtifactAnalyzerSystem : EntitySystem
     /// <param name="args"></param>
     private void OnDestroyButton(EntityUid uid, AnalysisConsoleComponent component, AnalysisConsoleDestroyButtonPressedMessage args)
     {
-        if (!TryComp<ResearchClientComponent>(uid, out var client) || client.Server == null || component.AnalyzerEntity == null)
+        if (component.AnalyzerEntity == null)
+            return;
+
+        if (!_research.TryGetClientServer(uid, out var server, out var serverComponent))
             return;
 
         var entToDestroy = GetArtifactForAnalysis(component.AnalyzerEntity);
@@ -332,14 +352,16 @@ public sealed class ArtifactAnalyzerSystem : EntitySystem
 
         var points = _artifact.GetResearchPointValue(entToDestroy.Value);
 
-        client.Server.Points += points;
-        _glimmerSystem.Glimmer += (int) points / 800;
+        if (analyzer != null)
+            _glimmerSystem.Glimmer += (int) points / analyzer.SacrificeRatio;
+
+        _research.AddPointsToServer(server.Value, points, serverComponent);
         EntityManager.DeleteEntity(entToDestroy.Value);
 
         _audio.PlayPvs(component.DestroySound, component.AnalyzerEntity.Value, AudioParams.Default.WithVolume(2f));
 
         _popup.PopupEntity(Loc.GetString("analyzer-artifact-destroy-popup"),
-            component.AnalyzerEntity.Value, Filter.Pvs(component.AnalyzerEntity.Value), PopupType.Large);
+            component.AnalyzerEntity.Value, PopupType.Large);
 
         UpdateUserInterface(uid, component);
     }
@@ -424,11 +446,16 @@ public sealed class ArtifactAnalyzerSystem : EntitySystem
         var analysisRating = args.PartRatings[component.MachinePartAnalysisDuration];
 
         component.AnalysisDurationMulitplier = MathF.Pow(component.PartRatingAnalysisDurationMultiplier, analysisRating - 1);
+
+        var sacrificeRating = args.PartRatings[component.MachinePartSacrificeRatio];
+
+        component.SacrificeRatio = (400 + (int) (sacrificeRating * component.PartRatingSacrificeRatioMultiplier));
     }
 
     private void OnUpgradeExamine(EntityUid uid, ArtifactAnalyzerComponent component, UpgradeExamineEvent args)
     {
         args.AddPercentageUpgrade("analyzer-artifact-component-upgrade-analysis", component.AnalysisDurationMulitplier);
+        args.AddNumberUpgrade("analyzer-artifact-component-upgrade-sacrifice", component.SacrificeRatio - 550);
     }
 
     private void OnCollide(EntityUid uid, ArtifactAnalyzerComponent component, ref StartCollideEvent args)
@@ -452,7 +479,7 @@ public sealed class ArtifactAnalyzerSystem : EntitySystem
             return;
         component.Contacts.Remove(otherEnt);
 
-        if (component.Console != null)
+        if (component.Console != null && Exists(component.Console))
             UpdateUserInterface(component.Console.Value);
     }
 
@@ -461,11 +488,7 @@ public sealed class ArtifactAnalyzerSystem : EntitySystem
         if (TryComp<ApcPowerReceiverComponent>(uid, out var powa))
             powa.NeedsPower = true;
 
-        if (TryComp<AmbientSoundComponent>(uid, out var ambientSound))
-        {
-            ambientSound.Enabled = true;
-            Dirty(ambientSound);
-        }
+        _ambienntSound.SetAmbience(uid, true);
     }
 
     private void OnAnalyzeEnd(EntityUid uid, ActiveArtifactAnalyzerComponent component, ComponentShutdown args)
@@ -473,11 +496,7 @@ public sealed class ArtifactAnalyzerSystem : EntitySystem
         if (TryComp<ApcPowerReceiverComponent>(uid, out var powa))
             powa.NeedsPower = false;
 
-        if (TryComp<AmbientSoundComponent>(uid, out var ambientSound))
-        {
-            ambientSound.Enabled = false;
-            Dirty(ambientSound);
-        }
+        _ambienntSound.SetAmbience(uid, false);
     }
 
     private void OnPowerChanged(EntityUid uid, ActiveArtifactAnalyzerComponent component, ref PowerChangedEvent args)

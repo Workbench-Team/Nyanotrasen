@@ -11,7 +11,6 @@
   - type: Physics
     bodyType: KinematicController
     fixedRotation: true
-    status: OnGround
   - type: Fixtures
     fixtures:
     - shape:
@@ -41,6 +40,7 @@
     - Security
     - Service
     - Syndicate
+    - Binary
   - type: Sprite
     overrideContainerOcclusion: true # Ghosts always show up regardless of where they're contained.
     netsync: false

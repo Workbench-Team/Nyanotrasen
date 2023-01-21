@@ -40,12 +40,12 @@
     interfaces:
     - key: enum.StorageUiKey.Key
       type: StorageBoundUserInterface
-  - type: StaticPrice
+  - type: DynamicPrice
     price: 80
 
 - type: entity
   abstract: true
-  parent: ClothingOuterBase
+  parent: [ClothingOuterBase, GeigerCounterClothing]
   id: ClothingOuterHardsuitBase
   name: base hardsuit
   components:
@@ -76,6 +76,9 @@
   - type: Tag
     tags:
       - FullBodyOuter
+  - type: GroupExamine
+  - type: ClothingGrantComponent
+    tag: HardsuitOn
 
 - type: entity
   abstract: true

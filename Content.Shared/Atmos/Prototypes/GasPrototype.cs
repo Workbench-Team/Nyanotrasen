@@ -7,20 +7,13 @@ namespace Content.Shared.Atmos.Prototypes
     [Prototype("gas")]
     public sealed class GasPrototype : IPrototype
     {
-        private string _name = string.Empty;
-    
-        [DataField("name")]
-        public string Name
-        {
-            get => _name;
-            private set => _name = Loc.GetString(value);
-        }
+        [DataField("name")] public string Name { get; set; } = "";
 
         // TODO: Control gas amount necessary for overlay to appear
         // TODO: Add interfaces for gas behaviours e.g. breathing, burning
 
         [ViewVariables]
-        [IdDataFieldAttribute]
+        [IdDataField]
         public string ID { get; } = default!;
 
         /// <summary>
@@ -90,5 +83,12 @@ namespace Content.Shared.Atmos.Prototypes
 
         [DataField("pricePerMole")]
         public float PricePerMole { get; set; } = 0;
+
+        /// <summary>
+        /// How many surplus moles of this gas need to be on the market before
+        /// the price reaches half of its default price?
+        /// </summary>
+        [DataField("halfPriceSurplus")]
+        public float HalfPriceSurplus { get; set; } = 2000f;
     }
 }

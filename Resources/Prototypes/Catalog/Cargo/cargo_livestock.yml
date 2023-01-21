@@ -49,6 +49,16 @@
   group: market
 
 - type: cargoProduct
+  id: LivestockPibble
+  icon:
+    sprite: Mobs/Pets/walter.rsi
+    state: walter
+  product: CrateNPCPibble
+  cost: 700
+  category: Livestock
+  group: market
+
+- type: cargoProduct
   id: LivestockCorgi
   icon:
     sprite: Mobs/Pets/corgi.rsi
@@ -139,11 +149,31 @@
   group: market
 
 - type: cargoProduct
+  id: LivestockPig
+  icon:
+    sprite: Mobs/Animals/pig.rsi
+    state: pig
+  product: CrateNPCPig
+  cost: 1000
+  category: Livestock
+  group: market
+
+- type: cargoProduct
   id: LivestockSnake
   icon:
     sprite: Mobs/Animals/snake.rsi
     state: snake
   product: CrateNPCSnake
   cost: 2000
+  category: Livestock
+  group: market
+
+- type: cargoProduct
+  id: LivestockHamster
+  icon:
+    sprite: Mobs/Animals/hamster.rsi
+    state: icon-0
+  product: CrateNPCHamster
+  cost: 2800
   category: Livestock
   group: market
