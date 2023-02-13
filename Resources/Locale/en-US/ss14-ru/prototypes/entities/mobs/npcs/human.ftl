@@ -1,0 +1,9 @@
+ent-MobCivilian = Civilian
+    .desc = { ent-BaseMobHuman.desc }
+    .suffix = { "" }
+ent-MobSpirate = Spirate
+    .desc = Yarr!
+    .suffix = { "" }
+ent-SalvageHumanCorpse = unidentified human
+    .desc = We barely knew ye.
+    .suffix = Dead

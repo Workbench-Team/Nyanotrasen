@@ -1,0 +1,9 @@
+ent-FoodBakedCannabisBrownieBatch = special brownies
+    .desc = A pan of "special" brownies.
+    .suffix = { "" }
+ent-FoodBakedCannabisBrownie = special brownie
+    .desc = A "special" brownie.
+    .suffix = { "" }
+ent-FoodBreadMoldy = moldy loaf
+    .desc = It's still good enough to eat, just eat around the moldy bits.
+    .suffix = { "" }
