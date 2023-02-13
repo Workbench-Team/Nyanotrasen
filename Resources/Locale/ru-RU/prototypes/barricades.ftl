@@ -1,4 +1,4 @@
 ### Barricades entity prototype data.
 
-ent-barricade = деревянная баррикада
-    .desc = Дешёвое заграждение, выглядит так себе.
+ent-barricade = wooden barricade
+    .desc = The poor man's barrier, not nearly as strong or cool looking.

@@ -1,3 +1,3 @@
-ent-Catwalk = мостик
-    .desc = Мостик, облегчающий маневрирование в открытом космосе и прокладку кабеля.
+ent-Catwalk = catwalk
+    .desc = A catwalk for easier EVA maneuvering and cable placement.
     .suffix = { "" }

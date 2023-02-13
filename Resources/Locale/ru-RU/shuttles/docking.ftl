@@ -1,2 +1,2 @@
-docking-component-dock = Пристыковаться
-docking-component-undock = Отстыковаться
+docking-component-dock = Dock
+docking-component-undock = Undock

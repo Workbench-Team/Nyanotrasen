@@ -1,3 +1,3 @@
-ent-Torch = факел
-    .desc = Сделанный из дерева факел.
+ent-Torch = torch
+    .desc = A torch fashioned from some wood.
     .suffix = { "" }

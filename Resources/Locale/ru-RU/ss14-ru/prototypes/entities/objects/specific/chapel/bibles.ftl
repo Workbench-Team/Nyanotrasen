@@ -1,6 +1,6 @@
-ent-Bible = библия
-    .desc = Новая межзвездная версия 2340
+ent-Bible = bible
+    .desc = New Interstellar Version 285
     .suffix = { "" }
-ent-BibleNecronomicon = некрономикон
-    .desc = Имеется пометка: Klatuu, Verata, Nikto -- Не забыть об этом опять!
+ent-BibleNecronomicon = necronomicon
+    .desc = There's a note: Klatuu, Verata, Nikto -- Don't forget it again!
     .suffix = { "" }

@@ -1,3 +1,3 @@
-ent-Spear = копье
-    .desc = Настоящая классика. Убийство по доступной цене с 200 000 года до н.э.
+ent-Spear = spear
+    .desc = Definition of a Classic. Keeping murder affordable since 200,000 BCE.
     .suffix = { "" }

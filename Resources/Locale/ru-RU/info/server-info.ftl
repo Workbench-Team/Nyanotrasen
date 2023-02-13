@@ -1,8 +1,7 @@
-server-info-rules-button = Правила
+server-info-rules-button = Rules
 server-info-discord-button = Discord
-server-info-website-button = Сайт
+server-info-website-button = Website
 server-info-wiki-button = Wiki
-server-info-report-button = Сообщить об ошибке
-server-info-credits-button = Авторы
-server-info-boosty-button = Boosty
-server-info-github-button = GitHub сервера
+server-info-forum-button = Forum
+server-info-report-button = Report Bugs
+server-info-credits-button = Credits

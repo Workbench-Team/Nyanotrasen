@@ -5,5 +5,5 @@ ent-LockerEpistemics = acolyte's locker
     .suffix = Empty
     .desc = { ent-LockerScientist.desc }
 ent-LockerForensicMantis = forensic mantis' cabinet
+    .desc = You'll never know what's inside until you collapse the quantum superposition of all possible mysteries.
     .suffix = Empty
-    .desc = { ent-LockerDetective.desc }

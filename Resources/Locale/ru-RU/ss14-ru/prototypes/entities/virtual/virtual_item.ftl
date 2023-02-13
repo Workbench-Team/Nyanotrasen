@@ -1,3 +1,3 @@
-ent-HandVirtualItem = ВИРТУАЛЬНЫЙ ПРЕДМЕТ, КОТОРЫЙ ВЫ НЕ ДОЛЖНЫ ВИДЕТЬ
+ent-HandVirtualItem = VIRTUAL ITEM YOU SHOULD NOT SEE THIS
     .desc = { "" }
     .suffix = { "" }

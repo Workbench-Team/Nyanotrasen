@@ -1,1 +1,1 @@
-puddle-component-examine-is-slipper-text = Выглядит скользким.
+puddle-component-examine-is-slipper-text = It looks slippery.

@@ -1,6 +1,6 @@
-ent-DiseaseSwab = стерильная палочка
-    .desc = Используется для сбора и перемещения образцов. Стерильны до вскрытия. Одноразовые.
+ent-DiseaseSwab = sterile swab
+    .desc = Used for taking and transfering samples. Sterile until open. Single use only.
     .suffix = { "" }
-ent-Vaccine = вакцина
-    .desc = Предотвращает заражение людей, у которых еще нет заболевания.
+ent-Vaccine = vaccine
+    .desc = Prevents people who DON'T already have a disease from catching it.
     .suffix = { "" }

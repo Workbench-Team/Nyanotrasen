@@ -1,7 +1,7 @@
 # Shown when greeted with the Suspicion role
-suspicion-role-greeting = Вы { $roleName }!
+suspicion-role-greeting = You're a { $roleName }!
 # Shown when greeted with the Suspicion role
-suspicion-objective = Цель: { $objectiveText }
+suspicion-objective = Objective: { $objectiveText }
 # Shown when greeted with the Suspicion role
 suspicion-partners-in-crime =
     { $partnersCount ->

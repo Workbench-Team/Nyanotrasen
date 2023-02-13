@@ -1,9 +1,9 @@
-ent-ClothingEyesHudDiagnostic = диагностический визор
-    .desc = Окуляр с индикатором на стекле, способный анализировать целостность и состояние роботов и экзокостюмов.
+ent-ClothingEyesHudDiagnostic = diagnostic hud
+    .desc = A heads-up display capable of analyzing the integrity and status of robotics, exosuits and golems.
     .suffix = { "" }
-ent-ClothingEyesHudMedical = медицинский визор
-    .desc = Окуляр с индикатором на стекле, который сканирует гуманоидов в поле зрения и предоставляет точные данные о состоянии их здоровья.
+ent-ClothingEyesHudMedical = medical hud
+    .desc = A heads-up display that scans the humanoids in view and provides accurate data about their health status.
     .suffix = { "" }
-ent-ClothingEyesHudSecurity = охранный визор
-    .desc = Окуляр с индикатором на стекле, который сканирует гуманоидов в поле зрения и предоставляет точные данные об их идентификационном статусе и записях в системе безопасности.
+ent-ClothingEyesHudSecurity = security hud
+    .desc = A heads-up display that scans the humanoids in view and provides accurate data about their ID status and security records.
     .suffix = { "" }

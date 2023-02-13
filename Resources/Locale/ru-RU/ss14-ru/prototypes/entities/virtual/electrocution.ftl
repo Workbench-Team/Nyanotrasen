@@ -1,9 +1,9 @@
-ent-VirtualElectrocutionLoadHVPower = ЭЛЕКТРИЧЕСКИЙ УДАР, ВЫ НЕ ДОЛЖНЫ ВИДЕТЬ ЭТО
+ent-VirtualElectrocutionLoadHVPower = ELECTROCUTION ENTITY YOU SHOULD NOT SEE THIS
     .desc = { "" }
     .suffix = { "" }
-ent-VirtualElectrocutionLoadMVPower = ЭЛЕКТРИЧЕСКИЙ УДАР, ВЫ НЕ ДОЛЖНЫ ВИДЕТЬ ЭТО
+ent-VirtualElectrocutionLoadMVPower = ELECTROCUTION ENTITY YOU SHOULD NOT SEE THIS
     .desc = { "" }
     .suffix = { "" }
-ent-VirtualElectrocutionLoadApc = ЭЛЕКТРИЧЕСКИЙ УДАР, ВЫ НЕ ДОЛЖНЫ ВИДЕТЬ ЭТО
+ent-VirtualElectrocutionLoadApc = ELECTROCUTION ENTITY YOU SHOULD NOT SEE THIS
     .desc = { "" }
     .suffix = { "" }

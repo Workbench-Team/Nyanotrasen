@@ -1,6 +1,6 @@
-ent-Pickaxe = кирка
-    .desc = Зазубренная до совершенства, чтобы вбивать её в камни.
+ent-Pickaxe = pickaxe
+    .desc = Notched to perfection, for jamming it into rocks
     .suffix = { "" }
-ent-MiningDrill = шахтёрский бур
-    .desc = Мощный инструмент, служащий для быстрого бурения горных пород.
+ent-MiningDrill = mining drill
+    .desc = Powerful tool used to quickly drill through rocks
     .suffix = { "" }

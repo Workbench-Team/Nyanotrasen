@@ -1,10 +1,13 @@
-emag-success = Карточка замыкает что-то в { $target }.
-emag-no-charges = Не осталось зарядов!
+emag-success = The card zaps something in { THE($target) }.
+emag-no-charges = No charges left!
 emag-charges-remaining =
-    На нём имеется { $charges } { $charges ->
-        [one] заряд
-        [few] заряда
-       *[other] зарядов
-    }.
-emag-max-charges = Он имеет [color=green]максимум[/color] зарядов.
-emag-recharging = До нового заряда осталось [color=yellow]{ $seconds }[/color] секунд.
+    { $charges ->
+        [one] It has [color=fuchsia]{ $charges }[/color] charge remaining.
+       *[other] It has [color=fuchsia]{ $charges }[/color] charges remaining.
+    }
+emag-max-charges = It's at [color=green]maximum[/color] charges.
+emag-recharging =
+    { $seconds ->
+        [one] There is [color=yellow]{ $seconds }[/color] second left until the next charge.
+       *[other] There are [color=yellow]{ $seconds }[/color] seconds left until the next charge.
+    }

@@ -1,12 +1,12 @@
-ent-BaseFirelock = пожарный шлюз
-    .desc = Примените лом.
+ent-BaseFirelock = firelock
+    .desc = Apply crowbar.
     .suffix = { "" }
 ent-Firelock = { ent-BaseFirelock }
     .desc = { ent-BaseFirelock.desc }
     .suffix = { "" }
-ent-FirelockGlass = стеклянный пожарный шлюз
+ent-FirelockGlass = glass firelock
     .desc = { ent-Firelock.desc }
     .suffix = { "" }
-ent-FirelockEdge = пожарный шлюз
+ent-FirelockEdge = firelock
     .desc = { ent-BaseFirelock.desc }
     .suffix = { "" }

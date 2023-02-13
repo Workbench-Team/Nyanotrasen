@@ -1,6 +1,6 @@
-ent-FireAxe = пожарный топор
-    .desc = Воистину оружие безумца. Кому придет в голову бороться с огнем с помощью топора?
+ent-FireAxe = fireaxe
+    .desc = Truly, the weapon of a madman. Who would think to fight fire with an axe?
     .suffix = { "" }
-ent-FireAxeFlaming = пожарный топор
-    .desc = Зачем бороться с огнём с помощью топора, если можно бороться топором и огнём?
-    .suffix = { "" }
+ent-FireAxeFlaming = fire axe
+    .desc = Why fight fire with an axe when you can fight with fire and axe?
+    .suffix = traitor

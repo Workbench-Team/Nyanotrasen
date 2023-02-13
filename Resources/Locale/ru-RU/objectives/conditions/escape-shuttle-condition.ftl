@@ -1,2 +1,2 @@
-objective-condition-escape-shuttle-title = Улетите на эвакуационном шаттле живым и свободным.
-objective-condition-escape-shuttle-description = Один из наших агентов под прикрытием допросит вас по прибытии. Не дайте себя арестовать.
+objective-condition-escape-shuttle-title = Escape on the emergency shuttle alive and unrestrained.
+objective-condition-escape-shuttle-description = You need to get out of here with your life and freedom.

@@ -1,6 +1,6 @@
-ent-ComputerFrame = каркас компьютера
-    .desc = Строящийся компьютер.
+ent-ComputerFrame = computer frame
+    .desc = A computer under construction.
     .suffix = { "" }
-ent-ComputerBroken = сломанный компьютер
-    .desc = Этот компьютер видал лучшие времена.
+ent-ComputerBroken = broken computer
+    .desc = This computer has seen better days.
     .suffix = { "" }

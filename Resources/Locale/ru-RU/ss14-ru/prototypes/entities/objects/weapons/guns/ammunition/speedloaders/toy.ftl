@@ -1,6 +1,6 @@
-ent-BaseSpeedLoaderCap = зарядник пистонов
+ent-BaseSpeedLoaderCap = cap gun loader
     .desc = { ent-BaseItem.desc }
     .suffix = { "" }
-ent-SpeedLoaderCap = зарядник пистонов
+ent-SpeedLoaderCap = cap gun loader
     .desc = { ent-BaseSpeedLoaderCap.desc }
     .suffix = { "" }

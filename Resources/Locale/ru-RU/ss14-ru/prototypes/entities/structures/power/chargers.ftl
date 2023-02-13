@@ -1,9 +1,9 @@
-ent-PowerCellRecharger = зарядник для батарей
+ent-PowerCellRecharger = cell recharger
     .desc = { "" }
     .suffix = { "" }
-ent-WeaponCapacitorRecharger = зарядник
+ent-WeaponCapacitorRecharger = recharger
     .desc = { ent-PowerCellRecharger.desc }
     .suffix = { "" }
-ent-WallWeaponCapacitorRecharger = настенный зарядник
+ent-WallWeaponCapacitorRecharger = wall recharger
     .desc = { ent-PowerCellRecharger.desc }
     .suffix = { "" }

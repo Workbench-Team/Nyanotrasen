@@ -1,3 +1,3 @@
-ent-ParticlesProjectile = частицы
-    .desc = Ускоренные частицы.
+ent-ParticlesProjectile = particles
+    .desc = Accelerated particles.
     .suffix = { "" }

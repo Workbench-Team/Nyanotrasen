@@ -1,8 +1,8 @@
-default-program-name = Программа
-notekeeper-program-name = Блокнот
-net-probe-program-name = Сетевой зонд
-net-probe-scan = Сканировано устройство { $device }!
-net-probe-label-name = Имя
-net-probe-label-address = Адрес
-net-probe-label-frequency = Частота
-net-probe-label-network = Сеть
+default-program-name = Program
+notekeeper-program-name = Notekeeper
+net-probe-program-name = NetProbe
+net-probe-scan = Scanned { $device }!
+net-probe-label-name = Name
+net-probe-label-address = Address
+net-probe-label-frequency = Frequency
+net-probe-label-network = Network

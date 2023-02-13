@@ -1,6 +1,6 @@
-ent-AirAlarm = воздушная сигнализация
-    .desc = Воздушная сигнализация. Сигнализация... воздуха?
+ent-AirAlarm = air alarm
+    .desc = An air alarm. Alarms... air?
     .suffix = { "" }
-ent-AirAlarmAssembly = корпус воздушной сигнализации
-    .desc = Воздушная сигнализация. Не похоже что в ближайшее время она подаст сигнал.
+ent-AirAlarmAssembly = air alarm assembly
+    .desc = An air alarm. Doesn't look like it'll be alarming air any time soon.
     .suffix = { "" }

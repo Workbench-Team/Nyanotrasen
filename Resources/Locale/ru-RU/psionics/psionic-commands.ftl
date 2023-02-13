@@ -1,6 +1,6 @@
-command-glimmershow-description = Показать текущий уровень напряжённости пси-поля.
-command-glimmershow-help = Нет аргументов.
-command-glimmerset-description = Установите число напряжённости пси-поля.
+command-glimmershow-description = Show the current glimmer level.
+command-glimmershow-help = No arguments.
+command-glimmerset-description = Set glimmer to a number.
 command-glimmerset-help = glimmerset (integer)
-command-lspsionic-description = Список псиоников.
-command-lspsionic-help = Нет аргументов.
+command-lspsionic-description = List psionics.
+command-lspsionic-help = No arguments.

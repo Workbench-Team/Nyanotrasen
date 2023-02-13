@@ -1,3 +1,3 @@
-ent-AirlockPainter = покрасчик шлюзов
-    .desc = Покрасчик шлюзов для покраски шлюзов.
+ent-AirlockPainter = airlock painter
+    .desc = An airlock painter for painting airlocks.
     .suffix = { "" }

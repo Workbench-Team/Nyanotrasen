@@ -1,6 +1,6 @@
-ent-ParticleAcceleratorControlBox = консоль управления УЧ
-    .desc = Позволяет контролировать плотность частиц.
+ent-ParticleAcceleratorControlBox = PA control computer
+    .desc = This controls the density of the particles.
     .suffix = { "" }
-ent-ParticleAcceleratorControlBoxUnfinished = консоль управления УЧ
-    .desc = Позволяет контролировать плотность частиц. Выглядит незаконченным.
-    .suffix = Незаконченный
+ent-ParticleAcceleratorControlBoxUnfinished = PA control computer
+    .desc = This controls the density of the particles. It looks unfinished.
+    .suffix = Unfinished

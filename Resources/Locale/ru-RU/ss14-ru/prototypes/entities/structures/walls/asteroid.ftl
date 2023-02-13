@@ -1,6 +1,6 @@
-ent-AsteroidRock = астероидная порода
-    .desc = Каменистый астероид.
-    .suffix = Низкое содержание руды
-ent-AsteroidRockMining = астероидная порода
-    .desc = Это астероид.
-    .suffix = Высокое содержание руды
+ent-AsteroidRock = asteroid rock
+    .desc = A rocky asteroid.
+    .suffix = Low Ore Yield
+ent-AsteroidRockMining = asteroid rock
+    .desc = An asteroid.
+    .suffix = higher ore yield

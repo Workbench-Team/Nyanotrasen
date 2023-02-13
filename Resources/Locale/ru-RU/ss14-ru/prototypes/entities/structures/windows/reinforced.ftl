@@ -1,9 +1,9 @@
-ent-ReinforcedWindow = армированное окно
+ent-ReinforcedWindow = reinforced window
     .desc = { ent-Window.desc }
     .suffix = { "" }
-ent-TintedWindow = тонированное окно
+ent-TintedWindow = tinted window
     .desc = { ent-ReinforcedWindow.desc }
     .suffix = { "" }
-ent-WindowReinforcedDirectional = направленное армированное окно
-    .desc = Смотри не заляпай.
+ent-WindowReinforcedDirectional = directional reinforced window
+    .desc = Don't smudge up the glass down there.
     .suffix = { "" }

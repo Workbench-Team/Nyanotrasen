@@ -6,7 +6,7 @@ bloodsucker-fail-not-blood = { CAPITALIZE(SUBJECT($target)) } doesn't have delic
 bloodsucker-fail-no-blood = { CAPITALIZE(SUBJECT($target)) } has no blood in { POSS-ADJ($target) } body.
 bloodsucker-fail-no-blood-bloodsucked = { CAPITALIZE(SUBJECT($target)) } has been sucked dry.
 bloodsucker-blood-sucked = You suck some blood from { $target }.
-bloodsucker-doafter-start = You try biting { $target }'s neck.
+bloodsucker-doafter-start = You try to suck blood from { $target }.
 bloodsucker-doafter-start-victim = { CAPITALIZE(THE($sucker)) } is trying to bite your neck!
 bloodsucker-blood-sucked-victim = { CAPITALIZE(THE($sucker)) } sucks some of your blood!
 bloodsucked-health-examine = [color=red]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } bite marks on { POSS-ADJ($target) } neck.[/color]

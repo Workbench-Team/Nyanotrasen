@@ -1,5 +1,5 @@
-cmd-planet-desc = Конвертирует указанную карту в планету с разумными значениями по умолчанию.
+cmd-planet-desc = Converts the supplied map into a planet with sensible defaults.
 cmd-planet-help = { $command } <mapid>.
-cmd-planet-args = Требуется только 1 аргумент.
-cmd-planet-map = Невозможно проанализировать { $map } как существующую карту.
-cmd-planet-success = Карта { $mapId } установлена как Планета. ПРИМЕЧАНИЕ! Вам нужно будет загрузить карту (либо на новую карту, либо перезапустив игру) для работы атмосферы.
+cmd-planet-args = Require 1 arg only.
+cmd-planet-map = Unable to parse { $map } as an existing map.
+cmd-planet-success = Set map { $mapId } to Planet. NOTE! You will need to load the map (either onto a new map or by restarting the game) for atmospherics to work.

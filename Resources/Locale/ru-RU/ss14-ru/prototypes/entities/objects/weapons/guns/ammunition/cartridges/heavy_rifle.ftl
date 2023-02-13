@@ -1,6 +1,6 @@
-ent-BaseCartridgeHeavyRifle = патрон (.20 винтовочный)
+ent-BaseCartridgeHeavyRifle = cartridge (.20 rifle)
     .desc = { ent-BaseCartridge.desc }
     .suffix = { "" }
-ent-CartridgeMinigun = патрон (.10 винтовочный)
+ent-CartridgeMinigun = cartridge (.10 rifle)
     .desc = { ent-BaseCartridgeHeavyRifle.desc }
     .suffix = { "" }

@@ -1,9 +1,9 @@
 ent-DisposalUnitBase = { ent-BaseMachinePowered }
-    .desc = Пневматическая установка для утилизации отходов.
+    .desc = A pneumatic waste disposal unit.
     .suffix = { "" }
-ent-DisposalUnit = утилизационный блок
+ent-DisposalUnit = disposal unit
     .desc = { ent-DisposalUnitBase.desc }
     .suffix = { "" }
-ent-MailingUnit = почтовый блок
-    .desc = Пневматическая установка для доставки почты.
+ent-MailingUnit = mailing unit
+    .desc = A pneumatic mail delivery unit.
     .suffix = { "" }

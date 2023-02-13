@@ -1,3 +1,3 @@
-ent-MailingUnitElectronics = микросхема почтового блока
-    .desc = Микросхема, применяемая в почтовых блоках.
+ent-MailingUnitElectronics = mailing unit electronics
+    .desc = An electronics board used in mailing units
     .suffix = { "" }

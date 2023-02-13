@@ -1,5 +1,14 @@
-ent-CarpSpawnerMundane = Carp Spawner
+ent-CarpSpawnerMundane = NPC Carp Spawner
     .suffix = 100
+    .desc = { ent-MarkerBase.desc }
+ent-SnakeSpawnerMundane = NPC Snake Spawner
+    .suffix = 100
+    .desc = { ent-MarkerBase.desc }
+ent-SnakeMobMundane = Salvage Snake Spawner
+    .suffix = 75
+    .desc = { ent-MarkerBase.desc }
+ent-SnakeMobMundane25 = Salvage Snake Spawner
+    .suffix = 25
     .desc = { ent-MarkerBase.desc }
 ent-SpaceTickSpawnerNPC = NPC Space Tick Spawner
     .suffix = 100

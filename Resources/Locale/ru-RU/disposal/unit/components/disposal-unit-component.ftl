@@ -1,28 +1,26 @@
 ## UI
 
-ui-disposal-unit-title = Утилизационный блок
-ui-disposal-unit-label-state = Состояние:
-ui-disposal-unit-label-pressure = Давление:
-ui-disposal-unit-label-status = Готов
-ui-disposal-unit-button-flush = Смыть
-ui-disposal-unit-button-eject = Извлечь всё
-ui-disposal-unit-button-power = Питание
+ui-disposal-unit-title = Disposal Unit
+ui-disposal-unit-label-state = State:
+ui-disposal-unit-label-pressure = Pressure:
+ui-disposal-unit-label-status = Ready
+ui-disposal-unit-button-flush = Flush
+ui-disposal-unit-button-eject = Eject Contents
+ui-disposal-unit-button-power = Power
 
-## FlushVerb
+## Verbs
 
-disposal-flush-verb-get-data-text = Смыть
-
-## SelfInsertVerb
-
-disposal-self-insert-verb-get-data-text = Залезть внутрь
+disposal-flush-verb-get-data-text = Flush
+disposal-self-insert-verb-get-data-text = Jump inside
+disposal-eject-verb-get-data-text = Eject contents
 
 ## No hands
 
-disposal-unit-no-hands = У вас нет рук!
-disposal-flush-verb-get-data-text = Смыть
-disposal-unit-thrown-missed = Промах!
+disposal-unit-no-hands = You don't have hands!
+
+## missed
+
+disposal-unit-thrown-missed = Missed!
 # state
-disposal-unit-state-Ready = Готов
-disposal-unit-state-Pressurizing = Нагнетание
-disposal-self-insert-verb-get-data-text = Залезть внутрь
-disposal-eject-verb-get-data-text = Извлечь всё
+disposal-unit-state-Ready = Ready
+disposal-unit-state-Pressurizing = Pressurizing

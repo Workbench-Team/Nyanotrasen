@@ -1,0 +1,3 @@
+ent-EncryptionKeyMantis = mantis encryption key
+    .desc = An encryption key used by the mantis. Epi and Sec? What a peculiar role...
+    .suffix = { "" }

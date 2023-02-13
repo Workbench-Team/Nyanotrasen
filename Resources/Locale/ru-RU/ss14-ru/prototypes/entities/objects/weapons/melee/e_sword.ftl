@@ -1,6 +1,6 @@
-ent-EnergySword = энергетический меч
-    .desc = Очень опасный энергетический меч. Выключенным может храниться в кармане. Производит много шума при использовании и включении.
+ent-EnergySword = energy sword
+    .desc = A very dangerous energy sword. Can be stored in pockets when turned off. Makes a lot of noise when used or turned on.
     .suffix = { "" }
-ent-EnergyDagger = ручка
-    .desc = Ручка с чёрными чернилами.
-    .suffix = Энергокинжал
+ent-EnergyDagger = pen
+    .desc = A dark ink pen.
+    .suffix = E-Dagger

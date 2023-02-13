@@ -1,6 +1,6 @@
 ent-BaseWeaponLightMachineGun = BaseWeaponLightMachineGun
-    .desc = Дерзай — налетай, целься и стреляй.
+    .desc = A rooty tooty point and shooty.
     .suffix = { "" }
 ent-WeaponLightMachineGunL6 = L6 SAW
-    .desc = Весьма традиционный легкий пулемет с удобной лакированной деревянной пистолетной рукоятью. Использует патроны калибра .30 винтовочный.
-    .suffix = Пулемёт
+    .desc = A rather traditionally made LMG with a pleasantly lacquered wooden pistol grip. Uses .30 rifle ammo.
+    .suffix = { "" }

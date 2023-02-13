@@ -1,9 +1,9 @@
-ent-FoodBowlBig = миска
-    .desc = Простая миска, используемая для супов и салатов.
+ent-FoodBowlBig = bowl
+    .desc = A simple bowl, used for soups and salads.
     .suffix = { "" }
-ent-FoodBowlBigTrash = разбитая миска
-    .desc = Простая миска, разбитая и бесполезная.
+ent-FoodBowlBigTrash = broken bowl
+    .desc = A simple bowl, broken and useless.
     .suffix = { "" }
-ent-FoodBowlFancy = миска
-    .desc = Изысканная миска, используемая для СПЕЦИАЛЬНЫХ супов и салатов.
+ent-FoodBowlFancy = bowl
+    .desc = A fancy bowl, used for SPECIAL soups and salads.
     .suffix = { "" }

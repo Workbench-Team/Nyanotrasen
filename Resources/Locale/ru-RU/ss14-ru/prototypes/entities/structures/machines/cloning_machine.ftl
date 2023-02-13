@@ -1,3 +1,3 @@
-ent-CloningPod = капсула клонирования
-    .desc = Капсула клонирования. Надёжна на 50%.
+ent-CloningPod = cloning pod
+    .desc = A Cloning Pod. 50% reliable.
     .suffix = { "" }

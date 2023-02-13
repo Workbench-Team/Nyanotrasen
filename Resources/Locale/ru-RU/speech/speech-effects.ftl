@@ -1,1 +1,1 @@
-speech-muted = Вы не можете сейчас говорить!
+speech-muted = You can't speak right now!

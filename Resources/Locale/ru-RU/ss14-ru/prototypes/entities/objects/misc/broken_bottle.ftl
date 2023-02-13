@@ -1,3 +1,3 @@
-ent-BrokenBottle = разбитая бутылка
-    .desc = На некоторых планетах это называется "начать разговор".
+ent-BrokenBottle = broken bottle
+    .desc = In Space Glasgow this is called a conversation starter.
     .suffix = { "" }

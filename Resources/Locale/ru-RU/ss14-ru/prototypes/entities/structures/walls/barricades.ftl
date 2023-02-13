@@ -1,3 +1,3 @@
-ent-Barricade = баррикада
+ent-Barricade = barricade
     .desc = { ent-BaseStructure.desc }
     .suffix = { "" }

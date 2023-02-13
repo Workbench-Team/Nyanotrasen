@@ -1,33 +1,38 @@
 # named frequencies
-device-frequency-prototype-name-atmos = Атмосферные приборы
-device-frequency-prototype-name-suit-sensors = Сенсоры костюмов
-device-frequency-prototype-name-lights = Умное освещение
-device-frequency-prototype-name-mailing-units = Почтовый блок
-device-frequency-prototype-name-pdas = КПК
+device-frequency-prototype-name-atmos = Atmospheric Devices
+device-frequency-prototype-name-suit-sensors = Suit Sensors
+device-frequency-prototype-name-crew-monitor = Crew Monitor
+device-frequency-prototype-name-lights = Smart Lights
+device-frequency-prototype-name-mailing-units = Mailing Units
+device-frequency-prototype-name-pdas = PDAs
+device-frequency-prototype-name-fax = Fax
+
+## camera frequencies
+
+device-frequency-prototype-name-surveillance-camera-test = Subnet Test
+device-frequency-prototype-name-surveillance-camera-engineering = Engineering Cameras
+device-frequency-prototype-name-surveillance-camera-security = Security Cameras
+device-frequency-prototype-name-surveillance-camera-science = Science Cameras
+device-frequency-prototype-name-surveillance-camera-supply = Supply Cameras
+device-frequency-prototype-name-surveillance-camera-command = Command Cameras
+device-frequency-prototype-name-surveillance-camera-service = Service Cameras
+device-frequency-prototype-name-surveillance-camera-medical = Medical Cameras
+device-frequency-prototype-name-surveillance-camera-general = General Cameras
+device-frequency-prototype-name-surveillance-camera-entertainment = Entertainment Cameras
+device-frequency-prototype-name-surveillance-camera-silicon = Built-In Silicon Cameras
 # prefixes for randomly generated device addresses
-device-address-prefix-vent = Вент-
-device-address-prefix-scrubber = Скр-
-device-frequency-prototype-name-surveillance-camera-test = Тест подсети
-device-frequency-prototype-name-surveillance-camera-engineering = Камеры (Инж)
-device-frequency-prototype-name-surveillance-camera-security = Камеры (СБ)
-device-frequency-prototype-name-surveillance-camera-science = Камеры (Эпи)
-device-frequency-prototype-name-surveillance-camera-supply = Камеры (Карго)
-device-frequency-prototype-name-surveillance-camera-command = Камеры (Команд)
-device-frequency-prototype-name-surveillance-camera-service = Камеры (Сервис)
-device-frequency-prototype-name-surveillance-camera-medical = Камеры (Мед)
-device-frequency-prototype-name-surveillance-camera-general = Камеры (Общие)
-device-frequency-prototype-name-surveillance-camera-silicon = Встроенные Силикон камеры
-device-frequency-prototype-name-surveillance-camera-entertainment = Камеры (Развлечения)
-device-address-prefix-sensor = Сенс-
-device-address-prefix-fire-alarm = Пож-
+device-address-prefix-vent = Vnt-
+device-address-prefix-scrubber = Scr-
+device-address-prefix-sensor = Sns-
 #PDAs and terminals
-device-address-prefix-console = Конс-
-device-address-prefix-air-alarm = Возд-
-device-address-examine-message = Адрес устройства: { $address }.
+device-address-prefix-console = Cls-
+device-address-prefix-fire-alarm = Fir-
+device-address-prefix-air-alarm = Air-
+device-address-examine-message = The device's address is { $address }.
 #Device net ID names
-device-net-id-private = Частная
-device-net-id-wired = Проводная
-device-net-id-wireless = Беспроводная
-device-net-id-apc = ЛКП
-device-net-id-atmos-devices = Устройства Атмосферы
-device-net-id-reserved = Резервная
+device-net-id-private = Private
+device-net-id-wired = Wired
+device-net-id-wireless = Wireless
+device-net-id-apc = Apc
+device-net-id-atmos-devices = Atmos Devices
+device-net-id-reserved = Reserved

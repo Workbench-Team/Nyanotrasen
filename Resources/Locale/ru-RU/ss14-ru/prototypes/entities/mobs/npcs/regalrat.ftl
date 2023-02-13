@@ -1,9 +1,9 @@
-ent-MobRatKing = крысиный король
-    .desc = Он крысюк и он тут босс.
+ent-MobRatKing = Rat King
+    .desc = He's da rat. He make da roolz.
     .suffix = { "" }
 ent-MobRatKingBuff = { ent-MobRatKing }
-    .suffix = Качок
+    .suffix = Buff
     .desc = { ent-MobRatKing.desc }
-ent-MobRatServant = крысиный слуга
-    .desc = Он мини-крысюк и он тут не босс.
+ent-MobRatServant = Rat Servant
+    .desc = He's da mini rat. He don't make da roolz.
     .suffix = { "" }

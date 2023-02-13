@@ -1,6 +1,6 @@
-ent-FireAlarm = пожарная сигнализация
-    .desc = Пожарная сигнализация. Огонь!
+ent-FireAlarm = fire alarm
+    .desc = A fire alarm. Spicy!
     .suffix = { "" }
-ent-FireAlarmAssembly = корпус пожарной сигнализации
-    .desc = Корпус пожарной сигнализации. Очень лёгкий.
+ent-FireAlarmAssembly = fire alarm assembly
+    .desc = A fire alarm assembly. Very mild.
     .suffix = { "" }

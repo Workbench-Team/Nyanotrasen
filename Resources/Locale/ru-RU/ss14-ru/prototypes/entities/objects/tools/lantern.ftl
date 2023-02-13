@@ -1,6 +1,6 @@
-ent-lantern = светильник
-    .desc = Благословенный свет указывает путь.
+ent-lantern = lantern
+    .desc = The holy light guides the way.
     .suffix = { "" }
-ent-lanternextrabright = сверхъяркий светильник
-    .desc = Ослепительно.
+ent-lanternextrabright = extra-bright lantern
+    .desc = Blinding.
     .suffix = { "" }

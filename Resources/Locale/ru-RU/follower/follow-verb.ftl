@@ -1,1 +1,1 @@
-verb-follow-text = Следовать
+verb-follow-text = Follow

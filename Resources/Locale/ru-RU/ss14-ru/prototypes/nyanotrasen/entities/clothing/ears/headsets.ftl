@@ -8,5 +8,5 @@ ent-ClothingHeadsetAltMystagogue = epistemics over-ear headset
     .desc = { ent-ClothingHeadsetAlt.desc }
     .suffix = { "" }
 ent-ClothingHeadsetMantis = mantis headset
-    .desc = Specially fitted to be worn under a fez.
+    .desc = { ent-ClothingHeadsetAlt.desc }
     .suffix = { "" }

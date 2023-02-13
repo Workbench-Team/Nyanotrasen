@@ -1,6 +1,6 @@
 ent-BaseWeaponHeavyMachineGun = BaseWeaponHeavyMachineGun
-    .desc = Пали и моли
+    .desc = Spray and pray
     .suffix = { "" }
-ent-WeaponMinigun = миниган
-    .desc = Вззззззт! Рахрахрахрах! Врррр! Использует патроны калибра .10 винтовочный.
-    .suffix = Пулемёт
+ent-WeaponMinigun = minigun
+    .desc = Vzzzzzt! Rahrahrahrah! Vrrrrr! Uses .10 rifle ammo.
+    .suffix = { "" }

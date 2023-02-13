@@ -1,3 +1,3 @@
-ent-RPED = УБЗД
-    .desc = Устройство быстрой замены деталей. Идеально подходит для быстрой модернизации машин
+ent-RPED = RPED
+    .desc = A Rapid Part Exchange Device, perfect for quickly upgrading machines.
     .suffix = { "" }

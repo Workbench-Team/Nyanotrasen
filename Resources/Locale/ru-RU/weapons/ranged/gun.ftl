@@ -1,28 +1,31 @@
-gun-selected-mode-examine = Выбран режим огня [color={ $color }]{ $mode }[/color].
-gun-fire-rate-examine = Скорострельность [color={ $color }]{ $fireRate }[/color] в секунду.
-gun-selector-verb = Изменить на { $mode }
-gun-selected-mode = Выбран { $mode }
-gun-disabled = Вы не можете использовать оружие!
-gun-clumsy = Оружие взрывается вам в лицо!
+gun-selected-mode-examine = Current selected fire mode is [color={ $color }]{ $mode }[/color].
+gun-fire-rate-examine = Fire rate is [color={ $color }]{ $fireRate }[/color] per second.
+gun-selector-verb = Change to { $mode }
+gun-selected-mode = Selected { $mode }
+gun-disabled = You can't use guns!
+gun-clumsy = The gun blows up in your face!
 # SelectiveFire
-gun-SemiAuto = полуавто
-gun-Burst = очередь
-gun-FullAuto = авто
+gun-SemiAuto = semi-auto
+gun-Burst = burst
+gun-FullAuto = full-auto
 # BallisticAmmoProvider
-gun-ballistic-cycle = Перезарядка
-gun-ballistic-cycled = Перезаряжено
-gun-ballistic-cycled-empty = Разряжено
+gun-ballistic-cycle = Cycle
+gun-ballistic-cycled = Cycled
+gun-ballistic-cycled-empty = Cycled (empty)
+gun-ballistic-transfer-invalid = { CAPITALIZE(THE($ammoEntity)) } won't fit inside { THE($targetEntity) }!
+gun-ballistic-transfer-empty = { CAPITALIZE(THE($entity)) } is empty.
+gun-ballistic-transfer-target-full = { CAPITALIZE(THE($entity)) } is already fully loaded.
 # CartridgeAmmo
-gun-cartridge-spent = Он [color=red]израсходован[/color].
-gun-cartridge-unspent = Он [color=lime]не израсходован[/color].
+gun-cartridge-spent = It is [color=red]spent[/color].
+gun-cartridge-unspent = It is [color=lime]not spent[/color].
 # BatteryAmmoProvider
-gun-battery-examine = Заряда хватит на [color={ $color }]{ $count }[/color] выстрелов.
+gun-battery-examine = It has enough charge for [color={ $color }]{ $count }[/color] shots.
 # MagazineAmmoProvider
-gun-magazine-examine = Осталось [color={ $color }]{ $count }[/color] выстрелов.
+gun-magazine-examine = It has [color={ $color }]{ $count }[/color] shots remaining.
 # RevolverAmmoProvider
-gun-revolver-empty = Разрядить револьвер
-gun-revolver-full = Револьвер полностью заряжен
-gun-revolver-insert = Заряжен
-gun-revolver-spin = Вращать барабан
-gun-revolver-spun = Барабан вращается
-gun-speedloader-empty = Скоростной загрузчик пуст
+gun-revolver-empty = Empty revolver
+gun-revolver-full = Revolver full
+gun-revolver-insert = Inserted
+gun-revolver-spin = Spin revolver
+gun-revolver-spun = Spun
+gun-speedloader-empty = Speedloader empty

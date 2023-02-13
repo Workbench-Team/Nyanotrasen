@@ -1,3 +1,3 @@
-ent-Dresser = комод
-    .desc = Он забит нижним бельем и шортами, найти неиспользованные - та еще авантюра.
+ent-Dresser = dresser
+    .desc = It's filled with underwear and shorts, finding an unused one is a gamble.
     .suffix = { "" }

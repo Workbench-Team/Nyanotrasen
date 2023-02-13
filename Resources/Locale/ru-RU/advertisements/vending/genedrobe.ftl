@@ -1,1 +1,1 @@
-advertisement-genedrobe-1 = Идеально для безумного ученого внутри тебя!
+advertisement-genedrobe-1 = Perfect for the mad scientist in you!

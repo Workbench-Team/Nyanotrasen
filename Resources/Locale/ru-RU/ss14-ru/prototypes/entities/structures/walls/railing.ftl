@@ -1,9 +1,9 @@
-ent-Railing = перила
-    .desc = Простые перила, предназначенные для защиты таких идиотов как вы от падения.
+ent-Railing = railing
+    .desc = Basic railing meant to protect idiots like you from falling.
     .suffix = { "" }
-ent-RailingCorner = перила
-    .desc = Простые перила, предназначенные для защиты таких идиотов как вы от падения.
+ent-RailingCorner = railing
+    .desc = Basic railing meant to protect idiots like you from falling.
     .suffix = { "" }
-ent-RailingCornerSmall = перила
-    .desc = Простые перила, предназначенные для защиты таких идиотов как вы от падения.
+ent-RailingCornerSmall = railing
+    .desc = Basic railing meant to protect idiots like you from falling.
     .suffix = { "" }

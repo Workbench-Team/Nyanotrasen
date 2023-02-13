@@ -1,6 +1,6 @@
-ent-BookBase = книга
-    .desc = Книга в твердом переплете.
+ent-BookBase = book
+    .desc = A hardcover book.
     .suffix = { "" }
 ent-BookRandom = { ent-BookBase }
-    .suffix = случайный
+    .suffix = random
     .desc = { ent-BookBase.desc }

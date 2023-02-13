@@ -1,3 +1,3 @@
-ent-HighSecDoor = бронированная дверь
-    .desc = Удерживает плохих снаружи, а хороших внутри.
+ent-HighSecDoor = high security door
+    .desc = Keeps the bad out and keeps the good in.
     .suffix = { "" }

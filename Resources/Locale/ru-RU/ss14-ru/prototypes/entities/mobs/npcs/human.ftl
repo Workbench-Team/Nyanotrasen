@@ -1,9 +1,9 @@
-ent-MobCivilian = Гражданский
-    .desc = Жалкая кучка тайн.
+ent-MobCivilian = Civilian
+    .desc = { ent-BaseMobHuman.desc }
     .suffix = { "" }
-ent-MobSpirate = Космопират
-    .desc = Яррр!
+ent-MobSpirate = Spirate
+    .desc = Yarr!
     .suffix = { "" }
-ent-SalvageHumanCorpse = неизвестный человек
-    .desc = Мы едва тебя узнали.
-    .suffix = Мертвый
+ent-SalvageHumanCorpse = unidentified human
+    .desc = We barely knew ye.
+    .suffix = Dead

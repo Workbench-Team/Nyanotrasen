@@ -1,6 +1,6 @@
-ent-ClothingUnderSocksBee = носки с пчёлами
-    .desc = Заставь их гудеть!
+ent-ClothingUnderSocksBee = bee socks
+    .desc = Make them loins buzz!
     .suffix = { "" }
-ent-ClothingUnderSocksCoder = носки для программистов
-    .desc = Пришло время кодить, сестры!!11!
+ent-ClothingUnderSocksCoder = coder socks
+    .desc = It's time to code sisters!!11!
     .suffix = { "" }

@@ -1,1 +1,1 @@
-advertisement-atmosdrobe-1 = Получите свою огнестойкую одежду прямо здесь!!!
+advertisement-atmosdrobe-1 = Get your inflammable clothing right here!!!

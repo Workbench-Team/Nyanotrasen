@@ -1,3 +1,3 @@
-ent-SpeedLoaderLightRifle = спидлоадер (.30 винтовочные)
+ent-SpeedLoaderLightRifle = speed loader (.30 rifle)
     .desc = { ent-BaseItem.desc }
     .suffix = { "" }

@@ -1,6 +1,6 @@
-ent-BaseMobOrganic = Урист МакХэндс
+ent-BaseMobOrganic = Urist McHands
     .desc = { "" }
     .suffix = { "" }
-ent-BaseMobOrganicDummy = Урист МакХэндс
-    .desc = Манекен-человек, используемый при создании персонажа.
+ent-BaseMobOrganicDummy = Urist McHands
+    .desc = A dummy human meant to be used in character setup.
     .suffix = { "" }

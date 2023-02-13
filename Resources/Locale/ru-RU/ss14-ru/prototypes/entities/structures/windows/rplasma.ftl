@@ -1,6 +1,6 @@
-ent-ReinforcedPlasmaWindow = армированное плазменное окно
+ent-ReinforcedPlasmaWindow = reinforced plasma window
     .desc = { ent-Window.desc }
     .suffix = { "" }
-ent-PlasmaReinforcedWindowDirectional = направленное армированное плазменное окно
-    .desc = Смотри не заляпай.
+ent-PlasmaReinforcedWindowDirectional = directional reinforced plasma window
+    .desc = Don't smudge up the glass down there.
     .suffix = { "" }

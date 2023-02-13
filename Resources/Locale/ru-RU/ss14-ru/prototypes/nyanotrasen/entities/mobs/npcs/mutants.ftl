@@ -1,3 +1,12 @@
 ent-MobTomatoKiller = killer tomato
     .desc = This is really going to let you own some vegans in your next online debate.
     .suffix = { "" }
+ent-MobGiantSpiderVampire = oneirophage
+    .desc = The 'dream-eater' spider, rumored to be one of the potential genetic sources for arachne.
+    .suffix = { "" }
+ent-MobGiantSpiderVampireAngry = oneirophage
+    .suffix = Angry
+    .desc = { ent-MobGiantSpiderVampire.desc }
+ent-MobMouseCancer = Cancer Mouse
+    .desc = Oh hey Civvie...
+    .suffix = { "" }

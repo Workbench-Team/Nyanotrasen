@@ -1,9 +1,9 @@
-ent-RandomPosterAny = спавнер случайный плакат
+ent-RandomPosterAny = random poster spawner
     .desc = { ent-MarkerBase.desc }
     .suffix = { "" }
-ent-RandomPosterContraband = спавнер случайный контрабанда плакат
+ent-RandomPosterContraband = random contraband poster spawner
     .desc = { ent-MarkerBase.desc }
     .suffix = { "" }
-ent-RandomPosterLegit = спавнер случайный легальный плакат
+ent-RandomPosterLegit = random legit poster spawner
     .desc = { ent-MarkerBase.desc }
     .suffix = { "" }

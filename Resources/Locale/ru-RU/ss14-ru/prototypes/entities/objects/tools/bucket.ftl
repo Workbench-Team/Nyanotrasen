@@ -1,3 +1,3 @@
-ent-Bucket = ведро
-    .desc = Скучное старое ведро.
+ent-Bucket = bucket
+    .desc = It's a boring old bucket.
     .suffix = { "" }
