@@ -101,8 +101,6 @@
     startAudio:
       path: /Audio/Announcements/gas_leak.ogg
     endAnnouncement: station-event-gas-leak-end-announcement
-    endAudio:
-      path: /Audio/Announcements/gasleak_end.ogg
     earliestStart: 10
     minimumPlayers: 5
     weight: 5
@@ -127,7 +125,7 @@
   config:
     !type:StationEventRuleConfiguration
     id: MeteorSwarm
-    earliestStart: 30
+    earliestStart: 60
     weight: 5
     minimumPlayers: 20
     startAnnouncement: station-event-meteor-swarm-start-announcement
@@ -135,7 +133,7 @@
     startAudio:
       path: /Audio/Announcements/meteors.ogg
       params:
-        volume: -4
+        volume: -1
     startAfter: 30
 
 # - type: gameRule
@@ -170,7 +168,7 @@
 #     weight: 10
 #     endAfter: 1
 #     startAudio:
-#       path: /Audio/Announcements/sentience.ogg
+#       path: /Audio/Announcements/attention.ogg
 
 - type: gameRule
   id: VentClog
