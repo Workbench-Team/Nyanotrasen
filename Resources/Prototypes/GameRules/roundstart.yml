@@ -15,8 +15,8 @@
   id: MaxTimeRestart
   config:
     !type:MaxTimeRestartRuleConfiguration
-    roundMaxTime: 300
-    roundEndDelay: 10
+    roundMaxTime: 3600
+    roundEndDelay: 120
 
 - type: gameRule
   id: Nukeops
