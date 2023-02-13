@@ -19,11 +19,11 @@ SERVER_FILES = [
     "SS14.Server_osx-x64.zip"
 ]
 
-VERSION = os.environ['GITHUB_SHA']
-FORK_ID = "nyanotrasen"
-BUILD_URL = f"https://builds.nyanotrasen.moe/{{FORK_ID}}/builds/{{FORK_VERSION}}/{FILE}"
-MANIFEST_URL = f"https://cdn.nyanotrasen.moe/version/{{FORK_VERSION}}/manifest"
-MANIFEST_DOWNLOAD_URL = f"https://cdn.nyanotrasen.moe/version/{{FORK_VERSION}}/download"
+VERSION = os.environ['CI_COMMIT_REF_NAME'] + "-" + os.environ['CI_COMMIT_SHA']
+FORK_ID = "workbench-nyanotrasen"
+BUILD_URL = f"https://ss14.arumoon.ru/nyanotrasen/builds/{{FORK_VERSION}}/{FILE}"
+MANIFEST_URL = f"https://ss14.arumoon.ru/nyanotrasen/cdn/version/{{FORK_VERSION}}/manifest"
+MANIFEST_DOWNLOAD_URL = f"https://ss14.arumoon.ru/nyanotrasen/cdn/version/{{FORK_VERSION}}/download"
 
 def main() -> None:
     client_file = os.path.join("release", FILE)

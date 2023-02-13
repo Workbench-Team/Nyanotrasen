@@ -1,0 +1,63 @@
+image: mcr.microsoft.com/dotnet/sdk:7.0
+
+stages:
+  - test
+  - publish
+
+test-debug:
+  stage: test
+  retry: 2
+  script:
+    - apt update && apt upgrade -y
+    - apt install -y python3 libfreetype6
+    - mkdir .git/hooks -p
+    - python3 RUN_THIS.py
+    - dotnet restore
+    - dotnet build --configuration Debug --no-restore /p:WarningsAsErrors=nullable /m
+    - pwsh -Command "dotnet test --no-build Content.Tests/Content.Tests.csproj -- NUnit.ConsoleOut=0"
+    - export DOTNET_gcServer=1
+    - pwsh -Command "dotnet test --no-build Content.IntegrationTests/Content.IntegrationTests.csproj -- NUnit.ConsoleOut=0"
+
+test-release:
+  stage: test
+  retry: 2
+  script:
+    - apt update && apt upgrade -y
+    - apt install -y python3 libfreetype6
+    - mkdir .git/hooks -p
+    - python3 RUN_THIS.py
+    - dotnet restore
+    - dotnet build --configuration Release --no-restore /p:WarningsAsErrors=nullable /m
+    - pwsh -Command "dotnet test --no-build Content.Tests/Content.Tests.csproj -- NUnit.ConsoleOut=0"
+    - export DOTNET_gcServer=1
+    - pwsh -Command "dotnet test --no-build Content.IntegrationTests/Content.IntegrationTests.csproj -- NUnit.ConsoleOut=0"
+
+publish:
+  stage: publish
+  retry: 2
+  rules:
+    - if: '$SSH_PRIVATE_KEY != null'
+  script:
+    - apt update && apt upgrade -y
+    - apt install -y python3 libfreetype6 openssh-client rsync
+    - mkdir .git/hooks -p
+    - python3 RUN_THIS.py
+    - Tools/package_server_build.py -p win-x64 linux-x64 osx-x64 linux-arm64 > server_build.log
+    - Tools/package_client_build.py > client_build.log
+    - Tools/gen_build_info.py
+    - mkdir release/$CI_COMMIT_REF_NAME-$CI_COMMIT_SHA
+    - mv release/*.zip release/$CI_COMMIT_REF_NAME-$CI_COMMIT_SHA
+    - eval $(ssh-agent -s)
+    - ssh-add - <<< "${SSH_PRIVATE_KEY}"
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - ssh-keyscan $SSH_REMOTE_IP >> ~/.ssh/known_hosts
+    - chmod 644 ~/.ssh/known_hosts
+    - rsync -avz release/$CI_COMMIT_REF_NAME-$CI_COMMIT_SHA $SSH_USER@$SSH_REMOTE_IP:~/builds/builds/
+    - ssh $SSH_USER@$SSH_REMOTE_IP "~/push.ps1 $CI_COMMIT_REF_NAME-$CI_COMMIT_SHA $CI_COMMIT_REF_NAME"
+  artifacts:
+    name: "$CI_COMMIT_REF_NAME"
+    paths:
+      - release/$CI_COMMIT_REF_NAME-$CI_COMMIT_SHA
+      - server_build.log
+      - client_build.log
