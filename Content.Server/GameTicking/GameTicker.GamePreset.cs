@@ -61,6 +61,8 @@ namespace Content.Server.GameTicking
                     return false;
                 }
 
+                _resetFromFallback = true;
+
                 RefreshLateJoinAllowed();
             }
             else
@@ -182,6 +184,9 @@ namespace Content.Server.GameTicking
             var position = playerEntity is {Valid: true}
                 ? Transform(playerEntity.Value).Coordinates
                 : GetObserverSpawnPoint();
+
+            if (position == default)
+                return false;
 
             // Ok, so, this is the master place for the logic for if ghosting is "too cheaty" to allow returning.
             // There's no reason at this time to move it to any other place, especially given that the 'side effects required' situations would also have to be moved.

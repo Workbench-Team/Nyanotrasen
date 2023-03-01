@@ -12,10 +12,10 @@ using Content.Shared.Verbs;
 using Content.Shared.StatusEffect;
 using Content.Shared.Damage;
 using Content.Shared.Destructible;
-using Content.Shared.Mobs.Components;
 using Content.Shared.Construction.Components;
 using Robust.Shared.Random;
 using Robust.Shared.Physics.Components;
+
 namespace Content.Server.Psionics.Glimmer
 {
     public sealed class GlimmerReactiveSystem : EntitySystem
@@ -184,7 +184,7 @@ namespace Content.Server.Psionics.Glimmer
 
         private void OnDestroyed(EntityUid uid, SharedGlimmerReactiveComponent component, DestructionEventArgs args)
         {
-            Spawn("MaterialBluespace", Transform(uid).Coordinates);
+            Spawn("MaterialBluespace1", Transform(uid).Coordinates);
 
             var tier = _sharedGlimmerSystem.GetGlimmerTier();
             if (tier < GlimmerTier.High)
