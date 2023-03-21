@@ -658,6 +658,29 @@
 
 - type: entity
   parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitGalaxyRed
+  name: red galaxy suit
+  description: Red lawsuit for those that conduct business on a galactic scale.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/lawyergalaxyred.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/lawyergalaxyred.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitGalaxyBlue
+  name: blue galaxy suit
+  description: Blue lawsuit or those that conduct business on a galactic scale.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/lawyergalaxyblue.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/lawyergalaxyblue.rsi
+
+
+- type: entity
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitLawyerRed
   name: red lawyer suit
   description: A flashy red suit worn by lawyers and show-offs.
@@ -961,3 +984,14 @@
         Blunt: 0.8
         Slash: 0.8
         Piercing: 0.8
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitDameDane
+  name: dame dane outfit
+  description: Baka mitai...
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/damedaneoutfit.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/damedaneoutfit.rsi
