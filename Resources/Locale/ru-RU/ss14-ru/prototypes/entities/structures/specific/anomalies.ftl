@@ -1,18 +1,16 @@
-ent-BaseAnomaly = anomaly
-    .desc = An impossible object. Should you be standing this close to it?
-    .suffix = { "" }
-ent-AnomalyPyroclastic = { ent-BaseAnomaly }
-    .suffix = Pyroclastic
-    .desc = { ent-BaseAnomaly.desc }
-ent-AnomalyGravity = { ent-BaseAnomaly }
-    .suffix = Gravity
-    .desc = { ent-BaseAnomaly.desc }
-ent-AnomalyElectricity = { ent-BaseAnomaly }
-    .suffix = Electricity
-    .desc = { ent-BaseAnomaly.desc }
-ent-AnomalyFlesh = { ent-BaseAnomaly }
-    .suffix = Flesh
-    .desc = { ent-BaseAnomaly.desc }
-ent-AnomalyBluespace = { ent-BaseAnomaly }
-    .suffix = Bluespace
-    .desc = { ent-BaseAnomaly.desc }
+ent-BaseAnomaly =  аномалия
+
+.desc =  { ent-BaseAnomaly.desc }
+
+.suffix =  Bluespace
+
+ent-AnomalyPyroclastic =  { ent-BaseAnomaly }
+
+ent-AnomalyGravity =  { ent-BaseAnomaly }
+
+ent-AnomalyElectricity =  { ent-BaseAnomaly }
+
+ent-AnomalyFlesh =  { ent-BaseAnomaly }
+
+ent-AnomalyBluespace =  { ent-BaseAnomaly }
+

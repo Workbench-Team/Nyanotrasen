@@ -1,9 +1,14 @@
-ent-Handcuffs = handcuffs
-    .desc = Used to detain criminals and other assholes.
-    .suffix = { "" }
-ent-Cablecuffs = makeshift handcuffs
-    .desc = Homemade handcuffs crafted from spare cables.
-    .suffix = { "" }
-ent-Zipties = zipties
-    .desc = Tough single-use plastic zipties, ideal for restraining rowdy prisoners.
-    .suffix = { "" }
+ent-Handcuffs =  наручники
+
+.desc =  These cables are broken in several places and don't seem very useful.
+
+.suffix =  { "" }
+
+ent-Cablecuffs =  самодельные наручники
+
+ent-Zipties =  кабельные стяжки
+
+ent-ZiptiesBroken =  сломанные стяжки
+
+ent-CablecuffsBroken =  сломанные самодельные наручники
+

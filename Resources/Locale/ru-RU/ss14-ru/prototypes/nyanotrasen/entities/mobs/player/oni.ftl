@@ -1,3 +1,6 @@
-ent-MobOni = Player oni
-    .desc = { ent-MobOniBase.desc }
-    .suffix = { "" }
+ent-MobOni =  Player oni
+
+.desc =  { ent-MobOniBase.desc }
+
+.suffix =  { "" }
+

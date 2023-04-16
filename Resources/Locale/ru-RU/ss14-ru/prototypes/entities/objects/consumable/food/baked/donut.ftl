@@ -1,81 +1,58 @@
-ent-FoodDonutBase = { ent-FoodInjectableBase }
-    .desc = Goes great with robust coffee.
-    .suffix = { "" }
-ent-FoodDonutPlain = plain donut
-    .desc = { ent-FoodDonutBase.desc }
-    .suffix = { "" }
-ent-FoodDonutJellyPlain = plain jelly-donut
-    .desc = { ent-FoodDonutBase.desc }
-    .suffix = { "" }
-ent-FoodDonutHomer = donut
-    .desc = { ent-FoodDonutBase.desc }
-    .suffix = { "" }
-ent-FoodDonutChaos = chaos donut
-    .desc = Like life, it never quite tastes the same.
-    .suffix = { "" }
-ent-FoodDonutMeat = meat donut
-    .desc = Tastes as gross as it looks.
-    .suffix = { "" }
-ent-FoodDonutPink = pink donut
-    .desc = Goes great with a soy latte.
-    .suffix = { "" }
-ent-FoodDonutSpaceman = spaceman's donut
-    .desc = Goes great with a cold beaker of malk.
-    .suffix = { "" }
-ent-FoodDonutApple = apple donut
-    .desc = Goes great with a shot of cinnamon schnapps.
-    .suffix = { "" }
-ent-FoodDonutCaramel = caramel donut
-    .desc = Goes great with a mug of hot coco.
-    .suffix = { "" }
-ent-FoodDonutChocolate = chocolate donut
-    .desc = Goes great with a glass of warm milk.
-    .suffix = { "" }
-ent-FoodDonutBlumpkin = blumpkin donut
-    .desc = Goes great with a mug of soothing drunken blumpkin.
-    .suffix = { "" }
-ent-FoodDonutBungo = bungo donut
-    .desc = Goes great with a mason jar of hippie's delight.
-    .suffix = { "" }
-ent-FoodDonut = matcha donut
-    .desc = The L-theanine in this donut is relaxing, yet not euphoric. Goes great with a cup of tea.
-    .suffix = { "" }
-ent-FoodDonutSweetpea = sweet pea donut
-    .desc = Goes great with a bottle of Bastion Burbon!
-    .suffix = { "" }
-ent-FoodDonutJellyHomer = jelly-donut
-    .desc = You jelly?
-    .suffix = { "" }
-ent-FoodDonutJellyPink = pink jelly-donut
-    .desc = Goes great with a soy latte.
-    .suffix = { "" }
-ent-FoodDonutJellySpaceman = spaceman's jelly-donut
-    .desc = Goes great with a cold beaker of malk.
-    .suffix = { "" }
-ent-FoodDonutJellyApple = apple jelly-donut
-    .desc = Goes great with a shot of cinnamon schnapps.
-    .suffix = { "" }
-ent-FoodDonutJellyCaramel = caramel jelly-donut
-    .desc = Goes great with a mug of hot coco.
-    .suffix = { "" }
-ent-FoodDonutJellyChocolate = chocolate jelly-donut
-    .desc = Goes great with a glass of warm milk.
-    .suffix = { "" }
-ent-FoodDonutJellyBlumpkin = blumpkin jelly-donut
-    .desc = Goes great with a mug of soothing drunken blumpkin.
-    .suffix = { "" }
-ent-FoodDonutJellyBungo = bungo jelly-donut
-    .desc = Goes great with a mason jar of hippie's delight.
-    .suffix = { "" }
-ent-FoodDonutJelly = matcha jelly-donut
-    .desc = The L-theanine in this jelly-donut is relaxing, yet not euphoric. Goes great with a cup of tea.
-    .suffix = { "" }
-ent-FoodDonutJellySweetpea = sweet pea jelly-donut
-    .desc = Goes great with a bottle of Bastion Burbon!
-    .suffix = { "" }
-ent-FoodDonutJellySlugcat = slugcat jelly-donut
-    .desc = No holes in this donut in case a suspicious looking pole shows up.
-    .suffix = { "" }
-ent-FoodDonutPoison = { ent-FoodDonutPink }
-    .desc = { ent-FoodDonutPink.desc }
-    .suffix = { "" }
+ent-FoodDonutBase =  { ent-FoodInjectableBase }
+
+.desc =  { ent-FoodDonutPink.desc }
+
+.suffix =  { "" }
+
+ent-FoodDonutPlain =  обычный пончик
+
+ent-FoodDonutJellyPlain =  обычный желейный пончик
+
+ent-FoodDonutHomer =  пончик
+
+ent-FoodDonutChaos =  пончик хаоса
+
+ent-FoodDonutMeat =  мясной пончик
+
+ent-FoodDonutPink =  розовый пончик
+
+ent-FoodDonutSpaceman =  космонавтский пончик
+
+ent-FoodDonutApple =  яблочный пончик
+
+ent-FoodDonutCaramel =  карамельный пончик
+
+ent-FoodDonutChocolate =  шоколадный пончик
+
+ent-FoodDonutBlumpkin =  синетыквенный пончик
+
+ent-FoodDonutBungo =  бунго пончик
+
+ent-FoodDonut =  матча пончик
+
+ent-FoodDonutSweetpea =  пончик из душистого горошка
+
+ent-FoodDonutJellyHomer =  желейный пончик
+
+ent-FoodDonutJellyPink =  розовый желейный пончик
+
+ent-FoodDonutJellySpaceman =  космонавтский желейный пончик
+
+ent-FoodDonutJellyApple =  яблочный желейный пончик
+
+ent-FoodDonutJellyCaramel =  карамельный желейный пончик
+
+ent-FoodDonutJellyChocolate =  шоколадный желейный пончик
+
+ent-FoodDonutJellyBlumpkin =  синетыквенный желейный пончик
+
+ent-FoodDonutJellyBungo =  бунго желейный пончик
+
+ent-FoodDonutJelly =  матча желейный пончик
+
+ent-FoodDonutJellySweetpea =  желейный пончик из душистого горошка
+
+ent-FoodDonutJellySlugcat =  слизнекотовый желейный пончик
+
+ent-FoodDonutPoison =  { ent-FoodDonutPink }
+

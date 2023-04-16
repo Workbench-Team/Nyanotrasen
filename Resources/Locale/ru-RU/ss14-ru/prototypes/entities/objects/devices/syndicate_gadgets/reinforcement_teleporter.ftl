@@ -1,3 +1,6 @@
-ent-ReinforcementRadioSyndicate = syndicate reinforcement radio
-    .desc = Call in a syndicate agent of questionable quality, instantly! Only basic equipment provided.
-    .suffix = { "" }
+ent-ReinforcementRadioSyndicate =  радио подкрепления синдиката
+
+.desc =  Call in a syndicate agent of questionable quality, instantly! Only basic equipment provided.
+
+.suffix =  { "" }
+

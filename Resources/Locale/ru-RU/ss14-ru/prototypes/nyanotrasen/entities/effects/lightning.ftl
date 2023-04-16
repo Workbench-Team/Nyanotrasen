@@ -1,3 +1,6 @@
-ent-LightningNoospheric = noospheric lightning
-    .desc = { ent-BaseLightning.desc }
-    .suffix = { "" }
+ent-LightningNoospheric =  noospheric lightning
+
+.desc =  { ent-BaseLightning.desc }
+
+.suffix =  { "" }
+

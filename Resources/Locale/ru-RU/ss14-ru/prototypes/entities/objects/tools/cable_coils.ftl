@@ -1,21 +1,18 @@
-ent-CableStack = cable stack
-    .suffix = Full
-    .desc = { ent-BaseItem.desc }
-ent-CableHVStack = HV cable coil
-    .desc = HV cables for connecting engines to heavy duty machinery, SMESes, and substations.
-    .suffix = Full
-ent-CableHVStack1 = { ent-CableHVStack }
-    .suffix = 1
-    .desc = { ent-CableHVStack.desc }
-ent-CableMVStack = MV cable coil
-    .desc = MV cables for connecting substations to APCs, and also powering a select few things like emitters.
-    .suffix = Full
-ent-CableMVStack1 = { ent-CableMVStack }
-    .suffix = 1
-    .desc = { ent-CableMVStack.desc }
-ent-CableApcStack = LV cable coil
-    .desc = Low-Voltage stack of wires for connecting APCs to machines and other purposes.
-    .suffix = Full
-ent-CableApcStack1 = { ent-CableApcStack }
-    .suffix = 1
-    .desc = { ent-CableApcStack.desc }
+ent-CableStack =  моток проводов
+
+.suffix =  1
+
+.desc =  { ent-CableApcStack.desc }
+
+ent-CableHVStack =  моток ВВ проводов
+
+ent-CableHVStack1 =  { ent-CableHVStack }
+
+ent-CableMVStack =  моток СВ проводов
+
+ent-CableMVStack1 =  { ent-CableMVStack }
+
+ent-CableApcStack =  моток НВ проводов
+
+ent-CableApcStack1 =  { ent-CableApcStack }
+

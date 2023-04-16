@@ -1,21 +1,18 @@
-ent-CrateMaterialGlass = { ent-CrateGenericSteel }
-    .desc = { ent-CrateGenericSteel.desc }
-    .suffix = { "" }
-ent-CrateMaterialSteel = { ent-CrateGenericSteel }
-    .desc = { ent-CrateGenericSteel.desc }
-    .suffix = { "" }
-ent-CrateMaterialTextiles = { ent-CrateGenericSteel }
-    .desc = { ent-CrateGenericSteel.desc }
-    .suffix = { "" }
-ent-CrateMaterialPlastic = { ent-CrateGenericSteel }
-    .desc = { ent-CrateGenericSteel.desc }
-    .suffix = { "" }
-ent-CrateMaterialWood = { ent-CrateGenericSteel }
-    .desc = { ent-CrateGenericSteel.desc }
-    .suffix = { "" }
-ent-CrateMaterialPlasteel = { ent-CrateGenericSteel }
-    .desc = { ent-CrateGenericSteel.desc }
-    .suffix = { "" }
-ent-CrateMaterialPlasma = { ent-CrateGenericSteel }
-    .desc = { ent-CrateGenericSteel.desc }
-    .suffix = { "" }
+ent-CrateMaterialGlass =  ящик листов стекла
+
+.desc =  { ent-CrateGenericSteel.desc }
+
+.suffix =  { "" }
+
+ent-CrateMaterialSteel =  ящик листов стали
+
+ent-CrateMaterialTextiles =  ящик текстиля
+
+ent-CrateMaterialPlastic =  ящик листов пластика
+
+ent-CrateMaterialWood =  ящик дерева
+
+ent-CrateMaterialPlasteel =  ящик листов пластали
+
+ent-CrateMaterialPlasma =  ящик твёрдой плазмы
+

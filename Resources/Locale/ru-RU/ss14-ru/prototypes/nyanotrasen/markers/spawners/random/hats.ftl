@@ -1,3 +1,6 @@
-ent-HatSpawner = Hat Spawner
-    .desc = { ent-MarkerBase.desc }
-    .suffix = { "" }
+ent-HatSpawner =  Hat Spawner
+
+.desc =  { ent-MarkerBase.desc }
+
+.suffix =  { "" }
+

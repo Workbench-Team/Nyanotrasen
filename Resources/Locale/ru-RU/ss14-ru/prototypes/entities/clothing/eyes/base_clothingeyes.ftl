@@ -1,3 +1,6 @@
-ent-ClothingEyesBase = { ent-Clothing }
-    .desc = { ent-Clothing.desc }
-    .suffix = { "" }
+ent-ClothingEyesBase =  { ent-Clothing }
+
+.desc =  { ent-Clothing.desc }
+
+.suffix =  { "" }
+

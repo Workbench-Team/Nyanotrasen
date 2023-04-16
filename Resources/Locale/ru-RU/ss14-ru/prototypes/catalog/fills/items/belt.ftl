@@ -1,27 +1,22 @@
-ent-ClothingBeltUtilityFilled = { ent-ClothingBeltUtility }
-    .suffix = Filled
-    .desc = { ent-ClothingBeltUtility.desc }
-ent-ClothingBeltChiefEngineerFilled = { ent-ClothingBeltChiefEngineer }
-    .suffix = Filled
-    .desc = { ent-ClothingBeltChiefEngineer.desc }
-ent-ClothingBeltSecurityFilled = { ent-ClothingBeltSecurity }
-    .suffix = Filled
-    .desc = { ent-ClothingBeltSecurity.desc }
-ent-ClothingBeltJanitorFilled = { ent-ClothingBeltJanitor }
-    .suffix = Filled
-    .desc = { ent-ClothingBeltJanitor.desc }
-ent-ClothingBeltMedicalFilled = { ent-ClothingBeltMedical }
-    .suffix = Filled
-    .desc = { ent-ClothingBeltMedical.desc }
-ent-ClothingBeltPlantFilled = { ent-ClothingBeltPlant }
-    .suffix = Filled
-    .desc = { ent-ClothingBeltPlant.desc }
-ent-ClothingBeltSheathFilled = { ent-ClothingBeltSheath }
-    .suffix = Filled
-    .desc = { ent-ClothingBeltSheath.desc }
-ent-ClothingBeltMilitaryWebbingMedFilled = { ent-ClothingBeltMilitaryWebbingMed }
-    .suffix = Filled
-    .desc = { ent-ClothingBeltMilitaryWebbingMed.desc }
-ent-ClothingBeltWandFilled = { ent-ClothingBeltWand }
-    .suffix = Filled
-    .desc = { ent-ClothingBeltWand.desc }
+ent-ClothingBeltUtilityFilled =  { ent-ClothingBeltUtility }
+
+.suffix =  Filled
+
+.desc =  { ent-ClothingBeltWand.desc }
+
+ent-ClothingBeltChiefEngineerFilled =  { ent-ClothingBeltChiefEngineer }
+
+ent-ClothingBeltSecurityFilled =  { ent-ClothingBeltSecurity }
+
+ent-ClothingBeltJanitorFilled =  { ent-ClothingBeltJanitor }
+
+ent-ClothingBeltMedicalFilled =  { ent-ClothingBeltMedical }
+
+ent-ClothingBeltPlantFilled =  { ent-ClothingBeltPlant }
+
+ent-ClothingBeltSheathFilled =  { ent-ClothingBeltSheath }
+
+ent-ClothingBeltMilitaryWebbingMedFilled =  { ent-ClothingBeltMilitaryWebbingMed }
+
+ent-ClothingBeltWandFilled =  { ent-ClothingBeltWand }
+

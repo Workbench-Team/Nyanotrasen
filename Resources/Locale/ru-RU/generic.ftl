@@ -1,8 +1,12 @@
-### Generic, general words, which fit into multiple contexts
+generic-not-available-shorthand =  Н/Д
 
-generic-not-available-shorthand = N/A
-generic-article-a = a
-generic-article-an = an
-generic-unknown = unknown
-generic-error = error
-generic-invalid = invalid
+generic-article-a =  это
+
+generic-article-an =  это
+
+generic-unknown =  неизвестно
+
+generic-error =  ошибка
+
+generic-invalid =  недействительно
+

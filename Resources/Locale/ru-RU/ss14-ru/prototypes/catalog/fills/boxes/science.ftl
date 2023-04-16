@@ -1,3 +1,6 @@
-ent-BoxBeaker = beaker box
-    .desc = A box full of beakers.
-    .suffix = { "" }
+ent-BoxBeaker =  коробка мензурок
+
+.desc =  A box full of beakers.
+
+.suffix =  { "" }
+

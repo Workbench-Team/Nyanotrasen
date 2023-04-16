@@ -1,42 +1,34 @@
-ent-SpawnPointParamedic = paramedic
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointBoxer = boxer
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointGladiator = gladiator
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointMailCarrier = mailcarrier
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointForensicMantis = forensic mantis
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointCyborg = cyborg
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointMedicalCyborg = medical cyborg
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointMystagogue = mystagogue
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointEpistemologist = epistemologist
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointCataloguer = cataloguer
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointSalvageTechnician = salvagetechnician
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointPrisoner = prisoner
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointValet = valet
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointPrisonGuard = prison guard
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
+ent-SpawnPointParamedic =  paramedic
+
+.desc =  { ent-SpawnPointJobBase.desc }
+
+.suffix =  { "" }
+
+ent-SpawnPointBoxer =  boxer
+
+ent-SpawnPointGladiator =  gladiator
+
+ent-SpawnPointMailCarrier =  mailcarrier
+
+ent-SpawnPointForensicMantis =  forensic mantis
+
+ent-SpawnPointCyborg =  cyborg
+
+ent-SpawnPointMedicalCyborg =  medical cyborg
+
+ent-SpawnPointMystagogue =  mystagogue
+
+ent-SpawnPointEpistemologist =  epistemologist
+
+ent-SpawnPointCataloguer =  cataloguer
+
+ent-SpawnPointSalvageTechnician =  salvagetechnician
+
+ent-SpawnPointPrisoner =  prisoner
+
+ent-SpawnPointValet =  valet
+
+ent-SpawnPointPrisonGuard =  prison guard
+
+ent-SpawnPointMartialArtist =  martial artist
+

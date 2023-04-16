@@ -1,3 +1,6 @@
-ent-Hairball = hairball
-    .desc = Felinids, man... Placeholder sprite.
-    .suffix = { "" }
+ent-Hairball =  hairball
+
+.desc =  Felinids, man... Placeholder sprite.
+
+.suffix =  { "" }
+

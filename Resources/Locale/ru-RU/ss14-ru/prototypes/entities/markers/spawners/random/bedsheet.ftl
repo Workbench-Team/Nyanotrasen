@@ -1,3 +1,6 @@
-ent-BedsheetSpawner = Random Sheet Spawner
-    .desc = { ent-MarkerBase.desc }
-    .suffix = { "" }
+ent-BedsheetSpawner =  спавнер случайное одеяло
+
+.desc =  { ent-MarkerBase.desc }
+
+.suffix =  { "" }
+

@@ -1,3 +1,6 @@
-ent-MobDiona = Urist McPlants
-    .desc = { ent-BaseMobDiona.desc }
-    .suffix = { "" }
+ent-MobDiona =  Урист МакПлэнтс
+
+.desc =  { ent-BaseMobDiona.desc }
+
+.suffix =  { "" }
+

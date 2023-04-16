@@ -1,3 +1,6 @@
-ent-Catwalk = catwalk
-    .desc = A catwalk for easier EVA maneuvering and cable placement.
-    .suffix = { "" }
+ent-Catwalk =  мостик
+
+.desc =  A catwalk for easier EVA maneuvering and cable placement.
+
+.suffix =  { "" }
+

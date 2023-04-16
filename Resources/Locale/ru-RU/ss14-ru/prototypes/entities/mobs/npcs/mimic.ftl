@@ -1,3 +1,6 @@
-ent-MobMimic = Mimic
-    .desc = Surprise.
-    .suffix = { "" }
+ent-MobMimic =  Мимик
+
+.desc =  Surprise.
+
+.suffix =  { "" }
+

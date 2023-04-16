@@ -1,3 +1,6 @@
-ent-TetherEntity = { "" }
-    .desc = { "" }
-    .suffix = { "" }
+ent-TetherEntity =  { "" }
+
+.desc =  { "" }
+
+.suffix =  { "" }
+

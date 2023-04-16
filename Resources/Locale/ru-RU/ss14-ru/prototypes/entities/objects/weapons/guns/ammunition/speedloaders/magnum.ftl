@@ -1,15 +1,14 @@
-ent-BaseSpeedLoaderMagnum = speed loader (.45 magnum)
-    .desc = { ent-BaseItem.desc }
-    .suffix = { "" }
-ent-SpeedLoaderMagnum = speed loader (.45 magnum)
-    .desc = { ent-BaseSpeedLoaderMagnum.desc }
-    .suffix = { "" }
-ent-SpeedLoaderMagnumHighVelocity = speed loader (.45 magnum high-velocity)
-    .desc = { ent-BaseSpeedLoaderMagnum.desc }
-    .suffix = { "" }
-ent-SpeedLoaderMagnumPractice = speed loader (.45 magnum practice)
-    .desc = { ent-BaseSpeedLoaderMagnum.desc }
-    .suffix = { "" }
-ent-SpeedLoaderMagnumRubber = speed loader (.45 magnum rubber)
-    .desc = { ent-BaseSpeedLoaderMagnum.desc }
-    .suffix = { "" }
+ent-BaseSpeedLoaderMagnum =  спидлоадер (.45 магнум)
+
+.desc =  { ent-BaseSpeedLoaderMagnum.desc }
+
+.suffix =  { "" }
+
+ent-SpeedLoaderMagnum =  спидлоадер (.45 магнум)
+
+ent-SpeedLoaderMagnumHighVelocity =  спидлоадер (.45 магнум высокоскорострельные)
+
+ent-SpeedLoaderMagnumPractice =  спидлоадер (.45 магнум учебные)
+
+ent-SpeedLoaderMagnumRubber =  спидлоадер (.45 магнум резиновые)
+

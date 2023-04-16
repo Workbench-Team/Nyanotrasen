@@ -1,33 +1,26 @@
-ent-PartVox = vox body part
-    .desc = { ent-BaseItem.desc }
-    .suffix = { "" }
-ent-TorsoVox = vox torso
-    .desc = { ent-PartVox.desc }
-    .suffix = { "" }
-ent-HeadVox = vox head
-    .desc = { ent-PartVox.desc }
-    .suffix = { "" }
-ent-LeftArmVox = left vox arm
-    .desc = { ent-PartVox.desc }
-    .suffix = { "" }
-ent-RightArmVox = right vox arm
-    .desc = { ent-PartVox.desc }
-    .suffix = { "" }
-ent-LeftHandVox = left vox hand
-    .desc = { ent-PartVox.desc }
-    .suffix = { "" }
-ent-RightHandVox = right vox hand
-    .desc = { ent-PartVox.desc }
-    .suffix = { "" }
-ent-LeftLegVox = left vox leg
-    .desc = { ent-PartVox.desc }
-    .suffix = { "" }
-ent-RightLegVox = right vox leg
-    .desc = { ent-PartVox.desc }
-    .suffix = { "" }
-ent-LeftFootVox = left vox foot
-    .desc = { ent-PartVox.desc }
-    .suffix = { "" }
-ent-RightFootVox = right vox foot
-    .desc = { ent-PartVox.desc }
-    .suffix = { "" }
+ent-PartVox =  часть тела вокса
+
+.desc =  { ent-PartVox.desc }
+
+.suffix =  { "" }
+
+ent-TorsoVox =  туловище вокса
+
+ent-HeadVox =  голова вокса
+
+ent-LeftArmVox =  левая рука вокса
+
+ent-RightArmVox =  правая рука вокса
+
+ent-LeftHandVox =  левая ладонь вокса
+
+ent-RightHandVox =  правая ладонь вокса
+
+ent-LeftLegVox =  левая нога вокса
+
+ent-RightLegVox =  правая нога вокса
+
+ent-LeftFootVox =  левая стопа вокса
+
+ent-RightFootVox =  правая стопа вокса
+

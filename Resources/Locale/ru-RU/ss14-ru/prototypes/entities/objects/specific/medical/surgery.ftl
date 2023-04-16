@@ -1,39 +1,30 @@
-ent-BaseToolSurgery = { ent-BaseItem }
-    .desc = { ent-BaseItem.desc }
-    .suffix = { "" }
-ent-Cautery = cautery
-    .desc = A surgical tool used to cauterize open wounds.
-    .suffix = { "" }
-ent-Drill = drill
-    .desc = A surgical drill for making holes into hard material.
-    .suffix = { "" }
-ent-Scalpel = scalpel
-    .desc = A surgical tool used to make incisions into flesh.
-    .suffix = { "" }
-ent-ScalpelShiv = shiv
-    .desc = A pointy piece of glass, abraded to an edge and wrapped in tape for a handle.
-    .suffix = { "" }
-ent-ScalpelAdvanced = advanced scalpel
-    .desc = Made of more expensive materials, sharper and generally more reliable.
-    .suffix = { "" }
-ent-ScalpelLaser = laser scalpel
-    .desc = A scalpel which uses a directed laser to slice instead of a blade, for more precise surgery while also cauterizing as it cuts.
-    .suffix = { "" }
-ent-Retractor = retractor
-    .desc = A surgical tool used to hold open incisions.
-    .suffix = { "" }
-ent-Hemostat = hemostat
-    .desc = A surgical tool used to compress blood vessels to prevent bleeding.
-    .suffix = { "" }
-ent-Saw = metal saw
-    .desc = For cutting wood and other objects to pieces. Or sawing bones, in case of emergency.
-    .suffix = { "" }
-ent-SawImprov = choppa
-    .desc = A wicked serrated blade made of whatever nasty sharp things you could find.
-    .suffix = { "" }
-ent-SawElectric = circular saw
-    .desc = For heavy duty cutting.
-    .suffix = { "" }
-ent-SawAdvanced = advanced circular saw
-    .desc = You think you can cut anything with it.
-    .suffix = { "" }
+ent-BaseToolSurgery =  { ent-BaseItem }
+
+.desc =  You think you can cut anything with it.
+
+.suffix =  { "" }
+
+ent-Cautery =  прибор для прижигания
+
+ent-Drill =  дрель
+
+ent-Scalpel =  скальпель
+
+ent-ScalpelShiv =  заточка
+
+ent-ScalpelAdvanced =  улучшенный скальпель
+
+ent-ScalpelLaser =  лазерный скальпель
+
+ent-Retractor =  ретрактор
+
+ent-Hemostat =  гемостат
+
+ent-Saw =  пила по металлу
+
+ent-SawImprov =  чоппа
+
+ent-SawElectric =  дисковая пила
+
+ent-SawAdvanced =  улучшенная циркулярная пила
+

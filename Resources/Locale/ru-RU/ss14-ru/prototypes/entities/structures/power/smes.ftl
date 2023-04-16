@@ -1,9 +1,10 @@
-ent-BaseSMES = SMES
-    .desc = A high-capacity superconducting magnetic energy storage (SMES) unit.
-    .suffix = { "" }
-ent-SMESBasic = { ent-BaseSMES }
-    .suffix = Basic, 8MW
-    .desc = { ent-BaseSMES.desc }
-ent-SMESBasicEmpty = { ent-SMESBasic }
-    .suffix = Empty
-    .desc = { ent-SMESBasic.desc }
+ent-BaseSMES =  СМЭС
+
+.desc =  { ent-SMESBasic.desc }
+
+.suffix =  Empty
+
+ent-SMESBasic =  { ent-BaseSMES }
+
+ent-SMESBasicEmpty =  { ent-SMESBasic }
+

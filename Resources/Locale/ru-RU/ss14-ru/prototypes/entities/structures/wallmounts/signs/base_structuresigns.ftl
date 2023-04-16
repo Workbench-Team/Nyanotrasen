@@ -1,3 +1,6 @@
-ent-BaseSign = base sign
-    .desc = { "" }
-    .suffix = { "" }
+ent-BaseSign =  base sign
+
+.desc =  { "" }
+
+.suffix =  { "" }
+

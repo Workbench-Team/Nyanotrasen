@@ -1,3 +1,6 @@
-ent-BaseFoldable = foldable
-    .desc = { "" }
-    .suffix = { "" }
+ent-BaseFoldable =  складывающийся
+
+.desc =  { "" }
+
+.suffix =  { "" }
+

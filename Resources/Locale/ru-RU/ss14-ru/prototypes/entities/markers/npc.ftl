@@ -1,3 +1,6 @@
-ent-PathfindPoint = pathfind point
-    .desc = { ent-MarkerBase.desc }
-    .suffix = { "" }
+ent-PathfindPoint =  pathfind точка
+
+.desc =  { ent-MarkerBase.desc }
+
+.suffix =  { "" }
+

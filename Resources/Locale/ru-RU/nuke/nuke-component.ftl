@@ -1,40 +1,65 @@
-nuke-component-cant-anchor = The bolts seems to be blocked without disk!
-nuke-component-announcement-sender = Nuclear Fission Explosive
-nuke-component-announcement-armed = Attention! The station's self-destruct mechanism has been engaged at global coordinates { $position }. { $time } seconds until detonation. If this was made in error, the mechanism may still be disarmed.
-nuke-component-announcement-unarmed = The station's self-destruct was deactivated! Have a nice day!
-nuke-component-announcement-send-codes = Attention! Requested self-destruction codes was sent to communication consoles.
-nuke-component-doafter-warning = You start fiddling with wires and knobs in order to disarm the nuke.. This may take a while.
-# Nuke UI
-nuke-user-interface-title = Nuclear Fission Explosive
-nuke-user-interface-arm-button = ARM
-nuke-user-interface-anchor-button = ANCHOR
-nuke-user-interface-eject-button = EJECT
+nuke-component-cant-anchor =  Похоже, что без диска болты заблокированы!
 
-## Upper status
+nuke-component-announcement-sender =  Ядерная боеголовка
 
-nuke-user-interface-first-status-device-locked = DEVICE LOCKED
-nuke-user-interface-first-status-input-code = INPUT CODE
-nuke-user-interface-first-status-input-time = INPUT TIME
-nuke-user-interface-first-status-device-ready = DEVICE READY
-nuke-user-interface-first-status-device-armed = DEVICE ARMED
-nuke-user-interface-first-status-device-cooldown = DEACTIVATED
-nuke-user-interface-status-error = ERROR
+nuke-component-announcement-armed =  Внимание! Механизм самоуничтожения станции был активирован по координатам { $position }. До детонации { $time } секунд.
 
-## Lower status
+nuke-component-announcement-unarmed =  Механизм самоуничтожение станции деактивирован! Хорошего дня!
 
-nuke-user-interface-second-status-await-disk = AWAIT DISK
-nuke-user-interface-second-status-time = TIME: { $time }
-nuke-user-interface-second-status-current-code = CODE: { $code }
-nuke-user-interface-second-status-cooldown-time = WAIT: { $time }
+nuke-component-announcement-send-codes =  Внимание! Коды самоуничтожения были отправлены по факсу.
 
-## Nuke labels
+nuke-component-doafter-warning =  Вы начинаете перебирать провода и кнопки, в попытке обезвредить ядерную бомбу. Это может занять некоторое время.
 
-nuke-label-nanotrasen = NT-{ $serial }
-# do you even need this one? It's more funnier to say that
-# the Syndicate stole a NT nuke
-nuke-label-syndicate = SYN-{ $serial }
-# Codes
-nuke-codes-message =
-    [color=red]TOP SECRET![/color]
-    Nuclear device activation code: { $name } - { $code }
-nuke-codes-fax-paper-name = nuclear authentication codes
+nuke-user-interface-title =  Ядерная Боеголовка
+
+nuke-user-interface-arm-button =  ВЗВЕСТИ
+
+nuke-user-interface-anchor-button =  ЗАКРЕПИТЬ
+
+nuke-user-interface-eject-button =  ИЗВЛЕЧЬ
+
+
+
+
+nuke-user-interface-first-status-device-locked =  УСТРОЙСТВО ЗАБЛОКИРОВАНО
+
+nuke-user-interface-first-status-input-code =  ВВЕДИТЕ КОД
+
+nuke-user-interface-first-status-input-time =  ВВЕДИТЕ ВРЕМЯ
+
+nuke-user-interface-first-status-device-ready =  УСТРОЙСТВО ГОТОВО
+
+nuke-user-interface-first-status-device-armed =  УСТРОЙСТВО ВЗВЕДЕНО
+
+nuke-user-interface-first-status-device-cooldown =  ДЕАКТИВИРОВАНО
+
+nuke-user-interface-status-error =  ОШИБКА
+
+
+
+
+nuke-user-interface-second-status-await-disk =  ОЖИДАНИЕ ДИСКА
+
+nuke-user-interface-second-status-time =  ВРЕМЯ: { $time }
+
+nuke-user-interface-second-status-current-code =  КОД: { $code }
+
+nuke-user-interface-second-status-cooldown-time =  ОЖИДАНИЕ: { $time }
+
+nuke-label-nanotrasen =  NT-{ $serial }
+ NT-{ $serial }
+ NT-{ $serial }
+
+nuke-label-syndicate =  SYN-{ $serial }
+
+
+
+
+nuke-codes-message =  [color=red]СОВЕРШЕННО СЕКРЕТНО![/color]
+
+[color = White]{$codewords}[/color].
+
+
+
+nuke-codes-fax-paper-name =  коды ядерной аутентификации
+

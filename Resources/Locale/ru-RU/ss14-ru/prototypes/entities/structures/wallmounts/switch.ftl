@@ -1,21 +1,18 @@
-ent-SignalSwitch = signal switch
-    .desc = It's a switch for toggling power to things.
-    .suffix = { "" }
-ent-SignalButton = signal button
-    .desc = It's a button for activating something.
-    .suffix = { "" }
-ent-ApcNetSwitch = apc net switch
-    .desc = Its a switch for toggling lights that are connected to the same apc.
-    .suffix = { "" }
-ent-TwoWayLever = two way lever
-    .desc = A two way lever.
-    .suffix = { "" }
-ent-SignalSwitchDirectional = signal switch
-    .suffix = directional
-    .desc = { ent-SignalSwitch.desc }
-ent-SignalButtonDirectional = signal button
-    .suffix = directional
-    .desc = { ent-SignalButton.desc }
-ent-ApcNetSwitchDirectional = apc net switch
-    .suffix = directional
-    .desc = { ent-ApcNetSwitch.desc }
+ent-SignalSwitch =  переключатель сигнала
+
+.desc =  { ent-ApcNetSwitch.desc }
+
+.suffix =  directional
+
+ent-SignalButton =  кнопка сигнала
+
+ent-ApcNetSwitch =  переключатель сети ЛКП
+
+ent-TwoWayLever =  двухпозиционный рычаг
+
+ent-SignalSwitchDirectional =  signal switch
+
+ent-SignalButtonDirectional =  signal button
+
+ent-ApcNetSwitchDirectional =  apc net switch
+

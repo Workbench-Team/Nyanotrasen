@@ -1,3 +1,6 @@
-ent-dragshadow = drag shadow
-    .desc = { "" }
-    .suffix = { "" }
+ent-dragshadow =  drag shadow
+
+.desc =  { "" }
+
+.suffix =  { "" }
+

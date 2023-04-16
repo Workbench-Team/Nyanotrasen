@@ -1,18 +1,16 @@
-ent-PaperWrittenSalvageLoreMedium1PlasmaTrap = { ent-Paper }
-    .suffix = Salvage: Lore: Medium 1: Plasma Trap
-    .desc = { ent-Paper.desc }
-ent-SalvageLorePaperGamingSpawner = Salvage Lore Paper Gaming Spawner
-    .desc = { ent-MarkerBase.desc }
-    .suffix = { "" }
-ent-PaperWrittenSalvageLoreGaming1 = { ent-Paper }
-    .suffix = Salvage: Lore: Gaming 1
-    .desc = { ent-Paper.desc }
-ent-PaperWrittenSalvageLoreGaming2 = { ent-Paper }
-    .suffix = Salvage: Lore: Gaming 2
-    .desc = { ent-Paper.desc }
-ent-PaperWrittenSalvageLoreGaming3 = { ent-Paper }
-    .suffix = Salvage: Lore: Gaming 3
-    .desc = { ent-Paper.desc }
-ent-PaperWrittenSalvageLoreGaming4 = { ent-Paper }
-    .suffix = Salvage: Lore: Gaming 4
-    .desc = { ent-Paper.desc }
+ent-PaperWrittenSalvageLoreMedium1PlasmaTrap =  { ent-PaperWritten }
+
+.suffix =  Salvage: Lore: Gaming 4
+
+.desc =  { ent-Paper.desc }
+
+ent-SalvageLorePaperGamingSpawner =  Salvage Lore Paper Gaming Spawner
+
+ent-PaperWrittenSalvageLoreGaming1 =  { ent-PaperWritten }
+
+ent-PaperWrittenSalvageLoreGaming2 =  { ent-PaperWritten }
+
+ent-PaperWrittenSalvageLoreGaming3 =  { ent-PaperWritten }
+
+ent-PaperWrittenSalvageLoreGaming4 =  { ent-PaperWritten }
+

@@ -1,18 +1,16 @@
-ent-ClothingBackpackMantisFilled = { ent-ClothingBackpack }
-    .desc = { ent-ClothingBackpack.desc }
-    .suffix = { "" }
-ent-ClothingBackpackDuffelMantisFilled = { ent-ClothingBackpackDuffel }
-    .desc = { ent-ClothingBackpackDuffel.desc }
-    .suffix = { "" }
-ent-ClothingBackpackSatchelMantisFilled = { ent-ClothingBackpackSatchel }
-    .desc = { ent-ClothingBackpackSatchel.desc }
-    .suffix = { "" }
-ent-ClothingBackpackSyndicateDiplomatFilled = { ent-ClothingBackpack }
-    .desc = { ent-ClothingBackpack.desc }
-    .suffix = { "" }
-ent-ClothingBackpackDuffelSyndicateDiplomatFilled = { ent-ClothingBackpackDuffelSyndicate }
-    .desc = { ent-ClothingBackpackDuffelSyndicate.desc }
-    .suffix = { "" }
-ent-ClothingBackpackSatchelSyndicateDiplomatFilled = { ent-ClothingBackpackSatchel }
-    .desc = { ent-ClothingBackpackSatchel.desc }
-    .suffix = { "" }
+ent-ClothingBackpackMantisFilled =  { ent-ClothingBackpack }
+
+.desc =  { ent-ClothingBackpackSatchel.desc }
+
+.suffix =  { "" }
+
+ent-ClothingBackpackDuffelMantisFilled =  { ent-ClothingBackpackDuffel }
+
+ent-ClothingBackpackSatchelMantisFilled =  { ent-ClothingBackpackSatchel }
+
+ent-ClothingBackpackSyndicateDiplomatFilled =  { ent-ClothingBackpack }
+
+ent-ClothingBackpackDuffelSyndicateDiplomatFilled =  { ent-ClothingBackpackDuffelSyndicate }
+
+ent-ClothingBackpackSatchelSyndicateDiplomatFilled =  { ent-ClothingBackpackSatchel }
+

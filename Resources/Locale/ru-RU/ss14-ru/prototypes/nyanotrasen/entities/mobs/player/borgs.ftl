@@ -1,9 +1,10 @@
-ent-PlayerCyborgBase = cyborg
-    .desc = { ent-PlayerSiliconBase.desc }
-    .suffix = { "" }
-ent-PlayerCyborgStandard = standard cyborg
-    .desc = { ent-PlayerCyborgBase.desc }
-    .suffix = { "" }
-ent-PlayerCyborgMedical = medical cyborg
-    .desc = { ent-PlayerCyborgBase.desc }
-    .suffix = { "" }
+ent-PlayerCyborgBase =  cyborg
+
+.desc =  { ent-PlayerCyborgBase.desc }
+
+.suffix =  { "" }
+
+ent-PlayerCyborgStandard =  standard cyborg
+
+ent-PlayerCyborgMedical =  medical cyborg
+

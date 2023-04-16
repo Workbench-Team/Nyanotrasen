@@ -1,18 +1,16 @@
-ent-LockerBoozeFilled = { ent-LockerBooze }
-    .suffix = Filled
-    .desc = { ent-LockerBooze.desc }
-ent-ClosetChefFilled = { ent-ClosetChef }
-    .suffix = Filled
-    .desc = { ent-ClosetChef.desc }
-ent-ClosetJanitorFilled = { ent-ClosetJanitor }
-    .suffix = Filled
-    .desc = { ent-ClosetJanitor.desc }
-ent-ClosetLegalFilled = { ent-ClosetLegal }
-    .suffix = Filled
-    .desc = { ent-ClosetLegal.desc }
-ent-LockerBotanistFilled = { ent-LockerBotanist }
-    .suffix = Filled
-    .desc = { ent-LockerBotanist.desc }
-ent-LockerBotanistLoot = { ent-LockerBotanist }
-    .suffix = Loot
-    .desc = { ent-LockerBotanist.desc }
+ent-LockerBoozeFilled =  { ent-LockerBooze }
+
+.suffix =  Loot
+
+.desc =  { ent-LockerBotanist.desc }
+
+ent-ClosetChefFilled =  { ent-ClosetChef }
+
+ent-ClosetJanitorFilled =  { ent-ClosetJanitor }
+
+ent-ClosetLegalFilled =  { ent-ClosetLegal }
+
+ent-LockerBotanistFilled =  { ent-LockerBotanist }
+
+ent-LockerBotanistLoot =  { ent-LockerBotanist }
+

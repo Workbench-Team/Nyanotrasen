@@ -1,3 +1,6 @@
-ent-FleshBlocker = flesh clump
-    .desc = An annoying clump of flesh.
-    .suffix = { "" }
+ent-FleshBlocker =  комок плоти
+
+.desc =  An annoying clump of flesh.
+
+.suffix =  { "" }
+

@@ -1,3 +1,6 @@
-ent-Fireplace = fireplace
-    .desc = A place that has fire. Cozy!
-    .suffix = { "" }
+ent-Fireplace =  камин
+
+.desc =  A place that has fire. Cozy!
+
+.suffix =  { "" }
+

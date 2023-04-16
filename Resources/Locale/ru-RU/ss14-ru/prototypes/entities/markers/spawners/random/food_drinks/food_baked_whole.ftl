@@ -1,3 +1,6 @@
-ent-RandomFoodBakedWhole = random baked food spawner
-    .suffix = Whole
-    .desc = { ent-MarkerBase.desc }
+ent-RandomFoodBakedWhole =  спавнер случайная выпечка
+
+.suffix =  Whole
+
+.desc =  { ent-MarkerBase.desc }
+

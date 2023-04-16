@@ -1,11 +1,22 @@
-prayer-verbs-subtle-message = Subtle Message
-prayer-verbs-pray = Pray
-prayer-verbs-call = Call
-prayer-chat-notify-pray = PRAYER
-prayer-chat-notify-honkmother = HONKMOTHER
-prayer-chat-notify-centcom = CENTCOM
-prayer-popup-subtle-default = You hear a voice in your head...
-prayer-popup-notify-honkmother-sent = You left a voicemail message for the Honkmother...
-prayer-popup-notify-centcom-sent = You left a voicemail message for Central Command...
-prayer-popup-notify-pray-sent = Your message has been sent to the gods...
-prayer-popup-notify-pray-locked = You don't feel worthy enough...
+prayer-verbs-subtle-message =  Скрытое послание
+
+prayer-verbs-pray =  Молиться
+
+prayer-verbs-call =  Позвонить
+
+prayer-chat-notify-pray =  МОЛИТВА
+
+prayer-chat-notify-honkmother =  ХОНКОМАТЬ
+
+prayer-chat-notify-centcom =  ЦЕНТКОМ
+
+prayer-popup-subtle-default =  Вы слышите голос в своей голове...
+
+prayer-popup-notify-honkmother-sent =  Вы оставили голосовое сообщение для Хонкоматери...
+
+prayer-popup-notify-centcom-sent =  Вы оставили голосовое сообщение для Центрального командования...
+
+prayer-popup-notify-pray-sent =  Ваша молитва была отправлена богам...
+
+prayer-popup-notify-pray-locked =  Вы не чувствуете себя достойным...
+

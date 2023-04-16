@@ -1,57 +1,44 @@
-ent-CrateVendingMachineRestockBoozeFilled = { ent-CratePlastic }
-    .desc = { ent-CratePlastic.desc }
-    .suffix = { "" }
-ent-CrateVendingMachineRestockChefvendFilled = ChefVend restock crate
-    .desc = { ent-CratePlastic.desc }
-    .suffix = { "" }
-ent-CrateVendingMachineRestockClothesFilled = { ent-CratePlastic }
-    .desc = { ent-CratePlastic.desc }
-    .suffix = { "" }
-ent-CrateVendingMachineRestockCondimentStationFilled = Condiment Station restock crate
-    .desc = { ent-CratePlastic.desc }
-    .suffix = { "" }
-ent-CrateVendingMachineRestockDinnerwareFilled = { ent-CratePlastic }
-    .desc = { ent-CratePlastic.desc }
-    .suffix = { "" }
-ent-CrateVendingMachineRestockEngineeringFilled = { ent-CrateEngineeringSecure }
-    .desc = { ent-CrateEngineeringSecure.desc }
-    .suffix = { "" }
-ent-CrateVendingMachineRestockGamesFilled = { ent-CratePlastic }
-    .desc = { ent-CratePlastic.desc }
-    .suffix = { "" }
-ent-CrateVendingMachineRestockHotDrinksFilled = { ent-CratePlastic }
-    .desc = { ent-CratePlastic.desc }
-    .suffix = { "" }
-ent-CrateVendingMachineRestockMedicalFilled = { ent-CrateMedicalSecure }
-    .desc = { ent-CrateMedicalSecure.desc }
-    .suffix = { "" }
-ent-CrateVendingMachineRestockNutriMaxFilled = { ent-CrateHydroSecure }
-    .desc = { ent-CrateHydroSecure.desc }
-    .suffix = { "" }
-ent-CrateVendingMachineRestockPTechFilled = { ent-CratePlastic }
-    .desc = { ent-CratePlastic.desc }
-    .suffix = { "" }
-ent-CrateVendingMachineRestockRobustSoftdrinksFilled = { ent-CratePlastic }
-    .desc = { ent-CratePlastic.desc }
-    .suffix = { "" }
-ent-CrateVendingMachineRestockSalvageEquipmentFilled = { ent-CrateGenericSteel }
-    .desc = { ent-CrateGenericSteel.desc }
-    .suffix = { "" }
-ent-CrateVendingMachineRestockSecTechFilled = { ent-CrateSecgear }
-    .desc = { ent-CrateSecgear.desc }
-    .suffix = { "" }
-ent-CrateVendingMachineRestockSeedsFilled = { ent-CrateHydroSecure }
-    .desc = { ent-CrateHydroSecure.desc }
-    .suffix = { "" }
-ent-CrateVendingMachineRestockSmokesFilled = { ent-CratePlastic }
-    .desc = { ent-CratePlastic.desc }
-    .suffix = { "" }
-ent-CrateVendingMachineRestockSnacksFilled = { ent-CratePlastic }
-    .desc = { ent-CratePlastic.desc }
-    .suffix = { "" }
-ent-CrateVendingMachineRestockTankDispenserFilled = { ent-CratePlastic }
-    .desc = { ent-CratePlastic.desc }
-    .suffix = { "" }
-ent-CrateVendingMachineRestockHappyHonkFilled = { ent-CratePlastic }
-    .desc = { ent-CratePlastic.desc }
-    .suffix = { "" }
+ent-CrateVendingMachineRestockBoozeFilled =  ящик пополнения АлкоМат
+
+.desc =  { ent-CratePlastic.desc }
+
+.suffix =  { "" }
+
+ent-CrateVendingMachineRestockChefvendFilled =  ChefVend restock crate
+
+ent-CrateVendingMachineRestockClothesFilled =  ящик пополнения одежды
+
+ent-CrateVendingMachineRestockCondimentStationFilled =  Condiment Station restock crate
+
+ent-CrateVendingMachineRestockDinnerwareFilled =  ящик пополнения Кухонно-пластальная поварская утварь
+
+ent-CrateVendingMachineRestockEngineeringFilled =  ящик пополнения ИнжеШкаф
+
+ent-CrateVendingMachineRestockGamesFilled =  ящик пополнения Безобидные развлечения
+
+ent-CrateVendingMachineRestockHotDrinksFilled =  ящик пополнения Лучшие горячие напитки Солнечной
+
+ent-CrateVendingMachineRestockMedicalFilled =  ящик пополнения НаноМед
+
+ent-CrateVendingMachineRestockNutriMaxFilled =  ящик пополнения БотаМакс
+
+ent-CrateVendingMachineRestockPTechFilled =  ящик пополнения ПТех
+
+ent-CrateVendingMachineRestockRobustSoftdrinksFilled =  ящик пополнения Прохладительные напитки Робаст
+
+ent-CrateVendingMachineRestockSalvageEquipmentFilled =  ящик пополнения Утильмаг
+
+ent-CrateVendingMachineRestockSecTechFilled =  ящик пополнения СБТех
+
+ent-CrateVendingMachineRestockSeedsFilled =  ящик пополнения МегаРаздатчик Семян
+
+ent-CrateVendingMachineRestockSmokesFilled =  ящик пополнения ШейдиСиг Делюкс
+
+ent-CrateVendingMachineRestockSnacksFilled =  ящик пополнения закусок
+
+ent-CrateVendingMachineRestockVendomatFilled =  ящик пополнения Торгомат
+
+ent-CrateVendingMachineRestockTankDispenserFilled =  ящик пополнения газовых баллонов
+
+ent-CrateVendingMachineRestockHappyHonkFilled =  ящик пополнения Счастливый Хонк
+

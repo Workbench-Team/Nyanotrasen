@@ -1,19 +1,35 @@
-# Noninfectious
-disease-proto-ultragigacancer = ultragigacancer
-disease-proto-spectral-tiredness = spectral tiredness
-disease-proto-lung-cancer = Stage IIIA Lung Cancer
-# Infectious
-disease-proto-space-cold = space cold
-disease-proto-vent-cough = vent cough
-disease-proto-space-flu = space flu
-disease-proto-bird-flew = bird flew
-disease-proto-robovirus = Van Ausdall's Robovirus
-disease-proto-amiv = AMIV
-disease-proto-amirmir = Memetic Amirmir
-disease-proto-bleeders = Bleeder's Bite
-disease-proto-plague = plague
-disease-proto-owonavirus = OwOnavirus
-disease-proto-tongue-twister = Tongue Twister
-# Zombie
-disease-proto-zombie = Zombie Virus
-disease-proto-zombie-passive = Zombie Virus
+disease-proto-ultragigacancer =  ультрагигарак
+
+disease-proto-spectral-tiredness =  спектральное утомление
+
+disease-proto-lung-cancer =  рак лёгких IIIA стадии
+ рак лёгких IIIA стадии
+
+disease-proto-space-cold =  космическая простуда
+
+disease-proto-vent-cough =  трубный кашель
+
+disease-proto-space-flu =  космический грипп
+
+disease-proto-bird-flew =  птичья чихотка
+
+disease-proto-robovirus =  робовирус Ван Аусдалла
+
+disease-proto-amiv =  вирус ПРИМАТ
+ вирус ПРИМАТ
+
+disease-proto-amirmir =  меметичный амирмир
+
+disease-proto-bleeders =  укус кровопускателя
+
+disease-proto-plague =  чума
+
+disease-proto-owonavirus =  OwOнавирус
+
+disease-proto-tongue-twister =  языковёртка
+ языковёртка
+
+disease-proto-zombie =  зомби-вирус
+
+disease-proto-zombie-passive =  зомби-вирус
+

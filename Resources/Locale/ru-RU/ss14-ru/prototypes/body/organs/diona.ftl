@@ -1,12 +1,12 @@
-ent-BaseDionaOrgan = { ent-BaseItem }
-    .desc = { ent-BaseItem.desc }
-    .suffix = { "" }
-ent-OrganDionaBrain = brain
-    .desc = The source of incredible, unending intelligence. Honk.
-    .suffix = { "" }
-ent-OrganDionaEyes = eyes
-    .desc = I see you!
-    .suffix = { "" }
-ent-OrganDionaStomach = stomach
-    .desc = Gross. This is hard to stomach.
-    .suffix = { "" }
+ent-BaseDionaOrgan =  { ent-BaseItem }
+
+.desc =  Gross. This is hard to stomach.
+
+.suffix =  { "" }
+
+ent-OrganDionaBrain =  мозг
+
+ent-OrganDionaEyes =  глаза
+
+ent-OrganDionaStomach =  желудок
+

@@ -1,12 +1,12 @@
-ent-ClothingHeadsetEpistemics = epistemics headset
-    .desc = Faithfully recreates the true essence of remote sound waves.
-    .suffix = { "" }
-ent-ClothingHeadsetMystagogue = mystagogue headset
-    .desc = Still useful to someone with psychic powers.
-    .suffix = { "" }
-ent-ClothingHeadsetAltMystagogue = epistemics over-ear headset
-    .desc = { ent-ClothingHeadsetAlt.desc }
-    .suffix = { "" }
-ent-ClothingHeadsetMantis = mantis headset
-    .desc = { ent-ClothingHeadsetAlt.desc }
-    .suffix = { "" }
+ent-ClothingHeadsetEpistemics =  epistemics headset
+
+.desc =  { ent-ClothingHeadsetAlt.desc }
+
+.suffix =  { "" }
+
+ent-ClothingHeadsetMystagogue =  mystagogue headset
+
+ent-ClothingHeadsetAltMystagogue =  epistemics over-ear headset
+
+ent-ClothingHeadsetMantis =  mantis headset
+

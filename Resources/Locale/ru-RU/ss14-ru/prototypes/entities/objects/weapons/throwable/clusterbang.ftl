@@ -1,6 +1,8 @@
-ent-ClusterBang = clusterbang
-    .desc = Can be used only with flashbangs. Explodes several times.
-    .suffix = { "" }
-ent-ClusterBangFull = { ent-ClusterBang }
-    .suffix = Full
-    .desc = { ent-ClusterBang.desc }
+ent-ClusterBang =  кластерная светошумовая граната
+
+.desc =  { ent-ClusterBang.desc }
+
+.suffix =  Full
+
+ent-ClusterBangFull =  { ent-ClusterBang }
+

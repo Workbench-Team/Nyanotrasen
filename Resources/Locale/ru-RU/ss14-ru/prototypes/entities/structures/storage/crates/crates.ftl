@@ -1,69 +1,50 @@
-ent-CrateGenericSteel = crate
-    .desc = { ent-CrateBaseWeldable.desc }
-    .suffix = { "" }
-ent-CratePlastic = plastic crate
-    .desc = { ent-CrateBaseWeldable.desc }
-    .suffix = { "" }
-ent-CrateFreezer = freezer
-    .desc = { ent-CrateBaseWeldable.desc }
-    .suffix = { "" }
-ent-CrateHydroponics = hydroponics crate
-    .desc = { ent-CrateBaseWeldable.desc }
-    .suffix = { "" }
-ent-CrateMedical = medical crate
-    .desc = { ent-CrateBaseWeldable.desc }
-    .suffix = { "" }
-ent-CrateRadiation = radiation gear crate
-    .desc = Is not actually lead lined. Do not store your plutonium in this.
-    .suffix = { "" }
-ent-CrateInternals = oxygen crate
-    .desc = { ent-CrateBaseWeldable.desc }
-    .suffix = { "" }
-ent-CrateElectrical = electrical crate
-    .desc = { ent-CrateBaseWeldable.desc }
-    .suffix = { "" }
-ent-CrateEngineering = engineering crate
-    .desc = { ent-CrateBaseWeldable.desc }
-    .suffix = { "" }
-ent-CrateScience = science crate
-    .desc = { ent-CrateBaseWeldable.desc }
-    .suffix = { "" }
-ent-CrateSurgery = surgery crate
-    .desc = { ent-CrateBaseWeldable.desc }
-    .suffix = { "" }
-ent-CrateSecgear = secgear crate
-    .desc = { ent-CrateBaseSecure.desc }
-    .suffix = { "" }
-ent-CrateEngineeringSecure = secure engineering crate
-    .desc = { ent-CrateBaseSecure.desc }
-    .suffix = { "" }
-ent-CrateMedicalSecure = secure medical crate
-    .desc = { ent-CrateBaseSecure.desc }
-    .suffix = { "" }
-ent-CratePrivateSecure = private crate
-    .desc = { ent-CrateBaseSecure.desc }
-    .suffix = { "" }
-ent-CrateScienceSecure = secure science crate
-    .desc = { ent-CrateBaseSecure.desc }
-    .suffix = { "" }
-ent-CratePlasma = plasma crate
-    .desc = { ent-CrateBaseSecure.desc }
-    .suffix = { "" }
-ent-CrateSecure = secure crate
-    .desc = { ent-CrateBaseSecure.desc }
-    .suffix = { "" }
-ent-CrateHydroSecure = secure hydroponics crate
-    .desc = { ent-CrateBaseSecure.desc }
-    .suffix = { "" }
-ent-CrateWeaponSecure = secure weapon crate
-    .desc = { ent-CrateBaseSecure.desc }
-    .suffix = { "" }
-ent-CrateCommandSecure = command crate
-    .desc = { ent-CrateBaseSecure.desc }
-    .suffix = { "" }
-ent-CrateLivestock = livestock crate
-    .desc = { ent-CrateGeneric.desc }
-    .suffix = { "" }
-ent-CrateRodentCage = hamster cage
-    .desc = { ent-CrateGeneric.desc }
-    .suffix = { "" }
+ent-CrateGenericSteel =  стальной ящик
+
+.desc =  { ent-CrateGeneric.desc }
+
+.suffix =  { "" }
+
+ent-CratePlastic =  пластиковый ящик
+
+ent-CrateFreezer =  холодильник
+
+ent-CrateHydroponics =  гидропонный ящик
+
+ent-CrateMedical =  медицинский ящик
+
+ent-CrateRadiation =  ящик противорадиационного снаряжения
+
+ent-CrateInternals =  ящик аварийного кислородного снаряжения
+
+ent-CrateElectrical =  электротехнический ящик
+
+ent-CrateEngineering =  инженерный ящик
+
+ent-CrateScience =  научный ящик
+
+ent-CrateSurgery =  хирургический ящик
+
+ent-CrateSecgear =  ящик оборудования службы безопасности
+
+ent-CrateEngineeringSecure =  защищённый инженерный ящик
+
+ent-CrateMedicalSecure =  защищённый медицинский ящик
+
+ent-CratePrivateSecure =  специальный ящик
+
+ent-CrateScienceSecure =  защищённый научный ящик
+
+ent-CratePlasma =  плазменный ящик
+
+ent-CrateSecure =  защищённый ящик
+
+ent-CrateHydroSecure =  защищённый гидропонный ящик
+
+ent-CrateWeaponSecure =  защищённый оружейный ящик
+
+ent-CrateCommandSecure =  командный ящик
+
+ent-CrateLivestock =  ящик для скота
+
+ent-CrateRodentCage =  клетка для хомяка
+

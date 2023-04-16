@@ -1,3 +1,8 @@
-ent-Ectoplasm = ectoplasm
-    .desc = The remains of a spirit.
-    .suffix = { "" }
+ent-Ectoplasm =  ectoplasm
+
+.desc =  { ent-Ectoplasm.desc }
+
+.suffix =  { "" }
+
+ent-EctoplasmRevenant =  { ent-Ectoplasm }
+

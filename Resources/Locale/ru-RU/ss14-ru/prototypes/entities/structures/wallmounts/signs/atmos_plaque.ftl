@@ -1,3 +1,6 @@
-ent-PlaqueAtmos = atmos plaque
-    .desc = { ent-BaseSign.desc }
-    .suffix = { "" }
+ent-PlaqueAtmos =  атмосферная табличка
+
+.desc =  { ent-BaseSign.desc }
+
+.suffix =  { "" }
+

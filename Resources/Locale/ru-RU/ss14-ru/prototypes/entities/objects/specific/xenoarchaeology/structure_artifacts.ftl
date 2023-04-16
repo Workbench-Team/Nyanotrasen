@@ -1,12 +1,12 @@
-ent-BaseXenoArtifact = alien artifact
-    .desc = A strange alien device.
-    .suffix = { "" }
-ent-SimpleXenoArtifact = { ent-BaseXenoArtifact }
-    .suffix = Simple
-    .desc = { ent-BaseXenoArtifact.desc }
-ent-MediumXenoArtifact = { ent-BaseXenoArtifact }
-    .suffix = Medium
-    .desc = { ent-BaseXenoArtifact.desc }
-ent-ComplexXenoArtifact = { ent-BaseXenoArtifact }
-    .suffix = Complex
-    .desc = { ent-BaseXenoArtifact.desc }
+ent-BaseXenoArtifact =  инопланетный артефакт
+
+.desc =  { ent-BaseXenoArtifact.desc }
+
+.suffix =  Complex
+
+ent-SimpleXenoArtifact =  { ent-BaseXenoArtifact }
+
+ent-MediumXenoArtifact =  { ent-BaseXenoArtifact }
+
+ent-ComplexXenoArtifact =  { ent-BaseXenoArtifact }
+

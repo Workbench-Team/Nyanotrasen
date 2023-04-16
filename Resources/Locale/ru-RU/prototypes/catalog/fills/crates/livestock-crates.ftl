@@ -1,34 +1,36 @@
-ent-CrateNPCBee = Crate of bees
-    .desc = A crate containing a swarm of eight bees.
-ent-CrateNPCButterflies = Crate of butterflies
-    .desc = A crate containing five butterflies.
-ent-CrateNPCCat = Cat crate
-    .desc = A crate containing a single cat.
-ent-CrateNPCChicken = Chicken crate
-    .desc = A crate containing four fully grown chickens.
-ent-CrateNPCDuck = Duck crate
-    .desc = A crate containing six fully grown ducks.
-ent-CrateNPCPibble = pitbull crate
-    .desc = Note from the shelter: Lab mix. Looking for a home without cats or children. Anxious when pet.
-ent-CrateNPCCorgi = Corgi crate
-    .desc = A crate containing a single corgi.
-ent-CrateNPCCow = Cow crate
-    .desc = A crate containing a single cow.
-ent-CrateNPCGoat = Goat crate
-    .desc = A crate containing a single goat.
-ent-CrateNPCGoose = Goose crate
-    .desc = A crate containing two geese.
-ent-CrateNPCGorilla = Gorilla crate
-    .desc = A crate containing a single gorilla.
-ent-CrateNPCMonkeyCube = Monkey cube crate
-    .desc = A crate containing three boxes of monkey cubes.
-ent-CrateNPCMouse = Mice crate
-    .desc = A crate containing five mice.
-ent-CrateNPCParrot = Parrot crate
-    .desc = A crate containing three parrots.
-ent-CrateNPCPenguin = Penguin crate
-    .desc = A crate containing two penguins.
-ent-CrateNPCPig = Pig crate
-    .desc = A crate containing a single pig.
-ent-CrateNPCSnake = Snake crate
-    .desc = A crate containing three snakes.
+ent-CrateNPCBee =  Crate of bees
+
+.desc =  A crate containing three snakes.
+
+ent-CrateNPCButterflies =  Crate of butterflies
+
+ent-CrateNPCCat =  Cat crate
+
+ent-CrateNPCChicken =  Chicken crate
+
+ent-CrateNPCDuck =  Duck crate
+
+ent-CrateNPCPibble =  pitbull crate
+
+ent-CrateNPCCorgi =  Corgi crate
+
+ent-CrateNPCCow =  Cow crate
+
+ent-CrateNPCGoat =  Goat crate
+
+ent-CrateNPCGoose =  Goose crate
+
+ent-CrateNPCGorilla =  Gorilla crate
+
+ent-CrateNPCMonkeyCube =  Monkey cube crate
+
+ent-CrateNPCMouse =  Mice crate
+
+ent-CrateNPCParrot =  Parrot crate
+
+ent-CrateNPCPenguin =  Penguin crate
+
+ent-CrateNPCPig =  Pig crate
+
+ent-CrateNPCSnake =  Snake crate
+

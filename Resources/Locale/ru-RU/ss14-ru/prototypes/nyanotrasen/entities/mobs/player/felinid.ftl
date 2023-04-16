@@ -1,3 +1,6 @@
-ent-MobFelinid = Player felinid
-    .desc = { ent-MobFelinidBase.desc }
-    .suffix = { "" }
+ent-MobFelinid =  Урист МакКэт
+
+.desc =  { ent-MobFelinidBase.desc }
+
+.suffix =  { "" }
+

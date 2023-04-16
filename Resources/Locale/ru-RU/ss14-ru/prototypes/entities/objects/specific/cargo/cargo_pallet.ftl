@@ -1,3 +1,6 @@
-ent-CargoPallet = cargo pallet
-    .desc = Designates valid items to sell to CentCom when a shuttle is recalled.
-    .suffix = { "" }
+ent-CargoPallet =  грузовой поддон
+
+.desc =  Designates valid items to sell to CentCom when a shuttle is recalled.
+
+.suffix =  { "" }
+

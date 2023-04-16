@@ -1,30 +1,24 @@
-ent-CrateEngineeringGear = { ent-CrateEngineering }
-    .desc = { ent-CrateEngineering.desc }
-    .suffix = { "" }
-ent-CrateEngineeringToolbox = { ent-CrateEngineering }
-    .desc = { ent-CrateEngineering.desc }
-    .suffix = { "" }
-ent-CrateEngineeringCableLV = { ent-CrateElectrical }
-    .desc = { ent-CrateElectrical.desc }
-    .suffix = { "" }
-ent-CrateEngineeringCableMV = { ent-CrateElectrical }
-    .desc = { ent-CrateElectrical.desc }
-    .suffix = { "" }
-ent-CrateEngineeringCableHV = { ent-CrateElectrical }
-    .desc = { ent-CrateElectrical.desc }
-    .suffix = { "" }
-ent-CrateEngineeringCableBulk = { ent-CrateElectrical }
-    .desc = { ent-CrateElectrical.desc }
-    .suffix = { "" }
-ent-CrateEngineeringElectricalSupplies = { ent-CrateElectrical }
-    .desc = { ent-CrateElectrical.desc }
-    .suffix = { "" }
-ent-CrateEngineeringJetpack = { ent-CrateGenericSteel }
-    .desc = { ent-CrateGenericSteel.desc }
-    .suffix = { "" }
-ent-CrateEngineeringMiniJetpack = { ent-CrateGenericSteel }
-    .desc = { ent-CrateGenericSteel.desc }
-    .suffix = { "" }
-ent-CrateAirlockKit = { ent-CrateGenericSteel }
-    .desc = { ent-CrateGenericSteel.desc }
-    .suffix = { "" }
+ent-CrateEngineeringGear =  ящик инженерного оборудования
+
+.desc =  { ent-CrateGenericSteel.desc }
+
+.suffix =  { "" }
+
+ent-CrateEngineeringToolbox =  ящик ящиков для инструментов
+
+ent-CrateEngineeringCableLV =  ящик кабеля НВ
+
+ent-CrateEngineeringCableMV =  ящик кабеля СВ
+
+ent-CrateEngineeringCableHV =  ящик кабеля ВВ
+
+ent-CrateEngineeringCableBulk =  ящик кабеля различного вольтажа
+
+ent-CrateEngineeringElectricalSupplies =  ящик электромонтажного снаряжения
+
+ent-CrateEngineeringJetpack =  ящик джетпаков
+
+ent-CrateEngineeringMiniJetpack =  ящик мини джетпаков
+
+ent-CrateAirlockKit =  ящик компонентов шлюзов
+

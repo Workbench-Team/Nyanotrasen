@@ -1,15 +1,14 @@
-ent-WeaponTurretSyndicateBroken = ballistic turret (broken)
-    .desc = A ballistic machine gun auto-turret.
-    .suffix = { "" }
-ent-BaseWeaponTurret = ballistic turret
-    .desc = { ent-BaseStructure.desc }
-    .suffix = { "" }
-ent-WeaponTurretSyndicate = { ent-BaseWeaponTurret }
-    .suffix = Syndicate
-    .desc = { ent-BaseWeaponTurret.desc }
-ent-WeaponTurretNanoTrasen = { ent-BaseWeaponTurret }
-    .suffix = NanoTrasen
-    .desc = { ent-BaseWeaponTurret.desc }
-ent-WeaponTurretHostile = { ent-BaseWeaponTurret }
-    .suffix = Hostile
-    .desc = { ent-BaseWeaponTurret.desc }
+ent-WeaponTurretSyndicateBroken =  баллистическая турель (сломанная)
+
+.desc =  { ent-BaseWeaponTurret.desc }
+
+.suffix =  Hostile
+
+ent-BaseWeaponTurret =  баллистическая турель
+
+ent-WeaponTurretSyndicate =  { ent-BaseWeaponTurret }
+
+ent-WeaponTurretNanoTrasen =  { ent-BaseWeaponTurret }
+
+ent-WeaponTurretHostile =  { ent-BaseWeaponTurret }
+

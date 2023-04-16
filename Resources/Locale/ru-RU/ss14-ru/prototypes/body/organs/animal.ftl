@@ -1,18 +1,16 @@
-ent-BaseAnimalOrgan = { ent-BaseItem }
-    .desc = { ent-BaseItem.desc }
-    .suffix = { "" }
-ent-OrganAnimalLungs = lungs
-    .desc = { ent-BaseAnimalOrgan.desc }
-    .suffix = { "" }
-ent-OrganAnimalStomach = stomach
-    .desc = { ent-BaseAnimalOrgan.desc }
-    .suffix = { "" }
-ent-OrganAnimalLiver = liver
-    .desc = { ent-BaseAnimalOrgan.desc }
-    .suffix = { "" }
-ent-OrganAnimalHeart = heart
-    .desc = { ent-BaseAnimalOrgan.desc }
-    .suffix = { "" }
-ent-OrganAnimalKidneys = kidneys
-    .desc = { ent-BaseAnimalOrgan.desc }
-    .suffix = { "" }
+ent-BaseAnimalOrgan =  { ent-BaseItem }
+
+.desc =  { ent-BaseAnimalOrgan.desc }
+
+.suffix =  { "" }
+
+ent-OrganAnimalLungs =  лёгкие
+
+ent-OrganAnimalStomach =  желудок
+
+ent-OrganAnimalLiver =  печень
+
+ent-OrganAnimalHeart =  сердце
+
+ent-OrganAnimalKidneys =  почки
+

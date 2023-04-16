@@ -1,3 +1,6 @@
-ent-Rack = rack
-    .desc = A rack for storing things on.
-    .suffix = { "" }
+ent-Rack =  стойка
+
+.desc =  A rack for storing things on.
+
+.suffix =  { "" }
+

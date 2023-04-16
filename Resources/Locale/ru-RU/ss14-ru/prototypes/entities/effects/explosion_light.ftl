@@ -1,3 +1,6 @@
-ent-ExplosionLight = explosion light
-    .desc = { "" }
-    .suffix = { "" }
+ent-ExplosionLight =  explosion light
+
+.desc =  { "" }
+
+.suffix =  { "" }
+

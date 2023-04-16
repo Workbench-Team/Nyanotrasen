@@ -1,15 +1,14 @@
-ent-BaseCartridgeLightRifle = cartridge (.30 rifle)
-    .desc = { ent-BaseCartridge.desc }
-    .suffix = { "" }
-ent-CartridgeLightRifle = cartridge (.30 rifle)
-    .desc = { ent-BaseCartridgeLightRifle.desc }
-    .suffix = { "" }
-ent-CartridgeLightRifleHighVelocity = cartridge (.30 rifle high-velocity)
-    .desc = { ent-BaseCartridgeLightRifle.desc }
-    .suffix = { "" }
-ent-CartridgeLightRiflePractice = cartridge (.30 rifle practice)
-    .desc = { ent-BaseCartridgeLightRifle.desc }
-    .suffix = { "" }
-ent-CartridgeLightRifleRubber = cartridge (.30 rifle rubber)
-    .desc = { ent-BaseCartridgeLightRifle.desc }
-    .suffix = { "" }
+ent-BaseCartridgeLightRifle =  патрон (.30 винтовочный)
+
+.desc =  { ent-BaseCartridgeLightRifle.desc }
+
+.suffix =  { "" }
+
+ent-CartridgeLightRifle =  патрон (.30 винтовочный)
+
+ent-CartridgeLightRifleHighVelocity =  патрон (.30 винтовочный высокоскоростной)
+
+ent-CartridgeLightRiflePractice =  патрон (.30 винтовочный учебный)
+
+ent-CartridgeLightRifleRubber =  патрон (.30 винтовочный резиновый)
+

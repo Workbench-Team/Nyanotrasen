@@ -1,26 +1,32 @@
-## UI
+ui-disposal-unit-title =  Утилизационный блок
 
-ui-disposal-unit-title = Disposal Unit
-ui-disposal-unit-label-state = State:
-ui-disposal-unit-label-pressure = Pressure:
-ui-disposal-unit-label-status = Ready
-ui-disposal-unit-button-flush = Flush
-ui-disposal-unit-button-eject = Eject Contents
-ui-disposal-unit-button-power = Power
+ui-disposal-unit-label-state =  Состояние:
 
-## Verbs
+ui-disposal-unit-label-pressure =  Давление:
 
-disposal-flush-verb-get-data-text = Flush
-disposal-self-insert-verb-get-data-text = Jump inside
-disposal-eject-verb-get-data-text = Eject contents
+ui-disposal-unit-label-status =  Готов
 
-## No hands
+ui-disposal-unit-button-flush =  Смыть
 
-disposal-unit-no-hands = You don't have hands!
+ui-disposal-unit-button-eject =  Извлечь всё
 
-## missed
+ui-disposal-unit-button-power =  Питание
 
-disposal-unit-thrown-missed = Missed!
-# state
-disposal-unit-state-Ready = Ready
-disposal-unit-state-Pressurizing = Pressurizing
+
+
+
+disposal-flush-verb-get-data-text =  Смыть
+
+disposal-self-insert-verb-get-data-text =  Залезть внутрь
+
+disposal-eject-verb-get-data-text =  Извлечь всё
+
+disposal-unit-no-hands =  У вас нет рук!
+
+disposal-unit-thrown-missed =  Промах!
+ Промах!
+
+disposal-unit-state-Ready =  Готов
+
+disposal-unit-state-Pressurizing =  Нагнетание
+

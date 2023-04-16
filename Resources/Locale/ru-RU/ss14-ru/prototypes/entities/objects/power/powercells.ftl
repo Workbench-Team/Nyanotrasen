@@ -1,36 +1,28 @@
-ent-BasePowerCell = { ent-BaseItem }
-    .desc = { ent-BaseItem.desc }
-    .suffix = { "" }
-ent-PowerCellPotato = potato battery
-    .desc = Someone's stuck two nails and some wire in a large potato. Somehow it provides a little charge.
-    .suffix = { "" }
-ent-PowerCellSmall = small-capacity power cell
-    .desc = A rechargeable power cell. This is the cheapest kind you can find.
-    .suffix = Full
-ent-PowerCellSmallPrinted = { ent-PowerCellSmall }
-    .suffix = Empty
-    .desc = { ent-PowerCellSmall.desc }
-ent-PowerCellMedium = medium-capacity power cell
-    .desc = A rechargeable power cell. This is the popular and reliable version.
-    .suffix = Full
-ent-PowerCellMediumPrinted = { ent-PowerCellMedium }
-    .suffix = Empty
-    .desc = { ent-PowerCellMedium.desc }
-ent-PowerCellHigh = high-capacity power cell
-    .desc = A rechargeable standardized power cell. This premium brand stores up to 50% more energy than the competition.
-    .suffix = Full
-ent-PowerCellHighPrinted = { ent-PowerCellHigh }
-    .suffix = Empty
-    .desc = { ent-PowerCellHigh.desc }
-ent-PowerCellHyper = hyper-capacity power cell
-    .desc = A rechargeable standardized power cell. This one looks like a rare and powerful prototype.
-    .suffix = Full
-ent-PowerCellHyperPrinted = { ent-PowerCellHyper }
-    .suffix = Empty
-    .desc = { ent-PowerCellHyper.desc }
-ent-PowerCellMicroreactor = small microreactor cell
-    .desc = A rechargeable standardized microreactor cell. Intended for low-power devices, it slowly recharges by itself.
-    .suffix = Full
-ent-PowerCellAntiqueProto = antique power cell prototype
-    .desc = A small cell that self recharges. Used in old laser arms research.
-    .suffix = { "" }
+ent-BasePowerCell =  { ent-BaseItem }
+
+.desc =  A small cell that self recharges. Used in old laser arms research.
+
+.suffix =  { "" }
+
+ent-PowerCellPotato =  картофельная батарея
+
+ent-PowerCellSmall =  батарея малой ёмкости
+
+ent-PowerCellSmallPrinted =  { ent-PowerCellSmall }
+
+ent-PowerCellMedium =  батарея средней ёмкости
+
+ent-PowerCellMediumPrinted =  { ent-PowerCellMedium }
+
+ent-PowerCellHigh =  батарея высокой ёмкости
+
+ent-PowerCellHighPrinted =  { ent-PowerCellHigh }
+
+ent-PowerCellHyper =  батарея гипер ёмкости
+
+ent-PowerCellHyperPrinted =  { ent-PowerCellHyper }
+
+ent-PowerCellMicroreactor =  маленькая микрореакторная батарея
+
+ent-PowerCellAntiqueProto =  прототип древней батареи
+

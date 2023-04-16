@@ -1,6 +1,8 @@
-ent-BaseWindoor = { ent-BaseStructure }
-    .desc = { ent-BaseStructure.desc }
-    .suffix = { "" }
-ent-BaseSecureWindoor = { ent-BaseWindoor }
-    .desc = { ent-BaseWindoor.desc }
-    .suffix = { "" }
+ent-BaseWindoor =  { ent-BaseStructure }
+
+.desc =  { ent-BaseWindoor.desc }
+
+.suffix =  { "" }
+
+ent-BaseSecureWindoor =  { ent-BaseWindoor }
+

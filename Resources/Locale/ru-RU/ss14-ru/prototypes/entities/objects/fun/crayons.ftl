@@ -1,36 +1,28 @@
-ent-Crayon = crayon
-    .desc = A colourful crayon. Looks tasty. Mmmm...
-    .suffix = { "" }
-ent-CrayonWhite = white crayon
-    .desc = { ent-Crayon.desc }
-    .suffix = { "" }
-ent-CrayonMime = mime crayon
-    .desc = { ent-Crayon.desc }
-    .suffix = { "" }
-ent-CrayonRainbow = rainbow crayon
-    .desc = { ent-Crayon.desc }
-    .suffix = { "" }
-ent-CrayonBlack = black crayon
-    .desc = { ent-Crayon.desc }
-    .suffix = { "" }
-ent-CrayonRed = red crayon
-    .desc = { ent-Crayon.desc }
-    .suffix = { "" }
-ent-CrayonOrange = orange crayon
-    .desc = { ent-Crayon.desc }
-    .suffix = { "" }
-ent-CrayonYellow = yellow crayon
-    .desc = { ent-Crayon.desc }
-    .suffix = { "" }
-ent-CrayonGreen = green crayon
-    .desc = { ent-Crayon.desc }
-    .suffix = { "" }
-ent-CrayonBlue = blue crayon
-    .desc = { ent-Crayon.desc }
-    .suffix = { "" }
-ent-CrayonPurple = purple crayon
-    .desc = { ent-Crayon.desc }
-    .suffix = { "" }
-ent-CrayonBox = crayon box
-    .desc = It's a box of crayons.
-    .suffix = { "" }
+ent-Crayon =  мелок
+
+.desc =  It's a box of crayons.
+
+.suffix =  { "" }
+
+ent-CrayonWhite =  белый мелок
+
+ent-CrayonMime =  мимский мелок
+
+ent-CrayonRainbow =  радужный мелок
+
+ent-CrayonBlack =  чёрный мелок
+
+ent-CrayonRed =  красный мелок
+
+ent-CrayonOrange =  оранжевый мелок
+
+ent-CrayonYellow =  жёлтый мелок
+
+ent-CrayonGreen =  зелёный мелок
+
+ent-CrayonBlue =  синий мелок
+
+ent-CrayonPurple =  фиолетовый мелок
+
+ent-CrayonBox =  коробка для мелков
+

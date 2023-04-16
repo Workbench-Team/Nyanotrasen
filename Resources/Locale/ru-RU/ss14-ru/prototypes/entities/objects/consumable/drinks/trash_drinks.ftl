@@ -1,54 +1,40 @@
-ent-DrinkBottleBaseEmpty = base empty bottle
-    .desc = An empty bottle.
-    .suffix = { "" }
-ent-DrinkBottleAbsinthe = jailbreaker verte bottle
-    .desc = { ent-DrinkBottleBaseEmpty.desc }
-    .suffix = { "" }
-ent-DrinkBottleAlcoClear = alcohol bottle
-    .desc = { ent-DrinkBottleBaseEmpty.desc }
-    .suffix = { "" }
-ent-DrinkBottleAle = ale bottle
-    .desc = { ent-DrinkBottleBaseEmpty.desc }
-    .suffix = { "" }
-ent-DrinkBottleBeer = beer bottle
-    .desc = { ent-DrinkBottleBaseEmpty.desc }
-    .suffix = { "" }
-ent-DrinkBottleCognac = cognac bottle
-    .desc = { ent-DrinkBottleBaseEmpty.desc }
-    .suffix = { "" }
-ent-DrinkBottleGin = griffeater gin bottle
-    .desc = { ent-DrinkBottleBaseEmpty.desc }
-    .suffix = { "" }
-ent-DrinkBottleGoldschlager = goldschlager bottle
-    .desc = { ent-DrinkBottleBaseEmpty.desc }
-    .suffix = { "" }
-ent-DrinkBottleCoffeeLiqueur = coffee liqueur bottle
-    .desc = { ent-DrinkBottleBaseEmpty.desc }
-    .suffix = { "" }
-ent-DrinkBottleNTCahors = nt cahors bottle
-    .desc = { ent-DrinkBottleBaseEmpty.desc }
-    .suffix = { "" }
-ent-DrinkBottlePatron = patron bottle
-    .desc = { ent-DrinkBottleBaseEmpty.desc }
-    .suffix = { "" }
-ent-DrinkBottlePoisonWine = poison wine bottle
-    .desc = { ent-DrinkBottleBaseEmpty.desc }
-    .suffix = { "" }
-ent-DrinkBottleRum = rum bottle
-    .desc = { ent-DrinkBottleBaseEmpty.desc }
-    .suffix = { "" }
-ent-DrinkBottleTequila = tequila bottle
-    .desc = { ent-DrinkBottleBaseEmpty.desc }
-    .suffix = { "" }
-ent-DrinkBottleVermouth = vermouth bottle
-    .desc = { ent-DrinkBottleBaseEmpty.desc }
-    .suffix = { "" }
-ent-DrinkBottleVodka = vodka bottle
-    .desc = { ent-DrinkBottleBaseEmpty.desc }
-    .suffix = { "" }
-ent-DrinkBottleWhiskey = whiskey bottle
-    .desc = { ent-DrinkBottleBaseEmpty.desc }
-    .suffix = { "" }
-ent-DrinkBottleWine = wine bottle
-    .desc = { ent-DrinkBottleBaseEmpty.desc }
-    .suffix = { "" }
+ent-DrinkBottleBaseEmpty =  base empty bottle
+
+.desc =  { ent-DrinkBottleBaseEmpty.desc }
+
+.suffix =  { "" }
+
+ent-DrinkBottleAbsinthe =  бутылка от Джейлбрейк Верте
+
+ent-DrinkBottleAlcoClear =  бутылка от спиртного
+
+ent-DrinkBottleAle =  бутылка от эля
+
+ent-DrinkBottleBeer =  пивная бутылка
+
+ent-DrinkBottleCognac =  бутылка от коньяка
+
+ent-DrinkBottleGin =  бутылка от джина Гриффитер
+
+ent-DrinkBottleGoldschlager =  бутылка от гольдшлягера
+
+ent-DrinkBottleCoffeeLiqueur =  бутылка от кофейного ликёра
+
+ent-DrinkBottleNTCahors =  бутылка от кагора
+
+ent-DrinkBottlePatron =  бутылка от покровителя
+
+ent-DrinkBottlePoisonWine =  бутылка от ядовитого вина
+
+ent-DrinkBottleRum =  бутылка от рома
+
+ent-DrinkBottleTequila =  бутылка от текилы
+
+ent-DrinkBottleVermouth =  бутылка от вермута
+
+ent-DrinkBottleVodka =  бутылка от водки
+
+ent-DrinkBottleWhiskey =  бутылка от виски
+
+ent-DrinkBottleWine =  бутылка от вина
+

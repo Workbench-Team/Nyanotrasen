@@ -1,3 +1,6 @@
-ent-RadioHandheld = handheld radio
-    .desc = A handy handheld radio.
-    .suffix = { "" }
+ent-RadioHandheld =  портативная рация
+
+.desc =  A handy handheld radio.
+
+.suffix =  { "" }
+

@@ -1,17 +1,14 @@
-ent-BaseThruster = { ent-BaseStructureDynamic }
-    .desc = { ent-BaseStructureDynamic.desc }
-    .suffix = { "" }
-ent-Thruster = { ent-['BaseThruster', 'ConstructibleMachine'] }
+ent-BaseThruster =  двигатель
 
-  .desc = { ent-['BaseThruster', 'ConstructibleMachine'].desc }
-  .suffix = { "" }
-ent-DebugThruster = { ent-BaseThruster }
-    .suffix = DEBUG
-    .desc = { ent-BaseThruster.desc }
-ent-Gyroscope = { ent-['BaseThruster', 'ConstructibleMachine'] }
+.desc =  { ent-BaseThruster.desc }
 
-  .desc = { ent-['BaseThruster', 'ConstructibleMachine'].desc }
-  .suffix = { "" }
-ent-DebugGyroscope = { ent-BaseThruster }
-    .suffix = DEBUG
-    .desc = { ent-BaseThruster.desc }
+.suffix =  DEBUG
+
+ent-Thruster =  { ent-BaseThruster }
+
+ent-DebugThruster =  дебаг двигатель
+
+ent-Gyroscope =  гироскоп
+
+ent-DebugGyroscope =  дебаг гироскоп
+

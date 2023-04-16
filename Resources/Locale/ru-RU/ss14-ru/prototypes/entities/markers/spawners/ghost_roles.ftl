@@ -1,12 +1,12 @@
-ent-SpawnPointGhostRatKing = ghost role spawn point
-    .suffix = rat king
-    .desc = { ent-MarkerBase.desc }
-ent-SpawnPointGhostRemilia = ghost role spawn point
-    .suffix = Remilia
-    .desc = { ent-MarkerBase.desc }
-ent-SpawnPointGhostCerberus = ghost role spawn point
-    .suffix = cerberus
-    .desc = { ent-MarkerBase.desc }
-ent-SpawnPointGhostNukeOperative = ghost role spawn point
-    .suffix = nukeops
-    .desc = { ent-MarkerBase.desc }
+ent-SpawnPointGhostRatKing =  спавнер роли призрак
+
+.suffix =  nukeops
+
+.desc =  { ent-MarkerBase.desc }
+
+ent-SpawnPointGhostRemilia =  спавнер роли призрак
+
+ent-SpawnPointGhostCerberus =  спавнер роли призрак
+
+ent-SpawnPointGhostNukeOperative =  спавнер роли призрак
+

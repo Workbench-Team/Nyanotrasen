@@ -1,18 +1,16 @@
-ent-ClothingHeadBase = { ent-Clothing }
-    .desc = { ent-Clothing.desc }
-    .suffix = { "" }
-ent-HatBase = { ent-Clothing }
-    .desc = { ent-Clothing.desc }
-    .suffix = { "" }
-ent-ClothingHeadLightBase = base helmet with light
-    .desc = { ent-ClothingHeadBase.desc }
-    .suffix = { "" }
-ent-ClothingHeadEVAHelmetBase = base space helmet
-    .desc = { ent-ClothingHeadBase.desc }
-    .suffix = { "" }
-ent-ClothingHeadHardsuitBase = base hardsuit helmet
-    .desc = { "" }
-    .suffix = { "" }
-ent-ClothingHeadHardsuitWithLightBase = base hardsuit helmet with light
-    .desc = { ent-ClothingHeadHardsuitBase.desc }
-    .suffix = { "" }
+ent-ClothingHeadBase =  { ent-Clothing }
+
+.desc =  { ent-ClothingHeadHardsuitBase.desc }
+
+.suffix =  { "" }
+
+ent-HatBase =  { ent-Clothing }
+
+ent-ClothingHeadLightBase =  базовый шлем с фонарём
+
+ent-ClothingHeadEVAHelmetBase =  базовый космический шлем
+
+ent-ClothingHeadHardsuitBase =  базовый шлем скафандра
+
+ent-ClothingHeadHardsuitWithLightBase =  базовый шлем скафандра с фонарём
+

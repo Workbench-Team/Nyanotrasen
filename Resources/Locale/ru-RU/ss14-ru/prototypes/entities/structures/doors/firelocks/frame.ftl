@@ -1,3 +1,6 @@
-ent-FirelockFrame = Firelock Frame
-    .desc = That is a firelock frame.
-    .suffix = { "" }
+ent-FirelockFrame =  каркас пожарного шлюза
+
+.desc =  That is a firelock frame.
+
+.suffix =  { "" }
+

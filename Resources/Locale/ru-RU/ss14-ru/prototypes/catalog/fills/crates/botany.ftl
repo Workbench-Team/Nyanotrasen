@@ -1,12 +1,12 @@
-ent-CrateHydroponicsSeedsExotic = { ent-CrateHydroSecure }
-    .desc = { ent-CrateHydroSecure.desc }
-    .suffix = { "" }
-ent-CrateHydroponicsSeedsMedicinal = { ent-CrateHydroSecure }
-    .desc = { ent-CrateHydroSecure.desc }
-    .suffix = { "" }
-ent-CrateHydroponicsTools = { ent-CrateHydroponics }
-    .desc = { ent-CrateHydroponics.desc }
-    .suffix = { "" }
-ent-CrateHydroponicsSeeds = { ent-CrateHydroponics }
-    .desc = { ent-CrateHydroponics.desc }
-    .suffix = { "" }
+ent-CrateHydroponicsSeedsExotic =  ящик экзотических семян
+
+.desc =  { ent-CrateHydroponics.desc }
+
+.suffix =  { "" }
+
+ent-CrateHydroponicsSeedsMedicinal =  ящик лекарственных семян
+
+ent-CrateHydroponicsTools =  ящик снаряжения для гидропоники
+
+ent-CrateHydroponicsSeeds =  ящик семян
+

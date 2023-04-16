@@ -1,3 +1,6 @@
-ent-AdminObserver = admin observer
-    .desc = { ent-MobObserver.desc }
-    .suffix = { "" }
+ent-AdminObserver =  админ наблюдатель
+
+.desc =  { ent-MobObserver.desc }
+
+.suffix =  { "" }
+

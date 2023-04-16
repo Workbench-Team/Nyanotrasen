@@ -1,3 +1,6 @@
-ent-trayScanner = t-ray scanner
-    .desc = { ent-BaseItem.desc }
-    .suffix = { "" }
+ent-trayScanner =  т-лучевой сканер
+
+.desc =  { ent-BaseItem.desc }
+
+.suffix =  { "" }
+

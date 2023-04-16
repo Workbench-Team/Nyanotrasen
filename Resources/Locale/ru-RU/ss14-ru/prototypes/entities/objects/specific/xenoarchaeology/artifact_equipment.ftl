@@ -1,3 +1,6 @@
-ent-CrateArtifactContainer = { ent-BaseStructureDynamic }
-    .desc = { ent-BaseStructureDynamic.desc }
-    .suffix = { "" }
+ent-CrateArtifactContainer =  контейнер для артефактов
+
+.desc =  { ent-BaseStructureDynamic.desc }
+
+.suffix =  { "" }
+

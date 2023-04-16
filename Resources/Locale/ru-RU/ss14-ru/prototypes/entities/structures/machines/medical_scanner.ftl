@@ -1,3 +1,6 @@
-ent-MedicalScanner = medical scanner
-    .desc = A bulky medical scanner.
-    .suffix = { "" }
+ent-MedicalScanner =  медицинский сканер
+
+.desc =  A bulky medical scanner.
+
+.suffix =  { "" }
+

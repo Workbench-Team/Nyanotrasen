@@ -1,3 +1,6 @@
-ent-clientsideclone = clientsideclone
-    .desc = { "" }
-    .suffix = { "" }
+ent-clientsideclone =  clientsideclone
+
+.desc =  { "" }
+
+.suffix =  { "" }
+

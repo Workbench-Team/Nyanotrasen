@@ -1,3 +1,6 @@
-ent-AmbientSoundSourceFlies = { "" }
-    .desc = { "" }
-    .suffix = { "" }
+ent-AmbientSoundSourceFlies =  { "" }
+
+.desc =  { "" }
+
+.suffix =  { "" }
+

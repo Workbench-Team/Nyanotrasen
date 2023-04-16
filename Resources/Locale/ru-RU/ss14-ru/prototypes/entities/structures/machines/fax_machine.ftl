@@ -1,12 +1,12 @@
-ent-FaxMachineBase = long range fax machine
-    .desc = Bluespace technologies on the application of bureaucracy.
-    .suffix = { "" }
-ent-FaxMachineCentcom = centcom long range fax machine
-    .suffix = Centcom
-    .desc = { ent-FaxMachineBase.desc }
-ent-FaxMachineSyndie = syndicate long range fax machine
-    .suffix = Syndicate
-    .desc = { ent-FaxMachineBase.desc }
-ent-FaxMachineCaptain = captain long range fax machine
-    .suffix = NukeCodes
-    .desc = { ent-FaxMachineBase.desc }
+ent-FaxMachineBase =  факс дальнего действия
+
+.desc =  { ent-FaxMachineBase.desc }
+
+.suffix =  NukeCodes
+
+ent-FaxMachineCentcom =  центкоммовский факс дальнего действия
+
+ent-FaxMachineSyndie =  синдикатовский факс дальнего действия
+
+ent-FaxMachineCaptain =  капитанский факс дальнего действия
+

@@ -1,3 +1,6 @@
-ent-CargoTelepad = cargo telepad
-    .desc = { ent-BaseStructureDynamic.desc }
-    .suffix = { "" }
+ent-CargoTelepad =  грузовой телепад
+
+.desc =  { ent-BaseStructureDynamic.desc }
+
+.suffix =  { "" }
+

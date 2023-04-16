@@ -1,16 +1,14 @@
-ent-ClothingOuterBase = { ent-Clothing }
-    .desc = { ent-Clothing.desc }
-    .suffix = { "" }
-ent-ClothingOuterBaseLarge = { ent-ClothingOuterBase }
-    .desc = { ent-ClothingOuterBase.desc }
-    .suffix = { "" }
-ent-ClothingOuterStorageBase = { ent-ClothingOuterBase }
-    .desc = { ent-ClothingOuterBase.desc }
-    .suffix = { "" }
-ent-ClothingOuterHardsuitBase = base hardsuit
+ent-ClothingOuterBase =  { ent-Clothing }
 
-  .desc = { ent-['ClothingOuterBase', 'GeigerCounterClothing'].desc }
-  .suffix = { "" }
-ent-ClothingOuterEVASuitBase = base EVA Suit
-    .desc = { ent-ClothingOuterBase.desc }
-    .suffix = { "" }
+.desc =  { ent-ClothingOuterBase.desc }
+
+.suffix =  { "" }
+
+ent-ClothingOuterBaseLarge =  { ent-ClothingOuterBase }
+
+ent-ClothingOuterStorageBase =  { ent-ClothingOuterBase }
+
+ent-ClothingOuterHardsuitBase =  base hardsuit
+
+ent-ClothingOuterEVASuitBase =  base EVA Suit
+

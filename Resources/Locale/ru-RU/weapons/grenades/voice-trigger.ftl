@@ -1,7 +1,14 @@
-examine-trigger-voice = The display reads: "{ $keyphrase }"
-trigger-voice-uninitialized = The display reads: Uninitialized...
-verb-trigger-voice-record = Record
-verb-trigger-voice-clear = Clear recording
-popup-trigger-voice-start-recording = Started recording
-popup-trigger-voice-stop-recording = Stopped recording
-popup-trigger-voice-recorded = Recorded
+examine-trigger-voice =  На дисплее виднеется: "{ $keyphrase }"
+
+trigger-voice-uninitialized =  На дисплее виднеется: Неинициализированный...
+
+verb-trigger-voice-record =  Запись
+
+verb-trigger-voice-clear =  Очистить запись
+
+popup-trigger-voice-start-recording =  Запись начата
+
+popup-trigger-voice-stop-recording =  Запись остановлена
+
+popup-trigger-voice-recorded =  Записано
+

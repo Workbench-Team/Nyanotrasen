@@ -1,24 +1,20 @@
-ent-BaseSpellbook = spellbook
-    .desc = { ent-BaseItem.desc }
-    .suffix = { "" }
-ent-SpawnSpellbook = spawn spellbook
-    .desc = { ent-BaseSpellbook.desc }
-    .suffix = { "" }
-ent-ForceWallSpellbook = force wall spellbook
-    .desc = { ent-BaseSpellbook.desc }
-    .suffix = { "" }
-ent-BlinkBook = blink spellbook
-    .desc = { ent-BaseSpellbook.desc }
-    .suffix = { "" }
-ent-SmiteBook = smite spellbook
-    .desc = { ent-BaseSpellbook.desc }
-    .suffix = { "" }
-ent-KnockSpellbook = knock spellbook
-    .desc = { ent-BaseSpellbook.desc }
-    .suffix = { "" }
-ent-FireballSpellbook = fireball spellbook
-    .desc = { ent-BaseSpellbook.desc }
-    .suffix = { "" }
-ent-ScrollRunes = scroll of runes
-    .desc = { ent-BaseSpellbook.desc }
-    .suffix = { "" }
+ent-BaseSpellbook =  книга заклинаний
+
+.desc =  { ent-BaseSpellbook.desc }
+
+.suffix =  { "" }
+
+ent-SpawnSpellbook =  книга заклинания призыв
+
+ent-ForceWallSpellbook =  книга заклинания силовой барьер
+
+ent-BlinkBook =  книга заклинания прыжок
+
+ent-SmiteBook =  книга заклинания кара
+
+ent-KnockSpellbook =  книга заклинания стук
+
+ent-FireballSpellbook =  книга заклинания огненный шар
+
+ent-ScrollRunes =  свиток рун
+

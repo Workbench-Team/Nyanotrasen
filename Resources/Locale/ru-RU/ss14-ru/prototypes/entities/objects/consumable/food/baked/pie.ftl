@@ -1,69 +1,50 @@
-ent-FoodPieBase = { ent-FoodInjectableBase }
-    .desc = { ent-FoodInjectableBase.desc }
-    .suffix = { "" }
-ent-FoodPieSliceBase = { ent-FoodInjectableBase }
-    .desc = A slice of pie. Tasty!
-    .suffix = { "" }
-ent-FoodPieApple = apple pie
-    .desc = A pie containing sweet, sweet love... or apple.
-    .suffix = { "" }
-ent-FoodPieAppleSlice = slice of apple pie
-    .desc = { ent-FoodPieSliceBase.desc }
-    .suffix = { "" }
-ent-FoodPieBaklava = baklava
-    .desc = A delightful healthy snack made of nut layers with thin bread.
-    .suffix = { "" }
-ent-FoodPieBaklavaSlice = slice of baklava
-    .desc = A portion of a delightful healthy snack made of nut layers with thin bread.
-    .suffix = { "" }
-ent-FoodPieBananaCream = banana cream pie
-    .desc = Just like back home, on clown planet! HONK!
-    .suffix = { "" }
-ent-FoodPieClafoutis = berry clafoutis
-    .desc = No black birds, this is a good sign.
-    .suffix = { "" }
-ent-FoodPieClafoutisSlice = slice of berry clafoutis
-    .desc = { ent-FoodPieSliceBase.desc }
-    .suffix = { "" }
-ent-FoodPieCherry = cherry pie
-    .desc = Tastes good enough to make a grown man cry.
-    .suffix = { "" }
-ent-FoodPieCherrySlice = slice of cherry pie
-    .desc = { ent-FoodPieSliceBase.desc }
-    .suffix = { "" }
-ent-FoodPieMeat = meat pie
-    .desc = An old barber recipe, very delicious!
-    .suffix = { "" }
-ent-FoodPieMeatSlice = slice of meat pie
-    .desc = { ent-FoodPieSliceBase.desc }
-    .suffix = { "" }
-ent-FoodPieXeno = xeno pie
-    .desc = { ent-FoodPieBase.desc }
-    .suffix = { "" }
-ent-FoodPieXenoSlice = slice of xeno pie
-    .desc = { ent-FoodPieSliceBase.desc }
-    .suffix = { "" }
-ent-FoodPieFrosty = frosty pie
-    .desc = Tastes like blue and cold.
-    .suffix = { "" }
-ent-FoodPieFrostySlice = slice of frosty pie
-    .desc = { ent-FoodPieSliceBase.desc }
-    .suffix = { "" }
-ent-FoodPieAmanita = amanita pie
-    .desc = Sweet and tasty poison pie.
-    .suffix = { "" }
-ent-FoodPiePlump = plump pie
-    .desc = I bet you love stuff made out of plump helmets!
-    .suffix = { "" }
-ent-FoodTartGrape = grape tart
-    .desc = A tasty dessert that reminds you of the wine you didn't make.
-    .suffix = { "" }
-ent-FoodTartMime = mime tart
-    .desc = "      "
-    .suffix = { "" }
-ent-FoodTartGapple = golden apple streusel tart
-    .desc = A tasty dessert that won't make it through a metal detector.
-    .suffix = { "" }
-ent-FoodTartCoco = chocolate lava tart
-    .desc = A tasty dessert made of chocolate, with a liquid core.
-    .suffix = { "" }
+ent-FoodPieBase =  { ent-FoodInjectableBase }
+
+.desc =  A tasty dessert made of chocolate, with a liquid core.
+
+.suffix =  { "" }
+
+ent-FoodPieSliceBase =  { ent-FoodInjectableBase }
+
+ent-FoodPieApple =  яблочный пирог
+
+ent-FoodPieAppleSlice =  кусок яблочного пирога
+
+ent-FoodPieBaklava =  пахлава
+
+ent-FoodPieBaklavaSlice =  кусок пахлавы
+
+ent-FoodPieBananaCream =  кремовый банановый пирог
+
+ent-FoodPieClafoutis =  ягодный клафути
+
+ent-FoodPieClafoutisSlice =  кусок ягодного клафути
+
+ent-FoodPieCherry =  вишнёвый пирог
+
+ent-FoodPieCherrySlice =  кусок вишнёвого пирога
+
+ent-FoodPieMeat =  мясной пирог
+
+ent-FoodPieMeatSlice =  кусок мясного пирога
+
+ent-FoodPieXeno =  ксено-пирог
+
+ent-FoodPieXenoSlice =  кусок ксено-пирога
+
+ent-FoodPieFrosty =  морозный пирог
+
+ent-FoodPieFrostySlice =  кусок морозного пирога
+
+ent-FoodPieAmanita =  пирог из мухоморов
+
+ent-FoodPiePlump =  пирог из толстошлемника
+
+ent-FoodTartGrape =  виноградный тарт
+
+ent-FoodTartMime =  мимский тарт
+
+ent-FoodTartGapple =  тарт из золотых яблок с крошкой
+
+ent-FoodTartCoco =  шоколадный тарт с лавой
+

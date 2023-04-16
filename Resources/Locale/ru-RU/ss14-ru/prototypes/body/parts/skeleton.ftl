@@ -1,33 +1,26 @@
-ent-PartSkeleton = skeleton body part
-    .desc = { ent-BaseItem.desc }
-    .suffix = { "" }
-ent-TorsoSkeleton = skeleton torso
-    .desc = { ent-PartSkeleton.desc }
-    .suffix = { "" }
-ent-HeadSkeleton = skull
-    .desc = Alas poor Yorick...
-    .suffix = { "" }
-ent-LeftArmSkeleton = left skeleton arm
-    .desc = { ent-PartSkeleton.desc }
-    .suffix = { "" }
-ent-RightArmSkeleton = right skeleton arm
-    .desc = { ent-PartSkeleton.desc }
-    .suffix = { "" }
-ent-LeftHandSkeleton = left skeleton hand
-    .desc = { ent-PartSkeleton.desc }
-    .suffix = { "" }
-ent-RightHandSkeleton = right skeleton hand
-    .desc = { ent-PartSkeleton.desc }
-    .suffix = { "" }
-ent-LeftLegSkeleton = left skeleton leg
-    .desc = { ent-PartSkeleton.desc }
-    .suffix = { "" }
-ent-RightLegSkeleton = right skeleton leg
-    .desc = { ent-PartSkeleton.desc }
-    .suffix = { "" }
-ent-LeftFootSkeleton = left skeleton foot
-    .desc = { ent-PartSkeleton.desc }
-    .suffix = { "" }
-ent-RightFootSkeleton = right skeleton foot
-    .desc = { ent-PartSkeleton.desc }
-    .suffix = { "" }
+ent-PartSkeleton =  часть тела скелет
+
+.desc =  { ent-PartSkeleton.desc }
+
+.suffix =  { "" }
+
+ent-TorsoSkeleton =  туловище скелета
+
+ent-HeadSkeleton =  череп
+
+ent-LeftArmSkeleton =  левая рука скелета
+
+ent-RightArmSkeleton =  правая рука скелета
+
+ent-LeftHandSkeleton =  левая кисть скелета
+
+ent-RightHandSkeleton =  правая кисть скелета
+
+ent-LeftLegSkeleton =  левая нога скелета
+
+ent-RightLegSkeleton =  правая нога скелета
+
+ent-LeftFootSkeleton =  левая стопа скелета
+
+ent-RightFootSkeleton =  правая стопа скелета
+

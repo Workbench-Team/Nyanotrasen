@@ -1,15 +1,14 @@
-ent-BaseMobFlesh = aberrant flesh
-    .desc = A shambling mass of flesh, animated through anomalous energy.
-    .suffix = { "" }
-ent-MobFleshJared = { ent-BaseMobFlesh }
-    .desc = { ent-BaseMobFlesh.desc }
-    .suffix = { "" }
-ent-MobFleshGolem = { ent-BaseMobFlesh }
-    .desc = { ent-BaseMobFlesh.desc }
-    .suffix = { "" }
-ent-MobFleshClamp = { ent-BaseMobFlesh }
-    .desc = { ent-BaseMobFlesh.desc }
-    .suffix = { "" }
-ent-MobFleshLover = { ent-BaseMobFlesh }
-    .desc = { ent-BaseMobFlesh.desc }
-    .suffix = { "" }
+ent-BaseMobFlesh =  отвратительная плоть
+
+.desc =  { ent-BaseMobFlesh.desc }
+
+.suffix =  { "" }
+
+ent-MobFleshJared =  { ent-BaseMobFlesh }
+
+ent-MobFleshGolem =  { ent-BaseMobFlesh }
+
+ent-MobFleshClamp =  { ent-BaseMobFlesh }
+
+ent-MobFleshLover =  { ent-BaseMobFlesh }
+

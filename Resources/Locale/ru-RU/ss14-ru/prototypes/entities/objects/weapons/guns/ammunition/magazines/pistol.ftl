@@ -1,51 +1,38 @@
-ent-BaseMagazinePistol = pistol magazine (.35 auto)
-    .desc = { ent-BaseItem.desc }
-    .suffix = { "" }
-ent-BaseMagazinePistolHighCapacity = machine pistol magazine (.35 auto)
-    .desc = { ent-BaseItem.desc }
-    .suffix = { "" }
-ent-BaseMagazinePistolSubMachineGun = SMG magazine (.35 auto)
-    .desc = { ent-BaseItem.desc }
-    .suffix = { "" }
-ent-MagazinePistolSubMachineGunTopMounted = WT550 magazine (.35 auto top-mounted)
-    .desc = { ent-BaseItem.desc }
-    .suffix = { "" }
-ent-MagazinePistolCalicoTopMounted = Calico magazine (.35 auto top-mounted)
-    .desc = { ent-BaseMagazinePistolSubMachineGun.desc }
-    .suffix = { "" }
-ent-MagazinePistol = pistol magazine (.35 auto)
-    .desc = { ent-BaseMagazinePistol.desc }
-    .suffix = { "" }
-ent-MagazinePistolHighVelocity = pistol magazine (.35 auto high-velocity)
-    .desc = { ent-BaseMagazinePistol.desc }
-    .suffix = { "" }
-ent-MagazinePistolPractice = pistol magazine (.35 auto practice)
-    .desc = { ent-BaseMagazinePistol.desc }
-    .suffix = { "" }
-ent-MagazinePistolRubber = pistol magazine (.35 auto rubber)
-    .desc = { ent-BaseMagazinePistol.desc }
-    .suffix = { "" }
-ent-MagazinePistolHighCapacity = machine pistol magazine (.35 auto)
-    .desc = { ent-BaseMagazinePistolHighCapacity.desc }
-    .suffix = { "" }
-ent-MagazinePistolHighCapacityHighVelocity = machine pistol magazine (.35 auto high-velocity)
-    .desc = { ent-BaseMagazinePistolHighCapacity.desc }
-    .suffix = { "" }
-ent-MagazinePistolHighCapacityPractice = machine pistol magazine (.35 auto practice)
-    .desc = { ent-BaseMagazinePistolHighCapacity.desc }
-    .suffix = { "" }
-ent-MagazinePistolHighCapacityRubber = machine pistol magazine (.35 auto rubber)
-    .desc = { ent-BaseMagazinePistolHighCapacity.desc }
-    .suffix = { "" }
-ent-MagazinePistolSubMachineGun = SMG magazine (.35 auto)
-    .desc = { ent-BaseMagazinePistolSubMachineGun.desc }
-    .suffix = { "" }
-ent-MagazinePistolSubMachineGunHighVelocity = SMG magazine (.35 auto high-velocity)
-    .desc = { ent-BaseMagazinePistolSubMachineGun.desc }
-    .suffix = { "" }
-ent-MagazinePistolSubMachineGunPractice = SMG magazine (.35 auto practice)
-    .desc = { ent-BaseMagazinePistolSubMachineGun.desc }
-    .suffix = { "" }
-ent-MagazinePistolSubMachineGunRubber = SMG magazine (.35 auto rubber)
-    .desc = { ent-BaseMagazinePistolSubMachineGun.desc }
-    .suffix = { "" }
+ent-BaseMagazinePistol =  пистолетный магазин (.35 авто)
+
+.desc =  { ent-BaseMagazinePistolSubMachineGun.desc }
+
+.suffix =  { "" }
+
+ent-BaseMagazinePistolHighCapacity =  автопистолетный магазин (.35 авто)
+
+ent-BaseMagazinePistolSubMachineGun =  магазин ПП (.35 auto)
+
+ent-MagazinePistolSubMachineGunTopMounted =  магазин WT550 (.35 авто, надствольный)
+
+ent-MagazinePistolCalicoTopMounted =  Calico magazine (.35 auto top-mounted)
+
+ent-MagazinePistol =  пистолетный магазин (.35 auto)
+
+ent-MagazinePistolHighVelocity =  пистолетный магазин (.35 авто высокоскоростные)
+
+ent-MagazinePistolPractice =  пистолетный магазин (.35 авто учебные)
+
+ent-MagazinePistolRubber =  пистолетный магазин (.35 авто резиновые)
+
+ent-MagazinePistolHighCapacity =  автопистолетный магазин (.35 авто)
+
+ent-MagazinePistolHighCapacityHighVelocity =  автопистолетный магазин (.35 авто высокоскоростные)
+
+ent-MagazinePistolHighCapacityPractice =  автопистолетный магазин (.35 авто учебные)
+
+ent-MagazinePistolHighCapacityRubber =  автопистолетный магазин (.35 авто резиновые)
+
+ent-MagazinePistolSubMachineGun =  магазин ПП (.35 авто)
+
+ent-MagazinePistolSubMachineGunHighVelocity =  магазин ПП (.35 авто высокоскоростные)
+
+ent-MagazinePistolSubMachineGunPractice =  магазин ПП (.35 авто учебные)
+
+ent-MagazinePistolSubMachineGunRubber =  магазин ПП (.35 авто резиновые)
+

@@ -1,33 +1,34 @@
-ent-ClothingHeadMailCarrier = mail carrier's hat
-    .desc = Smells like a good pension.
-    .suffix = { "" }
-ent-ClothingHeadHoodMystic = mystic hood
-    .desc = To contain a very wise head.
-    .suffix = { "" }
-ent-ClothingHeadHoodBrown = brown hood
-    .desc = Spooky.
-    .suffix = { "" }
-ent-ClothingHeadAreopagite = areopagite hat
-    .desc = Intimidating.
-    .suffix = { "" }
-ent-ClothingHeadTechPriest = automaturge hood
-    .desc = Protects the mind that makes artificial minds.
-    .suffix = { "" }
-ent-ClothingHeadTinfoil = tinfoil hat
-    .desc = Protects you from all manner of psionic assaults.
-    .suffix = { "" }
-ent-ClothingHeadHatBellhop = bellhop cap
-    .desc = All the inconvinience and humiliation of a fez with none of the style!
-    .suffix = { "" }
-ent-ClothingHeadCage = insulative headcage
-    .desc = Psionically insulates whoevers head is inside it. It takes time to resist out of.
-    .suffix = { "" }
-ent-ClothingHeadHelmetInsulated = insulative skullcap
-    .desc = Psionically insulates whoevers head is inside it. It has some protection from physical damage.
-    .suffix = { "" }
-ent-ClothingHeadHatFezMantis = forensic mantis' fez
-    .desc = A fine red fez with a gold tassel.
-    .suffix = { "" }
-ent-ClothingHeadPrisonGuard = prison guard's hat
-    .desc = Grants full immunity from denying others basic human rights, dignity, or respect.
-    .suffix = { "" }
+ent-ClothingHeadMailCarrier =  mail carrier's hat
+
+.desc =  A purple beret with a blue epistemics emblem. Mystical and stylish.
+
+.suffix =  { "" }
+
+ent-ClothingHeadHoodMystic =  mystic hood
+
+ent-ClothingHeadHoodBrown =  brown hood
+
+ent-ClothingHeadAreopagite =  areopagite hat
+
+ent-ClothingHeadTechPriest =  automaturge hood
+
+ent-ClothingHeadTinfoil =  tinfoil hat
+
+ent-ClothingHeadHatBellhop =  bellhop cap
+
+ent-ClothingHeadCage =  insulative headcage
+
+ent-ClothingHeadHelmetInsulated =  insulative skullcap
+
+ent-ClothingHeadHatFezMantis =  forensic mantis' fez
+
+ent-ClothingHeadPrisonGuard =  prison guard's hat
+
+ent-ClothingHeadHelmetKendoMen =  men
+
+ent-ClothingHeadHatBeretCap =  captain's beret
+
+ent-ClothingHeadHatBeretCentcomm =  centcomm beret
+
+ent-ClothingHeadHatBeretMysta =  mystagogue's beret
+

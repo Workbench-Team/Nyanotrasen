@@ -1,12 +1,12 @@
-ent-BaseBigBox = cardboard box
-    .desc = Huh? Just a box...
-    .suffix = { "" }
-ent-StealthBox = cardboard box
-    .desc = Kept ya waiting, huh?
-    .suffix = stealth
-ent-GhostBox = ghost box
-    .desc = Beware!
-    .suffix = { "" }
-ent-Exclamation = exclamation
-    .desc = { "" }
-    .suffix = { "" }
+ent-BaseBigBox =  картонная коробка
+
+.desc =  { "" }
+
+.suffix =  { "" }
+
+ent-StealthBox =  картонная коробка
+
+ent-GhostBox =  призрачная коробка
+
+ent-Exclamation =  восклицание
+

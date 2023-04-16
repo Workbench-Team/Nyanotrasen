@@ -1,16 +1,18 @@
-ent-ServiceJanitorial = { ent-CrateServiceJanitorialSupplies }
-    .desc = { ent-CrateServiceJanitorialSupplies.desc }
-ent-ServiceLightsReplacement = { ent-CrateServiceReplacementLights }
-    .desc = { ent-CrateServiceReplacementLights.desc }
-ent-MousetrapBoxes = { ent-CrateMousetrapBoxes }
-    .desc = { ent-CrateMousetrapBoxes.desc }
-ent-HolyWaterKit = { ent-CrateHolyWaterKit }
-    .desc = { ent-CrateHolyWaterKit.desc }
-ent-ServiceSmokeables = { ent-CrateServiceSmokeables }
-    .desc = { ent-CrateServiceSmokeables.desc }
-ent-ServiceCustomSmokable = { ent-CrateServiceCustomSmokable }
-    .desc = { ent-CrateServiceCustomSmokable.desc }
-ent-ServiceBureaucracy = { ent-CrateServiceBureaucracy }
-    .desc = { ent-CrateServiceBureaucracy.desc }
-ent-ServicePersonnel = { ent-CrateServicePersonnel }
-    .desc = { ent-CrateServicePersonnel.desc }
+ent-ServiceJanitorial =  { ent-CrateServiceJanitorialSupplies }
+
+.desc =  { ent-CrateServicePersonnel.desc }
+
+ent-ServiceLightsReplacement =  { ent-CrateServiceReplacementLights }
+
+ent-MousetrapBoxes =  { ent-CrateMousetrapBoxes }
+
+ent-HolyWaterKit =  { ent-CrateHolyWaterKit }
+
+ent-ServiceSmokeables =  { ent-CrateServiceSmokeables }
+
+ent-ServiceCustomSmokable =  { ent-CrateServiceCustomSmokable }
+
+ent-ServiceBureaucracy =  { ent-CrateServiceBureaucracy }
+
+ent-ServicePersonnel =  { ent-CrateServicePersonnel }
+

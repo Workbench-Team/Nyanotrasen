@@ -1,1 +1,2 @@
-tips-system-chat-message-wrap = Tip: { $tip }
+tips-system-chat-message-wrap =  Совет: { $tip }
+

@@ -1,3 +1,6 @@
-ent-FloorLavaEntity = lava floor
-    .desc = { "" }
-    .suffix = { "" }
+ent-FloorLavaEntity =  лавовый пол
+
+.desc =  { "" }
+
+.suffix =  { "" }
+

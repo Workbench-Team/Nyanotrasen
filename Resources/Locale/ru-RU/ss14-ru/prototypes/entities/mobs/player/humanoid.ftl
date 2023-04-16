@@ -1,42 +1,32 @@
-ent-RandomHumanoidSpawnerERTLeader = ERT leader
-    .desc = { "" }
-    .suffix = { "" }
-ent-RandomHumanoidSpawnerERTLeaderEVA = ERT leader
-    .suffix = EVA
-    .desc = { ent-RandomHumanoidSpawnerERTLeader.desc }
-ent-RandomHumanoidSpawnerERTJanitor = ERT janitor
-    .desc = { ent-RandomHumanoidSpawnerERTLeader.desc }
-    .suffix = { "" }
-ent-RandomHumanoidSpawnerERTJanitorEVA = ERT janitor
-    .suffix = EVA
-    .desc = { ent-RandomHumanoidSpawnerERTJanitor.desc }
-ent-RandomHumanoidSpawnerERTEngineer = ERT engineer
-    .desc = { ent-RandomHumanoidSpawnerERTLeader.desc }
-    .suffix = { "" }
-ent-RandomHumanoidSpawnerERTEngineerEVA = ERT engineer
-    .suffix = EVA
-    .desc = { ent-RandomHumanoidSpawnerERTEngineer.desc }
-ent-RandomHumanoidSpawnerERTSecurity = ERT security
-    .desc = { ent-RandomHumanoidSpawnerERTLeader.desc }
-    .suffix = { "" }
-ent-RandomHumanoidSpawnerERTSecurityEVA = ERT security
-    .suffix = EVA
-    .desc = { ent-RandomHumanoidSpawnerERTSecurity.desc }
-ent-RandomHumanoidSpawnerERTMedical = ERT medic
-    .desc = { ent-RandomHumanoidSpawnerERTLeader.desc }
-    .suffix = { "" }
-ent-RandomHumanoidSpawnerERTMedicalEVA = ERT medic
-    .suffix = EVA
-    .desc = { ent-RandomHumanoidSpawnerERTMedical.desc }
-ent-RandomHumanoidSpawnerCBURNUnit = CBURN Agent
-    .desc = { "" }
-    .suffix = { "" }
-ent-RandomHumanoidSpawnerCentcomOfficial = CentCom official
-    .desc = { "" }
-    .suffix = { "" }
-ent-RandomHumanoidSpawnerSyndicateAgent = Syndicate Agent
-    .desc = { "" }
-    .suffix = { "" }
-ent-RandomHumanoidSpawnerNukeOp = Nuclear Operative
-    .desc = { "" }
-    .suffix = { "" }
+ent-RandomHumanoidSpawnerERTLeader =  ОБР лидер
+
+.desc =  { "" }
+
+.suffix =  { "" }
+
+ent-RandomHumanoidSpawnerERTLeaderEVA =  ОБР лидер
+
+ent-RandomHumanoidSpawnerERTJanitor =  ОБР уборщик
+
+ent-RandomHumanoidSpawnerERTJanitorEVA =  ОБР уборщик
+
+ent-RandomHumanoidSpawnerERTEngineer =  ОБР инженер
+
+ent-RandomHumanoidSpawnerERTEngineerEVA =  ОБР инженер
+
+ent-RandomHumanoidSpawnerERTSecurity =  ОБР офицер безопасности
+
+ent-RandomHumanoidSpawnerERTSecurityEVA =  ОБР офицер безопасности
+
+ent-RandomHumanoidSpawnerERTMedical =  ОБР медик
+
+ent-RandomHumanoidSpawnerERTMedicalEVA =  ОБР медик
+
+ent-RandomHumanoidSpawnerCBURNUnit =  Агент РХБЗЗ
+
+ent-RandomHumanoidSpawnerCentcomOfficial =  представитель ЦентКом
+
+ent-RandomHumanoidSpawnerSyndicateAgent =  Агент Синдиката
+
+ent-RandomHumanoidSpawnerNukeOp =  Ядерный оперативник
+

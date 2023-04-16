@@ -1,36 +1,28 @@
-ent-MailBotanistChemicalBottles = { ent-BaseMail }
-    .suffix = botanistchemicals
-    .desc = { ent-BaseMail.desc }
-ent-MailBotanistMutagen = { ent-BaseMail }
-    .suffix = mutagen
-    .desc = { ent-BaseMail.desc }
-ent-MailBotanistSeeds = { ent-BaseMail }
-    .suffix = seeds
-    .desc = { ent-BaseMail.desc }
-ent-MailClownGildedBikeHorn = { ent-BaseMail }
-    .suffix = honk
-    .desc = { ent-BaseMail.desc }
-ent-MailClownHonkSupplement = { ent-BaseMail }
-    .suffix = honk
-    .desc = { ent-BaseMail.desc }
-ent-MailHoPBureaucracy = { ent-BaseMail }
-    .suffix = hoppaper
-    .desc = { ent-BaseMail.desc }
-ent-MailHoPSupplement = { ent-BaseMail }
-    .suffix = hopsupplement
-    .desc = { ent-BaseMail.desc }
-ent-MailMimeArtsCrafts = { ent-BaseMail }
-    .suffix = artscrafts
-    .desc = { ent-BaseMail.desc }
-ent-MailMimeBlankBook = { ent-BaseMail }
-    .suffix = blankbook
-    .desc = { ent-BaseMail.desc }
-ent-MailMimeBottleOfNothing = { ent-BaseMail }
-    .suffix = bottleofnothing
-    .desc = { ent-BaseMail.desc }
-ent-MailMusicianInstrumentSmall = { ent-BaseMail }
-    .suffix = instrument-small
-    .desc = { ent-BaseMail.desc }
-ent-MailPassengerMoney = { ent-BaseMail }
-    .suffix = passengermoney
-    .desc = { ent-BaseMail.desc }
+ent-MailBotanistChemicalBottles =  { ent-BaseMail }
+
+.suffix =  passengermoney
+
+.desc =  { ent-BaseMail.desc }
+
+ent-MailBotanistMutagen =  { ent-BaseMail }
+
+ent-MailBotanistSeeds =  { ent-BaseMail }
+
+ent-MailClownGildedBikeHorn =  { ent-BaseMail }
+
+ent-MailClownHonkSupplement =  { ent-BaseMail }
+
+ent-MailHoPBureaucracy =  { ent-BaseMail }
+
+ent-MailHoPSupplement =  { ent-BaseMail }
+
+ent-MailMimeArtsCrafts =  { ent-BaseMail }
+
+ent-MailMimeBlankBook =  { ent-BaseMail }
+
+ent-MailMimeBottleOfNothing =  { ent-BaseMail }
+
+ent-MailMusicianInstrumentSmall =  { ent-BaseMail }
+
+ent-MailPassengerMoney =  { ent-BaseMail }
+

@@ -1,3 +1,6 @@
-ent-MobObserver = observer
-    .desc = Boo!
-    .suffix = { "" }
+ent-MobObserver =  наблюдатель
+
+.desc =  Boo!
+
+.suffix =  { "" }
+

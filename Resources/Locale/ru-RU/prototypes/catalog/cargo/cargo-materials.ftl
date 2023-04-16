@@ -1,16 +1,18 @@
-ent-MaterialGlass = { ent-CrateMaterialGlass }
-    .desc = { ent-CrateMaterialGlass.desc }
-ent-MaterialSteel = { ent-CrateMaterialSteel }
-    .desc = { ent-CrateMaterialSteel.desc }
-ent-MaterialTextiles = { ent-CrateMaterialTextiles }
-    .desc = { ent-CrateMaterialTextiles.desc }
-ent-MaterialPlastic = { ent-CrateMaterialPlastic }
-    .desc = { ent-CrateMaterialPlastic.desc }
-ent-MaterialPlasteel = { ent-CrateMaterialPlasteel }
-    .desc = { ent-CrateMaterialPlasteel.desc }
-ent-MaterialPlasma = { ent-CrateMaterialPlasma }
-    .desc = { ent-CrateMaterialPlasma.desc }
-ent-MaterialFuelTank = { ent-WeldingFuelTankFull }
-    .desc = { ent-WeldingFuelTankFull.desc }
-ent-MaterialWaterTank = { ent-WaterTankFull }
-    .desc = { ent-WaterTankFull.desc }
+ent-MaterialGlass =  { ent-CrateMaterialGlass }
+
+.desc =  { ent-WaterTankFull.desc }
+
+ent-MaterialSteel =  { ent-CrateMaterialSteel }
+
+ent-MaterialTextiles =  { ent-CrateMaterialTextiles }
+
+ent-MaterialPlastic =  { ent-CrateMaterialPlastic }
+
+ent-MaterialPlasteel =  { ent-CrateMaterialPlasteel }
+
+ent-MaterialPlasma =  { ent-CrateMaterialPlasma }
+
+ent-MaterialFuelTank =  { ent-WeldingFuelTankFull }
+
+ent-MaterialWaterTank =  { ent-WaterTankFull }
+

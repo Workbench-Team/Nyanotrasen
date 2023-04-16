@@ -1,3 +1,6 @@
-ent-MeteorLarge = meteor
-    .desc = { "" }
-    .suffix = { "" }
+ent-MeteorLarge =  метеор
+
+.desc =  { "" }
+
+.suffix =  { "" }
+

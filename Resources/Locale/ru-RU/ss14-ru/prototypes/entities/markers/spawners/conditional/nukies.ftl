@@ -1,3 +1,6 @@
-ent-SpawnPointNukies = nukies
-    .desc = { ent-MarkerBase.desc }
-    .suffix = { "" }
+ent-SpawnPointNukies =  спавнер ядерный оперативник
+
+.desc =  { ent-MarkerBase.desc }
+
+.suffix =  { "" }
+

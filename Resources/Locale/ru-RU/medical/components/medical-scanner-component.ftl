@@ -1,6 +1,8 @@
-## EnterVerb
+medical-scanner-verb-enter =  Залезть
 
-medical-scanner-verb-enter = Enter
-medical-scanner-verb-noun-occupant = occupant
-medical-scanner-upgrade-cloning = Cloning fail chance
-medical-scanner-upgrade-metem = Metempsychotic machine karma bonus
+medical-scanner-verb-noun-occupant =  пациента
+
+medical-scanner-upgrade-cloning =  Шанс неудачного клонирования
+
+medical-scanner-upgrade-metem =  Metempsychotic machine karma bonus
+

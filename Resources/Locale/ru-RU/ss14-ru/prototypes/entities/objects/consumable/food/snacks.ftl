@@ -1,105 +1,74 @@
-ent-FoodSnackBase = { ent-FoodBase }
-    .desc = { ent-FoodBase.desc }
-    .suffix = { "" }
-ent-FoodSnackBoritos = boritos
-    .desc = Crunchy, salty tortilla chips. You could probably make nachos with these.
-    .suffix = { "" }
-ent-FoodSnackCheesie = cheesie honkers
-    .desc = Bite sized cheesie snacks that will honk all over your mouth.
-    .suffix = { "" }
-ent-FoodSnackChips = chips
-    .desc = Commander Riker's What-The-Crisps.
-    .suffix = { "" }
-ent-FoodSnackChocolate = chocolate bar
-    .desc = Tastes like cardboard.
-    .suffix = { "" }
-ent-FoodSnackChocolateBar = chocolate bar
-    .desc = Tastes like cardboard.
-    .suffix = { "" }
-ent-FoodSnackEnergy = energy bar
-    .desc = An energy bar with a lot of punch.
-    .suffix = { "" }
-ent-FoodSnackEnergyBar = energy bar
-    .desc = An energy bar with a lot of punch.
-    .suffix = { "" }
-ent-FoodSnackPopcorn = popcorn
-    .desc = Grown on an unknown planet, by an unknown farmer, popped by some jerk on a space station.
-    .suffix = { "" }
-ent-FoodSnackRaisins = 4no raisins
-    .desc = Best raisins in the universe. Not sure why.
-    .suffix = { "" }
-ent-FoodSnackSus = Sus Jerky
-    .desc = Something about this packet makes you feel incredibly uneasy. Jerky's good though.
-    .suffix = { "" }
-ent-FoodSnackSyndi = syndi-cakes
-    .desc = An extremely moist snack cake that tastes just as good after being nuked.
-    .suffix = { "" }
-ent-FoodSnackChowMein = chow mein
-    .desc = A salty fried noodle snack. Looks like they forgot the vegetables.
-    .suffix = { "" }
-ent-FoodSnackDanDanNoodles = dan dan noodles
-    .desc = A spicy Sichuan noodle snack. The chili oil slick pools on top.
-    .suffix = { "" }
-ent-FoodSnackCookieFortune = fortune cookie
-    .desc = A boring cardboard tasting snack with a fortune inside. Surprise! You're boring too.
-    .suffix = { "" }
-ent-FoodSnackNutribrick = nutribrick
-    .desc = A carefully synthesized brick designed to contain the highest ratio of nutriment to volume. Tastes like shit.
-    .suffix = { "" }
-ent-FoodSnackNutribrickOpen = nutribrick
-    .desc = A carefully synthesized brick designed to contain the highest ratio of nutriment to volume. Tastes like shit.
-    .suffix = { "" }
-ent-FoodSnackMREBrownie = brownie
-    .desc = A precisely mixed brownie, made to withstand blunt trauma and harsh conditions. Tastes like shit.
-    .suffix = { "" }
-ent-FoodSnackMREBrownieOpen = brownie
-    .desc = A precisely mixed brownie, made to withstand blunt trauma and harsh conditions. Tastes like shit.
-    .suffix = { "" }
-ent-FoodPacketTrash = { ent-BaseItem }
-    .desc = This is rubbish.
-    .suffix = { "" }
-ent-FoodPacketBoritosTrash = boritos bag
-    .desc = { ent-FoodPacketTrash.desc }
-    .suffix = { "" }
-ent-FoodPacketCheesieTrash = cheesie honkers
-    .desc = { ent-FoodPacketTrash.desc }
-    .suffix = { "" }
-ent-FoodPacketChipsTrash = chips
-    .desc = { ent-FoodPacketTrash.desc }
-    .suffix = { "" }
-ent-FoodPacketChocolateTrash = chocolate wrapper
-    .desc = { ent-FoodPacketTrash.desc }
-    .suffix = { "" }
-ent-FoodPacketEnergyTrash = energybar wrapper
-    .desc = { ent-FoodPacketTrash.desc }
-    .suffix = { "" }
-ent-FoodPacketPistachioTrash = pistachios packet
-    .desc = { ent-FoodPacketTrash.desc }
-    .suffix = { "" }
-ent-FoodPacketPopcornTrash = popcorn box
-    .desc = { ent-FoodPacketTrash.desc }
-    .suffix = { "" }
-ent-FoodPacketRaisinsTrash = 4no raisins
-    .desc = { ent-FoodPacketTrash.desc }
-    .suffix = { "" }
-ent-FoodPacketSemkiTrash = semki packet
-    .desc = { ent-FoodPacketTrash.desc }
-    .suffix = { "" }
-ent-FoodPacketSusTrash = sus jerky
-    .desc = { ent-FoodPacketTrash.desc }
-    .suffix = { "" }
-ent-FoodPacketSyndiTrash = syndi-cakes box
-    .desc = { ent-FoodPacketTrash.desc }
-    .suffix = { "" }
-ent-FoodPacketChowMeinTrash = empty chow mein box
-    .desc = { ent-FoodPacketTrash.desc }
-    .suffix = { "" }
-ent-FoodPacketDanDanTrash = empty dan dan box
-    .desc = { ent-FoodPacketTrash.desc }
-    .suffix = { "" }
-ent-FoodCookieFortune = cookie fortune
-    .desc = The fortune reads: The end is near...and it's all your fault.
-    .suffix = { "" }
-ent-FoodPacketMRETrash = MRE wrapper
-    .desc = A general purpose wrapper for a variety of military food goods.
-    .suffix = { "" }
+ent-FoodSnackBase =  { ent-BaseItem }
+
+.desc =  A general purpose wrapper for a variety of military food goods.
+
+.suffix =  { "" }
+
+ent-FoodSnackBoritos =  боритос
+
+ent-FoodSnackCheesie =  сырные хонкеры
+
+ent-FoodSnackChips =  чипсы
+
+ent-FoodSnackChocolate =  плитка шоколада
+
+ent-FoodSnackChocolateBar =  плитка шоколада
+
+ent-FoodSnackEnergy =  энергетический батончик
+
+ent-FoodSnackEnergyBar =  энергетический батончик
+
+ent-FoodSnackPopcorn =  попкорн
+
+ent-FoodSnackRaisins =  изюм "4no raisins"
+
+ent-FoodSnackSus =  джерки Сас
+
+ent-FoodSnackSyndi =  синди-кексы
+
+ent-FoodSnackChowMein =  чоу мейн
+
+ent-FoodSnackDanDanNoodles =  лапша дань-дань
+
+ent-FoodSnackCookieFortune =  печенье с предсказанием
+
+ent-FoodSnackNutribrick =  питательный батончик
+
+ent-FoodSnackNutribrickOpen =  питательный батончик
+
+ent-FoodSnackMREBrownie =  брауни
+
+ent-FoodSnackMREBrownieOpen =  брауни
+
+ent-FoodPacketTrash =  { ent-BaseItem }
+
+ent-FoodPacketBoritosTrash =  пакет боритос
+
+ent-FoodPacketCheesieTrash =  сырные хонкеры
+
+ent-FoodPacketChipsTrash =  чипсы
+
+ent-FoodPacketChocolateTrash =  обёртка от шоколада
+
+ent-FoodPacketEnergyTrash =  обёртка от энергетического батончика
+
+ent-FoodPacketPistachioTrash =  пакет от фисташек
+
+ent-FoodPacketPopcornTrash =  коробка от попкорна
+
+ent-FoodPacketRaisinsTrash =  изюм "4no raisins"
+
+ent-FoodPacketSemkiTrash =  пакет семок
+
+ent-FoodPacketSusTrash =  джерки Сас
+
+ent-FoodPacketSyndiTrash =  коробка от синди-кексов
+
+ent-FoodPacketChowMeinTrash =  пустая коробочка чоу мейн
+
+ent-FoodPacketDanDanTrash =  пустая коробочка лапши дань-дань
+
+ent-FoodCookieFortune =  печенье с предсказанием
+
+ent-FoodPacketMRETrash =  обёртка от ИРП
+

@@ -1,12 +1,12 @@
-ent-HandheldHealthAnalyzer = health analyzer
-    .desc = A hand-held body scanner capable of distinguishing vital signs of the subject.
-    .suffix = { "" }
-ent-HandheldHealthAnalyzerGigacancer = { ent-HandheldHealthAnalyzer }
-    .suffix = gigacancer
-    .desc = { ent-HandheldHealthAnalyzer.desc }
-ent-HandheldHealthAnalyzerOwOnavirus = OwOnavirus analyzer
-    .suffix = admin abuse
-    .desc = { ent-HandheldHealthAnalyzer.desc }
-ent-HandheldHealthAnalyzerZombie = Zombie Infector
-    .suffix = Active
-    .desc = { ent-HandheldHealthAnalyzer.desc }
+ent-HandheldHealthAnalyzer =  анализатор здоровья
+
+.desc =  { ent-HandheldHealthAnalyzer.desc }
+
+.suffix =  Active
+
+ent-HandheldHealthAnalyzerGigacancer =  { ent-HandheldHealthAnalyzer }
+
+ent-HandheldHealthAnalyzerOwOnavirus =  анализатор OwOнавируса
+
+ent-HandheldHealthAnalyzerZombie =  Зомби Инфектор
+

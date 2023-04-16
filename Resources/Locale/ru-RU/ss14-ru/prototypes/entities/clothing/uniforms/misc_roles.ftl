@@ -1,6 +1,8 @@
-ent-UniformShortsRed = boxing shorts
-    .desc = These are shorts, not boxers.
-    .suffix = { "" }
-ent-UniformShortsRedWithTop = boxing shorts with top
-    .desc = These are shorts, not boxers.
-    .suffix = { "" }
+ent-UniformShortsRed =  боксёрские шорты
+
+.desc =  These are shorts, not boxers.
+
+.suffix =  { "" }
+
+ent-UniformShortsRedWithTop =  боксёрские шорты с топом
+

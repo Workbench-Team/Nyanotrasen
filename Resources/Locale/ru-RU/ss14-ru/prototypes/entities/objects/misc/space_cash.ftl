@@ -1,18 +1,16 @@
-ent-SpaceCash = zorkmids
-    .desc = You gotta have money.
-    .suffix = { "" }
-ent-SpaceCash10 = zorkmids
-    .suffix = 10
-    .desc = { ent-SpaceCash.desc }
-ent-SpaceCash100 = zorkmids
-    .suffix = 100
-    .desc = { ent-SpaceCash.desc }
-ent-SpaceCash500 = zorkmids
-    .suffix = 500
-    .desc = { ent-SpaceCash.desc }
-ent-SpaceCash1000 = zorkmids
-    .suffix = 1000
-    .desc = { ent-SpaceCash.desc }
-ent-SpaceCash1000000 = zorkmids
-    .suffix = 1000000
-    .desc = { ent-SpaceCash.desc }
+ent-SpaceCash =  космобаксы
+
+.desc =  { ent-SpaceCash.desc }
+
+.suffix =  1000000
+
+ent-SpaceCash10 =  космобаксов
+
+ent-SpaceCash100 =  космобаксов
+
+ent-SpaceCash500 =  космобаксов
+
+ent-SpaceCash1000 =  космобаксов
+
+ent-SpaceCash1000000 =  космобаксов
+

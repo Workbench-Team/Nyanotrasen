@@ -1,6 +1,2 @@
-### Tables which take damage when a user is dragged onto them
+glass-table-shattered-others =  { CAPITALIZE($table) } ломается под весом { $climber }!
 
-
-## Showed to users other than the climber
-
-glass-table-shattered-others = { CAPITALIZE(THE($table)) } cracks under the weight of { THE($climber) }!

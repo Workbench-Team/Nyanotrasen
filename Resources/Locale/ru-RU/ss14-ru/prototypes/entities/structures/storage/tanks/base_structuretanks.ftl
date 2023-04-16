@@ -1,3 +1,6 @@
-ent-StorageTank = storage tank
-    .desc = A liquids storage tank.
-    .suffix = { "" }
+ent-StorageTank =  storage tank
+
+.desc =  A liquids storage tank.
+
+.suffix =  { "" }
+

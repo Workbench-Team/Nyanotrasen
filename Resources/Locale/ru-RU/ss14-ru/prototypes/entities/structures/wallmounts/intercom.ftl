@@ -1,30 +1,24 @@
-ent-Intercom = intercom
-    .desc = An intercom. For when the station just needs to know something.
-    .suffix = { "" }
-ent-IntercomAssesmbly = intercom assembly
-    .desc = An intercom. It doesn't seem very helpful right now.
-    .suffix = { "" }
-ent-IntercomCommand = { ent-Intercom }
-    .suffix = Command
-    .desc = { ent-Intercom.desc }
-ent-IntercomEngineering = { ent-Intercom }
-    .suffix = Engineering
-    .desc = { ent-Intercom.desc }
-ent-IntercomMedical = { ent-Intercom }
-    .suffix = Medical
-    .desc = { ent-Intercom.desc }
-ent-IntercomScience = { ent-Intercom }
-    .suffix = Science
-    .desc = { ent-Intercom.desc }
-ent-IntercomSecurity = { ent-Intercom }
-    .suffix = Security
-    .desc = { ent-Intercom.desc }
-ent-IntercomService = { ent-Intercom }
-    .suffix = Service
-    .desc = { ent-Intercom.desc }
-ent-IntercomSupply = { ent-Intercom }
-    .suffix = Supply
-    .desc = { ent-Intercom.desc }
-ent-IntercomAll = { ent-Intercom }
-    .suffix = All
-    .desc = { ent-Intercom.desc }
+ent-Intercom =  интерком
+
+.desc =  { ent-Intercom.desc }
+
+.suffix =  All
+
+ent-IntercomAssesmbly =  каркас интеркома
+
+ent-IntercomCommand =  { ent-Intercom }
+
+ent-IntercomEngineering =  { ent-Intercom }
+
+ent-IntercomMedical =  { ent-Intercom }
+
+ent-IntercomScience =  { ent-Intercom }
+
+ent-IntercomSecurity =  { ent-Intercom }
+
+ent-IntercomService =  { ent-Intercom }
+
+ent-IntercomSupply =  { ent-Intercom }
+
+ent-IntercomAll =  { ent-Intercom }
+

@@ -1,3 +1,6 @@
-ent-DonkpocketBoxSpawner = Donkpocket Box Spawner
-    .desc = { ent-MarkerBase.desc }
-    .suffix = { "" }
+ent-DonkpocketBoxSpawner =  спавнер коробка донк-покет
+
+.desc =  { ent-MarkerBase.desc }
+
+.suffix =  { "" }
+

@@ -1,33 +1,26 @@
-ent-ClothingHeadHatHoodBioGeneral = bio hood
-    .desc = A hood that protects the head and face from biological contaminants.
-    .suffix = Generic
-ent-ClothingHeadHatHoodBioCmo = bio hood
-    .desc = An advanced hood for chief medical officer that protects the head and face from biological contaminants.
-    .suffix = CMO
-ent-ClothingHeadHatHoodBioJanitor = bio hood
-    .desc = A hood that protects the head and face from biological contaminants.
-    .suffix = Janitor
-ent-ClothingHeadHatHoodBioScientist = bio hood
-    .desc = A hood that protects the head and face from biological contaminants.
-    .suffix = Science
-ent-ClothingHeadHatHoodBioSecurity = bio hood
-    .desc = A hood that protects the head and face from biological contaminants.
-    .suffix = Security
-ent-ClothingHeadHatHoodBioVirology = bio hood
-    .desc = A hood that protects the head and face from biological contaminants.
-    .suffix = Virology
-ent-ClothingHeadHatHoodChaplainHood = chaplain hood
-    .desc = Maximum piety in this star system.
-    .suffix = { "" }
-ent-ClothingHeadHatHoodCulthood = cult hood
-    .desc = There's no cult without cult hoods.
-    .suffix = { "" }
-ent-ClothingHeadHatHoodNunHood = nun hood
-    .desc = Maximum piety in this star system.
-    .suffix = { "" }
-ent-ClothingHeadHatHoodRad = radiation hood
-    .desc = A hood of the hazmat suit, designed for protection from high radioactivity.
-    .suffix = { "" }
-ent-ClothingHeadHatHoodGoliathCloak = goliath cloak hood
-    .desc = A hood of a goliath cloak, it is made from the hide of resilient fauna from a distant planet.
-    .suffix = { "" }
+ent-ClothingHeadHatHoodBioGeneral =  капюшон биозащитного костюма
+
+.desc =  A hood of a goliath cloak, it is made from the hide of resilient fauna from a distant planet.
+
+.suffix =  { "" }
+
+ent-ClothingHeadHatHoodBioCmo =  капюшон биозащитного костюма
+
+ent-ClothingHeadHatHoodBioJanitor =  капюшон биозащитного костюма
+
+ent-ClothingHeadHatHoodBioScientist =  капюшон биозащитного костюма
+
+ent-ClothingHeadHatHoodBioSecurity =  капюшон биозащитного костюма
+
+ent-ClothingHeadHatHoodBioVirology =  капюшон биозащитного костюма
+
+ent-ClothingHeadHatHoodChaplainHood =  капюшон священника
+
+ent-ClothingHeadHatHoodCulthood =  капюшон культа
+
+ent-ClothingHeadHatHoodNunHood =  капюшон монахини
+
+ent-ClothingHeadHatHoodRad =  капюшон радиозащитного костюма
+
+ent-ClothingHeadHatHoodGoliathCloak =  капюшон плаща голиафа
+

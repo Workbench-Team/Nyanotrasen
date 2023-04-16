@@ -1,27 +1,22 @@
-ent-FoodSkewerBase = { ent-FoodInjectableBase }
-    .desc = { ent-FoodInjectableBase.desc }
-    .suffix = { "" }
-ent-FoodKebabSkewer = skewer
-    .desc = A thin rod of metal used to skewer just about anything and cook it.
-    .suffix = { "" }
-ent-FoodMeatHawaiianKebab = Hawaiian kebab
-    .desc = A delicious kebab made of pineapple, ham and green peppers.
-    .suffix = { "" }
-ent-FoodMeatKebab = meat kebab
-    .desc = Delicious meat, on a stick.
-    .suffix = { "" }
-ent-FoodMeatHumanKebab = human kebab
-    .desc = Human meat. On a stick!
-    .suffix = { "" }
-ent-FoodMeatLizardtailKebab = lizard-tail kebab
-    .desc = Severed lizard tail on a stick.
-    .suffix = { "" }
-ent-FoodMeatRatKebab = rat kebab
-    .desc = Not so delicious rat meat, on a stick.
-    .suffix = { "" }
-ent-FoodMeatRatdoubleKebab = double rat kebab
-    .desc = A double serving of not so delicious rat meat, on a stick.
-    .suffix = { "" }
-ent-FoodMeatFiestaKebab = fiesta kebab
-    .desc = Always a cruise ship party somewhere in the world, right?
-    .suffix = { "" }
+ent-FoodSkewerBase =  { ent-FoodInjectableBase }
+
+.desc =  Always a cruise ship party somewhere in the world, right?
+
+.suffix =  { "" }
+
+ent-FoodKebabSkewer =  шампур
+
+ent-FoodMeatHawaiianKebab =  Гавайский кебаб
+
+ent-FoodMeatKebab =  мясной шашлык
+
+ent-FoodMeatHumanKebab =  шашлык из человечины
+
+ent-FoodMeatLizardtailKebab =  шашлык из хвоста ящерицы
+
+ent-FoodMeatRatKebab =  крысиный шашлык
+
+ent-FoodMeatRatdoubleKebab =  двойной крысиный шашлык
+
+ent-FoodMeatFiestaKebab =  праздничный шашлык
+

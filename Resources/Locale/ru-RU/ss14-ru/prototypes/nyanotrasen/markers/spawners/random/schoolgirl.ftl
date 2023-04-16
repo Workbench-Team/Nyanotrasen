@@ -1,3 +1,6 @@
-ent-SchoolgirlUniformSpawner = Schoolgirl Uniform Spawner
-    .desc = { ent-MarkerBase.desc }
-    .suffix = { "" }
+ent-SchoolgirlUniformSpawner =  Schoolgirl Uniform Spawner
+
+.desc =  { ent-MarkerBase.desc }
+
+.suffix =  { "" }
+

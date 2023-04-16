@@ -1,99 +1,70 @@
-ent-IDCardStandard = identification card
-    .desc = A card necessary to access various areas aboard the station.
-    .suffix = { "" }
-ent-PassengerIDCard = assistant ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-SecurityCadetIDCard = security cadet ID card
-    .desc = { ent-PassengerIDCard.desc }
-    .suffix = { "" }
-ent-CaptainIDCard = captain ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-SecurityIDCard = security ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-WardenIDCard = warden ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-EngineeringIDCard = engineer ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-MedicalIDCard = medical ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-QuartermasterIDCard = quartermaster ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-ClownIDCard = clown ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-MimeIDCard = mime ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-ChaplainIDCard = chaplain ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-JanitorIDCard = janitor ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-BartenderIDCard = bartender ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-ChefIDCard = chef ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-BotanistIDCard = botanist ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-LawyerIDCard = lawyer ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-HoPIDCard = head of personnel ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-CEIDCard = chief engineer ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-CMOIDCard = chief medical officer ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-HoSIDCard = head of security ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-CentcomIDCard = command officer ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-ERTLeaderIDCard = ERT ID card
-    .desc = { ent-CentcomIDCard.desc }
-    .suffix = { "" }
-ent-CentcomIDCardSyndie = Centcom ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-MusicianIDCard = musician ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-CentcomIDCardDeathsquad = Deathsquad ID card
-    .desc = { ent-CentcomIDCard.desc }
-    .suffix = { "" }
-ent-AgentIDCard = { ent-PassengerIDCard }
-    .suffix = Agent
-    .desc = { ent-PassengerIDCard.desc }
-ent-AtmosIDCard = atmospheric technician ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-SyndicateIDCard = Syndicate ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-PsychologistIDCard = psychologist ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-ReporterIDCard = reporter ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-BoxerIDCard = boxer ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-CBURNIDcard = CBURN ID card
-    .desc = { ent-CentcomIDCard.desc }
-    .suffix = { "" }
+ent-IDCardStandard =  идентификационная карта
+
+.desc =  { ent-CentcomIDCard.desc }
+
+.suffix =  { "" }
+
+ent-PassengerIDCard =  ID карта ассистента
+
+ent-SecurityCadetIDCard =  ID карта кадета СБ
+
+ent-CaptainIDCard =  ID карта капитана
+
+ent-SecurityIDCard =  ID карта службы безопасности
+
+ent-WardenIDCard =  ID карта смотрителя
+
+ent-EngineeringIDCard =  ID карта инженера
+
+ent-MedicalIDCard =  ID карта медика
+
+ent-QuartermasterIDCard =  ID карта квартирмейстера
+
+ent-ClownIDCard =  ID карта клоуна
+
+ent-MimeIDCard =  ID карта мима
+
+ent-ChaplainIDCard =  ID карта священика
+
+ent-JanitorIDCard =  ID карта уборщика
+
+ent-BartenderIDCard =  ID карта бармена
+
+ent-ChefIDCard =  ID карта шеф-повара
+
+ent-BotanistIDCard =  ID карта ботаника
+
+ent-LawyerIDCard =  ID карта адвоката
+
+ent-HoPIDCard =  ID карта главы персонала
+
+ent-CEIDCard =  ID карта старшего инженера
+
+ent-CMOIDCard =  ID карта главного врача
+
+ent-HoSIDCard =  ID карта главы службы безопасности
+
+ent-CentcomIDCard =  ID карта старшего офицера
+
+ent-ERTLeaderIDCard =  ID карта ОБР
+
+ent-CentcomIDCardSyndie =  ID карта представителя ЦентКом
+
+ent-MusicianIDCard =  ID карта музыканта
+
+ent-CentcomIDCardDeathsquad =  ID карта эскадрона смерти
+
+ent-AgentIDCard =  { ent-PassengerIDCard }
+
+ent-AtmosIDCard =  ID карта атмосферного техника
+
+ent-SyndicateIDCard =  ID карта Синдиката
+
+ent-PsychologistIDCard =  ID карта психолога
+
+ent-ReporterIDCard =  ID карта репортёра
+
+ent-BoxerIDCard =  ID карта боксёра
+
+ent-CBURNIDcard =  ID карта РХБЗЗ
+

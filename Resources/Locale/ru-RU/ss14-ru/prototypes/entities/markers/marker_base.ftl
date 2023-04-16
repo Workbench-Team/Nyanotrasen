@@ -1,3 +1,6 @@
-ent-MarkerBase = { "" }
-    .desc = { "" }
-    .suffix = { "" }
+ent-MarkerBase =  { "" }
+
+.desc =  { "" }
+
+.suffix =  { "" }
+

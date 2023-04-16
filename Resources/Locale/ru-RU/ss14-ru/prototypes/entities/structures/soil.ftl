@@ -1,3 +1,6 @@
-ent-hydroponicsSoil = soil
-    .desc = { "" }
-    .suffix = { "" }
+ent-hydroponicsSoil =  почва
+
+.desc =  { "" }
+
+.suffix =  { "" }
+

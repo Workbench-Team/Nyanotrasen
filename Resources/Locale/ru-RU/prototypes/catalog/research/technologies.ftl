@@ -1,70 +1,148 @@
-technologies-basic-research-technology = Basic research technology
-technologies-basic-research-technology-description = Nanotrasen basic research technologies.
-technologies-cleaning-technology = Cleaning technology
-technologies-cleaning-technology-description = Start to a shiny clean station.
-technologies-foodbev-technology = Food and beverage technology
-technologies-food-and-beverage-technology-description = Robust service from better technology.
-technologies-biological-technology = Biological technology
-technologies-biological-technology-description = Investigations into the natural world.
-technologies-advanced-botany = Advanced botany
-technologies-advanced-botany-description = A better understanding of botany.
-technologies-virology = Virology
-technologies-virology-description = The secrets of the immune system.
-technologies-advanced-surgery = Advanced surgery
-technologies-advanced-surgery-description = Research new surgical procedures.
-technologies-chemistry-technology = Chemistry technology
-technologies-chemistry-technology-description = A crash course in chemistry.
-technologies-medical-machinery = Medical machinery
-technologies-medical-machinery-description = Machines any self-respecting medbay would need.
-technologies-advanced-life-support = Advanced life support systems
-technologies-advanced-life-support-description = The cutting edge of life and death.
-technologies-salvage-equipment = Salvage equipment
-technologies-salvage-equipment-description = Newer and faster resource collection.
-technologies-spacefaring = Spacefaring technology
-technologies-spacefaring-description = Able to bring you into the stars!
-technologies-surveillance = Surveillance technology
-technologies-surveillance-description = Retro-styled cameras straight from the year 1984!
-technologies-industrial-engineering = Industrial engineering
-technologies-industrial-engineering-description = A refresher course on modern engineering technology.
-technologies-rapid-upgrade = Rapid upgrade
-technologies-rapid-upgrade-description = The ability to quickly improve the station like never before.
-technologies-material-sheet-printing = Material sheet printing
-technologies-material-sheet-printing-description = Print those sheets!
-technologies-electromagnetic-theory = Electromagnetic theory
-technologies-electromagnetic-theory-description = Try not to fry yourself.
-technologies-electrical-engineering = Electrical engineering
-technologies-electrical-engineering-description = Machinery used to keep the station stable.
-technologies-advanced-atmospherics-technology = Advanced atmospherics technology
-technologies-advanced-atmospherics-technology-description = As if it can get more advanced.
-technologies-compact-power-technology = Compact power technology
-technologies-compact-power-technology-description = Power, but smaller.
-technologies-applied-musicology = Applied musicology
-technologies-applied-musicology-description = Bringing you the latest in audio-audio technology.
-technologies-basic-powercell-printing = Basic powercell printing
-technologies-basic-powercell-printing-description = Print standard powercells.
-technologies-advanced-powercell-printing = Advanced powercell printing
-technologies-advanced-powercell-printing-description = Print advanced powercells.
-technologies-super-powercell-printing = Super powercell printing
-technologies-super-powercell-printing-description = Print super powercells.
-technologies-scientific-technology = Research technology
-technologies-scientific-technology-description = The basics of a research team's supplies.
-technologies-anomaly-technology = Anomaly technology
-technologies-anomaly-technology-description = Machines for advanced anomaly containment.
-technologies-robotics-technology = Robotics technology
-technologies-robotics-technology-description = Parts needed for constructing mechanized friends.
-technologies-archaeology = Archeological equipment
-technologies-archaeology-description = Advanced equipment for uncovering the secrets of artifacts.
-technologies-adv-parts-technology = Advanced parts technology
-technologies-adv-parts-technology-description = Like the previous ones, but better!
-technologies-security-technology = Security technology
-technologies-security-technology-descritpion = Learn to replace and restock our current security equipment.
-technologies-ballistic-technology = Ballistic technology
-technologies-ballistic-technology-description = Firearm ammunition has always been well understood, but our lathes struggle with aspects of producing it.
-technologies-direct-energy-technology = Direct energy technology
-technologies-direct-energy-technology-description = Leverage our advances in power technology for offensive purposes.
-technologies-non-lethal-technology = Non-lethal technology
-technologies-non-lethal-technology-description = Less lethal options for security.
-technologies-space-time-technology = Spacetime technology
-technologies-space-time-technology-description = Pushing the limits of the universe.
-technologies-ripley-technology = Exosuit: Ripley
-technologies-ripley-technology-description = The latest and greatest in mechanized cargo construction.
+technologies-basic-research-technology =  Базовые исследования
+
+technologies-basic-research-technology-description =  Технологии базовых исследований Nanotrasen.
+
+technologies-cleaning-technology =  Технология уборки
+
+technologies-cleaning-technology-description =  Начало пути к сияющей чистотой станции.
+
+technologies-foodbev-technology =  Технология продуктов питания и напитков
+
+technologies-food-and-beverage-technology-description =  Отличный сервис благодаря лучшим технологиям.
+
+technologies-biological-technology =  Биологическая технология
+
+technologies-biological-technology-description =  Исследования окружающей нас природы.
+
+technologies-advanced-botany =  Продвинутая ботаника
+
+technologies-advanced-botany-description =  Лучшее понимание ботаники.
+
+technologies-virology =  Вирусология
+
+technologies-virology-description =  Секреты иммунной системы.
+
+technologies-advanced-surgery =  Продвинутая хирургия
+
+technologies-advanced-surgery-description =  Изучение новых методик хирургического лечения.
+
+technologies-chemistry-technology =  Химическая технология
+
+technologies-chemistry-technology-description =  Ускоренный курс химии.
+
+technologies-medical-machinery =  Медицинское машиностроение
+
+technologies-medical-machinery-description =  Оборудование для любого уважающего себя медотсека.
+
+technologies-advanced-life-support =  Продвинутые системы жизнеобеспечения
+
+technologies-advanced-life-support-description =  На острие жизни и смерти.
+
+technologies-salvage-equipment =  Экипировка для утилизаторов
+
+technologies-salvage-equipment-description =  Новейшие технологии для быстрой сборки ресурсов.
+
+technologies-spacefaring =  Космические технологии
+
+technologies-spacefaring-description =  Могут доставить вас до звёзд!
+
+technologies-surveillance =  Технологии наблюдения
+
+technologies-surveillance-description =  Стилизованные под ретро камеры прямиком из 1984 года!
+
+technologies-industrial-engineering =  Промышленная инженерия
+
+technologies-industrial-engineering-description =  Курс повышения квалификации по современным инженерным технологиям.
+
+technologies-rapid-upgrade =  Быстрые улучшения
+
+technologies-rapid-upgrade-description =  Возможность быстро улучшать станцию, как никогда прежде.
+
+technologies-material-sheet-printing =  Печать листового материала
+
+technologies-material-sheet-printing-description =  Пора печатать!
+
+technologies-electromagnetic-theory =  Электромагнитная теория
+
+technologies-electromagnetic-theory-description =  Смотрите не поджарьтесь.
+
+technologies-electrical-engineering =  Электротехника
+
+technologies-electrical-engineering-description =  Машины используемые для поддержания станции.
+
+technologies-advanced-atmospherics-technology =  Продвинутые атмосферные технологии
+
+technologies-advanced-atmospherics-technology-description =  Как будто они могут стать еще продвинутее.
+
+technologies-compact-power-technology =  Технология компактного энергопитания
+
+technologies-compact-power-technology-description =  Мал да удал.
+
+technologies-applied-musicology =  Прикладная музыкология
+
+technologies-applied-musicology-description =  Представляем вам новейшие аудио-технологии.
+
+technologies-basic-powercell-printing =  Печать базовых элементов питания
+
+technologies-basic-powercell-printing-description =  Печать базовых батарей.
+
+technologies-advanced-powercell-printing =  Печать продвинутых элементов питания
+
+technologies-advanced-powercell-printing-description =  Печать продвинутых батарей.
+
+technologies-super-powercell-printing =  Печать суперэлементов питания
+
+technologies-super-powercell-printing-description =  Печать супербатарей.
+
+technologies-scientific-technology =  Научные технологии
+
+technologies-scientific-technology-description =  Базовые исследования для РнД.
+
+technologies-anomaly-technology =  Технологии аномалий
+
+technologies-anomaly-technology-description =  Машины для продвинутого содержания аномалий.
+
+technologies-robotics-technology =  Робототехника
+
+technologies-robotics-technology-description =  Части нужные для сборки механизированных друзей.
+
+technologies-archaeology =  Археологическая экипировка
+
+technologies-archaeology-description =  Продвинутая экипировка для раскрытия секретов артефактов.
+
+technologies-adv-parts-technology =  Технология продвинутых деталей
+
+technologies-adv-parts-technology-description =  Хорошо подходит для улучшения оборудования.
+
+technologies-super-parts-technology =  Технология супер деталей
+
+technologies-super-parts-technology-description =  Новые высоты производительности машины.
+
+technologies-security-technology =  Security technology
+
+technologies-security-technology-descritpion =  Learn to replace and restock our current security equipment.
+
+technologies-ballistic-technology =  Ballistic technology
+
+technologies-ballistic-technology-description =  Firearm ammunition has always been well understood, but our lathes struggle with aspects of producing it.
+
+technologies-direct-energy-technology =  Direct energy technology
+
+technologies-direct-energy-technology-description =  Leverage our advances in power technology for offensive purposes.
+
+technologies-non-lethal-technology =  Non-lethal technology
+
+technologies-non-lethal-technology-description =  Less lethal options for security.
+
+technologies-ripley-technology =  Exosuit: Рипли
+
+technologies-ripley-technology-description =  Последняя и лучшая конструкция в меха для снабжения.
+
+technologies-bluespace-technology =  Bluespace technology
+
+technologies-bluespace-technology-description =  Extradimensional storage.
+
+technologies-teleportation-technology =  Teleportation technology
+
+technologies-teleportation-technology-description =  The ability to move matter instantly from one place to another.
+

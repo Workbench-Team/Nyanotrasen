@@ -1,33 +1,28 @@
-ent-ForensicMantisIDCard = forensic mantis ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-EpistemicsIDCard = acolyte ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-MystaIDCard = mystagogue ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-SalvageTechIDCard = { ent-EngineeringIDCard }
-    .desc = { ent-EngineeringIDCard.desc }
-    .suffix = { "" }
-ent-ParamedicIDCard = paramedic ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-MailCarrierIDCard = mail carrier ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-PrisonerIDCard = prisoner ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-GladiatorIDCard = gladiator ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-ValetIDCard = valet ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-CataloguerIDCard = cataloguer ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
-ent-GuardIDCard = guard ID card
-    .desc = { ent-IDCardStandard.desc }
-    .suffix = { "" }
+ent-ForensicMantisIDCard =  forensic mantis ID card
+
+.desc =  { ent-IDCardStandard.desc }
+
+.suffix =  { "" }
+
+ent-EpistemicsIDCard =  acolyte ID card
+
+ent-MystaIDCard =  mystagogue ID card
+
+ent-SalvageTechIDCard =  { ent-EngineeringIDCard }
+
+ent-ParamedicIDCard =  paramedic ID card
+
+ent-MailCarrierIDCard =  mail carrier ID card
+
+ent-PrisonerIDCard =  prisoner ID card
+
+ent-GladiatorIDCard =  gladiator ID card
+
+ent-ValetIDCard =  valet ID card
+
+ent-CataloguerIDCard =  cataloguer ID card
+
+ent-GuardIDCard =  guard ID card
+
+ent-MartialArtistIDCard =  martial artist ID card
+

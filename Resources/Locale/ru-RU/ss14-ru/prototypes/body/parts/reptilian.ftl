@@ -1,33 +1,26 @@
-ent-PartReptilian = reptilian body part
-    .desc = { ent-BaseItem.desc }
-    .suffix = { "" }
-ent-TorsoReptilian = reptilian torso
-    .desc = { ent-PartReptilian.desc }
-    .suffix = { "" }
-ent-HeadReptilian = reptilian head
-    .desc = { ent-PartReptilian.desc }
-    .suffix = { "" }
-ent-LeftArmReptilian = left reptilian arm
-    .desc = { ent-PartReptilian.desc }
-    .suffix = { "" }
-ent-RightArmReptilian = right reptilian arm
-    .desc = { ent-PartReptilian.desc }
-    .suffix = { "" }
-ent-LeftHandReptilian = left reptilian hand
-    .desc = { ent-PartReptilian.desc }
-    .suffix = { "" }
-ent-RightHandReptilian = right reptilian hand
-    .desc = { ent-PartReptilian.desc }
-    .suffix = { "" }
-ent-LeftLegReptilian = left reptilian leg
-    .desc = { ent-PartReptilian.desc }
-    .suffix = { "" }
-ent-RightLegReptilian = right reptilian leg
-    .desc = { ent-PartReptilian.desc }
-    .suffix = { "" }
-ent-LeftFootReptilian = left reptilian foot
-    .desc = { ent-PartReptilian.desc }
-    .suffix = { "" }
-ent-RightFootReptilian = right reptilian foot
-    .desc = { ent-PartReptilian.desc }
-    .suffix = { "" }
+ent-PartReptilian =  часть тела унатха
+
+.desc =  { ent-PartReptilian.desc }
+
+.suffix =  { "" }
+
+ent-TorsoReptilian =  туловище унатха
+
+ent-HeadReptilian =  голова унатха
+
+ent-LeftArmReptilian =  левая рука унатха
+
+ent-RightArmReptilian =  правая рука унатха
+
+ent-LeftHandReptilian =  левая ладонь унатха
+
+ent-RightHandReptilian =  правая ладонь унатха
+
+ent-LeftLegReptilian =  левая нога унатха
+
+ent-RightLegReptilian =  правая нога унатха
+
+ent-LeftFootReptilian =  левая стопа унатха
+
+ent-RightFootReptilian =  правая стопа унатха
+

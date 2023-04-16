@@ -1,3 +1,6 @@
-ent-BulletFoam = foam dart
-    .desc = I hope you're wearing eye protection.
-    .suffix = { "" }
+ent-BulletFoam =  поролоновый дротик
+
+.desc =  I hope you're wearing eye protection.
+
+.suffix =  { "" }
+

@@ -1,3 +1,6 @@
-ent-BufferingIcon = { "" }
-    .desc = { "" }
-    .suffix = { "" }
+ent-BufferingIcon =  { "" }
+
+.desc =  { "" }
+
+.suffix =  { "" }
+

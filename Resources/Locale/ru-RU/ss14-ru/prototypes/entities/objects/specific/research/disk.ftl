@@ -1,15 +1,14 @@
-ent-ResearchDisk = research point disk (1000)
-    .desc = A disk for the R&D server containing 1000 points.
-    .suffix = { "" }
-ent-ResearchDisk5000 = research point disk (5000)
-    .desc = A disk for the R&D server containing 5000 points.
-    .suffix = { "" }
-ent-ResearchDisk10000 = research point disk (10000)
-    .desc = A disk for the R&D server containing 10000 points.
-    .suffix = { "" }
-ent-ResearchDiskDebug = research point disk
-    .desc = A disk for the R&D server containing all the points you could ever need.
-    .suffix = DEBUG, DO NOT MAP
-ent-TechnologyDisk = technology disk
-    .desc = A disk for the R&D server containing research technology.
-    .suffix = { "" }
+ent-ResearchDisk =  диск исследовательских очков (1000)
+
+.desc =  A disk for the R&D server containing research technology.
+
+.suffix =  { "" }
+
+ent-ResearchDisk5000 =  диск исследовательских очков (5000)
+
+ent-ResearchDisk10000 =  диск исследовательских очков (10000)
+
+ent-ResearchDiskDebug =  диск исследовательских очков
+
+ent-TechnologyDisk =  диск технологий
+

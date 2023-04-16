@@ -1,27 +1,22 @@
-ent-ClothingHeadsetAlt = headset
-    .desc = An updated, modular intercom that fits over the head. Takes encryption keys.
-    .suffix = { "" }
-ent-ClothingHeadsetAltCargo = quartermaster's over-ear headset
-    .desc = { ent-ClothingHeadsetAlt.desc }
-    .suffix = { "" }
-ent-ClothingHeadsetAltCentCom = CentCom over-ear headset
-    .desc = { ent-ClothingHeadsetAlt.desc }
-    .suffix = { "" }
-ent-ClothingHeadsetAltCommand = command over-ear headset
-    .desc = { ent-ClothingHeadsetAlt.desc }
-    .suffix = { "" }
-ent-ClothingHeadsetAltEngineering = chief engineer's over-ear headset
-    .desc = { ent-ClothingHeadsetAlt.desc }
-    .suffix = { "" }
-ent-ClothingHeadsetAltMedical = chief medical officer's over-ear headset
-    .desc = { ent-ClothingHeadsetAlt.desc }
-    .suffix = { "" }
-ent-ClothingHeadsetAltSecurity = head of security's over-ear headset
-    .desc = { ent-ClothingHeadsetAlt.desc }
-    .suffix = { "" }
-ent-ClothingHeadsetAltScience = research director's over-ear headset
-    .desc = { ent-ClothingHeadsetAlt.desc }
-    .suffix = { "" }
-ent-ClothingHeadsetAltSyndicate = blood-red over-ear headset
-    .desc = An updated, modular syndicate intercom that fits over the head and takes encryption keys (there are 4 slots for them).
-    .suffix = { "" }
+ent-ClothingHeadsetAlt =  полноразмерная гарнитура
+
+.desc =  An updated, modular syndicate intercom that fits over the head and takes encryption keys (there are 5 key slots.).
+
+.suffix =  { "" }
+
+ent-ClothingHeadsetAltCargo =  полноразмерная гарнитура квартирмейстера
+
+ent-ClothingHeadsetAltCentCom =  полноразмерная гарнитура Центком
+
+ent-ClothingHeadsetAltCommand =  полноразмерная командная гарнитура
+
+ent-ClothingHeadsetAltEngineering =  полноразмерная гарнитура старшего инженера
+
+ent-ClothingHeadsetAltMedical =  полноразмерная гарнитура главного врача
+
+ent-ClothingHeadsetAltSecurity =  полноразмерная гарнитура главы службы безопасности
+
+ent-ClothingHeadsetAltScience =  полноразмерная гарнитура научного руководителя
+
+ent-ClothingHeadsetAltSyndicate =  полноразмерная кроваво-красная гарнитура
+

@@ -1,3 +1,6 @@
-ent-FTLPoint = FTL point
-    .desc = { ent-MarkerBase.desc }
-    .suffix = { "" }
+ent-FTLPoint =  FTL точка
+
+.desc =  { ent-MarkerBase.desc }
+
+.suffix =  { "" }
+

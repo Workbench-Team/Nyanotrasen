@@ -1,30 +1,24 @@
-ent-CarpetBase = { ent-BaseStructure }
-    .desc = Fancy walking surface.
-    .suffix = { "" }
-ent-Carpet = red carpet
-    .desc = { ent-CarpetBase.desc }
-    .suffix = { "" }
-ent-CarpetBlack = black carpet
-    .desc = { ent-CarpetBase.desc }
-    .suffix = { "" }
-ent-CarpetPink = pink carpet
-    .desc = { ent-CarpetBase.desc }
-    .suffix = { "" }
-ent-CarpetBlue = blue carpet
-    .desc = { ent-CarpetBase.desc }
-    .suffix = { "" }
-ent-CarpetGreen = green carpet
-    .desc = { ent-CarpetBase.desc }
-    .suffix = { "" }
-ent-CarpetOrange = orange carpet
-    .desc = { ent-CarpetBase.desc }
-    .suffix = { "" }
-ent-CarpetSBlue = skyblue carpet
-    .desc = { ent-CarpetBase.desc }
-    .suffix = { "" }
-ent-CarpetPurple = purple carpet
-    .desc = { ent-CarpetBase.desc }
-    .suffix = { "" }
-ent-CarpetChapel = chapel's carpet
-    .desc = { ent-BaseStructure.desc }
-    .suffix = { "" }
+ent-CarpetBase =  { ent-BaseStructure }
+
+.desc =  { ent-BaseStructure.desc }
+
+.suffix =  { "" }
+
+ent-Carpet =  красный ковёр
+
+ent-CarpetBlack =  чёрный ковёр
+
+ent-CarpetPink =  розовый ковёр
+
+ent-CarpetBlue =  синий ковёр
+
+ent-CarpetGreen =  зелёный ковёр
+
+ent-CarpetOrange =  оранжевый ковёр
+
+ent-CarpetSBlue =  голубой ковёр
+
+ent-CarpetPurple =  фиолетовый ковёр
+
+ent-CarpetChapel =  ковёр церкви
+

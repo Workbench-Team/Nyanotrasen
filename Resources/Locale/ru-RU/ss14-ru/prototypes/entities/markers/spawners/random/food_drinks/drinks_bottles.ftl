@@ -1,3 +1,6 @@
-ent-RandomDrinkBottle = random drink spawner
-    .suffix = Bottle
-    .desc = { ent-MarkerBase.desc }
+ent-RandomDrinkBottle =  спавнер случайный напиток
+
+.suffix =  Bottle
+
+.desc =  { ent-MarkerBase.desc }
+

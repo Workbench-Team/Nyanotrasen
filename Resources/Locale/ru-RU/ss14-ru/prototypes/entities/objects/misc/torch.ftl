@@ -1,3 +1,6 @@
-ent-Torch = torch
-    .desc = A torch fashioned from some wood.
-    .suffix = { "" }
+ent-Torch =  факел
+
+.desc =  A torch fashioned from some wood.
+
+.suffix =  { "" }
+

@@ -1,58 +1,110 @@
-alerts-low-oxygen-name = [color=red]Low Oxygen[/color]
-alerts-low-oxygen-desc = There is [color=red]not enough oxygen[/color] in the air you are breathing. Put on [color=green]internals[/color].
-alerts-high-toxin-name = [color=red]High Toxin Level[/color]
-alerts-high-toxin-desc = There are [color=red]too many toxins[/color] in the air you are breathing. Put on [color=green]internals[/color] or get away.
-alerts-low-pressure-name = [color=red]Low Pressure[/color]
-alerts-low-pressure-desc = The air around you is [color=red]hazardously thin[/color]. A [color=green]space suit[/color] would protect you.
-alerts-high-pressure-name = [color=red]High Pressure[/color]
-alerts-high-pressure-desc = The air around you is [color=red]hazardously thick[/color]. A [color=green]pressurized suit[/color] would be enough protect you.
-alerts-on-fire-name = [color=red]On Fire[/color]
-alerts-on-fire-desc = You're [color=red]on fire[/color]. Click the alert to stop, drop and roll to put the fire out or move to a vacuum area.
-alerts-too-cold-name = [color=cyan]Too Cold[/color]
-alerts-too-cold-desc = You're [color=cyan]freezing cold![/color] Get somewhere warmer and take off any insulating clothing like a space suit.
-alerts-too-hot-name = [color=red]Too Hot[/color]
-alerts-too-hot-desc = It's [color=red]too hot![/color] Get somewhere colder, take off any insulating clothing like a space suit, or at least get away from the flames.
-alerts-weightless-name = Weightless
-alerts-weightless-desc =
-    Gravity has ceased affecting you, and you're floating around aimlessly. Find something sturdy to hold onto, or throw or shoot something in a direction opposite of you.
-    Mag-boots or jetpacks would help you move with more control.
-alerts-stunned-name = [color=yellow]Stunned[/color]
-alerts-stunned-desc = You're [color=yellow]stunned[/color]! Something is impairing your ability to move or interact with objects.
-alerts-handcuffed-name = [color=yellow]Handcuffed[/color]
-alerts-handcuffed-desc = You're [color=yellow]handcuffed[/color] and can't use your hands. If anyone drags you, you won't be able to resist.
-alerts-ensnared-name = [color=yellow]Ensnared[/color]
-alerts-ensnared-desc = You're [color=yellow]ensnared[/color] and is impairing your ability to move.
-alerts-buckled-name = [color=yellow]Buckled[/color]
-alerts-buckled-desc = You've been [color=yellow]buckled[/color] to something. Click the alert to unbuckle unless you're [color=yellow]handcuffed.[/color]
-alerts-crit-name = [color=red]Critical Condition[/color]
-alerts-crit-desc = You're severely injured and unconscious.
-alerts-dead-name = Dead
-alerts-dead-desc = You're dead, note that you can still be revived!
-alerts-health-name = Health
-alerts-health-desc = [color=green]Green[/color] good. [color=red]Red[/color] bad.
-alerts-internals-name = Toggle internals
-alerts-internals-desc = Toggles your gas tank internals on or off.
-alerts-internals-name = Toggle internals
-alerts-internals-desc = Toggles your gas tank internals on or off.
-alerts-piloting-name = Piloting Shuttle
-alerts-piloting-desc = You are piloting a shuttle. Click the alert to stop.
-alerts-hunger-name = [color=yellow]Peckish[/color]
-alerts-hunger-desc = Some food would be good right about now.
-alerts-stamina-name = Stamina
-alerts-stamina-desc = Stuns you if it is too low.
-alerts-starving-name = [color=red]Starving[/color]
-alerts-starving-desc = You're severely malnourished. The hunger pains make moving around a chore.
-alerts-thirsty-name = [color=yellow]Thirsty[/color]
-alerts-thirsty-desc = Something to drink would be good right about now.
-alerts-parched-name = [color=red]Parched[/color]
-alerts-parched-desc = You're severely thirsty. The thirst makes moving around a chore.
-alerts-muted-name = Muted
-alerts-muted-desc = You have lost the ability to speak.
-alerts-vow-silence-name = Vow of Silence
-alerts-vow-silence-desc = You have taken a vow of silence as part of initiation into the Mystiko Tagma Mimon. Click to break your vow.
-alerts-vow-broken-name = Vow Broken
-alerts-vow-broken-desc = You've broken your vows to Mimes everywhere. You can speak, but you've lost your powers for at least 5 entire minutes!!! Click to try and retake your vow.
-alerts-pulled-name = Pulled
-alerts-pulled-desc = You're being pulled. Move to break free.
-alerts-pulling-name = Pulling
-alerts-pulling-desc = You're pulling something. Click the alert to stop.
+alerts-low-oxygen-name =  [color=red]Низкий уровень кислорода[/color]
+
+alerts-low-oxygen-desc =  В воздухе, которым вы дышите, [color=red]недостаточно кислорода[/color]. Наденьте [color=green]баллон для дыхания[/color].
+
+alerts-high-toxin-name =  [color=red]Высокий уровень токсинов[/color]
+
+alerts-high-toxin-desc =  В воздухе, которым вы дышите, [color=red]слишком много токсинов[/color]. Наденьте [color=green]баллон для дыхания[/color] или уходите.
+
+alerts-low-pressure-name =  [color=red]Низкое давление[/color]
+
+alerts-low-pressure-desc =  Воздух вокруг вас [color=red]опасно разрежен[/color]. [color=green]Скафандр[/color] защитит вас.
+
+alerts-high-pressure-name =  [color=red]Высокое давление[/color]
+
+alerts-high-pressure-desc =  Воздух вокруг вас [color=red]опасно густой[/color]. [color=green]Герметичный костюм[/color] будет достаточной защитой.
+
+alerts-on-fire-name =  [color=red]В огне[/color]
+
+alerts-on-fire-desc =  Вы [color=red]в огне[/color]. Нажмите на предупреждение, чтобы остановиться, бросится и перекатится, чтобы потушить огонь, или переместитесь в вакуумную зону.
+
+alerts-too-cold-name =  [color=cyan]Слишком холодно[/color]
+
+alerts-too-cold-desc =  Вы [color=cyan]замерзаете![/color] Найдите место потеплее и снимите любую изолирующую одежду, например скафандр.
+
+alerts-too-hot-name =  [color=red]Слишком жарко[/color]
+
+alerts-too-hot-desc =  Здесь [color=red]слишком жарко![/color] Уйдите в место похолоднее, снимите любую изолирующую одежду, например скафандр, или, по крайней мере, уйдите от огня.
+
+alerts-weightless-name =  Невесомость
+
+alerts-weightless-desc = 
+    Гравитация перестала воздействовать на вас, и вы бесцельно парите. Найдите что-нибудь крепкое, за что можно ухватиться, или бросьте или выстрелите чем-нибудь в направлении, противоположном вам.
+    Магнитные ботинки или реактивные ранцы помогут вам двигаться с большим контролем.
+
+alerts-stunned-name =  [color=yellow]Оглушены[/color]
+
+alerts-stunned-desc =  Вы [color=yellow]оглушены[/color]! Что-то мешает вашей способности двигаться или взаимодействовать с объектами.
+
+alerts-handcuffed-name =  [color=yellow]В наручниках[/color]
+
+alerts-handcuffed-desc =  На вас [color=yellow]надели наручники[/color] и вы не можете использовать руки. Если кто-нибудь потащит вас, вы не сможете сопротивляться.
+
+alerts-ensnared-name =  [color=yellow]Захваченный[/color]
+
+alerts-ensnared-desc =  Вы [color=yellow]попали в ловушку[/color], и это мешает вам двигаться.
+
+alerts-buckled-name =  [color=yellow]Пристегнут[/color]
+
+alerts-buckled-desc =  Вы [color=yellow]пристегнуты[/color] к чему-то. Нажмите на оповещение, чтобы отстегнуть ремень, если на вас [color=yellow]не надеты наручники.[/color]
+
+alerts-crit-name =  [color=red]Критическое состояние[/color]
+
+alerts-crit-desc =  Вы серьезно ранены и без сознания.
+
+alerts-dead-name =  Мертвый
+
+alerts-dead-desc =  Вы мертвы, учтите, что вас еще можно оживить!
+
+alerts-health-name =  Здоровье
+
+alerts-health-desc =  [color=green]Зеленый[/color] хорошо. [color=red]Красный[/color] плохо.
+
+alerts-internals-name =  Переключить баллон
+
+alerts-internals-desc =  Включает или выключает газовый баллон.
+
+alerts-piloting-name =  Пилотирование шаттла
+
+alerts-piloting-desc =  Вы пилотируете шаттл. Щелкните предупреждение, чтобы остановить пилотирование.
+
+alerts-hunger-name =  [color=yellow]Проголодавшийся[/color]
+
+alerts-hunger-desc =  Прямо сейчас было бы неплохо поесть.
+
+alerts-stamina-name =  Выносливость
+
+alerts-stamina-desc =  Оглушает вас, если оно слишком низкое.
+
+alerts-starving-name =  [color=red]Голодание[/color]
+
+alerts-starving-desc =  Вы сильно истощены. Голодание делает передвижение сложным.
+
+alerts-thirsty-name =  [color=yellow]Жажда[/color]
+
+alerts-thirsty-desc =  Прямо сейчас было бы неплохо что-нибудь выпить.
+
+alerts-parched-name =  [color=red]Мучение жаждой[/color]
+
+alerts-parched-desc =  Вы очень хотите пить. Жажда делает передвижение сложным.
+
+alerts-muted-name =  Приглушены
+
+alerts-muted-desc =  Вы потеряли способность говорить.
+
+alerts-vow-silence-name =  Обет молчания
+
+alerts-vow-silence-desc =  Вы дали клятву молчания в рамках инициации в Мистико Тагма Мимон. Нажмите, чтобы нарушить свою клятву.
+
+alerts-vow-broken-name =  Обет нарушен
+
+alerts-vow-broken-desc =  Вы нарушили свою клятву, данную Мимам. Ты можешь говорить, но ты потерял свои силы как минимум на целых 5 минут!!! Нажмите, чтобы попытаться повторить свою клятву.
+
+alerts-pulled-name =  Вас тянут
+
+alerts-pulled-desc =  Вас тянут за собой. Двигайтесь, чтобы освободиться.
+
+alerts-pulling-name =  Вы тянете
+
+alerts-pulling-desc =  Вы что-то тянете. Щелкните предупреждение, чтобы перестать.
+

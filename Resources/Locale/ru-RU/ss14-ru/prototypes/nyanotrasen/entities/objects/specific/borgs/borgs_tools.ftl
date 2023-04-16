@@ -1,30 +1,24 @@
-ent-HyposprayBorgStandard = epinephrine hypospray
-    .desc = A borg version of hypospray that automatically regenerates epinephrine.
-    .suffix = { "" }
-ent-HyposprayBorgMedical = medical cyborg hypospray
-    .desc = A hypospray that can switch through several reagents.
-    .suffix = { "" }
-ent-StackHolderSteel = steel sheet holder
-    .desc = Holds steel sheets inside this borg.
-    .suffix = { "" }
-ent-StackHolderHealingItem = healing item holder
-    .desc = Holds healing items inside this borg
-    .suffix = { "" }
-ent-StackHolderFloorTile = floor tile holder
-    .desc = Holds floor tiles inside this borg.
-    .suffix = { "" }
-ent-StackHolderCable = cable holder
-    .desc = Holds cables inside this borg.
-    .suffix = { "" }
-ent-PartRodMetalInfinite = { ent-PartRodMetal }
-    .desc = { ent-PartRodMetal.desc }
-    .suffix = { "" }
-ent-BorgToolStandard = borg tool
-    .desc = Alternates between prying and anchoring.
-    .suffix = { "" }
-ent-ClothingHeadsetBorg = { ent-ClothingHeadsetAltCommand }
-    .desc = { ent-ClothingHeadsetAltCommand.desc }
-    .suffix = { "" }
-ent-FloorTileItemSteelFull = { ent-FloorTileItemSteel }
-    .suffix = Full
-    .desc = { ent-FloorTileItemSteel.desc }
+ent-HyposprayBorgStandard =  epinephrine hypospray
+
+.desc =  { ent-FloorTileItemSteel.desc }
+
+.suffix =  Full
+
+ent-HyposprayBorgMedical =  medical cyborg hypospray
+
+ent-StackHolderSteel =  steel sheet holder
+
+ent-StackHolderHealingItem =  healing item holder
+
+ent-StackHolderFloorTile =  floor tile holder
+
+ent-StackHolderCable =  cable holder
+
+ent-PartRodMetalInfinite =  { ent-PartRodMetal }
+
+ent-BorgToolStandard =  borg tool
+
+ent-ClothingHeadsetBorg =  { ent-ClothingHeadsetAltCommand }
+
+ent-FloorTileItemSteelFull =  { ent-FloorTileItemSteel }
+

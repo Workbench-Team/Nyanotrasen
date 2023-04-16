@@ -1,3 +1,6 @@
-ent-IntercomElectronics = intercom electronics
-    .desc = An electronics board used in intercoms
-    .suffix = { "" }
+ent-IntercomElectronics =  микросхема интеркома
+
+.desc =  An electronics board used in intercoms
+
+.suffix =  { "" }
+

@@ -1,3 +1,6 @@
-ent-WeaponProtoKineticAcceleratorBase = { ent-BaseItem }
-    .desc = { ent-BaseItem.desc }
-    .suffix = { "" }
+ent-WeaponProtoKineticAcceleratorBase =  { ent-BaseItem }
+
+.desc =  { ent-BaseItem.desc }
+
+.suffix =  { "" }
+

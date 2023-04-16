@@ -1,22 +1,60 @@
-reagent-name-astrotame = Astrotame
-reagent-desc-astrotame = The sweetness of a thousand sugars but none of the calories.
-reagent-name-bbq-sauce = BBQ sauce
-reagent-desc-bbq-sauce = Hand wipes not included.
-reagent-name-cornoil = corn oil
-reagent-desc-cornoil = Corn oil, A delicious oil used in cooking. Made from corn.
-reagent-name-frostoil = frostoil
-reagent-desc-frostoil = Leaves the tongue numb in its passage.
-reagent-name-horseradish-sauce = horseradish sauce
-reagent-desc-horseradish-sauce = Smelly horseradish sauce.
-reagent-name-hotsauce = hotsauce
-reagent-desc-hotsauce = Burns so good.
-reagent-name-ketchup = ketchup
-reagent-desc-ketchup = Made from pureed tomatoes and flavored with spices.
-reagent-name-ketchunaise = ketchunaise
-reagent-desc-ketchunaise = So-called Russian dressing, popular among Space Americans.
-reagent-name-mayo = mayonnaise
-reagent-desc-mayo = Creamy sauce, made from oil, egg, and some (edible) acid.
-reagent-name-soysauce = soy sauce
-reagent-desc-soysauce = A salty soy-based flavoring.
-reagent-name-table-salt = table salt
-reagent-desc-table-salt = Commonly known as salt, Sodium Chloride is often used to season food or kill borers instantly.
+reagent-name-astrotame =  Астротем
+
+reagent-desc-astrotame =  Слаще тысячи ложек сахара, но без калорий.
+
+reagent-name-bbq-sauce =  cоус барбекю
+
+reagent-desc-bbq-sauce =  Салфетки в комплект не входят.
+
+reagent-name-cornoil =  кукурузное масло
+
+reagent-desc-cornoil =  Кукурузное масло. Вкусное масло, используемое в готовке. Изготавливается из кукурузы.
+
+reagent-name-frostoil =  холодный соус
+
+reagent-desc-frostoil =  Заставляет язык онеметь.
+
+reagent-name-horseradish-sauce =  хрен
+
+reagent-desc-horseradish-sauce =  Пакетик душистого хрена.
+
+reagent-name-hotsauce =  острый соус
+
+reagent-desc-hotsauce =  Вкус просто огонь.
+
+reagent-name-ketchup =  кетчуп
+
+reagent-desc-ketchup =  Приготовлен из томатного пюре с добавлением специй.
+
+reagent-name-ketchunaise =  кетчунез
+
+reagent-desc-ketchunaise =  Так называемая русская заправка, популярная среди Космических Американцев.
+
+reagent-name-mayo =  майонез
+
+reagent-desc-mayo =  Сливочный соус, сделанный из масла, яйца и некоторой (пищевой) кислоты.
+
+reagent-name-vinaigrette =  винегрет
+
+reagent-desc-vinaigrette =  Базовая заправка для салата, приготовленная из масла, уксуса и приправ.
+
+reagent-name-soysauce =  соевый соус
+
+reagent-desc-soysauce =  Соленая приправа на основе сои.
+
+reagent-name-table-salt =  столовая соль
+
+reagent-desc-table-salt =  Хлорид натрия, широко известный как соль, часто используется в качестве пищевой приправы или для мгновенного уничтожения мозговых червей.
+
+reagent-name-tomatosauce =  tomato sauce
+
+reagent-desc-tomatosauce =  Tomato with salt and herbs.
+
+reagent-name-pesto =  pesto
+
+reagent-desc-pesto =  A combination of salt, herbs, garlic, oil, and pine nuts.
+
+reagent-name-bechamel =  bechamel sauce
+
+reagent-desc-bechamel =  A classic white sauce common to several European cultures.
+

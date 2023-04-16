@@ -1,15 +1,14 @@
-ent-CrateEmergencyExplosive = { ent-CrateSecgear }
-    .desc = { ent-CrateSecgear.desc }
-    .suffix = { "" }
-ent-CrateEmergencyFire = { ent-CrateGenericSteel }
-    .desc = { ent-CrateGenericSteel.desc }
-    .suffix = { "" }
-ent-CrateEmergencyInternals = { ent-CrateInternals }
-    .desc = { ent-CrateInternals.desc }
-    .suffix = { "" }
-ent-CrateEmergencyRadiation = { ent-CrateRadiation }
-    .desc = { ent-CrateRadiation.desc }
-    .suffix = { "" }
-ent-CrateEmergencyInflatablewall = { ent-CratePlastic }
-    .desc = { ent-CratePlastic.desc }
-    .suffix = { "" }
+ent-CrateEmergencyExplosive =  ящик сапёрного снаряжения
+
+.desc =  { ent-CratePlastic.desc }
+
+.suffix =  { "" }
+
+ent-CrateEmergencyFire =  ящик пожарного снаряжения
+
+ent-CrateEmergencyInternals =  ящик аварийного снаряжения
+
+ent-CrateEmergencyRadiation =  ящик противорадиационного снаряжения
+
+ent-CrateEmergencyInflatablewall =  ящик надувных стен
+

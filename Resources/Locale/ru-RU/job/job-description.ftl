@@ -1,43 +1,86 @@
-job-description-technical-assistant = Learn the basics of managing the station's engine, as well as repairing the station's hull & power.
-job-description-atmostech = Optimize the station's atmospherics setup, and synthesize rare gases to use or sell.
-job-description-bartender = Manage the bar and keep it lively, give out drinks, and listen to the crew's stories.
-job-description-botanist = Grow food for the chef, drugs for medbay, and other plants to keep yourself entertained.
-job-description-boxer = Fight your way to the top! Challenge the head of personnel and get brigged when you win. Not available on all maps!
-job-description-cadet = Learn the basics of arresting criminals and managing the brig.
-job-description-captain = Keep the station running, delegate work to the other heads of staff, and exert your will.
-job-description-cargotech = Deal with requisitions and deliveries for emergencies, pilot the cargo shuttle, and work with others to make ludicrous amounts of cash.
-job-description-ce = Manage the engineering department to ensure power, atmospherics, and the hull are in perfect shape.
-job-description-centcomoff = Act as an ambassador to the newest state-of-the-art space station in Nanotrasen's fleet.
-job-description-chaplain = Preach the good word of your deity and religion, and conduct spiritual healing.
-job-description-chef = Keep the station fed with a variety of food items, butcher dead animals to ensure miasma doesn't leak, and help keep the bar lively.
-job-description-chemist = Produce medicinal drugs for the doctors to use, research ethically dubious rare chemicals, and produce weapons of war when enemies of the station arrive.
-job-description-clown = Entertain the crew through elaborate slapstick routines or terrible jokes.
-job-description-cmo = Manage the resources and personnel of the medical department to keep the crew alive and disease-free.
-job-description-detective = Investigate crime scenes using forensic tools, ensure that the guilty party is found, and have a couple smokes.
-job-description-doctor = Diagnose and heal crewmembers through medicinal chemicals, vaccinations, and disease cures, along with cloning the dead.
-job-description-engineer = Keep the station's main engine & solars active, optimize the power network, and make emergency repairs using your hardsuit.
-job-description-ertengineer = Ensure that the station has power and clean air.
-job-description-ertjanitor = Ensure that the station is properly cleaned--for morale.
-job-description-ertleader = Lead the Emergency Response Team in dealing with threats to Nanotrasen assets.
-job-description-ertmedic = Ensure that the crew of the station is kept alive and healthy.
-job-description-ertsecurity = Ensure that any active threats to the station are put to rest.
-job-description-guard = Keep track of prisoners and make sure they have their basic needs.
-job-description-hop = Handle access reassignment fairly using your ID console, manage the service department, and keep Ian safe.
-job-description-hos = Manage your security force and keep them efficient, quell dissent, and keep the other heads of staff safe.
-job-description-intern = Learn the basics of administering medicine, cloning the dead, and creating chemicals.
-job-description-janitor = Keep the station clean of any trash or slipping hazards, and help deal with rat infestations.
-job-description-lawyer = Ensure that every prisoner or criminal receives a fair judgment and trial if necessary.
-job-description-librarian = Manage the library, give out knowledge to any who seek it, and report on activities aboard the station.
-job-description-mime = Entertain the crew through non-vocal means, and engage with light rivalry with the clown.
-job-description-musician = Entertain the crew with your unique musical talent, and acquire new instruments to mess around with.
-job-description-passenger = Enjoy your stay aboard the station with no obligations!
-job-description-psychologist = Provide emotional support to traumatized crew. Not available on all maps!
-job-description-qm = Manage the supplies of the station & the cargo department, keep the salvage specialists working, make sure all orders are fulfilled, and keep the money flowing.
-job-description-rd = Manage the science department, unlocking technologies, acquiring & researching artifacts, and performing experiments.
-job-description-reporter = Entertain & inform the crew with your vibrant journalism through wireless cameras and the radio. Not available on all maps!
-job-description-salvagespec = Use the salvage magnet to draw in derelicts & asteroids to loot and enrich the station, and fight off any space fauna along the way.
-job-description-scientist = Research alien artifacts, unlock new technologies, upgrade machines around the station, and make everything run more efficiently.
-job-description-security = Catch criminals and enemies of the station, enforce the law, and ensure that the station does not fall into disarray.
-job-description-serviceworker = Learn the basics of bartending, cooking, and growing plants.
-job-description-warden = Patrol the security department, ensure that no one is stealing from the armory, and make sure that all prisoners are processed and let out when their time is up.
-job-description-zookeeper = Put on a joyful display of cute animals and space carps for all the crew to see. Not available on all maps!
+job-description-technical-assistant =  Изучите основы управления генераторами электричества станции, а также чините корпус и электроснабжение станции.
+
+job-description-atmostech =  Оптимизируйте и настройте атмосферу на станции и синтезируйте редкие газы для использования или продажи.
+
+job-description-bartender =  Управляйте баром и держите его оживленным, раздавайте напитки и слушайте истории экипажа.
+
+job-description-botanist =  Выращивайте еду для шеф-повара, лекарства для медблока и другие растения, чтобы развлекаться.
+
+job-description-boxer =  Пробивайтесь к вершине! Бросьте вызов начальнику отдела кадров и сядьте в тюрьму, когда выиграете. Доступно не на всех картах!
+
+job-description-cadet =  Изучите основы ареста преступников и управления брига.
+
+job-description-captain =  Держите станцию в рабочем состоянии, делегируйте работу другим руководителям и проявляйте свою волю.
+
+job-description-cargotech =  Занимайтесь заказами и поставками в экстренных случаях, пилотируйте грузовой шаттл и работайте с другими, чтобы заработать смехотворные суммы денег.
+
+job-description-ce =  Управляйте инженерным отделом, чтобы убедиться, что электроснабжение, атмосфера и корпус находятся в идеальном состоянии.
+
+job-description-centcomoff =  Действуйте в качестве посла на новейшей ультрасовременной космической станции корпорации Nanotrasen.
+
+job-description-chaplain =  Проповедуйте доброе слово о своем божестве и религии и проводите духовное исцеление.
+
+job-description-chef =  Накормите станцию разнообразной едой, разделайте мертвых животных, чтобы предотвратить утечку миазмов, и помогите поддержать жизнь в баре.
+
+job-description-chemist =  Создавайте лекарства для врачей, исследовуйте этически сомнительные редкие химические вещества и производие боевое химическое оружие, когда на станцию прибывают враги.
+
+job-description-clown =  Развлекайте команду замысловатыми фарсами или ужасными шутками.
+
+job-description-cmo =  Управляйте ресурсами и персоналом медицинского отдела, чтобы экипаж оставался жив и не болел.
+
+job-description-detective =  Исследуйте места преступлений с помощью криминалистических инструментов, убедитесь, что виновная сторона найдена, и выкурите пару сигарет.
+
+job-description-doctor =  Диагностируйте и лечите членов экипажа с помощью медицинских химикатов, вакцинации и лечения болезней, а также клонирования мертвых.
+
+job-description-engineer =  Держите главный генератор электричества станции и солнечные батареи активными, оптимизируйте энергосеть и выполняйте срочный ремонт, используя свой скафандр.
+
+job-description-ertengineer =  Убедитесь, что на станции есть электричество и чистый воздух.
+
+job-description-ertjanitor =  Убедитесь, что станция должным образом очищена — для морального духа.
+
+job-description-ertleader =  Возглавьте группу быстрого реагирования в чрезвычайной ситуации в борьбе с угрозами активам Nanotrasen.
+
+job-description-ertmedic =  Убедитесь, что экипаж станции жив и здоров.
+
+job-description-ertsecurity =  Убедитесь, что все активные угрозы для станции устранены.
+
+job-description-guard =  Keep track of prisoners and make sure they have their basic needs.
+
+job-description-hop =  Справедливо обрабатывайте переназначайте доступа с помощью вашей консоли ID карт, управляйте отделом обслуживания и обеспечьте безопасность Иана.
+
+job-description-hos =  Управляйте силами безопасности и делайте их эффективными, подавляйте инакомыслие и обеспечивайте безопасность других руководителей персонала.
+
+job-description-intern =  Изучите основы приема лекарств, клонирования мертвых и создания химикатов.
+
+job-description-janitor =  Держите станцию в чистоте от любого мусора или опасностей поскользнуться, а также помогайте справляться с нашествием крыс.
+
+job-description-lawyer =  Убедитесь, что каждый заключенный или преступник получил справедливое судебное решение и суд, если это необходимо.
+
+job-description-librarian =  Управляйте библиотекой, раздавайте знания всем, кто их ищет, и сообщайте об активностях на борту станции.
+
+job-description-mime =  Молча развлекайте экипаж своими действиями и вступите в лёгкое соперничество с клоуном.
+
+job-description-musician =  Развлеките экипаж своим уникальным музыкальным талантом и приобретите новые инструменты, чтобы поиграть на них.
+
+job-description-passenger =  Осваивайтесь в космосе, помогайте людям, попросите ГП дать вам работу
+
+job-description-psychologist =  Окажите эмоциональную поддержку травмированному экипажу. Доступно не на всех картах!
+
+job-description-qm =  Управляйте снабжением станции и грузовым отделом, обеспечивайте работу утилизаторов, следите за тем, чтобы заказы выполнялись, и следите за тем, чтобы деньги текли.
+
+job-description-rd =  Управляйте научным отделом, открывайте технологии, приобретите и исследуйте артефакты и проводите эксперименты.
+
+job-description-reporter =  Развлекайте и информируйте команду своей яркой журналистикой через беспроводные камеры и радио. Доступно не на всех картах!
+
+job-description-salvagespec =  Используйте спасательный магнит, чтобы притягивать заброшенные объекты и астероиды, грабить и обогащать станцию, а также отбиваться от любой космической фауны по пути.
+
+job-description-scientist =  Исследуйте инопланетные артефакты, открывайте новые технологии, улучшайте машины на станции и повышайте эффективность работы.
+
+job-description-security =  Ловите преступников и врагов станции, следите за соблюдением закона и следите за тем, чтобы на станции не произошел беспорядок.
+
+job-description-serviceworker =  Изучите основы барменства, кулинарии и выращивания растений.
+
+job-description-warden =  Патрулируйте отдел безопасности, следите за тем, чтобы никто не воровал из арсенала, и следите за тем, чтобы все заключенные были в тюрьме и выпущены, когда их время истекло.
+
+job-description-zookeeper =  Устройте веселую демонстрацию милых животных и космических карпов на всеобщее обозрение. Доступно не на всех картах!
+

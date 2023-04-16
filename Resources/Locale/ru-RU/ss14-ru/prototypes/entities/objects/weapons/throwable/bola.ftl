@@ -1,3 +1,6 @@
-ent-Bola = bola
-    .desc = Linked together with some spare cuffs and metal.
-    .suffix = { "" }
+ent-Bola =  бола
+
+.desc =  Linked together with some spare cuffs and metal.
+
+.suffix =  { "" }
+

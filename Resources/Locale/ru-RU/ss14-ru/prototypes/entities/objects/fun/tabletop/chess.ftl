@@ -1,45 +1,34 @@
-ent-ChessBoard = chessboard
-    .desc = A chessboard. Pieces included!
-    .suffix = { "" }
-ent-ChessBoardTabletop = chessboard
-    .desc = { "" }
-    .suffix = { "" }
-ent-BaseChessPiece = { ent-BaseItem }
-    .desc = { ent-BaseItem.desc }
-    .suffix = { "" }
-ent-WhiteKing = white king
-    .desc = { ent-BaseChessPiece.desc }
-    .suffix = { "" }
-ent-WhiteQueen = white queen
-    .desc = { ent-BaseChessPiece.desc }
-    .suffix = { "" }
-ent-WhiteRook = white rook
-    .desc = { ent-BaseChessPiece.desc }
-    .suffix = { "" }
-ent-WhiteBishop = white bishop
-    .desc = { ent-BaseChessPiece.desc }
-    .suffix = { "" }
-ent-WhiteKnight = white knight
-    .desc = { ent-BaseChessPiece.desc }
-    .suffix = { "" }
-ent-WhitePawn = white pawn
-    .desc = { ent-BaseChessPiece.desc }
-    .suffix = { "" }
-ent-BlackKing = black king
-    .desc = { ent-BaseChessPiece.desc }
-    .suffix = { "" }
-ent-BlackQueen = black queen
-    .desc = { ent-BaseChessPiece.desc }
-    .suffix = { "" }
-ent-BlackRook = black rook
-    .desc = { ent-BaseChessPiece.desc }
-    .suffix = { "" }
-ent-BlackBishop = black bishop
-    .desc = { ent-BaseChessPiece.desc }
-    .suffix = { "" }
-ent-BlackKnight = black knight
-    .desc = { ent-BaseChessPiece.desc }
-    .suffix = { "" }
-ent-BlackPawn = black pawn
-    .desc = { ent-BaseChessPiece.desc }
-    .suffix = { "" }
+ent-ChessBoard =  шахматная доска
+
+.desc =  { ent-BaseChessPiece.desc }
+
+.suffix =  { "" }
+
+ent-ChessBoardTabletop =  шахматы
+
+ent-BaseChessPiece =  { ent-BaseItem }
+
+ent-WhiteKing =  белый король
+
+ent-WhiteQueen =  белый ферзь
+
+ent-WhiteRook =  белая ладья
+
+ent-WhiteBishop =  белый слон
+
+ent-WhiteKnight =  белый конь
+
+ent-WhitePawn =  белая пешка
+
+ent-BlackKing =  чёрный король
+
+ent-BlackQueen =  чёрный ферзь
+
+ent-BlackRook =  чёрная ладья
+
+ent-BlackBishop =  чёрный слон
+
+ent-BlackKnight =  чёрный конь
+
+ent-BlackPawn =  чёрная пешка
+

@@ -1,9 +1,10 @@
-ent-BoxDonkSoftBase = foamdart box
-    .desc = { ent-BaseItem.desc }
-    .suffix = { "" }
-ent-BoxDonkSoftBox = foam dart box
-    .desc = { ent-BoxDonkSoftBase.desc }
-    .suffix = { "" }
-ent-BoxCartridgeCap = cap gun cartridge box
-    .desc = { ent-BoxDonkSoftBase.desc }
-    .suffix = { "" }
+ent-BoxDonkSoftBase =  коробка поролоновых дротиков
+
+.desc =  { ent-BoxDonkSoftBase.desc }
+
+.suffix =  { "" }
+
+ent-BoxDonkSoftBox =  коробка поролоновых дротиков
+
+ent-BoxCartridgeCap =  коробка пистонов
+

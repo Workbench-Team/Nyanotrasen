@@ -1,99 +1,70 @@
-ent-SpawnPointJobBase = { ent-MarkerBase }
-    .suffix = Job Spawn
-    .desc = { ent-MarkerBase.desc }
-ent-SpawnPointObserver = observer spawn point
-    .desc = { ent-MarkerBase.desc }
-    .suffix = { "" }
-ent-SpawnPointLatejoin = latejoin spawn point
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointQuartermaster = quartermaster
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointAssistant = assistant
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointSecurityCadet = security cadet
-    .desc = { ent-SpawnPointAssistant.desc }
-    .suffix = { "" }
-ent-SpawnPointBartender = bartender
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointChef = chef
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointBotanist = botanist
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointClown = clown
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointMime = mime
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointChaplain = chaplain
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointLawyer = lawyer
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointJanitor = janitor
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointMusician = musician
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointCaptain = captain
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointHeadOfPersonnel = headofpersonnel
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointChiefEngineer = chiefengineer
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointStationEngineer = stationengineer
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointAtmos = atmospherics
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointChiefMedicalOfficer = chiefmedicalofficer
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointMedicalDoctor = medicaldoctor
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointHeadOfSecurity = headofsecurity
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointWarden = warden
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointSecurityOfficer = securityofficer
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointERTLeader = ERTleader
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointERTEngineer = ERTengineer
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointERTMedical = ERTmedical
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointERTSecurity = ERTsecurity
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointERTJanitor = ERTjanitor
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointReporter = reporter
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointPsychologist = psychologist
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
-ent-SpawnPointZookeeper = zookeeper
-    .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "" }
+ent-SpawnPointJobBase =  { ent-MarkerBase }
+
+.suffix =  { "" }
+
+.desc =  { ent-SpawnPointJobBase.desc }
+
+ent-SpawnPointObserver =  спавнер наблюдатели
+
+ent-SpawnPointLatejoin =  спавн позднее присоединение
+
+ent-SpawnPointQuartermaster =  квартирмейстер
+
+ent-SpawnPointAssistant =  ассистент
+
+ent-SpawnPointSecurityCadet =  кадет СБ
+
+ent-SpawnPointBartender =  бармен
+
+ent-SpawnPointChef =  шеф-повар
+
+ent-SpawnPointBotanist =  ботаник
+
+ent-SpawnPointClown =  клоун
+
+ent-SpawnPointMime =  мим
+
+ent-SpawnPointChaplain =  священник
+
+ent-SpawnPointLawyer =  юрист
+
+ent-SpawnPointJanitor =  уборщик
+
+ent-SpawnPointMusician =  музыкант
+
+ent-SpawnPointCaptain =  капитан
+
+ent-SpawnPointHeadOfPersonnel =  глава персонала
+
+ent-SpawnPointChiefEngineer =  старший инженер
+
+ent-SpawnPointStationEngineer =  инженер
+
+ent-SpawnPointAtmos =  атмосферный техник
+
+ent-SpawnPointChiefMedicalOfficer =  главный врач
+
+ent-SpawnPointMedicalDoctor =  врач
+
+ent-SpawnPointHeadOfSecurity =  глава службы безопасности
+
+ent-SpawnPointWarden =  смотритель
+
+ent-SpawnPointSecurityOfficer =  офицер СБ
+
+ent-SpawnPointERTLeader =  лидер ОБР
+
+ent-SpawnPointERTEngineer =  инженер ОБР
+
+ent-SpawnPointERTMedical =  медик ОБР
+
+ent-SpawnPointERTSecurity =  офицер безопасности ОБР
+
+ent-SpawnPointERTJanitor =  уборщик ОБР
+
+ent-SpawnPointReporter =  репортёр
+
+ent-SpawnPointPsychologist =  психолог
+
+ent-SpawnPointZookeeper =  зоотехник
+

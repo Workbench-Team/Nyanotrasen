@@ -1,2 +1,4 @@
-ent-ArtifactContainer = { CrateArtifactContainer }
-    .desc = { CrateArtifactContainer.desc }
+ent-ArtifactContainer =  { CrateArtifactContainer }
+
+.desc =  { CrateArtifactContainer.desc }
+

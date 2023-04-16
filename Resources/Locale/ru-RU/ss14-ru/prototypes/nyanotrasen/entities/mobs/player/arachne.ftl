@@ -1,3 +1,6 @@
-ent-MobArachne = Player arachne
-    .desc = { ent-MobArachneBase.desc }
-    .suffix = { "" }
+ent-MobArachne =  Player arachne
+
+.desc =  { ent-MobArachneBase.desc }
+
+.suffix =  { "" }
+

@@ -1,9 +1,10 @@
-ent-TimerTrigger = timer trigger
-    .desc = A configurable timer.
-    .suffix = { "" }
-ent-SignalTrigger = signal trigger
-    .desc = Adds a machine link that is triggered by signals.
-    .suffix = { "" }
-ent-VoiceTrigger = voice trigger
-    .desc = Adds a machine link that is triggered by vocal keywords
-    .suffix = { "" }
+ent-TimerTrigger =  таймер-триггер
+
+.desc =  Adds a machine link that is triggered by vocal keywords
+
+.suffix =  { "" }
+
+ent-SignalTrigger =  сигнальный триггер
+
+ent-VoiceTrigger =  голосовой триггер
+

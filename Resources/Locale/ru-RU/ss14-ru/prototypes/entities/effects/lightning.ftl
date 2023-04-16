@@ -1,18 +1,16 @@
-ent-BaseLightning = lightning
-    .desc = { "" }
-    .suffix = { "" }
-ent-Lightning = lightning
-    .desc = { ent-BaseLightning.desc }
-    .suffix = { "" }
-ent-LightningRevenant = spooky lightning
-    .desc = { ent-BaseLightning.desc }
-    .suffix = { "" }
-ent-ChargedLightning = charged lightning
-    .desc = { ent-BaseLightning.desc }
-    .suffix = { "" }
-ent-SuperchargedLightning = supercharged lightning
-    .desc = { ent-ChargedLightning.desc }
-    .suffix = { "" }
-ent-HyperchargedLightning = hypercharged lightning
-    .desc = { ent-ChargedLightning.desc }
-    .suffix = { "" }
+ent-BaseLightning =  молния
+
+.desc =  { ent-ChargedLightning.desc }
+
+.suffix =  { "" }
+
+ent-Lightning =  молния
+
+ent-LightningRevenant =  страшная молния
+
+ent-ChargedLightning =  заряженная молния
+
+ent-SuperchargedLightning =  суперзаряженная молния
+
+ent-HyperchargedLightning =  гиперзаряженная молния
+

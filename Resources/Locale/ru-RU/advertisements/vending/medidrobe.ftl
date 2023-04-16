@@ -1,1 +1,2 @@
-advertisement-medidrobe-1 = Make those blood stains look fashionable!!
+advertisement-medidrobe-1 =  Заставьте эти кровавые пятна выглядеть модно!!
+

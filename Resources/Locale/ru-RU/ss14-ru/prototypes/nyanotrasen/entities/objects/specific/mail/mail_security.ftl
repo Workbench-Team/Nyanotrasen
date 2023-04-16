@@ -1,15 +1,14 @@
-ent-MailSecurityDonuts = { ent-BaseMail }
-    .suffix = donuts
-    .desc = { ent-BaseMail.desc }
-ent-MailSecurityFlashlight = { ent-BaseMail }
-    .suffix = seclite
-    .desc = { ent-BaseMail.desc }
-ent-MailSecurityNonlethalsKit = { ent-BaseMail }
-    .suffix = nonlethalskit
-    .desc = { ent-BaseMail.desc }
-ent-MailSecuritySpaceLaw = { ent-BaseMail }
-    .suffix = spacelaw
-    .desc = { ent-BaseMail.desc }
-ent-MailWardenCrowdControl = { ent-BaseMail }
-    .suffix = crowdcontrol
-    .desc = { ent-BaseMail.desc }
+ent-MailSecurityDonuts =  { ent-BaseMail }
+
+.suffix =  crowdcontrol
+
+.desc =  { ent-BaseMail.desc }
+
+ent-MailSecurityFlashlight =  { ent-BaseMail }
+
+ent-MailSecurityNonlethalsKit =  { ent-BaseMail }
+
+ent-MailSecuritySpaceLaw =  { ent-BaseMail }
+
+ent-MailWardenCrowdControl =  { ent-BaseMail }
+

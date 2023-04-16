@@ -1,3 +1,6 @@
-ent-PowerSink = power sink
-    .desc = Drains immense amounts of electricity from the grid.
-    .suffix = { "" }
+ent-PowerSink =  поглотитель энергии
+
+.desc =  Drains immense amounts of electricity from the grid.
+
+.suffix =  { "" }
+

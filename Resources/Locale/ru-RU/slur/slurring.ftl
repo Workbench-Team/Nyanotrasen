@@ -1,2 +1,4 @@
-slur-accent-confused = ...huuuhhh...
-slur-accent-burp = *BURP*.
+slur-accent-confused =  ...ээммэээ...
+
+slur-accent-burp =  *РРЫГ*.
+

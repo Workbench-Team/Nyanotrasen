@@ -1,2 +1,4 @@
-autoregen-switched = Switched to { $reagent }.
-autoreagent-switch = Change Reagent
+autoregen-switched =  Switched to { $reagent }.
+
+autoreagent-switch =  Change Reagent
+

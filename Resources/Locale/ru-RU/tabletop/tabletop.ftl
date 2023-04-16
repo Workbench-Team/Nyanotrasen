@@ -1,21 +1,25 @@
-## TabletopGameComponent
+tabletop-verb-play-game =  Играть
 
-tabletop-verb-play-game = Play Game
-tabletop-default-board-name = Board Game
+tabletop-default-board-name =  Настольная игра
 
-## Chess
 
-tabletop-chess-board-name = Chess
-tabletop-chess-flip = Flip
 
-## Parchís
 
-tabletop-parchis-board-name = Parchís
+tabletop-chess-board-name =  Шахматы
 
-## Backgammon
+tabletop-chess-flip =  Перевернуть
 
-tabletop-backgammon-board-name = Backgammon
 
-## Checkers
 
-tabletop-checkers-board-name = Checkers
+
+tabletop-parchis-board-name =  Парчис
+
+
+
+
+tabletop-backgammon-board-name =  Короткие нарды
+
+tabletop-checkers-board-name =  Шашки
+
+tabletop-shogi-board-name =  Shogi
+

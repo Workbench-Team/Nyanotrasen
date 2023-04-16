@@ -1,6 +1,8 @@
-ent-ClothingBeltBase = { ent-Clothing }
-    .desc = { ent-Clothing.desc }
-    .suffix = { "" }
-ent-ClothingBeltStorageBase = { ent-ClothingBeltBase }
-    .desc = { ent-ClothingBeltBase.desc }
-    .suffix = { "" }
+ent-ClothingBeltBase =  { ent-Clothing }
+
+.desc =  { ent-ClothingBeltBase.desc }
+
+.suffix =  { "" }
+
+ent-ClothingBeltStorageBase =  { ent-ClothingBeltBase }
+

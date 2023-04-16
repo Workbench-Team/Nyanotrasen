@@ -1,99 +1,70 @@
-ent-BaseRock = { "" }
-    .desc = Heavy as a really heavy thing.
-    .suffix = { "" }
-ent-BaseTree = { "" }
-    .desc = Yep, it's a tree.
-    .suffix = { "" }
-ent-BaseTreeSnow = { ent-BaseTree }
-    .desc = { ent-BaseTree.desc }
-    .suffix = { "" }
-ent-BaseTreeLarge = { ent-BaseTree }
-    .desc = { ent-BaseTree.desc }
-    .suffix = { "" }
-ent-BaseTreeConifer = { ent-BaseTree }
-    .desc = { ent-BaseTree.desc }
-    .suffix = { "" }
-ent-FloraRockSolid01 = rock
-    .desc = { ent-BaseRock.desc }
-    .suffix = { "" }
-ent-FloraRockSolid02 = rock
-    .desc = { ent-BaseRock.desc }
-    .suffix = { "" }
-ent-FloraRockSolid03 = rock
-    .desc = { ent-BaseRock.desc }
-    .suffix = { "" }
-ent-FloraTree01 = tree
-    .desc = { ent-BaseTree.desc }
-    .suffix = { "" }
-ent-FloraTree02 = tree
-    .desc = { ent-BaseTree.desc }
-    .suffix = { "" }
-ent-FloraTree03 = tree
-    .desc = { ent-BaseTree.desc }
-    .suffix = { "" }
-ent-FloraTree04 = tree
-    .desc = { ent-BaseTree.desc }
-    .suffix = { "" }
-ent-FloraTree05 = tree
-    .desc = { ent-BaseTree.desc }
-    .suffix = { "" }
-ent-FloraTree06 = tree
-    .desc = { ent-BaseTree.desc }
-    .suffix = { "" }
-ent-FloraTreeSnow01 = snowy tree
-    .desc = { ent-BaseTreeSnow.desc }
-    .suffix = { "" }
-ent-FloraTreeSnow02 = snowy tree
-    .desc = { ent-BaseTreeSnow.desc }
-    .suffix = { "" }
-ent-FloraTreeSnow03 = snowy tree
-    .desc = { ent-BaseTreeSnow.desc }
-    .suffix = { "" }
-ent-FloraTreeSnow04 = snowy tree
-    .desc = { ent-BaseTreeSnow.desc }
-    .suffix = { "" }
-ent-FloraTreeSnow05 = snowy tree
-    .desc = { ent-BaseTreeSnow.desc }
-    .suffix = { "" }
-ent-FloraTreeSnow06 = snowy tree
-    .desc = { ent-BaseTreeSnow.desc }
-    .suffix = { "" }
-ent-FloraTreeStump = tree stump
-    .desc = { ent-BaseTreeSnow.desc }
-    .suffix = { "" }
-ent-FloraTreeLarge01 = large tree
-    .desc = { ent-BaseTreeLarge.desc }
-    .suffix = { "" }
-ent-FloraTreeLarge02 = large tree
-    .desc = { ent-BaseTreeLarge.desc }
-    .suffix = { "" }
-ent-FloraTreeLarge03 = large tree
-    .desc = { ent-BaseTreeLarge.desc }
-    .suffix = { "" }
-ent-FloraTreeLarge04 = large tree
-    .desc = { ent-BaseTreeLarge.desc }
-    .suffix = { "" }
-ent-FloraTreeLarge05 = large tree
-    .desc = { ent-BaseTreeLarge.desc }
-    .suffix = { "" }
-ent-FloraTreeLarge06 = large tree
-    .desc = { ent-BaseTreeLarge.desc }
-    .suffix = { "" }
-ent-FloraTreeConifer01 = snowy conifer
-    .desc = { ent-BaseTreeConifer.desc }
-    .suffix = { "" }
-ent-FloraTreeConifer02 = snowy conifer
-    .desc = { ent-BaseTreeConifer.desc }
-    .suffix = { "" }
-ent-FloraTreeConifer03 = snowy conifer
-    .desc = { ent-BaseTreeConifer.desc }
-    .suffix = { "" }
-ent-FloraTreeChristmas01 = christmas tree
-    .desc = { ent-BaseTreeConifer.desc }
-    .suffix = { "" }
-ent-FloraTreeChristmas02 = christmas tree
-    .suffix = PresentsGiver
-    .desc = { ent-BaseTreeConifer.desc }
-ent-FloraTreeStumpConifer = tree stump
-    .desc = { ent-BaseTreeConifer.desc }
-    .suffix = { "" }
+ent-BaseRock =  { "" }
+
+.desc =  { ent-BaseTreeConifer.desc }
+
+.suffix =  { "" }
+
+ent-BaseTree =  { "" }
+
+ent-BaseTreeSnow =  { ent-BaseTree }
+
+ent-BaseTreeLarge =  { ent-BaseTree }
+
+ent-BaseTreeConifer =  { ent-BaseTree }
+
+ent-FloraRockSolid01 =  валун
+
+ent-FloraRockSolid02 =  валун
+
+ent-FloraRockSolid03 =  валун
+
+ent-FloraTree01 =  дерево
+
+ent-FloraTree02 =  дерево
+
+ent-FloraTree03 =  дерево
+
+ent-FloraTree04 =  дерево
+
+ent-FloraTree05 =  дерево
+
+ent-FloraTree06 =  дерево
+
+ent-FloraTreeSnow01 =  заснеженное дерево
+
+ent-FloraTreeSnow02 =  заснеженное дерево
+
+ent-FloraTreeSnow03 =  заснеженное дерево
+
+ent-FloraTreeSnow04 =  заснеженное дерево
+
+ent-FloraTreeSnow05 =  заснеженное дерево
+
+ent-FloraTreeSnow06 =  заснеженное дерево
+
+ent-FloraTreeStump =  пень
+
+ent-FloraTreeLarge01 =  большое дерево
+
+ent-FloraTreeLarge02 =  большое дерево
+
+ent-FloraTreeLarge03 =  большое дерево
+
+ent-FloraTreeLarge04 =  большое дерево
+
+ent-FloraTreeLarge05 =  большое дерево
+
+ent-FloraTreeLarge06 =  большое дерево
+
+ent-FloraTreeConifer01 =  заснеженная хвоя
+
+ent-FloraTreeConifer02 =  заснеженная хвоя
+
+ent-FloraTreeConifer03 =  заснеженная хвоя
+
+ent-FloraTreeChristmas01 =  рождественская ель
+
+ent-FloraTreeChristmas02 =  рождественская ель
+
+ent-FloraTreeStumpConifer =  пень
+

@@ -1,33 +1,28 @@
-ent-ClothingShoesChef = chef shoes
-    .desc = Sturdy shoes that minimize injury from falling objects or knives.
-    .suffix = { "" }
-ent-ClothingShoesClown = clown shoes
-    .desc = The prankster's standard-issue clowning shoes. Damn they're huge!
-    .suffix = { "" }
-ent-ClothingShoesBling = bling clown shoes
-    .desc = Made of refined bananium and shined with the pulp of a fresh banana peel. These make a flashy statement.
-    .suffix = { "" }
-ent-ClothingShoesCult = cult shoes
-    .desc = A pair of boots worn by the followers of Nar'Sie.
-    .suffix = { "" }
-ent-ClothingShoesGaloshes = galoshes
-    .desc = Rubber boots.
-    .suffix = { "" }
-ent-ClothingShoesSpaceNinja = space ninja shoes
-    .desc = A pair of nano-enhanced boots with built-in magnetic suction cups.
-    .suffix = { "" }
-ent-ClothingShoesSwat = swat shoes
-    .desc = When you want to turn up the heat.
-    .suffix = { "" }
-ent-ClothingShoesWizard = wizard shoes
-    .desc = A pair of magic shoes.
-    .suffix = { "" }
-ent-ClothingShoesChameleon = black shoes
-    .desc = Stylish black shoes.
-    .suffix = Chameleon
-ent-ClothingShoesChameleonNoSlips = black shoes
-    .desc = Stylish black shoes.
-    .suffix = No-slip, Chameleon
-ent-ClothingShoesJester = jester shoes
-    .desc = A court jester's shoes, updated with modern squeaking technology.
-    .suffix = { "" }
+ent-ClothingShoesChef =  поварские ботинки
+
+.desc =  A court jester's shoes, updated with modern squeaking technology.
+
+.suffix =  { "" }
+
+ent-ClothingShoesClown =  клоунские туфли
+
+ent-ClothingShoesBling =  блестящие клоунские туфли
+
+ent-ClothingShoesCult =  ботинки культа
+
+ent-ClothingShoesGaloshes =  галоши
+
+ent-ClothingShoesSpaceNinja =  ботинки космического ниндзя
+
+ent-ClothingShoesSwat =  ботинки спецназа
+
+ent-ClothingShoesWizard =  обувь волшебника
+
+ent-ClothingShoesWizardFake =  wizard shoes
+
+ent-ClothingShoesChameleon =  чёрные туфли
+
+ent-ClothingShoesChameleonNoSlips =  чёрные туфли
+
+ent-ClothingShoesJester =  шутовские туфли
+

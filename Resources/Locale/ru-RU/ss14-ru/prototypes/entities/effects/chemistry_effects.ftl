@@ -1,21 +1,18 @@
-ent-Smoke = smoke
-    .desc = { "" }
-    .suffix = { "" }
-ent-Foam = foam
-    .desc = { "" }
-    .suffix = { "" }
-ent-IronMetalFoam = iron metal foam
-    .desc = { ent-Foam.desc }
-    .suffix = { "" }
-ent-AluminiumMetalFoam = aluminium metal foam
-    .desc = { ent-Foam.desc }
-    .suffix = { "" }
-ent-BaseFoamedMetal = base foamed metal
-    .desc = { "" }
-    .suffix = { "" }
-ent-FoamedIronMetal = foamed iron metal
-    .desc = For sealing hull breaches.
-    .suffix = { "" }
-ent-FoamedAluminiumMetal = foamed aluminium metal
-    .desc = For sealing hull breaches.
-    .suffix = { "" }
+ent-Smoke =  smoke
+
+.desc =  For sealing hull breaches.
+
+.suffix =  { "" }
+
+ent-Foam =  foam
+
+ent-IronMetalFoam =  железная металлическая пена
+
+ent-AluminiumMetalFoam =  алюминиевая металлическая пена
+
+ent-BaseFoamedMetal =  base foamed metal
+
+ent-FoamedIronMetal =  вспененное железо
+
+ent-FoamedAluminiumMetal =  вспененный алюминий
+

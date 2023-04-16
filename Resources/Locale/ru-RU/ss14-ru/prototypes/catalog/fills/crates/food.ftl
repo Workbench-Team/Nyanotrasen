@@ -1,15 +1,14 @@
-ent-CrateFoodPizza = { ent-CratePlastic }
-    .desc = { ent-CratePlastic.desc }
-    .suffix = { "" }
-ent-CrateFoodMRE = { ent-CratePlastic }
-    .desc = { ent-CratePlastic.desc }
-    .suffix = { "" }
-ent-CrateFoodCooking = { ent-CratePlastic }
-    .desc = { ent-CratePlastic.desc }
-    .suffix = { "" }
-ent-CrateFoodDinnerware = { ent-CratePlastic }
-    .desc = { ent-CratePlastic.desc }
-    .suffix = { "" }
-ent-CrateFoodBarSupply = { ent-CratePlastic }
-    .desc = { ent-CratePlastic.desc }
-    .suffix = { "" }
+ent-CrateFoodPizza =  экстренная доставка пиццы
+
+.desc =  { ent-CratePlastic.desc }
+
+.suffix =  { "" }
+
+ent-CrateFoodMRE =  ящик ИРП
+
+ent-CrateFoodCooking =  ящик кухонных припасов
+
+ent-CrateFoodDinnerware =  ящик кухонной утвари
+
+ent-CrateFoodBarSupply =  ящик с припасами для бара
+

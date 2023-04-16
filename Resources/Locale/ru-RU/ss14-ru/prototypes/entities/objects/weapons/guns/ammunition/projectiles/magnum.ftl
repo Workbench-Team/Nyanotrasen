@@ -1,12 +1,12 @@
-ent-BulletMagnum = bullet (.45 magnum)
-    .desc = { ent-BaseBullet.desc }
-    .suffix = { "" }
-ent-BulletMagnumHighVelocity = bullet (.45 magnum high-velocity)
-    .desc = { ent-BaseBulletHighVelocity.desc }
-    .suffix = { "" }
-ent-BulletMagnumPractice = bullet (.45 magnum practice)
-    .desc = { ent-BaseBulletPractice.desc }
-    .suffix = { "" }
-ent-BulletMagnumRubber = bullet (.45 magnum rubber)
-    .desc = { ent-BaseBulletRubber.desc }
-    .suffix = { "" }
+ent-BulletMagnum =  пуля (.45 магнум)
+
+.desc =  { ent-BaseBulletRubber.desc }
+
+.suffix =  { "" }
+
+ent-BulletMagnumHighVelocity =  пуля (.45 магнум высокоскоростная)
+
+ent-BulletMagnumPractice =  пуля (.45 магнум учебная)
+
+ent-BulletMagnumRubber =  пуля (.45 магнум резиновая)
+

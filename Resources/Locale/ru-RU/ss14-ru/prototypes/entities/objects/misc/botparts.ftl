@@ -1,3 +1,6 @@
-ent-ProximitySensor = proximity sensor
-    .desc = Senses things in close proximity.
-    .suffix = { "" }
+ent-ProximitySensor =  датчик движения
+
+.desc =  Senses things in close proximity.
+
+.suffix =  { "" }
+

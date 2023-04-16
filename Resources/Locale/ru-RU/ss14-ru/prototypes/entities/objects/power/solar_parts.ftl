@@ -1,3 +1,6 @@
-ent-SolarAssemblyPart = solar assembly part
-    .desc = { ent-BaseItem.desc }
-    .suffix = { "" }
+ent-SolarAssemblyPart =  деталь солнечной батареи
+
+.desc =  { ent-BaseItem.desc }
+
+.suffix =  { "" }
+

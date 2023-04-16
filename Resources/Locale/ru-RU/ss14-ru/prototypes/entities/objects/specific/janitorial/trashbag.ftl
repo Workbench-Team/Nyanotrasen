@@ -1,9 +1,10 @@
-ent-TrashBag = trash bag
-    .desc = { ent-BaseStorageItem.desc }
-    .suffix = { "" }
-ent-TrashBagBlue = trash bag
-    .desc = { ent-TrashBag.desc }
-    .suffix = { "" }
-ent-BagOfSummoningGarbage = { ent-TrashBagBlue }
-    .desc = { ent-TrashBagBlue.desc }
-    .suffix = { "" }
+ent-TrashBag =  мешок для мусора
+
+.desc =  { ent-TrashBagBlue.desc }
+
+.suffix =  { "" }
+
+ent-TrashBagBlue =  мешок для мусора
+
+ent-BagOfSummoningGarbage =  заклинание всепоглощающей чистоты
+

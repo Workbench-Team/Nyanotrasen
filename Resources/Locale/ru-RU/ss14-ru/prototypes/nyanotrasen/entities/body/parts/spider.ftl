@@ -1,12 +1,12 @@
-ent-PartSpider = spider body part
-    .desc = { ent-BaseItem.desc }
-    .suffix = { "" }
-ent-ThoraxSpider = spider thorax
-    .desc = { ent-PartSpider.desc }
-    .suffix = { "" }
-ent-RightLegSpider = right spider leg
-    .desc = { ent-PartSpider.desc }
-    .suffix = { "" }
-ent-LeftLegSpider = left spider leg
-    .desc = { ent-PartSpider.desc }
-    .suffix = { "" }
+ent-PartSpider =  spider body part
+
+.desc =  { ent-PartSpider.desc }
+
+.suffix =  { "" }
+
+ent-ThoraxSpider =  spider thorax
+
+ent-RightLegSpider =  right spider leg
+
+ent-LeftLegSpider =  left spider leg
+

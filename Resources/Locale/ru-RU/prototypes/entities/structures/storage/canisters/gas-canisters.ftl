@@ -1,48 +1,50 @@
-ent-GasCanister = Gas canister
-    .desc = A canister that can contain any type of gas. It can be attached to connector ports using a wrench.
-ent-StorageCanister = Storage canister
-    .desc = { ent-GasCanister.desc }
-ent-AirCanister = Air canister
-    .desc = A canister that can contain any type of gas. This one is supposed to contain air mixture. It can be attached to connector ports using a wrench.
-ent-OxygenCanister = Oxygen canister
-    .desc = A canister that can contain any type of gas. This one is supposed to contain oxygen. It can be attached to connector ports using a wrench.
-ent-NitrogenCanister = Nitrogen canister
-    .desc = A canister that can contain any type of gas. This one is supposed to contain nitrogen. It can be attached to connector ports using a wrench.
-ent-CarbonDioxideCanister = Carbon dioxide canister
-    .desc = A canister that can contain any type of gas. This one is supposed to contain carbon dioxide. It can be attached to connector ports using a wrench.
-ent-PlasmaCanister = Plasma canister
-    .desc = A canister that can contain any type of gas. This one is supposed to contain plasma. It can be attached to connector ports using a wrench.
-ent-TritiumCanister = Tritium canister
-    .desc = A canister that can contain any type of gas. This one is supposed to contain tritium. It can be attached to connector ports using a wrench.
-ent-WaterVaporCanister = Water vapor canister
-    .desc = A canister that can contain any type of gas. This one is supposed to contain water vapor. It can be attached to connector ports using a wrench.
-ent-MiasmaCanister = Miasma canister
-    .desc = A canister that can contain any type of gas. This one is supposed to contain miasma. It can be attached to connector ports using a wrench.
-ent-NitrousOxideCanister = Nitrous oxide canister
-    .desc = A canister that can contain any type of gas. This one is supposed to contain nitrous oxide. It can be attached to connector ports using a wrench.
-ent-FrezonCanister = Frezon canister
-    .desc = A coolant with light hallucinogenic properties. Proceed.
-ent-GasCanisterBrokenBase = Broken gas canister
-    .desc = A broken gas canister. Not useless yet, as it can be salvaged for high quality materials.
-ent-StorageCanisterBroken = { ent-GasCanisterBrokenBase }
-    .desc = { ent-GasCanisterBrokenBase.desc }
-ent-AirCanisterBroken = { ent-GasCanisterBrokenBase }
-    .desc = { ent-GasCanisterBrokenBase.desc }
-ent-OxygenCanisterBroken = { ent-GasCanisterBrokenBase }
-    .desc = { ent-GasCanisterBrokenBase.desc }
-ent-NitrogenCanisterBroken = { ent-GasCanisterBrokenBase }
-    .desc = { ent-GasCanisterBrokenBase.desc }
-ent-CarbonDioxideCanisterBroken = { ent-GasCanisterBrokenBase }
-    .desc = { ent-GasCanisterBrokenBase.desc }
-ent-PlasmaCanisterBroken = { ent-GasCanisterBrokenBase }
-    .desc = { ent-GasCanisterBrokenBase.desc }
-ent-TritiumCanisterBroken = { ent-GasCanisterBrokenBase }
-    .desc = { ent-GasCanisterBrokenBase.desc }
-ent-WaterVaporCanisterBroken = { ent-GasCanisterBrokenBase }
-    .desc = { ent-GasCanisterBrokenBase.desc }
-ent-MiasmaCanisterBroken = { ent-GasCanisterBrokenBase }
-    .desc = { ent-GasCanisterBrokenBase.desc }
-ent-NitrousOxideCanisterBroken = { ent-GasCanisterBrokenBase }
-    .desc = { ent-GasCanisterBrokenBase.desc }
-ent-FrezonCanisterBroken = { ent-GasCanisterBrokenBase }
-    .desc = { ent-GasCanisterBrokenBase.desc }
+ent-GasCanister =  Gas canister
+
+.desc =  { ent-GasCanisterBrokenBase.desc }
+
+ent-StorageCanister =  Storage canister
+
+ent-AirCanister =  Air canister
+
+ent-OxygenCanister =  Oxygen canister
+
+ent-NitrogenCanister =  Nitrogen canister
+
+ent-CarbonDioxideCanister =  Carbon dioxide canister
+
+ent-PlasmaCanister =  Plasma canister
+
+ent-TritiumCanister =  Tritium canister
+
+ent-WaterVaporCanister =  Water vapor canister
+
+ent-MiasmaCanister =  Miasma canister
+
+ent-NitrousOxideCanister =  Nitrous oxide canister
+
+ent-FrezonCanister =  Frezon canister
+
+ent-GasCanisterBrokenBase =  Broken gas canister
+
+ent-StorageCanisterBroken =  { ent-GasCanisterBrokenBase }
+
+ent-AirCanisterBroken =  { ent-GasCanisterBrokenBase }
+
+ent-OxygenCanisterBroken =  { ent-GasCanisterBrokenBase }
+
+ent-NitrogenCanisterBroken =  { ent-GasCanisterBrokenBase }
+
+ent-CarbonDioxideCanisterBroken =  { ent-GasCanisterBrokenBase }
+
+ent-PlasmaCanisterBroken =  { ent-GasCanisterBrokenBase }
+
+ent-TritiumCanisterBroken =  { ent-GasCanisterBrokenBase }
+
+ent-WaterVaporCanisterBroken =  { ent-GasCanisterBrokenBase }
+
+ent-MiasmaCanisterBroken =  { ent-GasCanisterBrokenBase }
+
+ent-NitrousOxideCanisterBroken =  { ent-GasCanisterBrokenBase }
+
+ent-FrezonCanisterBroken =  { ent-GasCanisterBrokenBase }
+

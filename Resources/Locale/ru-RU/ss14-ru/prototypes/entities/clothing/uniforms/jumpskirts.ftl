@@ -1,162 +1,112 @@
-ent-ClothingUniformJumpskirtBartender = bartender's uniform
-    .desc = A nice and tidy uniform. Shame about the bar though.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtCaptain = captain's jumpskirt
-    .desc = It's a blue jumpskirt with some gold markings denoting the rank of "Captain".
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtCargo = cargo tech jumpskirt
-    .desc = A sturdy jumpskirt, issued to members of the Cargo department.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtChiefEngineer = chief engineer's jumpskirt
-    .desc = It's a high visibility jumpskirt given to those engineers insane enough to achieve the rank of Chief Engineer. It has minor radiation shielding.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtChaplain = chaplain's jumpskirt
-    .desc = It's a black jumpskirt, often worn by religious folk.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtChef = chef uniform
-    .desc = Can't cook without this.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtChemistry = chemistry jumpskirt
-    .desc = There's some odd stains on this jumpskirt. Hm.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtCMO = chief medical officer's jumpskirt
-    .desc = It's a jumpskirt worn by those with the experience to be Chief Medical Officer. It provides minor biological protection.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtDetective = hard-worn suit
-    .desc = Someone who wears this means business.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtDetectiveGrey = noir suit
-    .desc = A hard-boiled private investigator's grey suit, complete with tie clip.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtEngineering = engineering jumpskirt
-    .desc = If this suit was non-conductive, maybe engineers would actually do their damn job.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtHoP = head of personnel's jumpskirt
-    .desc = Rather bland and inoffensive. Perfect for vanishing off the face of the universe.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtHoS = head of security's jumpskirt
-    .desc = It's bright red and rather crisp, much like security's victims tend to be.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtHoSAlt = head of security's turtleneck
-    .desc = It's a turtleneck worn by those strong and disciplined enough to achieve the position of Head of Security. Its sturdy fabric provides minor protection from mechanical damage.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtHoSParadeMale = head of security's parade uniform
-    .desc = A head of security's luxury-wear, for special occasions.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtHydroponics = hydroponics jumpskirt
-    .desc = Has a strong earthy smell to it. Hopefully it's merely dirty as opposed to soiled.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtJanitor = janitor jumpskirt
-    .desc = The jumpskirt for the poor sop with a mop.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtMedicalDoctor = medical doctor jumpskirt
-    .desc = It's made of a special fiber that provides minor protection against biohazards. It has a cross on the chest denoting that the wearer is trained medical personnel.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtMime = mime jumpskirt
-    .desc = ...
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtParamedic = paramedic jumpskirt
-    .desc = It's got a plus on it, that's a good thing right?
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtPrisoner = prisoner jumpskirt
-    .desc = Busted.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtQM = quartermaster's jumpskirt
-    .desc = What can brown do for you?
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtResearchDirector = research director's turtleneck
-    .desc = It's a turtleneck worn by those with the know-how to achieve the position of Research Director. Its fabric provides minor protection from biological contaminants.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtScientist = scientist jumpskirt
-    .desc = It's made of a special fiber that provides minor protection against explosives. It has markings that denote the wearer as a scientist.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtSec = security jumpskirt
-    .desc = A jumpskirt made of strong material, providing robust protection.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtWarden = warden's uniform
-    .desc = A formal security suit for officers complete with Nanotrasen belt buckle.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtColorGrey = grey jumpskirt
-    .desc = A tasteful grey jumpskirt that reminds you of the good old days.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtColorBlack = black jumpskirt
-    .desc = A generic black jumpskirt with no rank markings.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtColorBlue = blue jumpskirt
-    .desc = A generic blue jumpskirt with no rank markings.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtColorGreen = green jumpskirt
-    .desc = A generic green jumpskirt with no rank markings.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtColorOrange = orange jumpskirt
-    .desc = Don't wear this near paranoid security officers.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtColorPink = pink jumpskirt
-    .desc = Just looking at this makes you feel fabulous.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtColorRed = red jumpskirt
-    .desc = A generic red jumpskirt with no rank markings.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtColorWhite = white jumpskirt
-    .desc = A generic white jumpskirt with no rank markings.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtColorYellow = yellow jumpskirt
-    .desc = A generic yellow jumpskirt with no rank markings.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtColorDarkBlue = dark blue jumpskirt
-    .desc = A generic dark blue jumpskirt with no rank markings.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtColorTeal = teal jumpskirt
-    .desc = A generic teal jumpskirt with no rank markings.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtColorPurple = purple jumpskirt
-    .desc = A generic purple jumpskirt with no rank markings.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtColorDarkGreen = dark green jumpskirt
-    .desc = A generic dark green jumpskirt with no rank markings.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtColorLightBrown = light brown jumpskirt
-    .desc = A generic light brown jumpskirt with no rank markings.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtColorBrown = brown jumpskirt
-    .desc = A generic brown jumpskirt with no rank markings.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtColorMaroon = maroon jumpskirt
-    .desc = A generic maroon jumpskirt with no rank markings.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtPerformer = performer's jumpskirt
-    .desc = Hi, I'm Scott, president of Donk Pizza. Have you heard of [FAMOUS VIRTUAL PERFORMER]?
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtCapFormalDress = captain's formal dress
-    .desc = A dress for special occasions.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtCentcomFormalDress = central command formal dress
-    .desc = A dress for special occasions
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtHosFormal = hos's formal dress
-    .desc = A dress for special occasions.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtOperative = operative jumpskirt
-    .desc = Uniform for elite syndicate operatives performing tactical operations in deep space.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtAtmos = atmospheric technician jumpskirt
-    .desc = I am at work. I can't leave work. Work is breathing. I am testing air quality.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtJanimaid = janitorial maid uniform
-    .desc = For professionals, not the posers.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtLawyerRed = red lawyer suitskirt
-    .desc = A flashy red suitskirt worn by lawyers and show-offs.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtLawyerBlue = blue lawyer suitskirt
-    .desc = A flashy blue suitskirt worn by lawyers and show-offs.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtLawyerBlack = black lawyer suitskirt
-    .desc = A subtle black suitskirt worn by lawyers and gangsters.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtLawyerPurple = purple lawyer suitskirt
-    .desc = A stylish purple piece worn by lawyers and show people.
-    .suffix = { "" }
-ent-ClothingUniformJumpskirtLawyerGood = good lawyer's suitskirt
-    .desc = A tacky suitskirt perfect for a CRIMINAL lawyer!
-    .suffix = { "" }
+ent-ClothingUniformJumpskirtBartender =  униформа бармена
+
+.desc =  A tacky suitskirt perfect for a CRIMINAL lawyer!
+
+.suffix =  { "" }
+
+ent-ClothingUniformJumpskirtCaptain =  юбка-комбинезон капитана
+
+ent-ClothingUniformJumpskirtCargo =  юбка-комбинезон грузчика
+
+ent-ClothingUniformJumpskirtChiefEngineer =  юбка-комбинезон старшего инженера
+
+ent-ClothingUniformJumpskirtChaplain =  юбка-комбинезон священника
+
+ent-ClothingUniformJumpskirtChef =  униформа шеф-повара
+
+ent-ClothingUniformJumpskirtChemistry =  юбка-комбинезон химика
+
+ent-ClothingUniformJumpskirtCMO =  юбка-комбинезон главного врача
+
+ent-ClothingUniformJumpskirtDetective =  поношенный костюм
+
+ent-ClothingUniformJumpskirtDetectiveGrey =  нуарный костюм
+
+ent-ClothingUniformJumpskirtEngineering =  инженерная юбка-комбинезон
+
+ent-ClothingUniformJumpskirtHoP =  юбка-комбинезон главы персонала
+
+ent-ClothingUniformJumpskirtHoS =  юбка-комбинезон главы службы безопасности
+
+ent-ClothingUniformJumpskirtHoSAlt =  водолазка главы службы безопасности
+
+ent-ClothingUniformJumpskirtHoSParadeMale =  парадная форма главы службы безопасности
+
+ent-ClothingUniformJumpskirtHydroponics =  юбка-комбинезон ботаника
+
+ent-ClothingUniformJumpskirtJanitor =  юбка-комбинезон уборщика
+
+ent-ClothingUniformJumpskirtMedicalDoctor =  юбка-комбинезон врача
+
+ent-ClothingUniformJumpskirtMime =  юбка-комбинезон мима
+
+ent-ClothingUniformJumpskirtParamedic =  юбка-комбинезон парамедика
+
+ent-ClothingUniformJumpskirtPrisoner =  юбка-комбинезон заключенного
+
+ent-ClothingUniformJumpskirtQM =  юбка-комбинезон квартирмейстера
+
+ent-ClothingUniformJumpskirtResearchDirector =  водолазка научного руководителя
+
+ent-ClothingUniformJumpskirtScientist =  юбка-комбинезон учёного
+
+ent-ClothingUniformJumpskirtSec =  юбка-комбинезон службы безопасности
+
+ent-ClothingUniformJumpskirtWarden =  униформа смотрителя
+
+ent-ClothingUniformJumpskirtColorGrey =  серая юбка-комбинезон
+
+ent-ClothingUniformJumpskirtColorBlack =  чёрная юбка-комбинезон
+
+ent-ClothingUniformJumpskirtColorBlue =  синяя юбка-комбинезон
+
+ent-ClothingUniformJumpskirtColorGreen =  зелёная юбка-комбинезон
+
+ent-ClothingUniformJumpskirtColorOrange =  оранжевая юбка-комбинезон
+
+ent-ClothingUniformJumpskirtColorPink =  розовая юбка-комбинезон
+
+ent-ClothingUniformJumpskirtColorRed =  красная юбка-комбинезон
+
+ent-ClothingUniformJumpskirtColorWhite =  белая юбка-комбинезон
+
+ent-ClothingUniformJumpskirtColorYellow =  жёлтая юбка-комбинезон
+
+ent-ClothingUniformJumpskirtColorDarkBlue =  тёмно-синяя юбка-комбинезон
+
+ent-ClothingUniformJumpskirtColorTeal =  аквамариновая юбка-комбинезон
+
+ent-ClothingUniformJumpskirtColorPurple =  фиолетовая юбка-комбинезон
+
+ent-ClothingUniformJumpskirtColorDarkGreen =  тёмно-зелёная юбка-комбинезон
+
+ent-ClothingUniformJumpskirtColorLightBrown =  светло-коричневая юбка-комбинезон
+
+ent-ClothingUniformJumpskirtColorBrown =  коричневая юбка-комбинезон
+
+ent-ClothingUniformJumpskirtColorMaroon =  бордовая юбка-комбинезон
+
+ent-ClothingUniformJumpskirtPerformer =  юбка-комбинезон артиста
+
+ent-ClothingUniformJumpskirtCapFormalDress =  торжественное платье капитана
+
+ent-ClothingUniformJumpskirtCentcomFormalDress =  торжественное платье Центком
+
+ent-ClothingUniformJumpskirtHosFormal =  торжественное платье главы службы безопасности
+
+ent-ClothingUniformJumpskirtOperative =  юбка-комбинезон оперативника
+
+ent-ClothingUniformJumpskirtAtmos =  юбка-комбинезон атмосферного техника
+
+ent-ClothingUniformJumpskirtJanimaid =  форма горничной
+
+ent-ClothingUniformJumpskirtLawyerRed =  красная адвокатская юбка-костюм
+
+ent-ClothingUniformJumpskirtLawyerBlue =  синяя адвокатская юбка-костюм
+
+ent-ClothingUniformJumpskirtLawyerBlack =  чёрная адвокатская юбка-костюм
+
+ent-ClothingUniformJumpskirtLawyerPurple =  фиолетовая адвокатская юбка-костюм
+
+ent-ClothingUniformJumpskirtLawyerGood =  хорошая адвокатская юбка-костюм
+

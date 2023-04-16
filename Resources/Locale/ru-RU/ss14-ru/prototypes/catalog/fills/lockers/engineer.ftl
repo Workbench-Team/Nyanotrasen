@@ -1,18 +1,16 @@
-ent-ClosetToolFilled = { ent-ClosetTool }
-    .suffix = Filled
-    .desc = { ent-ClosetTool.desc }
-ent-LockerElectricalSuppliesFilled = { ent-LockerElectricalSupplies }
-    .suffix = Filled
-    .desc = { ent-LockerElectricalSupplies.desc }
-ent-LockerWeldingSuppliesFilled = { ent-LockerWeldingSupplies }
-    .suffix = Filled
-    .desc = { ent-LockerWeldingSupplies.desc }
-ent-LockerAtmosphericsFilled = { ent-LockerAtmospherics }
-    .suffix = Filled
-    .desc = { ent-LockerAtmospherics.desc }
-ent-LockerEngineerFilled = { ent-LockerEngineer }
-    .suffix = Filled
-    .desc = { ent-LockerEngineer.desc }
-ent-ClosetRadiationSuitFilled = { ent-ClosetRadiationSuit }
-    .suffix = Filled
-    .desc = { ent-ClosetRadiationSuit.desc }
+ent-ClosetToolFilled =  { ent-ClosetTool }
+
+.suffix =  Filled
+
+.desc =  { ent-ClosetRadiationSuit.desc }
+
+ent-LockerElectricalSuppliesFilled =  { ent-LockerElectricalSupplies }
+
+ent-LockerWeldingSuppliesFilled =  { ent-LockerWeldingSupplies }
+
+ent-LockerAtmosphericsFilled =  { ent-LockerAtmospherics }
+
+ent-LockerEngineerFilled =  { ent-LockerEngineer }
+
+ent-ClosetRadiationSuitFilled =  { ent-ClosetRadiationSuit }
+

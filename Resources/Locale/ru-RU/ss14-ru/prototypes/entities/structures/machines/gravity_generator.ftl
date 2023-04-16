@@ -1,6 +1,8 @@
-ent-GravityGenerator = gravity generator
-    .desc = It's what keeps you to the floor.
-    .suffix = { "" }
-ent-GravityGeneratorMini = mini gravity generator
-    .desc = It's what keeps you to the floor, now in fun size.
-    .suffix = { "" }
+ent-GravityGenerator =  генератор гравитации
+
+.desc =  It's what keeps you to the floor, now in fun size.
+
+.suffix =  { "" }
+
+ent-GravityGeneratorMini =  мини генератор гравитации
+

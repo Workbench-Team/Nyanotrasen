@@ -1,3 +1,6 @@
-ent-hoverentity = hover entity
-    .desc = { "" }
-    .suffix = { "" }
+ent-hoverentity =  hover entity
+
+.desc =  { "" }
+
+.suffix =  { "" }
+

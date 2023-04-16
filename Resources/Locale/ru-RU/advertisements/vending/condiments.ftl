@@ -1,5 +1,10 @@
-advertisement-condiment-1 = Tired of dry meat? Squirt some flavor-packed condiments on it!
-advertisement-condiment-2 = Child-safe utensils. Forks, spoons, and knives that won't cut a thing.
-advertisement-condiment-3 = Corn oil!
-advertisement-condiment-4 = Sweeten up your day with Astrotame! Eight out of ten doctors agree, it probably won't cause cancer.
-advertisement-condiment-5 = Hot Sauce! Barbecue Sauce! Cold Sauce! Ketchup! Soy Sauce! Horseradish Sauce! We got all the sauce!
+advertisement-condiment-1 =  Надоело сухое мясо? Посыпьте его ароматными приправами!
+
+advertisement-condiment-2 =  Безопасная для детей посуда. Вилки, ложки и ножи, которые ничего не порежут.
+
+advertisement-condiment-3 =  Кукурузное масло!
+
+advertisement-condiment-4 =  Подсластите свой день Астротемом! Восемь из десяти врачей согласны с тем, что он не вызывает рак.
+
+advertisement-condiment-5 =  Острый соус! Соус для барбекю! Холодный соус! Кетчуп! Соевый соус! Соус с хреном! У нас есть все соусы!
+

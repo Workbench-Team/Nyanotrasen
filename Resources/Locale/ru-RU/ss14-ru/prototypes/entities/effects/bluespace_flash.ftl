@@ -1,3 +1,6 @@
-ent-EffectFlashBluespace = { "" }
-    .desc = { "" }
-    .suffix = { "" }
+ent-EffectFlashBluespace =  { "" }
+
+.desc =  { "" }
+
+.suffix =  { "" }
+

@@ -1,18 +1,16 @@
-ent-BoxSurvival = survival box
-    .desc = It's a box with basic internals inside.
-    .suffix = { "" }
-ent-BoxSurvivalEngineering = extended-capacity survival box
-    .desc = It's a box with basic internals inside. This one is labelled to contain an extended-capacity tank.
-    .suffix = { "" }
-ent-BoxSurvivalSecurity = survival box
-    .desc = It's a box with basic internals inside.
-    .suffix = Security
-ent-BoxSurvivalMedical = survival box
-    .desc = It's a box with basic internals inside.
-    .suffix = Medical
-ent-BoxHug = box of hugs
-    .desc = A special box for sensitive people.
-    .suffix = { "" }
-ent-BoxSurvivalSyndicate = extended-capacity survival box
-    .desc = It's a box with basic internals inside. This one is labelled to contain an extended-capacity tank.
-    .suffix = { "" }
+ent-BoxSurvival =  аварийный запас
+
+.desc =  It's a box with basic internals inside. This one is labelled to contain an extended-capacity tank.
+
+.suffix =  { "" }
+
+ent-BoxSurvivalEngineering =  расширенный аварийный запас
+
+ent-BoxSurvivalSecurity =  аварийный запас
+
+ent-BoxSurvivalMedical =  аварийный запас
+
+ent-BoxHug =  коробка обнимашек
+
+ent-BoxSurvivalSyndicate =  расширенный аварийный запас
+

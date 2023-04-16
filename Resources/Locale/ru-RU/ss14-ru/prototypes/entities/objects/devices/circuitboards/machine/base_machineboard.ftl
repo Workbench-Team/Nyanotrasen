@@ -1,3 +1,6 @@
-ent-BaseMachineCircuitboard = machine board
-    .suffix = Machine Board
-    .desc = { ent-BaseItem.desc }
+ent-BaseMachineCircuitboard =  машинная плата
+
+.suffix =  Machine Board
+
+.desc =  { ent-BaseItem.desc }
+

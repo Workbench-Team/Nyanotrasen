@@ -1,39 +1,30 @@
-ent-SurveillanceCameraRouterBase = camera router
-    .desc = A surveillance camera router. It routes. Perhaps.
-    .suffix = { "" }
-ent-SurveillanceCameraRouterConstructed = { ent-SurveillanceCameraRouterBase }
-    .suffix = Constructed
-    .desc = { ent-SurveillanceCameraRouterBase.desc }
-ent-SurveillanceCameraRouterEngineering = { ent-SurveillanceCameraRouterBase }
-    .suffix = Engineering
-    .desc = { ent-SurveillanceCameraRouterBase.desc }
-ent-SurveillanceCameraRouterSecurity = { ent-SurveillanceCameraRouterBase }
-    .suffix = Security
-    .desc = { ent-SurveillanceCameraRouterBase.desc }
-ent-SurveillanceCameraRouterScience = { ent-SurveillanceCameraRouterBase }
-    .suffix = Science
-    .desc = { ent-SurveillanceCameraRouterBase.desc }
-ent-SurveillanceCameraRouterSupply = { ent-SurveillanceCameraRouterBase }
-    .suffix = Supply
-    .desc = { ent-SurveillanceCameraRouterBase.desc }
-ent-SurveillanceCameraRouterCommand = { ent-SurveillanceCameraRouterBase }
-    .suffix = Command
-    .desc = { ent-SurveillanceCameraRouterBase.desc }
-ent-SurveillanceCameraRouterService = { ent-SurveillanceCameraRouterBase }
-    .suffix = Service
-    .desc = { ent-SurveillanceCameraRouterBase.desc }
-ent-SurveillanceCameraRouterMedical = { ent-SurveillanceCameraRouterBase }
-    .suffix = Medical
-    .desc = { ent-SurveillanceCameraRouterBase.desc }
-ent-SurveillanceCameraRouterGeneral = { ent-SurveillanceCameraRouterBase }
-    .suffix = General
-    .desc = { ent-SurveillanceCameraRouterBase.desc }
-ent-SurveillanceCameraWirelessRouterBase = wireless camera router
-    .desc = A wireless surveillance camera router. It routes. Perhaps.
-    .suffix = { "" }
-ent-SurveillanceCameraWirelessRouterConstructed = { ent-SurveillanceCameraWirelessRouterBase }
-    .suffix = Constructed
-    .desc = { ent-SurveillanceCameraWirelessRouterBase.desc }
-ent-SurveillanceCameraWirelessRouterEntertainment = { ent-SurveillanceCameraWirelessRouterBase }
-    .suffix = Entertainment
-    .desc = { ent-SurveillanceCameraWirelessRouterBase.desc }
+ent-SurveillanceCameraRouterBase =  маршрутизатор камер
+
+.desc =  { ent-SurveillanceCameraWirelessRouterBase.desc }
+
+.suffix =  Entertainment
+
+ent-SurveillanceCameraRouterConstructed =  { ent-SurveillanceCameraRouterBase }
+
+ent-SurveillanceCameraRouterEngineering =  { ent-SurveillanceCameraRouterBase }
+
+ent-SurveillanceCameraRouterSecurity =  { ent-SurveillanceCameraRouterBase }
+
+ent-SurveillanceCameraRouterScience =  { ent-SurveillanceCameraRouterBase }
+
+ent-SurveillanceCameraRouterSupply =  { ent-SurveillanceCameraRouterBase }
+
+ent-SurveillanceCameraRouterCommand =  { ent-SurveillanceCameraRouterBase }
+
+ent-SurveillanceCameraRouterService =  { ent-SurveillanceCameraRouterBase }
+
+ent-SurveillanceCameraRouterMedical =  { ent-SurveillanceCameraRouterBase }
+
+ent-SurveillanceCameraRouterGeneral =  { ent-SurveillanceCameraRouterBase }
+
+ent-SurveillanceCameraWirelessRouterBase =  маршрутизатор беспроводных камер
+
+ent-SurveillanceCameraWirelessRouterConstructed =  { ent-SurveillanceCameraWirelessRouterBase }
+
+ent-SurveillanceCameraWirelessRouterEntertainment =  { ent-SurveillanceCameraWirelessRouterBase }
+

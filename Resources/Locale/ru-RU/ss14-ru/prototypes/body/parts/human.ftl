@@ -1,33 +1,26 @@
-ent-PartHuman = human body part
-    .desc = { ent-BaseItem.desc }
-    .suffix = { "" }
-ent-TorsoHuman = human torso
-    .desc = { ent-PartHuman.desc }
-    .suffix = { "" }
-ent-HeadHuman = human head
-    .desc = { ent-PartHuman.desc }
-    .suffix = { "" }
-ent-LeftArmHuman = left human arm
-    .desc = { ent-PartHuman.desc }
-    .suffix = { "" }
-ent-RightArmHuman = right human arm
-    .desc = { ent-PartHuman.desc }
-    .suffix = { "" }
-ent-LeftHandHuman = left human hand
-    .desc = { ent-PartHuman.desc }
-    .suffix = { "" }
-ent-RightHandHuman = right human hand
-    .desc = { ent-PartHuman.desc }
-    .suffix = { "" }
-ent-LeftLegHuman = left human leg
-    .desc = { ent-PartHuman.desc }
-    .suffix = { "" }
-ent-RightLegHuman = right human leg
-    .desc = { ent-PartHuman.desc }
-    .suffix = { "" }
-ent-LeftFootHuman = left human foot
-    .desc = { ent-PartHuman.desc }
-    .suffix = { "" }
-ent-RightFootHuman = right human foot
-    .desc = { ent-PartHuman.desc }
-    .suffix = { "" }
+ent-PartHuman =  часть тела человека
+
+.desc =  { ent-PartHuman.desc }
+
+.suffix =  { "" }
+
+ent-TorsoHuman =  туловище человека
+
+ent-HeadHuman =  голова человека
+
+ent-LeftArmHuman =  левая рука человека
+
+ent-RightArmHuman =  правая рука человека
+
+ent-LeftHandHuman =  левая ладонь человека
+
+ent-RightHandHuman =  правая ладонь человека
+
+ent-LeftLegHuman =  левая нога человека
+
+ent-RightLegHuman =  правая нога человека
+
+ent-LeftFootHuman =  левая стопа человека
+
+ent-RightFootHuman =  правая стопа человека
+

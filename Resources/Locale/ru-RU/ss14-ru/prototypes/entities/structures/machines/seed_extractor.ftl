@@ -1,3 +1,6 @@
-ent-SeedExtractor = seed extractor
-    .desc = Extracts seeds from produce.
-    .suffix = { "" }
+ent-SeedExtractor =  экстрактор семян
+
+.desc =  Extracts seeds from produce.
+
+.suffix =  { "" }
+

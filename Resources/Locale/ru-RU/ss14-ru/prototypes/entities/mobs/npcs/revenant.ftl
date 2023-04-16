@@ -1,3 +1,6 @@
-ent-MobRevenant = revenant
-    .desc = A spooky ghostie.
-    .suffix = { "" }
+ent-MobRevenant =  ревенант
+
+.desc =  A spooky ghostie.
+
+.suffix =  { "" }
+

@@ -1,54 +1,40 @@
-ent-SpawnMobMouse = Mouse Spawner
-    .desc = { ent-MarkerBase.desc }
-    .suffix = { "" }
-ent-SpawnMobCorgi = Ian Spawner
-    .desc = { ent-MarkerBase.desc }
-    .suffix = { "" }
-ent-SpawnMobPossumMorty = Possum Morty Spawner
-    .desc = { ent-MarkerBase.desc }
-    .suffix = { "" }
-ent-SpawnMobRaccoonMorticia = Raccoon Morticia Spawner
-    .desc = { ent-MarkerBase.desc }
-    .suffix = { "" }
-ent-SpawnMobDrone = Drone Spawner
-    .desc = { ent-MarkerBase.desc }
-    .suffix = { "" }
-ent-SpawnMobFoxRenault = Fox Renault Spawner
-    .desc = { ent-MarkerBase.desc }
-    .suffix = { "" }
-ent-SpawnMobCatRuntime = Runtime Spawner
-    .desc = { ent-MarkerBase.desc }
-    .suffix = { "" }
-ent-SpawnMobCatException = Exception Spawner
-    .desc = { ent-MarkerBase.desc }
-    .suffix = { "" }
-ent-SpawnMobCatFloppa = Floppa Spawner
-    .desc = { ent-MarkerBase.desc }
-    .suffix = { "" }
-ent-SpawnMobCat = Cat Spawner
-    .desc = { ent-MarkerBase.desc }
-    .suffix = { "" }
-ent-SpawnMobCatGeneric = Generic Cat Spawner
-    .desc = { ent-MarkerBase.desc }
-    .suffix = { "" }
-ent-SpawnMobBandito = Bandito Spawner
-    .desc = { ent-MarkerBase.desc }
-    .suffix = { "" }
-ent-SpawnMobMcGriff = McGriff Spawner
-    .desc = { ent-MarkerBase.desc }
-    .suffix = { "" }
-ent-SpawnMobSlothPaperwork = Sloth Paperwork Spawner
-    .desc = { ent-MarkerBase.desc }
-    .suffix = { "" }
-ent-SpawnMobWalter = Walter Spawner
-    .desc = { ent-MarkerBase.desc }
-    .suffix = { "" }
-ent-SpawnMobBear = Space Bear Spawner
-    .desc = { ent-MarkerBase.desc }
-    .suffix = { "" }
-ent-SpawnMobHamsterHamlet = Hamster Hamlet Spawner
-    .desc = { ent-MarkerBase.desc }
-    .suffix = { "" }
-ent-SpawnMobAlexander = Alexander Spawner
-    .desc = { ent-MarkerBase.desc }
-    .suffix = { "" }
+ent-SpawnMobMouse =  спавнер мышь
+
+.desc =  { ent-MarkerBase.desc }
+
+.suffix =  { "" }
+
+ent-SpawnMobCorgi =  спавнер корги
+
+ent-SpawnMobPossumMorty =  спавнер опоссум Морти
+
+ent-SpawnMobRaccoonMorticia =  спавнер енот Мортиша
+
+ent-SpawnMobDrone =  спавнер дрон
+
+ent-SpawnMobFoxRenault =  спавнер лиса Алиса
+
+ent-SpawnMobCatRuntime =  спавнер Рантайм
+
+ent-SpawnMobCatException =  спавнер Исключение
+
+ent-SpawnMobCatFloppa =  спавнер Шлёпа
+
+ent-SpawnMobCat =  спавнер кот
+
+ent-SpawnMobCatGeneric =  спавнер случайный кот
+
+ent-SpawnMobBandito =  спавнер Бандито
+
+ent-SpawnMobMcGriff =  спавнер МакГрифф
+
+ent-SpawnMobSlothPaperwork =  спавнер ленивец Пэйперворк
+
+ent-SpawnMobWalter =  спавнер Уолтер
+
+ent-SpawnMobBear =  спавнер космический медведь
+
+ent-SpawnMobHamsterHamlet =  спавнер хомяк Гамлет
+
+ent-SpawnMobAlexander =  спавнер Саня
+

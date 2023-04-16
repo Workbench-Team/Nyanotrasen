@@ -1,9 +1,10 @@
-ent-PlayerSiliconBase = { "" }
-    .desc = { "" }
-    .suffix = { "" }
-ent-Drone = drone
-    .desc = { ent-PlayerSiliconBase.desc }
-    .suffix = { "" }
-ent-Onestar = onestar mecha
-    .desc = { ent-PlayerSiliconBase.desc }
-    .suffix = { "" }
+ent-PlayerSiliconBase =  { "" }
+
+.desc =  { ent-PlayerSiliconBase.desc }
+
+.suffix =  { "" }
+
+ent-Drone =  дрон
+
+ent-Onestar =  ванстар меха
+

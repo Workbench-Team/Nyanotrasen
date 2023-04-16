@@ -1,1 +1,2 @@
-advertisement-lawdrobe-1 = OBJECTION! Get the rule of law for yourself!
+advertisement-lawdrobe-1 =  ПРОТЕСТ! Добейтесь верховенства закона для себя!
+

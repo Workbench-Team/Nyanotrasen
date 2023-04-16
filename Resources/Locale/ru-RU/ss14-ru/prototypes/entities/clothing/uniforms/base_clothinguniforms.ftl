@@ -1,12 +1,12 @@
-ent-UnsensoredClothingUniformBase = { ent-Clothing }
-    .desc = { ent-Clothing.desc }
-    .suffix = { "" }
-ent-UnsensoredClothingUniformSkirtBase = { ent-UnsensoredClothingUniformBase }
-    .desc = { ent-UnsensoredClothingUniformBase.desc }
-    .suffix = { "" }
-ent-ClothingUniformBase = { ent-UnsensoredClothingUniformBase }
-    .desc = { ent-UnsensoredClothingUniformBase.desc }
-    .suffix = { "" }
-ent-ClothingUniformSkirtBase = { ent-ClothingUniformBase }
-    .desc = { ent-ClothingUniformBase.desc }
-    .suffix = { "" }
+ent-UnsensoredClothingUniformBase =  { ent-Clothing }
+
+.desc =  { ent-ClothingUniformBase.desc }
+
+.suffix =  { "" }
+
+ent-UnsensoredClothingUniformSkirtBase =  { ent-UnsensoredClothingUniformBase }
+
+ent-ClothingUniformBase =  { ent-UnsensoredClothingUniformBase }
+
+ent-ClothingUniformSkirtBase =  { ent-ClothingUniformBase }
+

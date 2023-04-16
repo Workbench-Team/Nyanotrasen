@@ -1,1 +1,2 @@
-disassemble-system-verb-disassemble = Disassemble
+disassemble-system-verb-disassemble =  Разобрать
+

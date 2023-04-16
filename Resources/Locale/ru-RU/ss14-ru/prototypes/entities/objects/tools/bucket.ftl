@@ -1,3 +1,6 @@
-ent-Bucket = bucket
-    .desc = It's a boring old bucket.
-    .suffix = { "" }
+ent-Bucket =  ведро
+
+.desc =  It's a boring old bucket.
+
+.suffix =  { "" }
+

@@ -1,33 +1,26 @@
-ent-PartSlime = slime body part
-    .desc = { ent-BaseItem.desc }
-    .suffix = { "" }
-ent-TorsoSlime = slime torso
-    .desc = { ent-PartSlime.desc }
-    .suffix = { "" }
-ent-HeadSlime = slime head
-    .desc = { ent-PartSlime.desc }
-    .suffix = { "" }
-ent-LeftArmSlime = left slime arm
-    .desc = { ent-PartSlime.desc }
-    .suffix = { "" }
-ent-RightArmSlime = right slime arm
-    .desc = { ent-PartSlime.desc }
-    .suffix = { "" }
-ent-LeftHandSlime = left slime hand
-    .desc = { ent-PartSlime.desc }
-    .suffix = { "" }
-ent-RightHandSlime = right slime hand
-    .desc = { ent-PartSlime.desc }
-    .suffix = { "" }
-ent-LeftLegSlime = left slime leg
-    .desc = { ent-PartSlime.desc }
-    .suffix = { "" }
-ent-RightLegSlime = right slime leg
-    .desc = { ent-PartSlime.desc }
-    .suffix = { "" }
-ent-LeftFootSlime = left slime foot
-    .desc = { ent-PartSlime.desc }
-    .suffix = { "" }
-ent-RightFootSlime = right slime foot
-    .desc = { ent-PartSlime.desc }
-    .suffix = { "" }
+ent-PartSlime =  slime body part
+
+.desc =  { ent-PartSlime.desc }
+
+.suffix =  { "" }
+
+ent-TorsoSlime =  slime torso
+
+ent-HeadSlime =  slime head
+
+ent-LeftArmSlime =  left slime arm
+
+ent-RightArmSlime =  right slime arm
+
+ent-LeftHandSlime =  left slime hand
+
+ent-RightHandSlime =  right slime hand
+
+ent-LeftLegSlime =  left slime leg
+
+ent-RightLegSlime =  right slime leg
+
+ent-LeftFootSlime =  left slime foot
+
+ent-RightFootSlime =  right slime foot
+

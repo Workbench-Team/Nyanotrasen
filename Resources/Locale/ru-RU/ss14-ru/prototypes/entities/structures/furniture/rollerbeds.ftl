@@ -1,18 +1,16 @@
-ent-RollerBed = rollerbed
-    .desc = Used to carry patients around without damaging them.
-    .suffix = { "" }
-ent-RollerBedSpawnFolded = { ent-RollerBed }
-    .suffix = folded
-    .desc = { ent-RollerBed.desc }
-ent-CheapRollerBed = rollerbed
-    .desc = A run-down rollerbed. Used to carry patients around.
-    .suffix = { "" }
-ent-CheapRollerBedSpawnFolded = { ent-CheapRollerBed }
-    .suffix = folded
-    .desc = { ent-CheapRollerBed.desc }
-ent-EmergencyRollerBed = rollerbed
-    .desc = A robust looking rollerbed used for emergencies.
-    .suffix = { "" }
-ent-EmergencyRollerBedSpawnFolded = { ent-EmergencyRollerBed }
-    .suffix = folded
-    .desc = { ent-EmergencyRollerBed.desc }
+ent-RollerBed =  каталка
+
+.desc =  { ent-EmergencyRollerBed.desc }
+
+.suffix =  folded
+
+ent-RollerBedSpawnFolded =  { ent-RollerBed }
+
+ent-CheapRollerBed =  каталка
+
+ent-CheapRollerBedSpawnFolded =  { ent-CheapRollerBed }
+
+ent-EmergencyRollerBed =  каталка
+
+ent-EmergencyRollerBedSpawnFolded =  { ent-EmergencyRollerBed }
+

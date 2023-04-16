@@ -1,15 +1,14 @@
-ent-BaseCartridgeCaselessRifle = cartridge (.25 rifle)
-    .desc = { ent-BaseCartridge.desc }
-    .suffix = { "" }
-ent-CartridgeCaselessRifle = cartridge (.25 caseless)
-    .desc = { ent-BaseCartridgeCaselessRifle.desc }
-    .suffix = { "" }
-ent-CartridgeCaselessRifleHighVelocity = cartridge (.25 caseless high-velocity)
-    .desc = { ent-BaseCartridgeCaselessRifle.desc }
-    .suffix = { "" }
-ent-CartridgeCaselessRiflePractice = cartridge (.25 caseless practice)
-    .desc = { ent-BaseCartridgeCaselessRifle.desc }
-    .suffix = { "" }
-ent-CartridgeCaselessRifleRubber = cartridge (.25 caseless rubber)
-    .desc = { ent-BaseCartridgeCaselessRifle.desc }
-    .suffix = { "" }
+ent-BaseCartridgeCaselessRifle =  патрон (.25 винтовочный)
+
+.desc =  { ent-BaseCartridgeCaselessRifle.desc }
+
+.suffix =  { "" }
+
+ent-CartridgeCaselessRifle =  патрон (.25 безгильзовый)
+
+ent-CartridgeCaselessRifleHighVelocity =  патрон (.25 безгильзовый высокоскоростной)
+
+ent-CartridgeCaselessRiflePractice =  патрон (.25 безгильзовый учебный)
+
+ent-CartridgeCaselessRifleRubber =  патрон (.25 безгильзовый резиновый)
+

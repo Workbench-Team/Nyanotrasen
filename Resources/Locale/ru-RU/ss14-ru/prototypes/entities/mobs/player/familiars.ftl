@@ -1,6 +1,8 @@
-ent-MobBatRemilia = Remilia
-    .desc = The chaplain's familiar. Likes fruit.
-    .suffix = { "" }
-ent-MobCorgiCerberus = Cerberus
-    .desc = This pupper is not wholesome.
-    .suffix = { "" }
+ent-MobBatRemilia =  Ремилия
+
+.desc =  This pupper is not wholesome.
+
+.suffix =  { "" }
+
+ent-MobCorgiCerberus =  Цербер
+

@@ -1,15 +1,14 @@
-ent-SolarPanelBasePhysSprite = solar panel
-    .desc = { "" }
-    .suffix = { "" }
-ent-SolarPanel = solar panel
-    .desc = A solar panel that generates power.
-    .suffix = { "" }
-ent-SolarPanelBroken = solar panel
-    .desc = A broken solar panel.
-    .suffix = Broken
-ent-SolarAssembly = solar assembly
-    .desc = A solar assembly. Anchor to a wire to start building a solar panel.
-    .suffix = { "" }
-ent-SolarTracker = solar tracker
-    .desc = A solar tracker. Tracks the nearest star.
-    .suffix = { "" }
+ent-SolarPanelBasePhysSprite =  солнечная панель
+
+.desc =  A solar tracker. Tracks the nearest star.
+
+.suffix =  { "" }
+
+ent-SolarPanel =  солнечная панель
+
+ent-SolarPanelBroken =  солнечная панель
+
+ent-SolarAssembly =  каркас солнечной панели
+
+ent-SolarTracker =  солнечный трекер
+

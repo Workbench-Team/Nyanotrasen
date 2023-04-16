@@ -1,9 +1,10 @@
-ent-BodyBag_Container = body bag
-    .desc = A plastic bag designed for the storage and transportation of cadavers.
-    .suffix = { "" }
-ent-BodyBag_Folded = body bag
-    .desc = A plastic bag designed for the storage and transportation of cadavers.
-    .suffix = folded
-ent-Ash = ash
-    .desc = This used to be something, but now it's not.
-    .suffix = { "" }
+ent-BodyBag_Container =  мешок для тела
+
+.desc =  This used to be something, but now it's not.
+
+.suffix =  { "" }
+
+ent-BodyBag_Folded =  мешок для тела
+
+ent-Ash =  пепел
+

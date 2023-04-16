@@ -1,3 +1,6 @@
-ent-BiomassReclaimer = biomass reclaimer
-    .desc = Reclaims biomass from corpses. Gruesome.
-    .suffix = { "" }
+ent-BiomassReclaimer =  переработчик биомассы
+
+.desc =  Reclaims biomass from corpses. Gruesome.
+
+.suffix =  { "" }
+

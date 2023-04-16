@@ -1,24 +1,20 @@
-ent-CrateServiceJanitorialSupplies = { ent-CratePlastic }
-    .desc = { ent-CratePlastic.desc }
-    .suffix = { "" }
-ent-CrateServiceReplacementLights = { ent-CrateGenericSteel }
-    .desc = { ent-CrateGenericSteel.desc }
-    .suffix = { "" }
-ent-CrateMousetrapBoxes = { ent-CrateGenericSteel }
-    .desc = { ent-CrateGenericSteel.desc }
-    .suffix = { "" }
-ent-CrateHolyWaterKit = { ent-CrateScienceSecure }
-    .desc = { ent-CrateScienceSecure.desc }
-    .suffix = { "" }
-ent-CrateServiceSmokeables = { ent-CrateGenericSteel }
-    .desc = { ent-CrateGenericSteel.desc }
-    .suffix = { "" }
-ent-CrateServiceCustomSmokable = { ent-CrateGenericSteel }
-    .desc = { ent-CrateGenericSteel.desc }
-    .suffix = { "" }
-ent-CrateServiceBureaucracy = { ent-CrateGenericSteel }
-    .desc = { ent-CrateGenericSteel.desc }
-    .suffix = { "" }
-ent-CrateServicePersonnel = { ent-CrateCommandSecure }
-    .desc = { ent-CrateCommandSecure.desc }
-    .suffix = { "" }
+ent-CrateServiceJanitorialSupplies =  ящик с уборочным инвентарем
+
+.desc =  { ent-CrateCommandSecure.desc }
+
+.suffix =  { "" }
+
+ent-CrateServiceReplacementLights =  ящик запасных лампочек
+
+ent-CrateMousetrapBoxes =  ящик мышеловок
+
+ent-CrateHolyWaterKit =  { ent-CrateScienceSecure }
+
+ent-CrateServiceSmokeables =  ящик табачных изделий
+
+ent-CrateServiceCustomSmokable =  ящик табачных изделий (собери-сам)
+
+ent-CrateServiceBureaucracy =  ящик бюрократических припасов
+
+ent-CrateServicePersonnel =  ящик для найма персонала
+

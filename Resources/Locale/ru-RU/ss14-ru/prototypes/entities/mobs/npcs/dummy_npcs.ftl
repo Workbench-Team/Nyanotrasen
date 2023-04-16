@@ -1,3 +1,6 @@
-ent-MobHumanPathDummy = Pathfinding Dummy
-    .suffix = AI
-    .desc = { ent-BaseMobHuman.desc }
+ent-MobHumanPathDummy =  Pathfinding Dummy
+
+.suffix =  AI
+
+.desc =  { ent-BaseMobHuman.desc }
+

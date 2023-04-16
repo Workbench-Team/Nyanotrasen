@@ -1,3 +1,6 @@
-ent-KitchenMicrowave = microwave
-    .desc = It's magic.
-    .suffix = { "" }
+ent-KitchenMicrowave =  микроволновка
+
+.desc =  It's magic.
+
+.suffix =  { "" }
+

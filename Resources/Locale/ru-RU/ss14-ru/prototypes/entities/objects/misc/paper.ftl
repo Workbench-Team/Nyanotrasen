@@ -1,102 +1,72 @@
-ent-Paper = paper
-    .desc = A piece of white paper.
-    .suffix = { "" }
-ent-PaperOffice = office paper
-    .desc = A plain sheet of office paper.
-    .suffix = { "" }
-ent-PaperArtifactAnalyzer = artifact analyzer printout
-    .desc = The readout of a device forgotten to time
-    .suffix = { "" }
-ent-PaperCaptainsThoughts = captain's thoughts
-    .desc = A page of the captain's journal. In luxurious lavender.
-    .suffix = { "" }
-ent-PaperCargoInvoice = cargo invoice
-    .desc = A single unit of bureaucracy.
-    .suffix = { "" }
-ent-PaperWritten = { ent-Paper }
-    .desc = { ent-Paper.desc }
-    .suffix = { "" }
-ent-NukeCodePaper = nuclear authentication codes
-    .desc = { ent-Paper.desc }
-    .suffix = { "" }
-ent-Pen = pen
-    .desc = A dark ink pen.
-    .suffix = { "" }
-ent-CyberPen = Cybersun pen
-    .desc = A high-tech pen straight from Cybersun's legal department, capable of refracting hard-light at impossible angles through its diamond tip in order to write.
-    .suffix = { "" }
-ent-PenCap = captain's fountain pen
-    .desc = A luxurious fountain pen for the captain of the station.
-    .suffix = { "" }
-ent-PenHop = hop's fountain pen
-    .desc = A luxurious fountain pen for the hop of the station.
-    .suffix = { "" }
-ent-BoxFolderBase = folder
-    .desc = A folder filled with top secret paperwork.
-    .suffix = { "" }
-ent-BoxFolderRed = { ent-BoxFolderBase }
-    .suffix = Red
-    .desc = { ent-BoxFolderBase.desc }
-ent-BoxFolderBlue = { ent-BoxFolderBase }
-    .suffix = Blue
-    .desc = { ent-BoxFolderBase.desc }
-ent-BoxFolderYellow = { ent-BoxFolderBase }
-    .suffix = Yellow
-    .desc = { ent-BoxFolderBase.desc }
-ent-BoxFolderWhite = { ent-BoxFolderBase }
-    .suffix = White
-    .desc = { ent-BoxFolderBase.desc }
-ent-BoxFolderGrey = { ent-BoxFolderBase }
-    .suffix = Grey
-    .desc = { ent-BoxFolderBase.desc }
-ent-BoxFolderBlack = { ent-BoxFolderBase }
-    .suffix = Black
-    .desc = { ent-BoxFolderBase.desc }
-ent-RubberStampMime = mime's rubber stamp
-    .desc = A rubber stamp for stamping important documents.
-    .suffix = { "" }
-ent-RubberStampCaptain = captain's rubber stamp
-    .desc = { ent-RubberStampMime.desc }
-    .suffix = { "" }
-ent-RubberStampCentcom = CentCom rubber stamp
-    .desc = { ent-RubberStampMime.desc }
-    .suffix = { "" }
-ent-RubberStampChaplain = cleric's rubber stamp
-    .desc = { ent-RubberStampMime.desc }
-    .suffix = { "" }
-ent-RubberStampClown = clown's rubber stamp
-    .desc = { ent-RubberStampMime.desc }
-    .suffix = { "" }
-ent-RubberStampCMO = chief medical officer's rubber stamp
-    .desc = { ent-RubberStampMime.desc }
-    .suffix = { "" }
-ent-RubberStampDenied = DENIED rubber stamp
-    .desc = { ent-RubberStampMime.desc }
-    .suffix = { "" }
-ent-RubberStampApproved = APPROVED rubber stamp
-    .desc = { ent-RubberStampMime.desc }
-    .suffix = { "" }
-ent-RubberStampHop = head of personnel's rubber stamp
-    .desc = { ent-RubberStampMime.desc }
-    .suffix = { "" }
-ent-RubberStampHos = head of security's rubber stamp
-    .desc = { ent-RubberStampMime.desc }
-    .suffix = { "" }
-ent-RubberStampQm = quartermaster's rubber stamp
-    .desc = { ent-RubberStampMime.desc }
-    .suffix = { "" }
-ent-RubberStampRd = mystagogue's rubber stamp
-    .desc = { ent-RubberStampMime.desc }
-    .suffix = { "" }
-ent-RubberStampWarden = warden's rubber stamp
-    .desc = { ent-RubberStampMime.desc }
-    .suffix = { "" }
-ent-RubberStampTrader = trader's rubber stamp
-    .desc = { ent-RubberStampMime.desc }
-    .suffix = { "" }
-ent-RubberStampSyndicate = syndicate rubber stamp
-    .desc = { ent-RubberStampMime.desc }
-    .suffix = { "" }
-ent-RubberStampCE = chief engineer's rubber stamp
-    .desc = { ent-RubberStampMime.desc }
-    .suffix = { "" }
+ent-Paper =  бумага
+
+.desc =  { ent-RubberStampMime.desc }
+
+.suffix =  { "" }
+
+ent-PaperOffice =  офисная бумага
+
+ent-PaperArtifactAnalyzer =  распечатка анализатора артефактов
+
+ent-PaperCaptainsThoughts =  мысли капитана
+
+ent-PaperCargoInvoice =  накладная карго
+
+ent-PaperWritten =  { ent-Paper }
+
+ent-NukeCodePaper =  коды ядерной аутентификации
+
+ent-Pen =  ручка
+
+ent-CyberPen =  ручка Cybersun
+
+ent-PenCap =  перьевая ручка капитана
+
+ent-PenHop =  перьевая ручка главы персонала
+
+ent-BoxFolderBase =  папка
+
+ent-BoxFolderRed =  { ent-BoxFolderBase }
+
+ent-BoxFolderBlue =  { ent-BoxFolderBase }
+
+ent-BoxFolderYellow =  { ent-BoxFolderBase }
+
+ent-BoxFolderWhite =  { ent-BoxFolderBase }
+
+ent-BoxFolderGrey =  { ent-BoxFolderBase }
+
+ent-BoxFolderBlack =  { ent-BoxFolderBase }
+
+ent-RubberStampMime =  печать мима
+
+ent-RubberStampCaptain =  печать капитана
+
+ent-RubberStampCentcom =  печать Центкома
+
+ent-RubberStampChaplain =  печать священника
+
+ent-RubberStampClown =  печать клоуна
+
+ent-RubberStampCMO =  печать главврача
+
+ent-RubberStampDenied =  печать ОТКАЗАНО
+
+ent-RubberStampApproved =  печать ОДОБРЕНО
+
+ent-RubberStampHop =  печать главы персонала
+
+ent-RubberStampHos =  печать главы службы безопасности
+
+ent-RubberStampQm =  печать квартирмейстера
+
+ent-RubberStampRd =  печать научного руководителя
+
+ent-RubberStampWarden =  печать смотрителя
+
+ent-RubberStampTrader =  печать торговца
+
+ent-RubberStampSyndicate =  печать Синдиката
+
+ent-RubberStampCE =  печать старшего инженера
+

@@ -1,36 +1,28 @@
-ent-ClosetTool = tool closet
-    .desc = It's a storage unit for tools.
-    .suffix = { "" }
-ent-ClosetRadiationSuit = radiation suit closet
-    .desc = More comfortable than radiation poisioning.
-    .suffix = { "" }
-ent-ClosetEmergency = emergency closet
-    .desc = It's a storage unit for emergency breath masks and O2 tanks.
-    .suffix = { "" }
-ent-ClosetFire = fire-safety closet
-    .desc = It's a storage unit for fire-fighting supplies.
-    .suffix = { "" }
-ent-ClosetBomb = EOD closet
-    .desc = It's a storage unit for explosion-protective suits.
-    .suffix = { "" }
-ent-ClosetL3 = level 3 biohazard gear closet
-    .desc = It's a storage unit for level 3 biohazard gear.
-    .suffix = { "" }
-ent-ClosetL3Virology = { ent-ClosetL3 }
-    .desc = { ent-ClosetL3.desc }
-    .suffix = { "" }
-ent-ClosetL3Security = { ent-ClosetL3 }
-    .desc = { ent-ClosetL3.desc }
-    .suffix = { "" }
-ent-ClosetL3Janitor = { ent-ClosetL3 }
-    .desc = { ent-ClosetL3.desc }
-    .suffix = { "" }
-ent-ClosetMaintenance = maintenance closet
-    .desc = It's a storage unit.
-    .suffix = { "" }
-ent-ClosetBluespace = suspicious closet
-    .desc = It's a storage unit... right?
-    .suffix = Bluespace
-ent-ClosetBluespaceUnstable = suspicious closet
-    .desc = It's a storage unit... right?
-    .suffix = Bluespace unstable
+ent-ClosetTool =  шкаф с инструментами
+
+.desc =  It's a storage unit... right?
+
+.suffix =  Bluespace unstable
+
+ent-ClosetRadiationSuit =  шкаф радиационных костюмов
+
+ent-ClosetEmergency =  аварийный шкаф
+
+ent-ClosetFire =  противопожарный шкаф
+
+ent-ClosetBomb =  шкаф взрывозащитного снаряжения
+
+ent-ClosetL3 =  шкаф снаряжения 3-го уровня биологической опасности
+
+ent-ClosetL3Virology =  { ent-ClosetL3 }
+
+ent-ClosetL3Security =  { ent-ClosetL3 }
+
+ent-ClosetL3Janitor =  { ent-ClosetL3 }
+
+ent-ClosetMaintenance =  технический шкаф
+
+ent-ClosetBluespace =  подозрительный шкаф
+
+ent-ClosetBluespaceUnstable =  подозрительный шкаф
+

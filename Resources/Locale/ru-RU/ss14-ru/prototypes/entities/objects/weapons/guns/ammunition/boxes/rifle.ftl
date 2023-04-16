@@ -1,21 +1,18 @@
-ent-BaseMagazineBoxRifle = { ent-BaseItem }
-    .desc = { ent-BaseItem.desc }
-    .suffix = { "" }
-ent-MagazineBoxRifleBig = ammunition box (.20 rifle)
-    .desc = { ent-BaseMagazineBoxRifle.desc }
-    .suffix = { "" }
-ent-MagazineBoxRifleBigRubber = ammunition box (.20 rifle rubber)
-    .desc = { ent-BaseMagazineBoxRifle.desc }
-    .suffix = { "" }
-ent-MagazineBoxRifle = ammunition box (.20 rifle)
-    .desc = { ent-BaseMagazineBoxRifle.desc }
-    .suffix = { "" }
-ent-MagazineBoxRifleHighVelocity = ammunition box (.20 rifle high-velocity)
-    .desc = { ent-BaseMagazineBoxRifle.desc }
-    .suffix = { "" }
-ent-MagazineBoxRiflePractice = ammunition box (.20 rifle practice)
-    .desc = { ent-BaseMagazineBoxRifle.desc }
-    .suffix = { "" }
-ent-MagazineBoxRifleRubber = ammunition box (.20 rifle rubber)
-    .desc = { ent-BaseMagazineBoxRifle.desc }
-    .suffix = { "" }
+ent-BaseMagazineBoxRifle =  { ent-BaseItem }
+
+.desc =  { ent-BaseMagazineBoxRifle.desc }
+
+.suffix =  { "" }
+
+ent-MagazineBoxRifleBig =  ящик патронов (.20 винтовочные)
+
+ent-MagazineBoxRifleBigRubber =  ящик патронов (.20 винтовочные резиновые)
+
+ent-MagazineBoxRifle =  коробка патронов (.20 винтовочные)
+
+ent-MagazineBoxRifleHighVelocity =  коробка патронов (.20 винтовочные высокоскоростные)
+
+ent-MagazineBoxRiflePractice =  коробка патронов (.20 винтовочные учебные)
+
+ent-MagazineBoxRifleRubber =  коробка патронов (.20 винтовочные резиновые)
+

@@ -1,39 +1,60 @@
-ent-PosterLegitDejaVu = Deja Vu Area
-    .desc = This is your first time here. If this station feels familiar, immediately alert a NanoTrasen employee.
-    .suffix = { "" }
-ent-PosterLegitDontPanic = Don't Panic
-    .desc = If there was ever something so soothing enough to keep me from panicking, it was a green blob floating through space with a pair of hands, a shiny red tongue, and big round teeth.
-    .suffix = { "" }
-ent-PosterContrabandSaucerNumberOne = Saucer #1!
-    .desc = Out of every station in the NyanoTrasen jurisdiction, Saucer was rated #1 out of 5! Congratulations!
-    .suffix = { "" }
-ent-PosterLegitBarDrinks = Bar Poster
-    .desc = The Bartender is always there to hear your woes and get you plastered all at the same time. Go have a visit!
-    .suffix = { "" }
-ent-PosterLegitBotanyFood = Fruit Basket
-    .desc = Botany is always hard at work! Stop by and enjoy the best they can offer!
-    .suffix = { "" }
-ent-PosterContrabandBreadLies = Bread Lies
-    .desc = You have been lied to. There is no "Big Bread." It is not real. Please stop looking for it.
-    .suffix = { "" }
-ent-PosterLegitHotDonkExplosion = Donk!
-    .desc = Bite into a blast of flavour with any of our #1 rated fattening and unhealthy products for your enjoyment! DONK!
-    .suffix = { "" }
-ent-PosterLegitEatMeat = Eat Meat!
-    .desc = Who needs fruit or veggies? EAT MEAT! Build those muscles and go fight in the arena to show them gains!
-    .suffix = { "" }
-ent-PosterLegitMoreBread = More Bread!
-    .desc = There is not enough bread! MAKE MORE!
-    .suffix = { "" }
-ent-PosterLegitPieSlice = Pie Poster
-    .desc = Pies are healthy and delicious! Beg your chef to start making some.
-    .suffix = { "" }
-ent-PosterLegitPizzaHope = Pizza Hope
-    .desc = In the darkest of times there is only one hope, PIZZA! Harass your local Quartermaster to order an emergency crate of pizza now!
-    .suffix = { "" }
-ent-PosterLegitMedicate = Take Your Meds
-    .desc = Possible side effects may include: nausea, upset stomach, inflammation, swelling of the face/throat, rash, fever, headache, dizziness, vomiting and/or diarrhea, easy bruising, seizures, insuppressible yawning, general feeling of discomfort or illness, hives, loss of voice, bleeding gums and/or eyeballs, loss of appetite, increased appetite, sudden onset of explosive crying, x-ray vision, slurred speech, impromptu levitation, incontinence, abrupt uncontrollable outburst of yodeling, insomnia, narcolepsy, leprosy, spontaneous growth of new limbs/genitalia, unstoppable back hair growth, weight loss, weight gain, shrinkage, colorblindness, rectal numbness, acute ability to taste colors, unquenchable bloodlust, restless fingernails, light-sensitivity, compulsion to wear schoolgirl uniforms, scurvy, eagerness to pursue mercenary life, violent craving for goat's blood, insurgent desire to develop a gambling addiction, itchy bumhole. Call your doctor for medical advice about these or any other side effects you may experience.
-    .suffix = { "" }
-ent-PosterLegitNoTouching = No Touching
-    .desc = No touching!
-    .suffix = { "" }
+ent-PosterLegitDejaVu =  Deja Vu Area
+
+.desc =  Safety Moth™ tells the viewer to wear insulative equipments and hide in lockers when the glimmer gets within critical levels. Evacuating might be a better strategy.
+
+.suffix =  { "" }
+
+ent-PosterLegitDontPanic =  Don't Panic
+
+ent-PosterContrabandSaucerNumberOne =  Saucer #1!
+
+ent-PosterLegitBarDrinks =  Bar Poster
+
+ent-PosterLegitBotanyFood =  Fruit Basket
+
+ent-PosterContrabandBreadLies =  Bread Lies
+
+ent-PosterLegitHotDonkExplosion =  Donk!
+
+ent-PosterLegitEatMeat =  Eat Meat!
+
+ent-PosterLegitMoreBread =  More Bread!
+
+ent-PosterLegitPieSlice =  Pie Poster
+
+ent-PosterLegitPizzaHope =  Pizza Hope
+
+ent-PosterLegitMedicate =  Take Your Meds
+
+ent-PosterLegitNoTouching =  No Touching
+
+ent-PosterMapArena =  Arena Map
+
+ent-PosterMapGlacier =  Glacier Map
+
+ent-PosterMapShoukou =  Shōkō Map
+
+ent-PosterLegitShoukou =  Shōkō poster
+
+ent-PosterContrabandSMSyndie =  Syndie Moth - Nuclear Operation
+
+ent-PosterLegitSMPoisoning =  Safety Moth - Poisoning
+
+ent-PosterLegitSMBoH =  Safety Moth - Bag of Holding
+
+ent-PosterLegitSMHardhats =  Safety Moth - Hard hats
+
+ent-PosterLegitSMFires =  Safety Moth - Fires
+
+ent-PosterLegitSMPiping =  Safety Moth - Piping
+
+ent-PosterLegitSMMeth =  Safety Moth - Methamphetamine
+
+ent-PosterLegitSMEpi =  Safety Moth - Epinephrine
+
+ent-PosterLegitSMPills =  Safety Moth - Pill Bottles
+
+ent-PosterLegitSMAnomalies =  Safety Moth - Anomalies
+
+ent-PosterLegitSMGlimmer =  Safety Moth - Glimmer Safety Precautions
+

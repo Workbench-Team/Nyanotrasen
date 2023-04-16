@@ -1,3 +1,6 @@
-ent-RandomBook = random book spawner
-    .desc = { ent-MarkerBase.desc }
-    .suffix = { "" }
+ent-RandomBook =  random book spawner
+
+.desc =  { ent-MarkerBase.desc }
+
+.suffix =  { "" }
+

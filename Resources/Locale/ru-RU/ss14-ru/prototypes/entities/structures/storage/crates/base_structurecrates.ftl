@@ -1,9 +1,10 @@
-ent-CrateGeneric = crate
-    .desc = A large container for items.
-    .suffix = { "" }
-ent-CrateBaseWeldable = { ent-CrateGeneric }
-    .desc = { ent-CrateGeneric.desc }
-    .suffix = { "" }
-ent-CrateBaseSecure = { ent-CrateGeneric }
-    .desc = { ent-CrateGeneric.desc }
-    .suffix = { "" }
+ent-CrateGeneric =  ящик
+
+.desc =  { ent-CrateGeneric.desc }
+
+.suffix =  { "" }
+
+ent-CrateBaseWeldable =  { ent-CrateGeneric }
+
+ent-CrateBaseSecure =  { ent-CrateGeneric }
+

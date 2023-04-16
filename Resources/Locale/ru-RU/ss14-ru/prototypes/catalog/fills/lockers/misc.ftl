@@ -1,21 +1,18 @@
-ent-LockerSyndicatePersonalFilled = { ent-LockerSyndicatePersonal }
-    .suffix = Filled
-    .desc = { ent-LockerSyndicatePersonal.desc }
-ent-ClosetEmergencyFilledRandom = { ent-ClosetEmergency }
-    .suffix = Filled, Random
-    .desc = { ent-ClosetEmergency.desc }
-ent-ClosetWallEmergencyFilledRandom = { ent-ClosetWallEmergency }
-    .suffix = Filled, Random
-    .desc = { ent-ClosetWallEmergency.desc }
-ent-ClosetFireFilled = { ent-ClosetFire }
-    .suffix = Filled
-    .desc = { ent-ClosetFire.desc }
-ent-ClosetWallFireFilledRandom = { ent-ClosetWallFire }
-    .suffix = Filled
-    .desc = { ent-ClosetWallFire.desc }
-ent-ClosetMaintenanceFilledRandom = { ent-ClosetMaintenance }
-    .suffix = Filled, Random
-    .desc = { ent-ClosetMaintenance.desc }
-ent-ClosetWallMaintenanceFilledRandom = { ent-ClosetWall }
-    .suffix = Filled, Random
-    .desc = { ent-ClosetWall.desc }
+ent-LockerSyndicatePersonalFilled =  { ent-LockerSyndicatePersonal }
+
+.suffix =  Filled, Random
+
+.desc =  { ent-ClosetWall.desc }
+
+ent-ClosetEmergencyFilledRandom =  { ent-ClosetEmergency }
+
+ent-ClosetWallEmergencyFilledRandom =  { ent-ClosetWallEmergency }
+
+ent-ClosetFireFilled =  { ent-ClosetFire }
+
+ent-ClosetWallFireFilledRandom =  { ent-ClosetWallFire }
+
+ent-ClosetMaintenanceFilledRandom =  { ent-ClosetMaintenance }
+
+ent-ClosetWallMaintenanceFilledRandom =  { ent-ClosetWall }
+

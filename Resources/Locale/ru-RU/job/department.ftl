@@ -1,9 +1,18 @@
-department-Cargo = cargo
-department-Civilian = civilian
-department-Command = command
-department-Engineering = engineering
-department-Medical = medical
-department-Security = security
-department-Science = science
-department-Epistemics = epistemics
-department-Silicon = silicon
+department-Cargo =  Отдел снабжения
+
+department-Civilian =  Сервисный отдел
+
+department-Command =  Командование
+
+department-Engineering =  Инженерный отдел
+
+department-Medical =  Медицинский отдел
+
+department-Security =  Служба безопасности
+
+department-Science =  Научный отдел
+
+department-Epistemics =  epistemics
+
+department-Silicon =  silicon
+

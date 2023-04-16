@@ -1,10 +1,16 @@
-### EscapeMenu.xaml
+ui-escape-title =  Esc Меню
 
-ui-escape-title = Esc Menu
-ui-escape-options = Options
-ui-escape-rules = Rules
-ui-escape-guidebook = Guidebook
-ui-escape-wiki = Wiki
-ui-escape-discord = Apply for whitelist
-ui-escape-disconnect = Disconnect
-ui-escape-quit = Quit
+ui-escape-options =  Настройки
+
+ui-escape-rules =  Правила
+
+ui-escape-guidebook =  Учебник
+
+ui-escape-wiki =  Wiki
+
+ui-escape-discord =  Discord
+
+ui-escape-disconnect =  Отключиться
+
+ui-escape-quit =  Выйти
+

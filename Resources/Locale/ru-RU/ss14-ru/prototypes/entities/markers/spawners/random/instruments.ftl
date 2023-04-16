@@ -1,3 +1,6 @@
-ent-RandomInstruments = random instruments spawner
-    .desc = { ent-MarkerBase.desc }
-    .suffix = { "" }
+ent-RandomInstruments =  спавнер случайный инструмент
+
+.desc =  { ent-MarkerBase.desc }
+
+.suffix =  { "" }
+

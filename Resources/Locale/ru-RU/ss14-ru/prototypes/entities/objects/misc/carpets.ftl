@@ -1,24 +1,20 @@
-ent-FloorCarpetItemRed = red carpet
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorCarpetItemBlack = black carpet
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorCarpetItemBlue = blue carpet
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorCarpetItemGreen = green carpet
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorCarpetItemOrange = orange carpet
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorCarpetItemSkyBlue = sky blue carpet
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorCarpetItemPurple = purple carpet
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorCarpetItemPink = pink carpet
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
+ent-FloorCarpetItemRed =  красный ковёр
+
+.desc =  { ent-FloorTileItemBase.desc }
+
+.suffix =  { "" }
+
+ent-FloorCarpetItemBlack =  чёрный ковёр
+
+ent-FloorCarpetItemBlue =  синий ковёр
+
+ent-FloorCarpetItemGreen =  зелёный ковёр
+
+ent-FloorCarpetItemOrange =  оранжевый ковёр
+
+ent-FloorCarpetItemSkyBlue =  небесно-голубой ковёр
+
+ent-FloorCarpetItemPurple =  фиолетовый ковёр
+
+ent-FloorCarpetItemPink =  розовый ковёр
+

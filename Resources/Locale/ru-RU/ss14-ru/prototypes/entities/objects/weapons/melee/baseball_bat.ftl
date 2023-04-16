@@ -1,3 +1,6 @@
-ent-BaseBallBat = baseball bat
-    .desc = A robust baseball bat.
-    .suffix = { "" }
+ent-BaseBallBat =  бейсбольная бита
+
+.desc =  A robust baseball bat.
+
+.suffix =  { "" }
+

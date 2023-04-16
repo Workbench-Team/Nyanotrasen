@@ -1,3 +1,6 @@
-ent-WeaponStaffBase = { ent-BaseItem }
-    .desc = { ent-BaseItem.desc }
-    .suffix = { "" }
+ent-WeaponStaffBase =  { ent-BaseItem }
+
+.desc =  { ent-BaseItem.desc }
+
+.suffix =  { "" }
+

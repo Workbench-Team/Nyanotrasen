@@ -1,6 +1,8 @@
-ent-BlastDoor = blast door
-    .desc = This one says 'BLAST DONGER'.
-    .suffix = { "" }
-ent-BlastDoorOpen = { ent-BlastDoor }
-    .suffix = Open
-    .desc = { ent-BlastDoor.desc }
+ent-BlastDoor =  гермозатвор
+
+.desc =  { ent-BlastDoor.desc }
+
+.suffix =  Open
+
+ent-BlastDoorOpen =  { ent-BlastDoor }
+

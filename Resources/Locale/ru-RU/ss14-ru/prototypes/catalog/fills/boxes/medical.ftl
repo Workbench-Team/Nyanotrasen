@@ -1,24 +1,20 @@
-ent-BoxSyringe = syringe box
-    .desc = A box full of syringes.
-    .suffix = { "" }
-ent-BoxPillCanister = pill canister box
-    .desc = A box full of pill canisters.
-    .suffix = { "" }
-ent-BoxBottle = bottle box
-    .desc = A box full of bottles.
-    .suffix = { "" }
-ent-BoxSterileMask = sterile mask box
-    .desc = This box contains sterile medical masks.
-    .suffix = { "" }
-ent-BoxLatexGloves = latex gloves box
-    .desc = Contains sterile latex gloves.
-    .suffix = { "" }
-ent-BoxNitrileGloves = nitrile gloves box
-    .desc = Contains sterile nitrile gloves. Better than latex.
-    .suffix = { "" }
-ent-BoxMouthSwab = sterile swab box
-    .desc = { ent-BoxCardboard.desc }
-    .suffix = { "" }
-ent-BoxBodyBag = body bag box
-    .desc = Contains body bags.
-    .suffix = { "" }
+ent-BoxSyringe =  коробка шприцов
+
+.desc =  Contains body bags.
+
+.suffix =  { "" }
+
+ent-BoxPillCanister =  коробка баночек для таблеток
+
+ent-BoxBottle =  коробка бутылочек
+
+ent-BoxSterileMask =  коробка медицинских масок
+
+ent-BoxLatexGloves =  коробка латексных перчаток
+
+ent-BoxNitrileGloves =  коробка нитриловых перчаток
+
+ent-BoxMouthSwab =  коробка стерильных палочек
+
+ent-BoxBodyBag =  коробка мешков для тел
+

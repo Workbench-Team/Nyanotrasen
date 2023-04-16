@@ -1,147 +1,100 @@
-ent-FloorTileItemBase = { ent-BaseItem }
-    .desc = These could work as a pretty decent throwing weapon.
-    .suffix = { "" }
-ent-FloorTileItemSteel = steel tile
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemMetalDiamond = steel tile
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemWood = wood floor
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemWhite = white tile
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemDark = dark tile
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemTechmaint = techmaint floor
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemReinforced = reinforced tile
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemMono = mono tile
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemLino = linoleum floor
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemDirty = dirty tile
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemElevatorShaft = elevator shaft tile
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemRockVault = rock vault tile
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemBlue = blue tile
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemFreezer = freezer tile
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemShowroom = showroom tile
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemHydro = hydro tile
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemBar = bar tile
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemClown = clown tile
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemMime = mime tile
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemKitchen = kitchen tile
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemLaundry = laundry tile
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemArcadeBlue = blue arcade floor
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemArcadeBlue2 = blue arcade floor
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemArcadeRed = red arcade floor
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemEighties = eighties floor
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemCarpetClown = clown carpet floor
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemCarpetOffice = office carpet floor
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemBoxing = boxing ring floor
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemGym = gym floor
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemShuttleWhite = white shuttle floor
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemShuttleBlue = blue shuttle floor
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemShuttleOrange = orange shuttle floor
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemShuttlePurple = purple shuttle floor
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemShuttleRed = red shuttle floor
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemGold = gold floor
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemSilver = silver tile
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemGCircuit = green circuit floor
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemBCircuit = blue circuit floor
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemGrass = grass tile
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemGrassDark = dark grass tile
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemGrassLight = light grass tile
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemGrassJungle = jungle grass tile
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemSnow = snow tile
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemDirt = dirt tile
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemBedrock = bedrock tile
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemWoodPattern = wood pattern floor
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemSteelMaint = steel maint floor
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
-ent-FloorTileItemGratingMaint = grating maint floor
-    .desc = { ent-FloorTileItemBase.desc }
-    .suffix = { "" }
+ent-FloorTileItemBase =  { ent-BaseItem }
+
+.desc =  { ent-FloorTileItemBase.desc }
+
+.suffix =  { "" }
+
+ent-FloorTileItemSteel =  стальная плитка
+
+ent-FloorTileItemMetalDiamond =  стальная плитка
+
+ent-FloorTileItemWood =  деревянный пол
+
+ent-FloorTileItemWhite =  белая плитка
+
+ent-FloorTileItemDark =  тёмная плитка
+
+ent-FloorTileItemTechmaint =  технический пол
+
+ent-FloorTileItemReinforced =  армированная плитка
+
+ent-FloorTileItemMono =  моно плитка
+
+ent-FloorTileItemLino =  линолеум
+
+ent-FloorTileItemDirty =  грязная плитка
+
+ent-FloorTileItemElevatorShaft =  плитка шахты лифта
+
+ent-FloorTileItemRockVault =  каменная плитка хранилища
+
+ent-FloorTileItemBlue =  голубая плитка
+
+ent-FloorTileItemFreezer =  плитка морозильника
+
+ent-FloorTileItemShowroom =  плитка выставочного зала
+
+ent-FloorTileItemHydro =  гидро плитка
+
+ent-FloorTileItemBar =  барная плитка
+
+ent-FloorTileItemClown =  плитка клоуна
+
+ent-FloorTileItemMime =  плитка мима
+
+ent-FloorTileItemKitchen =  кухонная плитка
+
+ent-FloorTileItemLaundry =  плитка прачечной
+
+ent-FloorTileItemArcadeBlue =  синий пол аркады
+
+ent-FloorTileItemArcadeBlue2 =  синий пол аркады
+
+ent-FloorTileItemArcadeRed =  красный пол аркады
+
+ent-FloorTileItemEighties =  пол восьмидесятых
+
+ent-FloorTileItemCarpetClown =  клоунский ковёр
+
+ent-FloorTileItemCarpetOffice =  офисный ковёр
+
+ent-FloorTileItemBoxing =  пол боксёрского ринга
+
+ent-FloorTileItemGym =  пол спортзала
+
+ent-FloorTileItemShuttleWhite =  белый пол шаттла
+
+ent-FloorTileItemShuttleBlue =  синий пол шаттла
+
+ent-FloorTileItemShuttleOrange =  оранжевый пол шаттла
+
+ent-FloorTileItemShuttlePurple =  фиолетовый пол шаттла
+
+ent-FloorTileItemShuttleRed =  красный пол шаттла
+
+ent-FloorTileItemGold =  золотая плитка
+
+ent-FloorTileItemSilver =  серебряная плитка
+
+ent-FloorTileItemGCircuit =  плитка зелёных микросхем
+
+ent-FloorTileItemBCircuit =  плитка голубых микросхем
+
+ent-FloorTileItemGrass =  плитка травы
+
+ent-FloorTileItemGrassDark =  dark grass tile
+
+ent-FloorTileItemGrassLight =  light grass tile
+
+ent-FloorTileItemGrassJungle =  плитка травы джунглей
+
+ent-FloorTileItemSnow =  плитка снега
+
+ent-FloorTileItemDirt =  dirt tile
+
+ent-FloorTileItemWoodPattern =  wood pattern floor
+
+ent-FloorTileItemSteelMaint =  стальной технический пол
+
+ent-FloorTileItemGratingMaint =  решётчатый технический пол
+

@@ -1,3 +1,6 @@
-ent-BaseMagazineHeavyRifle = magazine (.20 rifle)
-    .desc = { ent-BaseItem.desc }
-    .suffix = { "" }
+ent-BaseMagazineHeavyRifle =  магазин (.20 винтовочные)
+
+.desc =  { ent-BaseItem.desc }
+
+.suffix =  { "" }
+

@@ -1,3 +1,6 @@
-ent-Error = error
-    .desc = Hmmmm. Something went wrong.
-    .suffix = { "" }
+ent-Error =  ошибка
+
+.desc =  Hmmmm. Something went wrong.
+
+.suffix =  { "" }
+

@@ -1,33 +1,26 @@
-ent-PartMoth = moth body part
-    .desc = { ent-BaseItem.desc }
-    .suffix = { "" }
-ent-TorsoMoth = moth torso
-    .desc = { ent-PartMoth.desc }
-    .suffix = { "" }
-ent-HeadMoth = moth head
-    .desc = { ent-PartMoth.desc }
-    .suffix = { "" }
-ent-LeftArmMoth = left moth arm
-    .desc = { ent-PartMoth.desc }
-    .suffix = { "" }
-ent-RightArmMoth = right moth arm
-    .desc = { ent-PartMoth.desc }
-    .suffix = { "" }
-ent-LeftHandMoth = left moth hand
-    .desc = { ent-PartMoth.desc }
-    .suffix = { "" }
-ent-RightHandMoth = right moth hand
-    .desc = { ent-PartMoth.desc }
-    .suffix = { "" }
-ent-LeftLegMoth = left moth leg
-    .desc = { ent-PartMoth.desc }
-    .suffix = { "" }
-ent-RightLegMoth = right moth leg
-    .desc = { ent-PartMoth.desc }
-    .suffix = { "" }
-ent-LeftFootMoth = left moth foot
-    .desc = { ent-PartMoth.desc }
-    .suffix = { "" }
-ent-RightFootMoth = right moth foot
-    .desc = { ent-PartMoth.desc }
-    .suffix = { "" }
+ent-PartMoth =  часть тела моли
+
+.desc =  { ent-PartMoth.desc }
+
+.suffix =  { "" }
+
+ent-TorsoMoth =  торс моли
+
+ent-HeadMoth =  голова моли
+
+ent-LeftArmMoth =  левая рука моли
+
+ent-RightArmMoth =  правая рука моли
+
+ent-LeftHandMoth =  левая кисть моли
+
+ent-RightHandMoth =  правая кисть моли
+
+ent-LeftLegMoth =  левая нога моли
+
+ent-RightLegMoth =  правая нога моли
+
+ent-LeftFootMoth =  левая пятка моли
+
+ent-RightFootMoth =  правая пятка моли
+

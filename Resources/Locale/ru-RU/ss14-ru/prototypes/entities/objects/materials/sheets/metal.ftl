@@ -1,15 +1,14 @@
-ent-SheetMetalBase = { ent-BaseItem }
-    .desc = A sheet of metal, used often on the station in various applications.
-    .suffix = { "" }
-ent-SheetSteel = steel
-    .suffix = Full
-    .desc = { ent-SheetMetalBase.desc }
-ent-SheetSteel1 = steel
-    .suffix = Single
-    .desc = { ent-SheetSteel.desc }
-ent-SheetPlasteel = plasteel
-    .suffix = Full
-    .desc = { ent-SheetMetalBase.desc }
-ent-SheetPlasteel1 = plasteel
-    .suffix = Single
-    .desc = { ent-SheetPlasteel.desc }
+ent-SheetMetalBase =  { ent-BaseItem }
+
+.desc =  { ent-SheetPlasteel.desc }
+
+.suffix =  Single
+
+ent-SheetSteel =  сталь
+
+ent-SheetSteel1 =  сталь
+
+ent-SheetPlasteel =  пласталь
+
+ent-SheetPlasteel1 =  пласталь
+

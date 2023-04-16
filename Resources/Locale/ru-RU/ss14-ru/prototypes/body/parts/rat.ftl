@@ -1,3 +1,6 @@
-ent-TorsoRat = animal torso
-    .desc = { ent-PartAnimal.desc }
-    .suffix = { "" }
+ent-TorsoRat =  туловище животного
+
+.desc =  { ent-PartAnimal.desc }
+
+.suffix =  { "" }
+

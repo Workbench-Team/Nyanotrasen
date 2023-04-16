@@ -1,24 +1,20 @@
-ent-WeldingFuelTank = { ent-StorageTank }
-    .suffix = Empty
-    .desc = { ent-StorageTank.desc }
-ent-WeldingFuelTankFull = { ent-WeldingFuelTank }
-    .suffix = Full
-    .desc = { ent-WeldingFuelTank.desc }
-ent-WaterTank = { ent-StorageTank }
-    .suffix = Empty
-    .desc = { ent-StorageTank.desc }
-ent-WaterTankFull = { ent-WaterTank }
-    .suffix = Full
-    .desc = { ent-WaterTank.desc }
-ent-WaterCooler = { ent-WaterTankFull }
-    .desc = { ent-WaterTankFull.desc }
-    .suffix = { "" }
-ent-WaterTankHighCapacity = { ent-StorageTank }
-    .suffix = Full
-    .desc = { ent-StorageTank.desc }
-ent-KvassTank = { ent-StorageTank }
-    .suffix = Empty
-    .desc = { ent-StorageTank.desc }
-ent-KvassTankFull = { ent-KvassTank }
-    .suffix = Full
-    .desc = { ent-KvassTank.desc }
+ent-WeldingFuelTank =  топливный резервуар
+
+.suffix =  Full
+
+.desc =  { ent-KvassTank.desc }
+
+ent-WeldingFuelTankFull =  { ent-WeldingFuelTank }
+
+ent-WaterTank =  водяной резервуар
+
+ent-WaterTankFull =  { ent-WaterTank }
+
+ent-WaterCooler =  кулер с водой
+
+ent-WaterTankHighCapacity =  водяной резервуар большой ёмкости
+
+ent-KvassTank =  КВАС
+
+ent-KvassTankFull =  { ent-KvassTank }
+

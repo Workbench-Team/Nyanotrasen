@@ -1,3 +1,6 @@
-ent-ComputerShipyard = shipyard console
-    .desc = Used to purchase and sell shuttles
-    .suffix = { "" }
+ent-ComputerShipyard =  shipyard console
+
+.desc =  Used to purchase and sell shuttles
+
+.suffix =  { "" }
+

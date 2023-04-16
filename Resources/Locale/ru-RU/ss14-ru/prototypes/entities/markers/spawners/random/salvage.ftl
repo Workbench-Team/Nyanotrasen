@@ -1,18 +1,16 @@
-ent-SalvageMaterialCrateSpawner = Salvage Material Crate Spawner
-    .desc = { ent-MarkerBase.desc }
-    .suffix = { "" }
-ent-SalvageCanisterSpawner = Salvage Canister Spawner
-    .desc = { ent-MarkerBase.desc }
-    .suffix = { "" }
-ent-SalvageMobSpawner = Salvage Mob Spawner
-    .suffix = 25
-    .desc = { ent-MarkerBase.desc }
-ent-SpaceTickSpawner = Salvage Space Tick Spawner
-    .suffix = 100
-    .desc = { ent-MarkerBase.desc }
-ent-SpawnMobBearSalvage = Salvage Space Bear Spawner
-    .desc = { ent-MarkerBase.desc }
-    .suffix = { "" }
-ent-SalvageMobSpawner75 = { ent-SalvageMobSpawner }
-    .suffix = 75
-    .desc = { ent-SalvageMobSpawner.desc }
+ent-SalvageMaterialCrateSpawner =  спавнер ящик материалов на обломке
+
+.desc =  { ent-SalvageMobSpawner.desc }
+
+.suffix =  75
+
+ent-SalvageCanisterSpawner =  спавнер канистра на обломке
+
+ent-SalvageMobSpawner =  спавнер моб на обломке
+
+ent-SpaceTickSpawner =  спавнер космический клещ
+
+ent-SpawnMobBearSalvage =  спавнер космический медведь на обломке
+
+ent-SalvageMobSpawner75 =  { ent-SalvageMobSpawner }
+

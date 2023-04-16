@@ -1,15 +1,14 @@
-ent-BaseTarget = { ent-BaseStructureDynamic }
-    .desc = { ent-BaseStructureDynamic.desc }
-    .suffix = { "" }
-ent-TargetHuman = human target
-    .desc = A shooting target. This one is a human.
-    .suffix = { "" }
-ent-TargetSyndicate = syndicate target
-    .desc = A shooting target. This one is a syndicate agent.
-    .suffix = { "" }
-ent-TargetClown = clown target
-    .desc = A shooting target. This one is a clown.
-    .suffix = { "" }
-ent-TargetStrange = strange target
-    .desc = A shooting target. You aren't quite sure what this one is, but it seems to be extra robust.
-    .suffix = { "" }
+ent-BaseTarget =  { ent-BaseStructureDynamic }
+
+.desc =  A shooting target. You aren't quite sure what this one is, but it seems to be extra robust.
+
+.suffix =  { "" }
+
+ent-TargetHuman =  мишень-человек
+
+ent-TargetSyndicate =  мишень-синдикат
+
+ent-TargetClown =  мишень-клоун
+
+ent-TargetStrange =  странная мишень
+

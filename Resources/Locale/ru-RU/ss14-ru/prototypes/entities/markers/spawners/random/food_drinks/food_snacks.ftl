@@ -1,3 +1,6 @@
-ent-RandomSnacks = random snack spawner
-    .desc = { ent-MarkerBase.desc }
-    .suffix = { "" }
+ent-RandomSnacks =  спавнер случайная закуска
+
+.desc =  { ent-MarkerBase.desc }
+
+.suffix =  { "" }
+

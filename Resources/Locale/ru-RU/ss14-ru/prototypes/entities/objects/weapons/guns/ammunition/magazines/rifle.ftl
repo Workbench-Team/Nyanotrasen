@@ -1,15 +1,14 @@
-ent-BaseMagazineRifle = magazine (.20 rifle)
-    .desc = { ent-BaseItem.desc }
-    .suffix = { "" }
-ent-MagazineRifle = magazine (.20 rifle)
-    .desc = { ent-BaseMagazineRifle.desc }
-    .suffix = { "" }
-ent-MagazineRifleHighVelocity = magazine (.20 rifle high-velocity)
-    .desc = { ent-BaseMagazineRifle.desc }
-    .suffix = { "" }
-ent-MagazineRiflePractice = magazine (.20 rifle practice)
-    .desc = { ent-BaseMagazineRifle.desc }
-    .suffix = { "" }
-ent-MagazineRifleRubber = magazine (.20 rifle rubber)
-    .desc = { ent-BaseMagazineRifle.desc }
-    .suffix = { "" }
+ent-BaseMagazineRifle =  магазин (.20 винтовочные)
+
+.desc =  { ent-BaseMagazineRifle.desc }
+
+.suffix =  { "" }
+
+ent-MagazineRifle =  магазин (.20 винтовочные)
+
+ent-MagazineRifleHighVelocity =  магазин (.20 винтовочные высокоскоростные)
+
+ent-MagazineRiflePractice =  магазин (.20 винтовочные учебные)
+
+ent-MagazineRifleRubber =  магазин (.20 винтовочные резиновые)
+

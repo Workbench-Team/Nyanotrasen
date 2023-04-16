@@ -1,3 +1,6 @@
-ent-ForensicPad = forensic pad
-    .desc = A forensic pad for collecting fingerprints or fibers.
-    .suffix = { "" }
+ent-ForensicPad =  пластинка криминалистического сканера
+
+.desc =  A forensic pad for collecting fingerprints or fibers.
+
+.suffix =  { "" }
+

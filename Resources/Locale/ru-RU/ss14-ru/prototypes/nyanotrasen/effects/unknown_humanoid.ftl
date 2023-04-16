@@ -1,3 +1,6 @@
-ent-EffectUnknownHumanoid = unknown humanoid
-    .desc = Ignore.
-    .suffix = { "" }
+ent-EffectUnknownHumanoid =  unknown humanoid
+
+.desc =  Ignore.
+
+.suffix =  { "" }
+

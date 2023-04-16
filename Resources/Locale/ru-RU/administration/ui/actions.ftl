@@ -1,8 +1,16 @@
-admin-player-actions-bans = Ban List
-admin-player-actions-notes = Notes
-admin-player-actions-kick = Kick
-admin-player-actions-ban = Ban
-admin-player-actions-ahelp = AHelp
-admin-player-actions-respawn = Respawn
-admin-player-actions-teleport = Teleport To
-admin-player-actions-confirm = Are you sure?
+admin-player-actions-bans =  Список банов
+
+admin-player-actions-notes =  Заметки
+
+admin-player-actions-kick =  Кикнуть
+
+admin-player-actions-ban =  Забанить
+
+admin-player-actions-ahelp =  ПМ
+
+admin-player-actions-respawn =  Респаун
+
+admin-player-actions-teleport =  Телепортироваться к
+
+admin-player-actions-confirm =  Вы уверены?
+

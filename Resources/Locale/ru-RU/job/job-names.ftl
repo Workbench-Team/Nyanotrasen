@@ -1,109 +1,216 @@
-job-name-warden = warden
-job-name-security = security officer
-job-name-cadet = security cadet
-job-name-hos = head of security
-job-name-detective = detective
-job-name-scientist = scientist
-job-name-rd = research director
-job-name-psychologist = psychologist
-job-name-intern = medical intern
-job-name-doctor = medical doctor
-job-name-cmo = chief medical officer
-job-name-chemist = chemist
-job-name-technical-assistant = technical assistant
-job-name-engineer = station engineer
-job-name-atmostech = atmospheric technician
-job-name-hop = head of personnel
-job-name-captain = captain
-job-name-serviceworker = service worker
-job-name-centcomoff = CentCom official
-job-name-reporter = reporter
-job-name-musician = musician
-job-name-librarian = librarian
-job-name-lawyer = lawyer
-job-name-mime = mime
-job-name-ce = chief engineer
-job-name-janitor = janitor
-job-name-chaplain = golemancer
-job-name-botanist = botanist
-job-name-bartender = bartender
-job-name-passenger = assistant
-job-name-salvagespec = salvage specialist
-job-name-qm = quartermaster
-job-name-cargotech = cargo technician
-job-name-chef = chef
-job-name-clown = clown
-job-name-ertleader = ERT leader
-job-name-ertengineer = ERT engineer
-job-name-ertsecurity = ERT security
-job-name-ertmedic = ERT medic
-job-name-ertjanitor = ERT janitor
-job-name-boxer = boxer
-job-name-zookeeper = zookeeper
-#Nyano
-job-name-mystagogue = mystagogue
-job-name-mantis = forensic mantis
-job-name-epistemologist = acolyte
-job-name-mail-carrier = mail carrier
-job-name-cataloguer = cataloguer
-job-name-cyborg = cyborg
-job-name-medical-cyborg = medical cyborg
-job-name-salvage-technician = salvage technician
-job-name-gladiator = gladiator
-job-name-fugitive = fugitive
-job-name-prisoner = prisoner
-job-name-valet = valet
-job-name-paramedic = paramedic
-job-name-guard = prison guard
-# Role timers - Make these alphabetical or I cut you
-JobAtmosphericTechnician = atmospheric technician
-JobBartender = bartender
-JobBotanist = botanist
-JobCaptain = captain
-JobCargoTechnician = cargo technician
-JobCentralCommandOfficial = central command official
-JobChaplain = golemancer
-JobChef = chef
-JobChemist = chemist
-JobChiefEngineer = chief engineer
-JobChiefMedicalOfficer = chief medical officer
-JobClown = clown
-JobDetective = detective
-JobERTEngineer = ERT engineer
-JobERTJanitor = ERT janitor
-JobERTLeader = ERT leader
-JobERTMedical = ERT medical
-JobERTSecurity = ERT security
-JobHeadOfPersonnel = head of personnel
-JobHeadOfSecurity = head of security
-JobJanitor = janitor
-JobLawyer = lawyer
-JobLibrarian = librarian
-JobMedicalDoctor = medical doctor
-JobMedicalIntern = medical intern
-JobMime = mime
-JobMusician = musician
-JobPassenger = passenger
-JobPsychologist = psychologist
-JobQuartermaster = quartermaster
-JobReporter = reporter
-JobResearchDirector = research director
-JobSalvageSpecialist = salvage specialist
-JobScientist = scientist
-JobSecurityCadet = security cadet
-JobSecurityOfficer = security officer
-JobStationEngineer = station engineer
-JobTechnicalAssistant = technical assistant
-JobWarden = warden
-JobBoxer = boxer
-JobZookeeper = zookeeper
-# Nyano role timers
-JobCataloguer = cataloguer
-JobCyborg = cyborg
-JobEpistemologist = acolyte
-JobForensicMantis = forensic mantis
-JobMailCarrier = mail carrier
-JobMystagogue = mystagogue
-JobPrisoner = prisoner
-JobSalvageTechnician = salvage technician
-JobValet = valet
+job-name-warden =  Смотритель
+
+job-name-security =  Офицер СБ
+
+job-name-cadet =  Кадет СБ
+
+job-name-hos =  Глава службы безопасности
+
+job-name-detective =  Детектив
+
+job-name-scientist =  Учёный
+
+job-name-rd =  Научный руководитель
+
+job-name-psychologist =  Психолог
+
+job-name-intern =  Интерн
+
+job-name-doctor =  Врач
+
+job-name-cmo =  Главный врач
+
+job-name-chemist =  Химик
+
+job-name-technical-assistant =  Технический ассистент
+
+job-name-engineer =  Инженер
+
+job-name-atmostech =  Атмосферный техник
+
+job-name-hop =  Глава персонала
+
+job-name-captain =  Капитан
+
+job-name-serviceworker =  Сервисный работник
+
+job-name-centcomoff =  Представитель Центком
+
+job-name-reporter =  Репортёр
+
+job-name-musician =  Музыкант
+
+job-name-librarian =  Библиотекарь
+
+job-name-lawyer =  Юрист
+
+job-name-mime =  Мим
+
+job-name-ce =  Старший инженер
+
+job-name-janitor =  Уборщик
+
+job-name-chaplain =  Священник
+
+job-name-botanist =  Ботаник
+
+job-name-bartender =  Бармен
+
+job-name-passenger =  Ассистент
+
+job-name-salvagespec =  Утилизатор
+
+job-name-qm =  Квартирмейстер
+
+job-name-cargotech =  Грузчик
+
+job-name-chef =  Шеф-повар
+
+job-name-clown =  Клоун
+
+job-name-ertleader =  Лидер ОБР
+
+job-name-ertengineer =  Инженер ОБР
+
+job-name-ertsecurity =  Офицер безопасности ОБР
+
+job-name-ertmedic =  Медик ОБР
+
+job-name-ertjanitor =  Уборщик ОБР
+
+job-name-boxer =  Боксёр
+
+job-name-zookeeper =  Работник зоопарка
+ Работник зоопарка
+
+job-name-mystagogue =  mystagogue
+
+job-name-mantis =  forensic mantis
+
+job-name-epistemologist =  acolyte
+
+job-name-mail-carrier =  mail carrier
+
+job-name-cataloguer =  cataloguer
+
+job-name-cyborg =  cyborg
+
+job-name-medical-cyborg =  medical cyborg
+
+job-name-salvage-technician =  salvage technician
+
+job-name-gladiator =  gladiator
+
+job-name-fugitive =  fugitive
+
+job-name-prisoner =  prisoner
+
+job-name-valet =  valet
+
+job-name-paramedic =  paramedic
+
+job-name-guard =  prison guard
+
+job-name-martialartist =  martial artist
+ martial artist
+
+JobAtmosphericTechnician =  Атмосферный техник
+
+JobBartender =  Бармен
+
+JobBotanist =  Ботаник
+
+JobCaptain =  Капитан
+
+JobCargoTechnician =  Грузчик
+
+JobCentralCommandOfficial =  Представитель Центком
+
+JobChaplain =  Священник
+
+JobChef =  Шеф-повар
+
+JobChemist =  Химик
+
+JobChiefEngineer =  Старший инженер
+
+JobChiefMedicalOfficer =  Главный врач
+
+JobClown =  Клоун
+
+JobDetective =  Детектив
+
+JobERTEngineer =  Инженер ОБР
+
+JobERTJanitor =  Уборщик ОБР
+
+JobERTLeader =  Лидер ОБР
+
+JobERTMedical =  Медик ОБР
+
+JobERTSecurity =  Офицер безопасности ОБР
+
+JobHeadOfPersonnel =  Глава персонала
+
+JobHeadOfSecurity =  Глава службы безопасности
+
+JobJanitor =  Уборщик
+
+JobLawyer =  Адвокат
+
+JobLibrarian =  Библиотекарь
+
+JobMedicalDoctor =  Врач
+
+JobMedicalIntern =  Интерн
+
+JobMime =  Мим
+
+JobMusician =  Музыкант
+
+JobPassenger =  Ассистент
+
+JobPsychologist =  Психолог
+
+JobQuartermaster =  Квартирмейстер
+
+JobReporter =  Репортёр
+
+JobResearchDirector =  Научный руководитель
+
+JobSalvageSpecialist =  Утилизатор
+
+JobScientist =  Учёный
+
+JobSecurityCadet =  Кадет СБ
+
+JobSecurityOfficer =  Офицер СБ
+
+JobStationEngineer =  Инженер
+
+JobTechnicalAssistant =  Технический ассистент
+
+JobWarden =  Смотритель
+
+JobBoxer =  Боксёр
+
+JobZookeeper =  Работник зоопарка
+
+JobCataloguer =  cataloguer
+
+JobCyborg =  cyborg
+
+JobEpistemologist =  acolyte
+
+JobForensicMantis =  forensic mantis
+
+JobMailCarrier =  mail carrier
+
+JobMystagogue =  mystagogue
+
+JobPrisoner =  prisoner
+
+JobSalvageTechnician =  salvage technician
+
+JobValet =  valet
+

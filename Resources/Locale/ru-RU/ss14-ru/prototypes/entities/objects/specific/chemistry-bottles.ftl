@@ -1,36 +1,28 @@
-ent-BaseChemistryEmptyBottle = bottle
-    .desc = A small bottle.
-    .suffix = { "" }
-ent-ChemistryEmptyBottle01 = bottle
-    .desc = { ent-BaseChemistryEmptyBottle.desc }
-    .suffix = { "" }
-ent-ChemistryEmptyBottle02 = bottle
-    .desc = { ent-BaseChemistryEmptyBottle.desc }
-    .suffix = { "" }
-ent-ChemistryEmptyBottle03 = bottle
-    .desc = { ent-BaseChemistryEmptyBottle.desc }
-    .suffix = { "" }
-ent-ChemistryEmptyBottle04 = bottle
-    .desc = { ent-BaseChemistryEmptyBottle.desc }
-    .suffix = { "" }
-ent-EpinephrineChemistryBottle = epinephrine bottle
-    .desc = { ent-BaseChemistryEmptyBottle.desc }
-    .suffix = { "" }
-ent-MercuryChemistryBottle = mercury bottle
-    .desc = { ent-BaseChemistryEmptyBottle.desc }
-    .suffix = { "" }
-ent-RobustHarvestChemistryBottle = robust harvest bottle
-    .desc = This will increase the potency of your plants.
-    .suffix = { "" }
-ent-UnstableMutagenChemistryBottle = unstable mutagen bottle
-    .desc = This will cause rapid mutations in your plants.
-    .suffix = { "" }
-ent-NocturineChemistryBottle = nocturine bottle
-    .desc = This will make someone fall down almost immediately. Hard to overdose on.
-    .suffix = { "" }
-ent-EphedrineChemistryBottle = ephedrine bottle
-    .desc = { ent-BaseChemistryEmptyBottle.desc }
-    .suffix = { "" }
-ent-OmnizineChemistryBottle = omnizine bottle
-    .desc = { ent-BaseChemistryEmptyBottle.desc }
-    .suffix = { "" }
+ent-BaseChemistryEmptyBottle =  бутылочка
+
+.desc =  { ent-BaseChemistryEmptyBottle.desc }
+
+.suffix =  { "" }
+
+ent-ChemistryEmptyBottle01 =  бутылочка
+
+ent-ChemistryEmptyBottle02 =  бутылочка
+
+ent-ChemistryEmptyBottle03 =  бутылочка
+
+ent-ChemistryEmptyBottle04 =  бутылочка
+
+ent-EpinephrineChemistryBottle =  бутылочка эпинефрина
+
+ent-MercuryChemistryBottle =  mercury bottle
+
+ent-RobustHarvestChemistryBottle =  бутылочка robust harvest
+
+ent-UnstableMutagenChemistryBottle =  бутылочка нестабильного мутагена
+
+ent-NocturineChemistryBottle =  бутылочка ноктюрина
+
+ent-EphedrineChemistryBottle =  бутылочка эфедрина
+
+ent-OmnizineChemistryBottle =  бутылочка омнизина
+

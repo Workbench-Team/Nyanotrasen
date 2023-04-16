@@ -1,4 +1,4 @@
-### Emitter entity prototype data.
+ent-emitter =  эмиттер
 
-ent-emitter = emitter
-    .desc = A machine that fires bolts of energy, used for powering containment fields at a safe distance.
+.desc =  A machine that fires bolts of energy, used for powering containment fields at a safe distance.
+

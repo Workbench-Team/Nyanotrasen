@@ -1,18 +1,18 @@
-ent-GrenadeBase = { ent-BaseItem }
-    .desc = { ent-BaseItem.desc }
-    .suffix = { "" }
-ent-ExGrenade = explosive grenade
-    .desc = Grenade that creates a small but devastating explosion.
-    .suffix = { "" }
-ent-GrenadeFlashBang = flashbang
-    .desc = Eeeeeeeeeeeeeeeeeeeeee
-    .suffix = { "" }
-ent-SyndieMiniBomb = Syndicate minibomb
-    .desc = A precision sabotage explosive for quickly destroying a machine, dead body, or whatever else needs to go.
-    .suffix = { "" }
-ent-NuclearGrenade = the nuclear option
-    .desc = Please don't throw it, think of the children.
-    .suffix = { "" }
-ent-ModularGrenade = modular grenade
-    .desc = A grenade casing. Requires a trigger and a payload.
-    .suffix = { "" }
+ent-GrenadeBase =  { ent-BaseItem }
+
+.desc =  Releases electromagnetic pulses that disrupt or damage many electronic devices or drain power cells.
+
+.suffix =  { "" }
+
+ent-ExGrenade =  разрывная граната
+
+ent-GrenadeFlashBang =  светошумовая граната
+
+ent-SyndieMiniBomb =  минибомба синдиката
+
+ent-NuclearGrenade =  критическая масса
+
+ent-ModularGrenade =  модульная граната
+
+ent-EmpGrenade =  эми-граната
+
