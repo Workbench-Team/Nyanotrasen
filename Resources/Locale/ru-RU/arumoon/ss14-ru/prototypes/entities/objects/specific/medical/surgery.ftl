@@ -1,0 +1,15 @@
+ent-BaseToolSurgery = { ent-BaseItem }
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-Cautery = прибор для прижигания
+ent-Drill = дрель
+ent-Scalpel = скальпель
+ent-ScalpelShiv = заточка
+ent-ScalpelAdvanced = улучшенный скальпель
+ent-ScalpelLaser = лазерный скальпель
+ent-Retractor = ретрактор
+ent-Hemostat = гемостат
+ent-Saw = пила по металлу
+ent-SawImprov = чоппа
+ent-SawElectric = дисковая пила
+ent-SawAdvanced = улучшенная циркулярная пила

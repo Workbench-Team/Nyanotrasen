@@ -1,0 +1,1 @@
+ent-WeaponPistolHandmade = handmade pistol

@@ -1,0 +1,14 @@
+ent-Wirecutter = кусачки
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-Screwdriver = отвёртка
+ent-Wrench = гаечный ключ
+ent-Crowbar = лом
+ent-CrowbarRed = аварийный лом
+ent-Multitool = мультитул
+ent-PowerDrill = электродрель
+ent-RCD = РСУ
+ent-RCDEmpty = { ent-RCD }
+ent-RCDAmmo = картридж РСУ
+ent-Shovel = лопата
+ent-Omnitool = омнитул

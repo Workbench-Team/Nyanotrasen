@@ -1,0 +1,10 @@
+ent-GasBinaryBase = { ent-GasPipeBase }
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-GasPressurePump = газовый насос
+ent-GasVolumePump = объёмный газовый насос
+ent-GasPassiveGate = пассивный клапан
+ent-GasValve = ручной клапан
+ent-GasPort = соединительный порт
+ent-GasDualPortVentPump = двухпортовая вентиляция
+ent-GasRecycler = переработчик газа

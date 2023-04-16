@@ -1,0 +1,1 @@
+ent-EffectUnknownHumanoid = unknown humanoid

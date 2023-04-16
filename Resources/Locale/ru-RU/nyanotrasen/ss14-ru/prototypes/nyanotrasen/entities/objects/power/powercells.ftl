@@ -1,0 +1,1 @@
+ent-PowerCellBluespace = bluespace cell

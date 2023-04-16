@@ -1,0 +1,10 @@
+ent-DebugGenerator = { ent-BaseGenerator }
+.suffix = { "" }
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+ent-DebugConsumer = consumer
+ent-DebugBatteryStorage = battery storage
+ent-DebugBatteryDischarger = battery discharger
+ent-DebugSMES = { ent-BaseSMES }
+ent-DebugSubstation = { ent-BaseSubstation }
+ent-DebugAPC = { ent-BaseAPC }
+ent-DebugPowerReceiver = power receiver

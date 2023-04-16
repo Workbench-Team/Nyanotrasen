@@ -1,0 +1,9 @@
+ent-MaterialGlass = { ent-CrateMaterialGlass }
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+ent-MaterialSteel = { ent-CrateMaterialSteel }
+ent-MaterialTextiles = { ent-CrateMaterialTextiles }
+ent-MaterialPlastic = { ent-CrateMaterialPlastic }
+ent-MaterialPlasteel = { ent-CrateMaterialPlasteel }
+ent-MaterialPlasma = { ent-CrateMaterialPlasma }
+ent-MaterialFuelTank = { ent-WeldingFuelTankFull }
+ent-MaterialWaterTank = { ent-WaterTankFull }

@@ -1,0 +1,10 @@
+ent-BaseDice = { ent-BaseItem }
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-PercentileDie = процентная кость
+ent-d20Dice = d20
+ent-d12Dice = d12
+ent-d10Dice = d10
+ent-d8Dice = d8
+ent-d6Dice = d6
+ent-d4Dice = d4

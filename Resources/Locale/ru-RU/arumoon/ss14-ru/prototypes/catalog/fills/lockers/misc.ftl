@@ -1,0 +1,9 @@
+ent-LockerSyndicatePersonalFilled = { ent-LockerSyndicatePersonal }
+.suffix = { "" }
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+ent-ClosetEmergencyFilledRandom = { ent-ClosetEmergency }
+ent-ClosetWallEmergencyFilledRandom = { ent-ClosetWallEmergency }
+ent-ClosetFireFilled = { ent-ClosetFire }
+ent-ClosetWallFireFilledRandom = { ent-ClosetWallFire }
+ent-ClosetMaintenanceFilledRandom = { ent-ClosetMaintenance }
+ent-ClosetWallMaintenanceFilledRandom = { ent-ClosetWall }

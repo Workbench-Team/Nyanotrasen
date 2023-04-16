@@ -1,0 +1,9 @@
+ent-EngineAmeShielding = { ent-CrateEngineeringAMEShielding }
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+ent-EngineAmeJar = { ent-CrateEngineeringAMEJar }
+ent-EngineAmeControl = { ent-CrateEngineeringAMEControl }
+ent-EngineSingularityGenerator = { ent-CrateEngineeringSingularityGenerator }
+ent-EngineSingularityContainment = { ent-CrateEngineeringSingularityContainment }
+ent-EngineSingularityCollector = { ent-CrateEngineeringSingularityCollector }
+ent-EngineParticleAccelerator = { ent-CrateEngineeringParticleAccelerator }
+ent-EngineSolar = { ent-CrateEngineeringSolar }

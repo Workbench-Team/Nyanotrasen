@@ -1,0 +1,12 @@
+ent-CrateEngineeringGear = ящик инженерного оборудования
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-CrateEngineeringToolbox = ящик ящиков для инструментов
+ent-CrateEngineeringCableLV = ящик кабеля НВ
+ent-CrateEngineeringCableMV = ящик кабеля СВ
+ent-CrateEngineeringCableHV = ящик кабеля ВВ
+ent-CrateEngineeringCableBulk = ящик кабеля различного вольтажа
+ent-CrateEngineeringElectricalSupplies = ящик электромонтажного снаряжения
+ent-CrateEngineeringJetpack = ящик джетпаков
+ent-CrateEngineeringMiniJetpack = ящик мини джетпаков
+ent-CrateAirlockKit = ящик компонентов шлюзов

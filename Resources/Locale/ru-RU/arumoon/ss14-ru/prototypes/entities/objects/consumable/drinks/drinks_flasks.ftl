@@ -1,0 +1,10 @@
+ent-DrinkShinyFlask = блестящая фляга
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-DrinkMREFlask = фляга ИРП
+ent-DrinkDetFlask = фляга инспектора
+ent-DrinkFlask = фляга капитана
+ent-DrinkFlaskBar = барская фляга
+ent-DrinkFlaskOld = фляга
+ent-DrinkLithiumFlask = литиевая фляга
+ent-DrinkVacuumFlask = термос

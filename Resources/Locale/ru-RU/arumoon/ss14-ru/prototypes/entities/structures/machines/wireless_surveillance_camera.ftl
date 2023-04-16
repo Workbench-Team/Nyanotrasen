@@ -1,0 +1,9 @@
+ent-SurveillanceWirelessCameraBase = беспроводная камера
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-SurveillanceWirelessCameraAnchoredBase = { ent-SurveillanceWirelessCameraBase }
+ent-SurveillanceWirelessCameraMovableBase = { ent-SurveillanceWirelessCameraBase }
+ent-SurveillanceWirelessCameraAnchoredConstructed = { ent-SurveillanceWirelessCameraAnchoredBase }
+ent-SurveillanceWirelessCameraMovableConstructed = { ent-SurveillanceWirelessCameraMovableBase }
+ent-SurveillanceWirelessCameraAnchoredEntertainment = { ent-SurveillanceWirelessCameraAnchoredBase }
+ent-SurveillanceWirelessCameraMovableEntertainment = { ent-SurveillanceWirelessCameraMovableBase }

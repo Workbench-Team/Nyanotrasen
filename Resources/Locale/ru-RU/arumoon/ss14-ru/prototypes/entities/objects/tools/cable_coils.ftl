@@ -1,0 +1,9 @@
+ent-CableStack = моток проводов
+.suffix = { "" }
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+ent-CableHVStack = моток ВВ проводов
+ent-CableHVStack1 = { ent-CableHVStack }
+ent-CableMVStack = моток СВ проводов
+ent-CableMVStack1 = { ent-CableMVStack }
+ent-CableApcStack = моток НВ проводов
+ent-CableApcStack1 = { ent-CableApcStack }

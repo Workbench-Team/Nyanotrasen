@@ -1,0 +1,13 @@
+ent-PartMoth = часть тела моли
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-TorsoMoth = торс моли
+ent-HeadMoth = голова моли
+ent-LeftArmMoth = левая рука моли
+ent-RightArmMoth = правая рука моли
+ent-LeftHandMoth = левая кисть моли
+ent-RightHandMoth = правая кисть моли
+ent-LeftLegMoth = левая нога моли
+ent-RightLegMoth = правая нога моли
+ent-LeftFootMoth = левая пятка моли
+ent-RightFootMoth = правая пятка моли

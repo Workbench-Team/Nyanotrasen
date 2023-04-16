@@ -1,0 +1,12 @@
+ent-CarpetBase = { ent-BaseStructure }
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-Carpet = красный ковёр
+ent-CarpetBlack = чёрный ковёр
+ent-CarpetPink = розовый ковёр
+ent-CarpetBlue = синий ковёр
+ent-CarpetGreen = зелёный ковёр
+ent-CarpetOrange = оранжевый ковёр
+ent-CarpetSBlue = голубой ковёр
+ent-CarpetPurple = фиолетовый ковёр
+ent-CarpetChapel = ковёр церкви

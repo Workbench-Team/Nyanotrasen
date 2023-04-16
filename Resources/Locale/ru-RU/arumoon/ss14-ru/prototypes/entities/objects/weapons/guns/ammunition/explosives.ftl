@@ -1,0 +1,9 @@
+ent-CartridgeRocket = выстрел ПГ-7ВЛ
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-CartridgeRocketSlow = выстрел ПГ-7ВЛ "Улитка"
+ent-BaseGrenade = базовая граната
+ent-GrenadeBaton = шоковая граната
+ent-GrenadeBlast = фугасная граната
+ent-GrenadeFlash = светошумовая граната
+ent-GrenadeFrag = осколочная граната

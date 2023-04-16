@@ -1,0 +1,14 @@
+ent-ClothingOuterArmorReflective = отражающий бронежилет
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-ClothingOuterArmorBulletproof = пуленепробиваемый жилет
+ent-ClothingOuterArmorCult = доспехи аколита
+ent-ClothingOuterArmorHeavy = тяжёлый бронекостюм
+ent-ClothingOuterArmorHeavyGreen = зелёный тяжелый бронекостюм
+ent-ClothingOuterArmorHeavyRed = красный тяжелый бронекостюм
+ent-ClothingOuterArmorMagusblue = синие доспехи магуса
+ent-ClothingOuterArmorMagusred = красные доспехи магуса
+ent-ClothingOuterArmorRiot = противоударный костюм
+ent-ClothingOuterArmorScaf = боевой скафандр
+ent-ClothingOuterArmorCaptainCarapace = панцирь капитана
+ent-ClothingOuterArmorChangeling = хитиновый панцирь

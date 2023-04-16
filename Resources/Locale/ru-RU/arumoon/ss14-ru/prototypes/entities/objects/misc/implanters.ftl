@@ -1,0 +1,12 @@
+ent-BaseImplanter = шприц имплантата
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-Implanter = { ent-BaseImplanter }
+ent-BaseImplantOnlyImplanter = { ent-Implanter }
+ent-SadTromboneImplanter = шприц имплантата грустного тромбона
+ent-LightImplanter = шприц имплантата света
+ent-TrackingImplanter = шприц имплантата трекера
+ent-StorageImplanter = шприц имплантата хранилища
+ent-FreedomImplanter = шприц имплантата свободы
+ent-MicroBombImplanter = шприц имплантата микро бомбы
+ent-MacroBombImplanter = шприц имплантата макро бомбы

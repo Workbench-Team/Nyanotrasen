@@ -1,0 +1,14 @@
+ent-ClothingBackpackSatchel = сумка
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-ClothingBackpackSatchelLeather = кожаная сумка
+ent-ClothingBackpackSatchelEngineering = инженерная сумка
+ent-ClothingBackpackSatchelMedical = медицинская ранец
+ent-ClothingBackpackSatchelChemistry = химическая сумка
+ent-ClothingBackpackSatchelVirology = вирусологийская сумка
+ent-ClothingBackpackSatchelScience = научная сумка
+ent-ClothingBackpackSatchelSecurity = сумка охраны
+ent-ClothingBackpackSatchelCaptain = капитанская сумка
+ent-ClothingBackpackSatchelHydroponics = гидропонная сумка
+ent-ClothingBackpackSatchelSalvage = сумка утилизатора
+ent-ClothingBackpackSatchelHolding = сумка хранения

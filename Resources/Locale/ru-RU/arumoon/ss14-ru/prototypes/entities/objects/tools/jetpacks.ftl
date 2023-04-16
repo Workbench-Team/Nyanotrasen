@@ -1,0 +1,16 @@
+ent-JetpackEffect = { "" }
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-BaseJetpack = джетпак
+ent-JetpackBlue = джетпак
+ent-JetpackBlueFilled = джетпак
+ent-JetpackBlack = джетпак
+ent-JetpackBlackFilled = джетпак
+ent-JetpackCaptain = джетпак капитана
+ent-JetpackCaptainFilled = джетпак капитана
+ent-JetpackMini = мини джетпак
+ent-JetpackMiniFilled = мини джетпак
+ent-JetpackSecurity = джетпак охраны
+ent-JetpackSecurityFilled = джетпак охраны
+ent-JetpackVoid = пустотный джетпак
+ent-JetpackVoidFilled = пустотный джетпак

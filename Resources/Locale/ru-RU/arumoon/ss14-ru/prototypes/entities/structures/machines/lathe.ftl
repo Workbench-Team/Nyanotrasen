@@ -1,0 +1,10 @@
+ent-Autolathe = автолат
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-Protolathe = протолат
+ent-CircuitImprinter = принтер схем
+ent-ExosuitFabricator = фабрикатор экзокостюмов
+ent-SecurityTechFab = охранный ТехФаб
+ent-MedicalTechFab = медицинский ТехФаб
+ent-UniformPrinter = принтер униформы
+ent-OreProcessor = переработчик руды

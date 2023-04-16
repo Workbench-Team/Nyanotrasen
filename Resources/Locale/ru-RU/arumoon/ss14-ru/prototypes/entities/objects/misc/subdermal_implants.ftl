@@ -1,0 +1,10 @@
+ent-BaseSubdermalImplant = имплантат
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-SadTromboneImplant = имплантат грустного тромбона
+ent-LightImplant = имплантат света
+ent-TrackingImplant = имплантат трекера
+ent-StorageImplant = имплантат хранилища
+ent-FreedomImplant = имплантат свободы
+ent-MicroBombImplant = имплантат микро бомбы
+ent-MacroBombImplant = имплантат макро бомбы

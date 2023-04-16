@@ -1,0 +1,11 @@
+ent-ElectricGuitarInstrument = электрогитара
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-BassGuitarInstrument = бас-гитара
+ent-RockGuitarInstrument = рок-гитара
+ent-AcousticGuitarInstrument = акустическая гитара
+ent-GuitarlessFretsInstrument = безгитарные лады
+ent-BanjoInstrument = банджо
+ent-ViolinInstrument = скрипка
+ent-ViolaInstrument = виола
+ent-CelloInstrument = виолончель

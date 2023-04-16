@@ -1,0 +1,13 @@
+ent-ClothingHeadHatHoodBioGeneral = капюшон биозащитного костюма
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-ClothingHeadHatHoodBioCmo = капюшон биозащитного костюма
+ent-ClothingHeadHatHoodBioJanitor = капюшон биозащитного костюма
+ent-ClothingHeadHatHoodBioScientist = капюшон биозащитного костюма
+ent-ClothingHeadHatHoodBioSecurity = капюшон биозащитного костюма
+ent-ClothingHeadHatHoodBioVirology = капюшон биозащитного костюма
+ent-ClothingHeadHatHoodChaplainHood = капюшон священника
+ent-ClothingHeadHatHoodCulthood = капюшон культа
+ent-ClothingHeadHatHoodNunHood = капюшон монахини
+ent-ClothingHeadHatHoodRad = капюшон радиозащитного костюма
+ent-ClothingHeadHatHoodGoliathCloak = капюшон плаща голиафа

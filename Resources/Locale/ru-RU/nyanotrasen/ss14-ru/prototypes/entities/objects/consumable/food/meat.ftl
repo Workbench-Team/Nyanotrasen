@@ -1,0 +1,1 @@
+ent-FoodMeatPatty = meat patty

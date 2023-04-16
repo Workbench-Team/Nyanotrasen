@@ -1,0 +1,12 @@
+technologies-security-technology = Security technology
+technologies-security-technology-descritpion = Learn to replace and restock our current security equipment.
+technologies-ballistic-technology = Ballistic technology
+technologies-ballistic-technology-description = Firearm ammunition has always been well understood, but our lathes struggle with aspects of producing it.
+technologies-direct-energy-technology = Direct energy technology
+technologies-direct-energy-technology-description = Leverage our advances in power technology for offensive purposes.
+technologies-non-lethal-technology = Non-lethal technology
+technologies-non-lethal-technology-description = Less lethal options for security.
+technologies-bluespace-technology = Bluespace technology
+technologies-bluespace-technology-description = Extradimensional storage.
+technologies-teleportation-technology = Teleportation technology
+technologies-teleportation-technology-description = The ability to move matter instantly from one place to another.

@@ -1,0 +1,11 @@
+ent-MedkitFilled = { ent-Medkit }
+.suffix = { "" }
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+ent-MedkitBurnFilled = { ent-MedkitBurn }
+ent-MedkitBruteFilled = { ent-MedkitBrute }
+ent-MedkitToxinFilled = { ent-MedkitToxin }
+ent-MedkitOxygenFilled = { ent-MedkitO2 }
+ent-MedkitRadiationFilled = { ent-MedkitRadiation }
+ent-MedkitAdvancedFilled = { ent-MedkitAdvanced }
+ent-MedkitCombatFilled = { ent-MedkitCombat }
+ent-StimkitFilled = { ent-Medkit }

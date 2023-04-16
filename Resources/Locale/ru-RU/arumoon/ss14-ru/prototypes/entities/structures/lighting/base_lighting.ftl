@@ -1,0 +1,15 @@
+ent-AlwaysPoweredWallLight = светильник
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-PoweredlightEmpty = светильник
+ent-Poweredlight = { ent-PoweredlightEmpty }
+ent-PoweredlightLED = { ent-Poweredlight }
+ent-AlwaysPoweredLightLED = { ent-AlwaysPoweredWallLight }
+ent-PoweredlightExterior = { ent-Poweredlight }
+ent-AlwaysPoweredLightExterior = { ent-AlwaysPoweredWallLight }
+ent-PoweredlightSodium = { ent-Poweredlight }
+ent-AlwaysPoweredLightSodium = { ent-AlwaysPoweredWallLight }
+ent-SmallLight = маленький светильник
+ent-PoweredSmallLightEmpty = маленький светильник
+ent-PoweredSmallLight = { ent-PoweredSmallLightEmpty }
+ent-EmergencyLight = аварийная лампа

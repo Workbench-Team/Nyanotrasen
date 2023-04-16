@@ -1,0 +1,12 @@
+ent-ClothingNeckPinBase = нагрудный значок
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-ClothingNeckLGBTPin = { ent-ClothingNeckPinBase }
+ent-ClothingNeckAromanticPin = { ent-ClothingNeckPinBase }
+ent-ClothingNeckAsexualPin = { ent-ClothingNeckPinBase }
+ent-ClothingNeckBisexualPin = { ent-ClothingNeckPinBase }
+ent-ClothingNeckIntersexPin = { ent-ClothingNeckPinBase }
+ent-ClothingNeckLesbianPin = { ent-ClothingNeckPinBase }
+ent-ClothingNeckNonBinaryPin = { ent-ClothingNeckPinBase }
+ent-ClothingNeckPansexualPin = { ent-ClothingNeckPinBase }
+ent-ClothingNeckTransPin = { ent-ClothingNeckPinBase }

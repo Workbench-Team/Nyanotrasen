@@ -1,0 +1,1 @@
+ent-CrateNPCPibble = pitbull crate

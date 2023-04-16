@@ -1,0 +1,11 @@
+ent-ClothingHeadsetAlt = полноразмерная гарнитура
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-ClothingHeadsetAltCargo = полноразмерная гарнитура квартирмейстера
+ent-ClothingHeadsetAltCentCom = полноразмерная гарнитура Центком
+ent-ClothingHeadsetAltCommand = полноразмерная командная гарнитура
+ent-ClothingHeadsetAltEngineering = полноразмерная гарнитура старшего инженера
+ent-ClothingHeadsetAltMedical = полноразмерная гарнитура главного врача
+ent-ClothingHeadsetAltSecurity = полноразмерная гарнитура главы службы безопасности
+ent-ClothingHeadsetAltScience = полноразмерная гарнитура научного руководителя
+ent-ClothingHeadsetAltSyndicate = полноразмерная кроваво-красная гарнитура

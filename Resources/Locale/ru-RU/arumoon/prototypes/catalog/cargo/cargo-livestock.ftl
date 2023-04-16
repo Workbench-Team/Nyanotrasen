@@ -1,0 +1,16 @@
+ent-LivestockBee = { ent-CrateNPCBee }
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+ent-LivestockButterfly = { ent-CrateNPCButterflies }
+ent-LivestockCat = { ent-CrateNPCCat }
+ent-LivestockChicken = { ent-CrateNPCChicken }
+ent-LivestockDuck = { ent-CrateNPCDuck }
+ent-LivestockCorgi = { ent-CrateNPCCorgi }
+ent-LivestockCow = { ent-CrateNPCCow }
+ent-LivestockGoat = { ent-CrateNPCGoat }
+ent-LivestockGoose = { ent-CrateNPCGoose }
+ent-LivestockGorilla = { ent-CrateNPCGorilla }
+ent-LivestockMonkeyCube = { ent-CrateNPCMonkeyCube }
+ent-LivestockMouse = { ent-CrateNPCMouse }
+ent-LivestockParrot = { ent-CrateNPCParrot }
+ent-LivestockPenguin = { ent-CrateNPCPenguin }
+ent-LivestockSnake = { ent-CrateNPCSnake }

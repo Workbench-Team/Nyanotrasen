@@ -1,0 +1,9 @@
+ent-BaseAPC = ЛКП
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-APCFrame = каркас ЛКП
+ent-APCConstructed = { ent-BaseAPC }
+ent-APCBasic = { ent-BaseAPC }
+ent-APCHighCapacity = { ent-BaseAPC }
+ent-APCSuperCapacity = { ent-BaseAPC }
+ent-APCHyperCapacity = { ent-BaseAPC }

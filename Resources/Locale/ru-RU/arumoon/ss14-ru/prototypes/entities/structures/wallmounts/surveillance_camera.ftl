@@ -1,0 +1,13 @@
+ent-SurveillanceCameraBase = камера
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-SurveillanceCameraConstructed = камера
+ent-SurveillanceCameraEngineering = камера
+ent-SurveillanceCameraSecurity = камера
+ent-SurveillanceCameraScience = камера
+ent-SurveillanceCameraSupply = камера
+ent-SurveillanceCameraCommand = камера
+ent-SurveillanceCameraService = камера
+ent-SurveillanceCameraMedical = камера
+ent-SurveillanceCameraGeneral = камера
+ent-SurveillanceCameraAssembly = камера

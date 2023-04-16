@@ -1,0 +1,14 @@
+ent-ClosetTool = шкаф с инструментами
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-ClosetRadiationSuit = шкаф радиационных костюмов
+ent-ClosetEmergency = аварийный шкаф
+ent-ClosetFire = противопожарный шкаф
+ent-ClosetBomb = шкаф взрывозащитного снаряжения
+ent-ClosetL3 = шкаф снаряжения 3-го уровня биологической опасности
+ent-ClosetL3Virology = { ent-ClosetL3 }
+ent-ClosetL3Security = { ent-ClosetL3 }
+ent-ClosetL3Janitor = { ent-ClosetL3 }
+ent-ClosetMaintenance = технический шкаф
+ent-ClosetBluespace = подозрительный шкаф
+ent-ClosetBluespaceUnstable = подозрительный шкаф

@@ -1,0 +1,11 @@
+ent-MusicalLungInstrument = музыкальное лёгкое
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-SeashellInstrument = ракушка
+ent-BirdToyInstrument = птичий свист
+ent-PhoneInstrument = красный телефон
+ent-HelicopterInstrument = игрушечный вертолёт
+ent-CannedApplauseInstrument = готовые аплодисменты
+ent-GunpetInstrument = писольлет
+ent-BikeHornInstrument = позолоченный велосипедный клаксон
+ent-BananaPhoneInstrument = банановый телефон

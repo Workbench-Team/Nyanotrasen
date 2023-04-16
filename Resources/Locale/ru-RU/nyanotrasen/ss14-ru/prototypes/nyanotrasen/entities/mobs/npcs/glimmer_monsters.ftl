@@ -1,0 +1,1 @@
+ent-MobGlimmerWisp = glimmer wisp

@@ -1,0 +1,10 @@
+ent-FloorCarpetItemRed = красный ковёр
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-FloorCarpetItemBlack = чёрный ковёр
+ent-FloorCarpetItemBlue = синий ковёр
+ent-FloorCarpetItemGreen = зелёный ковёр
+ent-FloorCarpetItemOrange = оранжевый ковёр
+ent-FloorCarpetItemSkyBlue = небесно-голубой ковёр
+ent-FloorCarpetItemPurple = фиолетовый ковёр
+ent-FloorCarpetItemPink = розовый ковёр

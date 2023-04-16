@@ -1,0 +1,11 @@
+ent-GlockenspielInstrument = глокеншпиль
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-MusicBoxInstrument = музыкальная шкатулка
+ent-XylophoneInstrument = ксилофон
+ent-MicrophoneInstrument = микрофон
+ent-SynthesizerInstrument = синтезатор
+ent-KalimbaInstrument = калимба
+ent-WoodblockInstrument = коробочка
+ent-ReverseCymbalsInstrument = реверс-цимбалы
+ent-SuperSynthesizerInstrument = суперсинтезатор

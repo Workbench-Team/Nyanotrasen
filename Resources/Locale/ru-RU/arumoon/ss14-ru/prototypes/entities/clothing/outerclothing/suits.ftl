@@ -1,0 +1,11 @@
+ent-ClothingOuterSuitBomb = сапёрный костюм
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-ClothingOuterSuitEmergency = аварийный костюм
+ent-ClothingOuterSuitFire = пожарный костюм
+ent-ClothingOuterSuitRad = противорадиационный костюм
+ent-ClothingOuterSuitSpaceninja = костюм космического ниндзя
+ent-ClothingOuterSuitChicken = костюм цыплёнка
+ent-ClothingOuterSuitShrineMaiden = наряд служительницы храма
+ent-ClothingOuterSuitMonkey = костюм обезьяны
+ent-ClothingOuterSuitAtmosFire = атмос-пожарный костюм

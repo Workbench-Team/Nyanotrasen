@@ -1,0 +1,9 @@
+ent-ProjectileFireball = огненный шар
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-ProjectilePolyboltBase = { ent-BaseBullet }
+ent-ProjectilePolyboltCarp = полизаряд карпа
+ent-ProjectilePolyboltMonkey = monkey polybolt
+ent-ProjectilePolyboltDoor = полизаряд двери
+ent-ProjectileHealingBolt = исцеляющий заряд
+ent-BulletInstakillMagic = волшебный свинцовый цилиндр

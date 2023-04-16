@@ -1,0 +1,9 @@
+ent-ClickTestBase = { "" }
+.suffix = { "" }
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+ent-ClickTestRotatingCornerVisible = ClickTestRotatingCornerVisible
+ent-ClickTestRotatingCornerVisibleNoRot = ClickTestRotatingCornerVisibleNoRot
+ent-ClickTestRotatingCornerInvisible = ClickTestRotatingCornerInvisible
+ent-ClickTestRotatingCornerInvisibleNoRot = ClickTestRotatingCornerInvisibleNoRot
+ent-ClickTestFixedCornerVisible = ClickTestFixedCornerVisible
+ent-ClickTestFixedCornerInvisible = ClickTestFixedCornerInvisible

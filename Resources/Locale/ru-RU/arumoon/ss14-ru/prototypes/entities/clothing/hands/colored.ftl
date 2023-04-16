@@ -1,0 +1,14 @@
+ent-ClothingHandsGlovesColorPurple = фиолетовые перчатки
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-ClothingHandsGlovesColorRed = красные перчатки
+ent-ClothingHandsGlovesColorBlack = чёрные перчатки
+ent-ClothingHandsGlovesColorBlue = синие перчатки
+ent-ClothingHandsGlovesColorBrown = коричневые перчатки
+ent-ClothingHandsGlovesColorGray = серые перчатки
+ent-ClothingHandsGlovesColorGreen = зелёные перчатки
+ent-ClothingHandsGlovesColorLightBrown = светло-коричневые перчатки
+ent-ClothingHandsGlovesColorOrange = оранжевые перчатки
+ent-ClothingHandsGlovesColorWhite = белые перчатки
+ent-ClothingHandsGlovesColorYellow = изолированные перчатки
+ent-ClothingHandsGlovesColorYellowBudget = дешевые изолированные перчатки

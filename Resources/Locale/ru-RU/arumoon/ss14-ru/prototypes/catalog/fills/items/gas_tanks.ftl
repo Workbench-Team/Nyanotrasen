@@ -1,0 +1,11 @@
+ent-OxygenTankFilled = { ent-OxygenTank }
+.suffix = { "" }
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+ent-YellowOxygenTankFilled = { ent-YellowOxygenTank }
+ent-EmergencyOxygenTankFilled = { ent-EmergencyOxygenTank }
+ent-ExtendedEmergencyOxygenTankFilled = { ent-ExtendedEmergencyOxygenTank }
+ent-DoubleEmergencyOxygenTankFilled = { ent-DoubleEmergencyOxygenTank }
+ent-AirTankFilled = { ent-AirTank }
+ent-NitrogenTankFilled = баллон азота
+ent-NitrousOxideTankFilled = баллон оксида азота
+ent-PlasmaTankFilled = баллон плазмы

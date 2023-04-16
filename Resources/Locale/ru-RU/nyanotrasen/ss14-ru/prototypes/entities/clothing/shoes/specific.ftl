@@ -1,0 +1,1 @@
+ent-ClothingShoesWizardFake = wizard shoes

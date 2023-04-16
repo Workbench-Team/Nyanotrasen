@@ -1,0 +1,1 @@
+ent-KitchenDeepFryer = deep fryer

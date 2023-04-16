@@ -1,0 +1,15 @@
+ent-SurveillanceCameraRouterBase = маршрутизатор камер
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-SurveillanceCameraRouterConstructed = { ent-SurveillanceCameraRouterBase }
+ent-SurveillanceCameraRouterEngineering = { ent-SurveillanceCameraRouterBase }
+ent-SurveillanceCameraRouterSecurity = { ent-SurveillanceCameraRouterBase }
+ent-SurveillanceCameraRouterScience = { ent-SurveillanceCameraRouterBase }
+ent-SurveillanceCameraRouterSupply = { ent-SurveillanceCameraRouterBase }
+ent-SurveillanceCameraRouterCommand = { ent-SurveillanceCameraRouterBase }
+ent-SurveillanceCameraRouterService = { ent-SurveillanceCameraRouterBase }
+ent-SurveillanceCameraRouterMedical = { ent-SurveillanceCameraRouterBase }
+ent-SurveillanceCameraRouterGeneral = { ent-SurveillanceCameraRouterBase }
+ent-SurveillanceCameraWirelessRouterBase = маршрутизатор беспроводных камер
+ent-SurveillanceCameraWirelessRouterConstructed = { ent-SurveillanceCameraWirelessRouterBase }
+ent-SurveillanceCameraWirelessRouterEntertainment = { ent-SurveillanceCameraWirelessRouterBase }

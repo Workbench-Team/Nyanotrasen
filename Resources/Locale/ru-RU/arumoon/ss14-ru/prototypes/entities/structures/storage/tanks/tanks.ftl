@@ -1,0 +1,10 @@
+ent-WeldingFuelTank = топливный резервуар
+.suffix = { "" }
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+ent-WeldingFuelTankFull = { ent-WeldingFuelTank }
+ent-WaterTank = водяной резервуар
+ent-WaterTankFull = { ent-WaterTank }
+ent-WaterCooler = кулер с водой
+ent-WaterTankHighCapacity = водяной резервуар большой ёмкости
+ent-KvassTank = КВАС
+ent-KvassTankFull = { ent-KvassTank }

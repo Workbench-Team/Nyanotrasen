@@ -1,0 +1,10 @@
+ent-HatBandBlack = чёрная бандана
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-HatBandBlue = синяя бандана
+ent-HatBandBotany = бандана ботаника
+ent-HatBandGold = золотая бандана
+ent-HatBandGreen = зеленая бандана
+ent-HatBandGrey = серая бандана
+ent-HatBandRed = красная бандана
+ent-HatBandSkull = бандана с черепом

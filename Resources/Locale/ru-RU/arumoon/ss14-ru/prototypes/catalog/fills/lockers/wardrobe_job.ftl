@@ -1,0 +1,12 @@
+ent-WardrobePrisonFilled = { ent-WardrobePrison }
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-WardrobeChemistryFilled = { ent-WardrobeChemistry }
+ent-WardrobeScienceFilled = { ent-WardrobeScience }
+ent-WardrobeBotanistFilled = { ent-WardrobeBotanist }
+ent-WardrobeMedicalDoctorFilled = { ent-WardrobeMedicalDoctor }
+ent-WardrobeChapelFilled = { ent-WardrobeChapel }
+ent-WardrobeSecurityFilled = { ent-WardrobeSecurity }
+ent-WardrobeCargoFilled = { ent-WardrobeCargo }
+ent-WardrobeSalvageFilled = { ent-WardrobeSalvage }
+ent-WardrobeEngineeringFilled = { ent-WardrobeEngineering }

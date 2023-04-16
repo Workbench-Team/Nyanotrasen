@@ -1,0 +1,10 @@
+ent-gas-tank-base = gas tank
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+ent-oxygen-tank = oxygen tank
+ent-yellow-oxygen-tank = { ent-oxygen-tank }
+ent-red-oxygen-tank = { ent-oxygen-tank }
+ent-emergency-oxygen-tank = emergency oxygen tank
+ent-extended-emergency-oxygen-tank = extended-capacity emergency oxygen tank
+ent-double-emergency-oxygen-tank = double emergency oxygen tank
+ent-air-tank = air tank
+ent-plasma-tank = plasma tank

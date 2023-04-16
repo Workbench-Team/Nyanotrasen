@@ -1,0 +1,10 @@
+ent-FoodNoodlesBase = { ent-FoodInjectableBase }
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-FoodNoodlesBoiled = отварные спагетти
+ent-FoodNoodles = спагетти
+ent-FoodNoodlesCopy = копипаста
+ent-FoodNoodlesMeatball = спагетти с фрикадельками
+ent-FoodNoodlesSpesslaw = законпаста
+ent-FoodNoodlesChowmein = чоу мейн
+ent-FoodNoodlesButter = сливочная лапша

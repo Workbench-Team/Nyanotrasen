@@ -1,0 +1,1 @@
+ent-CrateFunCrewmates = { ent-CrateGenericSteel }

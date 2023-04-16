@@ -1,0 +1,13 @@
+ent-WeaponArcStatic = { "" }
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-WeaponArcAnimated = { "" }
+ent-WeaponArcThrust = { ent-WeaponArcStatic }
+ent-WeaponArcSlash = { ent-WeaponArcStatic }
+ent-WeaponArcBite = { ent-WeaponArcStatic }
+ent-WeaponArcClaw = { ent-WeaponArcStatic }
+ent-WeaponArcDisarm = { ent-WeaponArcStatic }
+ent-WeaponArcFist = { ent-WeaponArcStatic }
+ent-WeaponArcPunch = { ent-WeaponArcStatic }
+ent-WeaponArcKick = { ent-WeaponArcStatic }
+ent-WeaponArcSmash = { ent-WeaponArcStatic }

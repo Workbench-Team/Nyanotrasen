@@ -1,0 +1,11 @@
+ent-FoodSkewerBase = { ent-FoodInjectableBase }
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-FoodKebabSkewer = шампур
+ent-FoodMeatHawaiianKebab = Гавайский кебаб
+ent-FoodMeatKebab = мясной шашлык
+ent-FoodMeatHumanKebab = шашлык из человечины
+ent-FoodMeatLizardtailKebab = шашлык из хвоста ящерицы
+ent-FoodMeatRatKebab = крысиный шашлык
+ent-FoodMeatRatdoubleKebab = двойной крысиный шашлык
+ent-FoodMeatFiestaKebab = праздничный шашлык

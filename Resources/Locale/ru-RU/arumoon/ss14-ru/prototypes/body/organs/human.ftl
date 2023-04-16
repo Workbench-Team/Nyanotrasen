@@ -1,0 +1,13 @@
+ent-BaseHumanOrgan = { ent-BaseItem }
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-OrganHumanBrain = мозг
+ent-OrganHumanEyes = глаза
+ent-OrganHumanTongue = язык
+ent-OrganHumanAppendix = аппендикс
+ent-OrganHumanEars = уши
+ent-OrganHumanLungs = лёгкие
+ent-OrganHumanHeart = сердце
+ent-OrganHumanStomach = желудок
+ent-OrganHumanLiver = печень
+ent-OrganHumanKidneys = почки

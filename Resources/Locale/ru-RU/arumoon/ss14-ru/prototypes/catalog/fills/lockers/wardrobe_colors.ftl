@@ -1,0 +1,10 @@
+ent-WardrobeGreyFilled = { ent-WardrobeGrey }
+.suffix = { "" }
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+ent-WardrobeMixedFilled = { ent-WardrobeMixed }
+ent-WardrobeYellowFilled = { ent-WardrobeYellow }
+ent-WardrobeWhiteFilled = { ent-WardrobeWhite }
+ent-WardrobeBlueFilled = { ent-WardrobeBlue }
+ent-WardrobePinkFilled = { ent-WardrobePink }
+ent-WardrobeBlackFilled = { ent-WardrobeBlack }
+ent-WardrobeGreenFilled = { ent-WardrobeGreen }

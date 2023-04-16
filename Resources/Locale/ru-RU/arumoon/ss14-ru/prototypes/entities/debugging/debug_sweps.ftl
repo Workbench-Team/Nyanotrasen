@@ -1,0 +1,9 @@
+ent-WeaponPistolDebug = bang, ded
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-MagazinePistolDebug = bang, ded mag
+ent-BulletDebug = bang, ded bullet
+ent-CartridgeDebug = bang, ded cartridge
+ent-MeleeDebugGib = bang stick gibber
+ent-MeleeDebug100 = bang stick 100dmg
+ent-MeleeDebug200 = bang stick 200dmg

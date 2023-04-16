@@ -1,0 +1,11 @@
+ent-SaxophoneInstrument = саксофон
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-AccordionInstrument = аккордеон
+ent-HarmonicaInstrument = губная гармошка
+ent-ClarinetInstrument = кларнет
+ent-FluteInstrument = флейта
+ent-RecorderInstrument = блокфлейта
+ent-PanFluteInstrument = флейта Пана
+ent-OcarinaInstrument = окарина
+ent-BagpipeInstrument = волынка

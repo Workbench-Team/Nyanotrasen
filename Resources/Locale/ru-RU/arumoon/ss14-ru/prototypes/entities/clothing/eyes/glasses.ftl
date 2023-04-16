@@ -1,0 +1,11 @@
+ent-ClothingEyesGlassesBeer = пивные очки
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-ClothingEyesGlassesGar = мужицкие очки
+ent-ClothingEyesGlassesGarOrange = оранжевые мужицкие очки
+ent-ClothingEyesGlassesGarGiga = гигамужицкие очки
+ent-ClothingEyesGlassesMeson = инженерные очки
+ent-ClothingEyesGlasses = очки
+ent-ClothingEyesGlassesSunglasses = солнцезащитные очки
+ent-ClothingEyesGlassesSecurity = солнцезащитные очки охраны
+ent-ClothingEyesGlassesThermal = оптический термальный сканер

@@ -1,0 +1,9 @@
+ent-BaseLightbulb = { ent-BaseItem }
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-BaseLightTube = { ent-BaseLightbulb }
+ent-LightBulb = лампа накаливания
+ent-LightTube = люминесцентная лампа-трубка
+ent-LedLightTube = светодиодная лампа-трубка
+ent-ExteriorLightTube = экстерьерная лампа-трубка
+ent-SodiumLightTube = натриевая лампа-трубка

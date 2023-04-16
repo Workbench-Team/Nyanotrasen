@@ -1,0 +1,12 @@
+ent-BookDemonomicon = демономикон
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-BookDemonomiconRandom = демономикон
+ent-BookDemonomicon1 = { ent-BookDemonomicon }
+ent-BookDemonomicon2 = { ent-BookDemonomicon }
+ent-BookDemonomicon3 = { ent-BookDemonomicon }
+ent-BookChemistryInsane = фармацевтическая статья
+ent-BookBotanicalTextbook = ботанический справочник
+ent-BookGnominomicon = гноминомикон
+ent-BookFishing = Сказки из Аквариума
+ent-BookDetective = Строггорн Холмс, гном-детектив

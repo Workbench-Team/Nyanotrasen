@@ -1,0 +1,11 @@
+ent-ClothingBeltUtilityFilled = { ent-ClothingBeltUtility }
+.suffix = { "" }
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+ent-ClothingBeltChiefEngineerFilled = { ent-ClothingBeltChiefEngineer }
+ent-ClothingBeltSecurityFilled = { ent-ClothingBeltSecurity }
+ent-ClothingBeltJanitorFilled = { ent-ClothingBeltJanitor }
+ent-ClothingBeltMedicalFilled = { ent-ClothingBeltMedical }
+ent-ClothingBeltPlantFilled = { ent-ClothingBeltPlant }
+ent-ClothingBeltSheathFilled = { ent-ClothingBeltSheath }
+ent-ClothingBeltMilitaryWebbingMedFilled = { ent-ClothingBeltMilitaryWebbingMed }
+ent-ClothingBeltWandFilled = { ent-ClothingBeltWand }

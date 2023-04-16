@@ -1,0 +1,10 @@
+ent-BaseShutter = ставни
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-ShuttersNormal = { ent-BaseShutter }
+ent-ShuttersNormalOpen = { ent-ShuttersNormal }
+ent-ShuttersRadiation = радиационные ставни
+ent-ShuttersRadiationOpen = { ent-ShuttersRadiation }
+ent-ShuttersWindow = оконные ставни
+ent-ShuttersWindowOpen = { ent-ShuttersWindow }
+ent-ShuttersFrame = каркас ставни

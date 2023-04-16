@@ -1,0 +1,14 @@
+ent-BannerBase = базовое знамя
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-BannerNanotrasen = знамя nanotrasen
+ent-BannerCargo = знамя карго
+ent-BannerEngineering = инженерное знамя
+ent-BannerMedical = медицинское знамя
+ent-BannerRevolution = знамя революции
+ent-BannerScience = научное знамя
+ent-BannerSecurity = знамя службы безопасности
+ent-BannerBlue = синее знамя
+ent-BannerRed = красное знамя
+ent-BannerYellow = желтое знамя
+ent-BannerGreen = зелёное знамя

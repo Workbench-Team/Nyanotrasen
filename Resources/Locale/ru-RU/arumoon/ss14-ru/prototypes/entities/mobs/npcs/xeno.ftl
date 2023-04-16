@@ -1,0 +1,12 @@
+ent-MobXeno = ксено
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-MobXenoPraetorian = преторианец
+ent-MobXenoDrone = дрон
+ent-MobXenoQueen = королева
+ent-MobXenoRavager = разрушитель
+ent-MobXenoRunner = бегун
+ent-MobXenoRouny = Руни
+ent-MobXenoSpitter = плевальщик
+ent-MobPurpleSnake = пурпурная змея
+ent-MobSmallPurpleSnake = пурпурная змея

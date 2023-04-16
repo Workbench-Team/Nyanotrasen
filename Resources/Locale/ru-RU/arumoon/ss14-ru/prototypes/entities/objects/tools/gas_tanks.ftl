@@ -1,0 +1,12 @@
+ent-GasTankBase = { ent-BaseItem }
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-OxygenTank = кислородный баллон
+ent-YellowOxygenTank = кислородный баллон
+ent-NitrogenTank = азотный баллон
+ent-EmergencyOxygenTank = аварийный кислородный баллон
+ent-ExtendedEmergencyOxygenTank = аварийный кислородный баллон повышенной ёмкости
+ent-DoubleEmergencyOxygenTank = двойной аварийный кислородный баллон
+ent-AirTank = баллон с воздухом
+ent-NitrousOxideTank = баллон оксида азота
+ent-PlasmaTank = баллон плазмы

@@ -1,0 +1,12 @@
+ent-Intercom = интерком
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-IntercomAssesmbly = каркас интеркома
+ent-IntercomCommand = { ent-Intercom }
+ent-IntercomEngineering = { ent-Intercom }
+ent-IntercomMedical = { ent-Intercom }
+ent-IntercomScience = { ent-Intercom }
+ent-IntercomSecurity = { ent-Intercom }
+ent-IntercomService = { ent-Intercom }
+ent-IntercomSupply = { ent-Intercom }
+ent-IntercomAll = { ent-Intercom }

@@ -1,0 +1,14 @@
+ent-BasePowerCell = { ent-BaseItem }
+.desc = Содержит 2 костюма биологической опасности, чтобы никакая болезнь не отвлекала вас от лечения экипажа. Для открытия требуется доступ врача.
+.suffix = { "" }
+ent-PowerCellPotato = картофельная батарея
+ent-PowerCellSmall = батарея малой ёмкости
+ent-PowerCellSmallPrinted = { ent-PowerCellSmall }
+ent-PowerCellMedium = батарея средней ёмкости
+ent-PowerCellMediumPrinted = { ent-PowerCellMedium }
+ent-PowerCellHigh = батарея высокой ёмкости
+ent-PowerCellHighPrinted = { ent-PowerCellHigh }
+ent-PowerCellHyper = батарея гипер ёмкости
+ent-PowerCellHyperPrinted = { ent-PowerCellHyper }
+ent-PowerCellMicroreactor = маленькая микрореакторная батарея
+ent-PowerCellAntiqueProto = прототип древней батареи

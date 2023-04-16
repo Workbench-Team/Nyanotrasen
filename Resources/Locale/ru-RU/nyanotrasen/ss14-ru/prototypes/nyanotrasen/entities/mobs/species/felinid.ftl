@@ -1,0 +1,1 @@
+ent-MobFelinidBase = Base felinid

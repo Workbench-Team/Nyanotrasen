@@ -1,0 +1,1 @@
+ent-LivestockPibble = { ent-CrateNPCPibble }
