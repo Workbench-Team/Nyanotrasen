@@ -187,7 +187,7 @@
 - Mothic Salad
 </Box>
 <Box Orientation="Vertical">
-- Chili pepeper
+- Chili pepper
 - Cabbage
 </Box>
 <GuideEntityEmbed Entity="KitchenMicrowave" Caption="15 sec"/>
@@ -241,8 +241,8 @@
 </Box>
 <Box>
 <Box Orientation="Vertical">
-- Mozzarella
-- 2 Tomatoes
+- 10u tomato sauce
+- Mozzarella cheese
 - Slice of bread
 </Box>
 <GuideEntityEmbed Entity="KitchenMicrowave" Caption="15 sec"/>
@@ -254,12 +254,28 @@
 </Box>
 <Box>
 <Box Orientation="Vertical">
+- 10u tomato sauce
 - Donk pocket
-- 2 Tomatoes
 - Corn
 </Box>
 <GuideEntityEmbed Entity="KitchenMicrowave" Caption="15 sec"/>
 <GuideEntityEmbed Entity="FoodMothMacBalls" Caption=""/>
+</Box>
+
+<Box Orientation="Vertical">
+	[color=#a4885c]Borito Pie[/color]
+</Box>
+<Box>
+<Box Orientation="Vertical">
+- Boritos
+- Cheese wedge
+</Box>
+<Box Orientation="Vertical">
+- Chili pepper
+- Meat ball
+</Box>
+<GuideEntityEmbed Entity="KitchenMicrowave" Caption="15 sec"/>
+<GuideEntityEmbed Entity="FoodBoritoPie" Caption=""/>
 </Box>
 
 </Document>
