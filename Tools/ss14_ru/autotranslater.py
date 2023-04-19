@@ -64,7 +64,7 @@ for _ in my_files:
         tmp_key = ''
         tmp_val = ''
         for i in txt:
-            if ' =' in i:
+            if ' =' in i and i[0] != ' ':
                 if i.split('=')[1] == '':
                     tmp_key = i.strip('=') 
                     tmp_val = ''
@@ -103,7 +103,6 @@ for _ in my_files:
                     os.makedirs(base_dir + nya + work_dir)
                 with open(base_dir + nya + work_dir + file_name, 'a') as f0:
                     print(k, '=', data_n[k], file=f0, end='')     
-
 
         
                
