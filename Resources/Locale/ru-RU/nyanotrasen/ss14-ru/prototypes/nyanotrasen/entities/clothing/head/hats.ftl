@@ -1,0 +1,13 @@
+ent-ClothingHeadMailCarrier =  mail carrier's hat
+.desc =  Grants full immunity from denying others basic human rights, dignity, or respect.
+.suffix =  { "" }
+ent-ClothingHeadHoodMystic =  mystic hood
+ent-ClothingHeadHoodBrown =  brown hood
+ent-ClothingHeadAreopagite =  areopagite hat
+ent-ClothingHeadTechPriest =  automaturge hood
+ent-ClothingHeadTinfoil =  tinfoil hat
+ent-ClothingHeadHatBellhop =  bellhop cap
+ent-ClothingHeadCage =  insulative headcage
+ent-ClothingHeadHelmetInsulated =  insulative skullcap
+ent-ClothingHeadHatFezMantis =  forensic mantis' fez
+ent-ClothingHeadPrisonGuard =  prison guard's hat

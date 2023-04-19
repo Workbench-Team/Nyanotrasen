@@ -1,0 +1,15 @@
+ent-PosterLegitDejaVu =  Deja Vu Area
+.desc =  No touching!
+.suffix =  { "" }
+ent-PosterLegitDontPanic =  Don't Panic
+ent-PosterContrabandSaucerNumberOne =  Saucer #1!
+ent-PosterLegitBarDrinks =  Bar Poster
+ent-PosterLegitBotanyFood =  Fruit Basket
+ent-PosterContrabandBreadLies =  Bread Lies
+ent-PosterLegitHotDonkExplosion =  Donk!
+ent-PosterLegitEatMeat =  Eat Meat!
+ent-PosterLegitMoreBread =  More Bread!
+ent-PosterLegitPieSlice =  Pie Poster
+ent-PosterLegitPizzaHope =  Pizza Hope
+ent-PosterLegitMedicate =  Take Your Meds
+ent-PosterLegitNoTouching =  No Touching

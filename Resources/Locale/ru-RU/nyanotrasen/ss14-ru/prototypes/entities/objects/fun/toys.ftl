@@ -1,0 +1,2 @@
+.desc =  sus!
+.suffix =  { "" }

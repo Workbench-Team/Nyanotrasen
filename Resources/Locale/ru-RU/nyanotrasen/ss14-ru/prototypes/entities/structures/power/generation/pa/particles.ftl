@@ -1,0 +1,2 @@
+.desc =  Accelerated particles.
+.suffix =  { "" }

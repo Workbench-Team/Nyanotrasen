@@ -1,0 +1,12 @@
+.desc =  { ent-MobSmallPurpleSnake.desc }
+.suffix =  { "" }
+ent-MobXenoPraetorianNPC =  Praetorian
+ent-MobXenoDroneNPC =  Drone
+ent-MobXenoQueenNPC =  Queen
+ent-MobXenoRavagerNPC =  Ravager
+ent-MobXenoRunnerNPC =  Runner
+ent-MobXenoRounyNPC =  Rouny
+ent-MobXenoSpitterNPC =  Spitter
+ent-MobXenoPlayer =  Burrower
+ent-MobPurpleSnakeGhost =  { ent-MobPurpleSnake }
+ent-MobSmallPurpleSnakeGhost =  { ent-MobSmallPurpleSnake }

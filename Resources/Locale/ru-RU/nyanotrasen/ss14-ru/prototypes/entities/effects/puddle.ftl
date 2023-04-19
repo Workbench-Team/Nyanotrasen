@@ -1,0 +1,9 @@
+ent-PuddleBase =  { "" }
+.desc =  A bit of liquid.
+.suffix =  { "" }
+ent-EvaporatingPuddle =  { ent-PuddleBase }
+ent-PuddleGibblet =  gibblets
+ent-PuddleSplatter =  puddle
+ent-PuddleBlood =  blood
+ent-PuddleVomitToxin =  toxins vomit
+ent-PuddleWriting =  writing

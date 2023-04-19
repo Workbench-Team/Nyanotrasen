@@ -1,0 +1,1 @@
+.desc =  { ent-CrateEmergencyInflatablewall.desc }

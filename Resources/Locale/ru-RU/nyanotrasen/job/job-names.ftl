@@ -1,0 +1,24 @@
+job-name-mystagogue =  mystagogue
+job-name-mantis =  forensic mantis
+job-name-epistemologist =  acolyte
+job-name-mail-carrier =  mail carrier
+job-name-cataloguer =  cataloguer
+job-name-cyborg =  cyborg
+job-name-medical-cyborg =  medical cyborg
+job-name-salvage-technician =  salvage technician
+job-name-gladiator =  gladiator
+job-name-fugitive =  fugitive
+job-name-prisoner =  prisoner
+job-name-valet =  valet
+job-name-paramedic =  paramedic
+job-name-guard =  prison guard
+# Role timers - Make these alphabetical or I cut you
+JobCataloguer =  cataloguer
+JobCyborg =  cyborg
+JobEpistemologist =  acolyte
+JobForensicMantis =  forensic mantis
+JobMailCarrier =  mail carrier
+JobMystagogue =  mystagogue
+JobPrisoner =  prisoner
+JobSalvageTechnician =  salvage technician
+JobValet =  valet

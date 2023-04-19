@@ -1,0 +1,1 @@
+.desc =  { ent-CrateVendingMachineRestockHappyHonkFilled.desc }
