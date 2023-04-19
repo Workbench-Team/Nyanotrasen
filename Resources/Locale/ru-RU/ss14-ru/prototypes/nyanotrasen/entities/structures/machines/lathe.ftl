@@ -1,9 +1,0 @@
-ent-ScienceTechFab = epistemics techfab
-    .desc = Prints equipment for use by the epistemics department.
-    .suffix = { "" }
-ent-ServiceTechFab = service techfab
-    .desc = Prints equipment for service staff.
-    .suffix = { "" }
-ent-EngineeringTechFab = engineering techfab
-    .desc = Prints equipment for engineers.
-    .suffix = { "" }
