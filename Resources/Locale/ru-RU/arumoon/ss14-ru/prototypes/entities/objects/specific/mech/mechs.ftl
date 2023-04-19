@@ -1,9 +1,0 @@
-ent-BaseMech =  { "" }
-    .desc = { "" }
-    .suffix = { "" }
-ent-MechRipley =  рипли
-    .desc = Любимый роботизированный таскатель коробок Карго.
-    .suffix = { "" }
-ent-MechRipleyBattery =  { ent-MechRipley }
-    .suffix = Батарея
-    .desc = { ent-MechRipley.desc }

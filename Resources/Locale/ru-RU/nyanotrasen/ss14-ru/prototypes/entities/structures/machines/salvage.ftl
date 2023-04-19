@@ -1,2 +1,0 @@
-.desc =  Locates salvage.
-.suffix =  { "" }

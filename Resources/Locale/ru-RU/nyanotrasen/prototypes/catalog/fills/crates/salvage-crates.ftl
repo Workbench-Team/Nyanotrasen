@@ -1,1 +1,0 @@
-.desc =  For the daring.
