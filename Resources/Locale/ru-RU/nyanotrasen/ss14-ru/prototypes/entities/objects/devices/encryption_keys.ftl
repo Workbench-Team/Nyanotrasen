@@ -1,0 +1,12 @@
+ent-EncryptionKeyCE = chief engineer's encryption key
+    .desc = An encryption key used by the boss of the real men.
+    .suffix = { "" }
+ent-EncryptionKeyCMO = chief medical officer encryption key
+    .desc = An encryption key used by the head of the medical department.
+    .suffix = { "" }
+ent-EncryptionKeyRD = research director's encryption key
+    .desc = An encryption key used by the head of the science department. Looks like it's been chewed on.
+    .suffix = { "" }
+ent-EncryptionKeyHOS = head of security encryption key
+    .desc = An encryption key used by the boss of security.
+    .suffix = { "" }

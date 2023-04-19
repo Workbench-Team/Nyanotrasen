@@ -1,0 +1,9 @@
+ent-SignSec = security sign
+    .desc = A sign indicating the Security department.
+    .suffix = { "" }
+ent-SignLastIdiot = Zero Days Since Last Idiot
+    .desc = Must be an Engineering joke.
+    .suffix = { "" }
+ent-SignConspiracyBoard = conspiracy board
+    .desc = Perfect for tracking the multiple layers of criminal activities.
+    .suffix = { "" }

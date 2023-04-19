@@ -1,0 +1,9 @@
+ent-SignalSwitchDirectional = signal switch
+    .suffix = directional
+    .desc = { ent-SignalSwitch.desc }
+ent-SignalButtonDirectional = signal button
+    .suffix = directional
+    .desc = { ent-SignalButton.desc }
+ent-ApcNetSwitchDirectional = apc net switch
+    .suffix = directional
+    .desc = { ent-ApcNetSwitch.desc }

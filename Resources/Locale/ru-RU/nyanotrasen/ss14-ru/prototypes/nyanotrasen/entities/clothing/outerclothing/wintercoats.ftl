@@ -1,0 +1,15 @@
+ent-ClothingOuterCoatHyenhSweater = comfy sweater
+    .desc = It's comfy.
+    .suffix = { "" }
+ent-ClothingOuterWinterCoatLong = long winter coat
+    .desc = Even your legs will be warm with this stylish coat.
+    .suffix = { "" }
+ent-ClothingOuterWinterCoatPlaid = plaid winter coat
+    .desc = It might be made out of actual wool.
+    .suffix = { "" }
+ent-ClothingOuterWinterCoatMail = mail carrier's winter coat
+    .desc = It'll keep away the cold but not the dogs.
+    .suffix = { "" }
+ent-ClothingOuterWinterCoatMantis = forensic mantis' winter coat
+    .desc = Solve cold cases in style.
+    .suffix = { "" }

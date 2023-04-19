@@ -1,0 +1,9 @@
+ent-ColoredLightTubeRed = red light tube
+    .desc = A colorful light tube. These emit a red hue.
+    .suffix = { "" }
+ent-ColoredLightTubeFrostyBlue = blue light tube
+    .desc = A colorful light tube. These emit a frosty blue hue.
+    .suffix = { "" }
+ent-ColoredLightTubeBlackLight = black light tube
+    .desc = A colorful light tube. These emit "black light".
+    .suffix = { "" }
