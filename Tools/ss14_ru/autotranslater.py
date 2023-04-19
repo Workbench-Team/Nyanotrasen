@@ -97,14 +97,11 @@ for _ in my_files:
                 if  not os.path.exists(base_dir + aru + work_dir):
                     os.makedirs(base_dir + aru + work_dir)
                 with open(base_dir + aru + work_dir + file_name, 'a') as f0:
-                    print(k, '=', data_n[k], file=f0, end='')
+                    print(k, ' =', data_n[k], file=f0, end='', sep='')
             else:
                 if not os.path.exists(base_dir + nya + work_dir):
                     os.makedirs(base_dir + nya + work_dir)
                 with open(base_dir + nya + work_dir + file_name, 'a') as f0:
-                    print(k, '=', data_n[k], file=f0, end='')     
-
+                    print(k, ' =', data_n[k], file=f0, end='', sep='')   
         
-               
-
 
