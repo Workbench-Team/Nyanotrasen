@@ -47,11 +47,6 @@ for _ in my_files:
             if len(key) > 0:
                 data_a[key] = val
 
-#debug
-#with open('aru.txt', 'w') as f:
-#    for k, v in data_a.items():
-#        print('(k:)',k,len(k),'(v:)',v, file=f, end='')
-
 
 # writes file dirs for nyano locale
 my_files = []
