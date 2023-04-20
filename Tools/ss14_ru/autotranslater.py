@@ -14,94 +14,87 @@ nyanotrasen_dir = './nyano/ru-RU/'
 import os
  
 # writes file dirs for aromoon locale
-my_files = []
+arumoon_files = []
 for root, dirs, files in os.walk(arumoon_dir):
     for filename in files:
-        my_files.append(os.path.join(root, filename))
-
-# writes data from aromoon locale
-data_a = {}
-for _ in my_files:
-    with open(_) as f:
-        txt = f.readlines()
-        key = ''
-        val = ''
-        tmp_key = ''
-        tmp_val = ''
-        for i in txt:
-            if ' =' in i and i[0] != ' ':
-                if i.split('=')[1] == '':                      
-                    tmp_key = i.strip('=')  
-                    tmp_val = ''
-                    val = ''                  
-                else:                    
-                    tmp = i.split('=', 1)
-                    tmp_key = tmp[0]
-                    tmp_val = tmp[1]
-                    val = ''
-            else:
-                tmp_val = i
-
-            key = tmp_key.strip()
-            val += tmp_val
-            if len(key) > 0:
-                data_a[key] = val
-
+        arumoon_files.append(os.path.join(root, filename))
 
 # writes file dirs for nyano locale
-my_files = []
+nyanotrasen_files = []
 for root, dirs, files in os.walk(nyanotrasen_dir):
     for filename in files:
-        my_files.append(os.path.join(root, filename))
+        nyanotrasen_files.append(os.path.join(root, filename))
 
-# writes data from nyano locale
-for _ in my_files:
-    with open(_) as f:
-        data_n = {}
-        txt = f.readlines()
-        key = ''
-        val = ''
-        tmp_key = ''
-        tmp_val = ''
-        for i in txt:
-            if ' =' in i and i[0] != ' ':
-                if i.split('=')[1] == '':
-                    tmp_key = i.strip('=') 
-                    tmp_val = ''
-                    val = ''                     
-                else:
-                    tmp = i.split('=', 1)
-                    tmp_key = tmp[0]
-                    tmp_val = tmp[1]
-                    val = ''
+
+# parse fluent data into dict
+def parser(f):
+    data = {}
+    txt = f.readlines()
+    key = ''
+    val = ''
+    tmp_key = ''
+    tmp_val = ''
+    for line in txt:
+        if ' =' in line and line[0] != ' ':
+            if line.split('=')[1] == '':
+                tmp_key = line.strip('=') 
+                tmp_val = ''
+                val = ''                     
             else:
-                tmp_val = i
-            
-            key = tmp_key.strip()
-            val += tmp_val
-            if len(key) > 0:
-                data_n[key] = val
+                tmp = line.split('=', 1)
+                tmp_key = tmp[0]
+                tmp_val = tmp[1]
+                val = ''
+        else:
+            tmp_val = line
         
+        key = tmp_key.strip()
+        val += tmp_val
+        if len(key) > 0:
+            data[key] = val
+    return data
 
-        # writes folder & files in "./autotranslate/ru-RU/"
+
+# writes data to memory from aromoon locale
+data_arumoon = {}
+for _ in arumoon_files:
+    with open(_) as f:
+        parsed_data = parser(f)
+        for k, v in parsed_data.items():
+            data_arumoon[k] = v
+
+# writes data to memory from nyano locale
+for _ in nyanotrasen_files:
+    with open(_) as f:
+        data_nyanotrasen = parser(f)
+        
         addition = _.split('ru-RU')[1]
+        
+        # check if folder constructed from this script
+        if addition.split('/')[1] == 'arumoon':
+            addition = addition.split('arumoon', 1)[1]
+        elif addition.split('/')[1] == 'nyanotrasen':
+            addition = addition.split('nyanotrasen', 1)[1]
+        
+        # setting up working dirs
         base_dir = './autotranslate/ru-RU/'        
         file_name = addition.split('/')[-1]
         work_dir = addition[:len(file_name) * -1]
         aru = 'arumoon/'
         nya = 'nyanotrasen/' 
-        
-        for k in data_n:
-            if k in data_a:
-                data_n[k] = data_a[k]
+
+        # writes folder & files in "./autotranslate/ru-RU/"
+        for k in data_nyanotrasen:
+            if k in data_arumoon:
+                data_nyanotrasen[k] = data_arumoon[k]
                 if  not os.path.exists(base_dir + aru + work_dir):
                     os.makedirs(base_dir + aru + work_dir)
                 with open(base_dir + aru + work_dir + file_name, 'a') as f0:
-                    print(k, ' =', data_n[k], file=f0, end='', sep='')
+                    print(k, ' =', data_nyanotrasen[k], file=f0, end='', sep='')
             else:
                 if not os.path.exists(base_dir + nya + work_dir):
                     os.makedirs(base_dir + nya + work_dir)
                 with open(base_dir + nya + work_dir + file_name, 'a') as f0:
-                    print(k, ' =', data_n[k], file=f0, end='', sep='')   
-        
+                    print(k, ' =', data_nyanotrasen[k], file=f0, end='', sep='')     
 
+                    
