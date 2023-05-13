@@ -7,7 +7,6 @@
   description: survival-description
   rules:
     - RampingStationEventScheduler
-    - MaxTimeRestart
 
 - type: gamePreset
   id: Extended
@@ -18,8 +17,7 @@
   showInVote: false #2boring2vote
   description: extended-description
   rules:
-    - BasicStationEventScheduler
-    - MaxTimeRestart
+  - BasicStationEventScheduler
 
 - type: gamePreset
   id: Secret
@@ -31,7 +29,6 @@
   description: secret-description
   rules:
     - Secret
-    - MaxTimeRestart
 
 - type: gamePreset
   id: Sandbox
@@ -53,18 +50,6 @@
   rules:
     - Traitor
     - BasicStationEventScheduler
-    - MaxTimeRestart
-
-- type: gamePreset
-  id: Suspicion
-  alias:
-    - suspicion
-    - sus
-  name: suspicion-title
-  description: suspicion-description
-  rules:
-    - Suspicion
-    - MaxTimeRestart
 
 - type: gamePreset
   id: Deathmatch
@@ -77,17 +62,6 @@
     - DeathMatch
 
 - type: gamePreset
-  id: TraitorDeathMatch
-  alias:
-    - traitordm
-    - traitordeathmatch
-  name: traitor-death-match-title
-  description: traitor-death-match-description
-  rules:
-    - TraitorDeathMatch
-    - MaxTimeRestart
-
-- type: gamePreset
   id: Nukeops
   alias:
     - nukeops
@@ -97,7 +71,6 @@
   rules:
     - Nukeops
     - BasicStationEventScheduler
-    - MaxTimeRestart
 
 - type: gamePreset
   id: Zombie
@@ -113,7 +86,6 @@
   rules:
     - Zombie
     - BasicStationEventScheduler
-    - MaxTimeRestart
 
 - type: gamePreset
   id: Pirates

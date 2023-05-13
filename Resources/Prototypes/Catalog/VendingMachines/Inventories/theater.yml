@@ -43,6 +43,8 @@
     UniformGeisha: 1
     ClothingKimonoBlue: 2
     ClothingKimonoPink: 2
+    ClothingKimonoPurple: 2
+    ClothingKimonoSky: 2
     ClothingCostumeArcDress: 1
     ClothingUniformJumpsuitDameDane: 1
     ClothingShoesDameDane: 1
@@ -50,3 +52,4 @@
     ClothingOuterClownPriest: 1
   emaggedInventory:
     ClothingShoesBling: 1
+    ClothingOuterDogi: 1

@@ -40,3 +40,7 @@ guide-entry-pasta = Pasta & Rice
 guide-entry-soups = Soups
 guide-entry-salads = Salads
 guide-entry-sauces = Condiments
+guide-entry-cargo = Cargo
+
+guide-entry-security = Security
+guide-entry-dna = DNA
