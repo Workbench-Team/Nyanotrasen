@@ -53,6 +53,8 @@ public sealed partial class NPCSteeringSystem
         var ourCoordinates = xform.Coordinates;
         var destinationCoordinates = steering.Coordinates;
 
+        // Disabling this gets steering working again as of 2023-05-07.
+        /*
         if (xform.Coordinates.TryDistance(EntityManager, steering.LastCoordinates, out var movedDistance) &&
             movedDistance > 1)
         {
@@ -63,6 +65,7 @@ public sealed partial class NPCSteeringSystem
             steering.Status = SteeringStatus.NoPath;
             return false;
         }
+        */
 
         // We've arrived, nothing else matters.
         if (xform.Coordinates.TryDistance(EntityManager, destinationCoordinates, out var distance) &&
@@ -103,13 +106,13 @@ public sealed partial class NPCSteeringSystem
         // This is to avoid popping it too early
         else if (steering.CurrentPath.TryPeek(out var node) && node.Data.IsFreeSpace)
         {
-            arrivalDistance = MathF.Min(node.Box.Width, node.Box.Height) - 0.01f;
+            arrivalDistance = MathF.Min(node.Box.Width / 2f, node.Box.Height / 2f) - 0.01f;
         }
         // Try getting into blocked range I guess?
         // TODO: Consider melee range or the likes.
         else
         {
-            arrivalDistance = SharedInteractionSystem.InteractionRange - 0.65f;
+            arrivalDistance = SharedInteractionSystem.InteractionRange - 0.05f;
         }
 
         // Check if mapids match.
@@ -137,15 +140,23 @@ public sealed partial class NPCSteeringSystem
                 // Breaking behaviours and the likes.
                 lock (_obstacles)
                 {
-                    status = TryHandleFlags(steering, node, bodyQuery);
+                    // We're still coming to a stop so wait for the do_after.
+                    if (body.LinearVelocity.LengthSquared > 0.01f)
+                    {
+                        return true;
+                    }
+
+                    status = TryHandleFlags(uid, steering, node, bodyQuery);
                 }
 
                 // TODO: Need to handle re-pathing in case the target moves around.
                 switch (status)
                 {
                     case SteeringObstacleStatus.Completed:
+                        steering.DoAfterId = null;
                         break;
                     case SteeringObstacleStatus.Failed:
+                        steering.DoAfterId = null;
                         // TODO: Blacklist the poly for next query
                         steering.Status = SteeringStatus.NoPath;
                         return false;

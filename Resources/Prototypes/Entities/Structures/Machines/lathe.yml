@@ -199,9 +199,11 @@
       - FireAlarmElectronics
       - IntercomElectronics
       - MailingUnitElectronics
+      - SignalTimerElectronics
       - Bucket
       - MopItem
       - SprayBottle
+      - MegaSprayBottle
       - FireExtinguisher
       - FlashlightLantern
       - TimerTrigger
@@ -243,6 +245,7 @@
       - FireAlarmElectronics
       - MailingUnitElectronics
       - IntercomElectronics
+      - SignalTimerElectronics
       - SMESMachineCircuitboard
       - SubstationMachineCircuitboard
       - ThermomachineFreezerMachineCircuitBoard
@@ -281,6 +284,7 @@
       - DawInstrumentMachineCircuitboard
       - CloningConsoleComputerCircuitboard
       - StasisBedMachineCircuitboard
+      - MaterialReclaimerMachineCircuitboard
       - OreProcessorMachineCircuitboard
       - RipleyCentralElectronics
       - RipleyPeripheralsElectronics
@@ -333,6 +337,8 @@
     - ProximitySensor
     - LeftArmBorg
     - RightArmBorg
+    - LeftLegBorg
+    - RightLegBorg
     - RipleyHarness
     - RipleyLArm
     - RipleyRArm
@@ -460,6 +466,7 @@
     runningState: icon
     machinePartPrintSpeed: Laser
     dynamicRecipes:
+      - Defibrillator
       - HandheldHealthAnalyzer
       - ClothingHandsGlovesLatex
       - ClothingHandsGlovesNitrile
@@ -557,6 +564,8 @@
       - ClothingUniformJumpskirtHoP
       - ClothingUniformJumpsuitHoS
       - ClothingUniformJumpskirtHoS
+      - ClothingUniformJumpsuitHoSAlt
+      - ClothingUniformJumpskirtHoSAlt
       - ClothingUniformJumpsuitHydroponics
       - ClothingUniformJumpskirtHydroponics
       - ClothingUniformJumpsuitJanitor
@@ -575,6 +584,8 @@
       - ClothingUniformJumpskirtQM
       - ClothingUniformJumpsuitSec
       - ClothingUniformJumpskirtSec
+      # - ClothingUniformJumpsuitBrigmedic
+      # - ClothingUniformJumpskirtBrigmedic
       - ClothingUniformJumpsuitWarden
       - ClothingUniformJumpskirtWarden
       - ClothingOuterWinterCap
@@ -591,6 +602,23 @@
       - ClothingOuterWinterMusician
       - ClothingOuterWinterClown
       - ClothingOuterWinterMime
+      - ClothingOuterWinterCoat
+      - ClothingOuterWinterJani
+      - ClothingOuterWinterBar
+      - ClothingOuterWinterChef
+      - ClothingOuterWinterHydro
+      - ClothingOuterWinterAtmos
+      - ClothingOuterWinterEngi
+      - ClothingOuterWinterCargo
+      - ClothingOuterWinterMiner
+      - ClothingOuterWinterMed
+      - ClothingOuterWinterPara
+      - ClothingOuterWinterChem
+      - ClothingOuterWinterGen
+      - ClothingOuterWinterViro
+      - ClothingOuterWinterSci
+      - ClothingOuterWinterRobo
+      - ClothingOuterWinterSec
   - type: MaterialStorage
     whitelist:
       tags:

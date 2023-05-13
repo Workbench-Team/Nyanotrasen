@@ -141,6 +141,28 @@
 
 - type: entity
   parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitVirology
+  name: virology jumpsuit
+  description: It's made of a special fiber that gives special protection against biohazards. It has a virologist rank stripe on it.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/virology.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/virology.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitGenetics
+  name: genetics jumpsuit
+  description: It's made of a special fiber that gives special protection against biohazards. It has a geneticist rank stripe on it.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/genetics.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/genetics.rsi
+
+- type: entity
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitClown
   name: clown suit
   description: HONK!
@@ -972,3 +994,27 @@
     sprite: Clothing/Uniforms/Jumpsuit/damedaneoutfit.rsi
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/damedaneoutfit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitPirate
+  name: pirate slops
+  description: A pirate variation of a space sailor's jumpsuit.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/pirate.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/pirate.rsi
+  - type: AddAccentClothing
+    accent: PirateAccent
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitCossack
+  name: Cossack suit
+  description: the good old pants and brigantine.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/cossack.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/cossack.rsi
